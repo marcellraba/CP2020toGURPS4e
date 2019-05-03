@@ -1,5 +1,9 @@
 # CP2020toGURPS4e
-This is a conversion of Cyberpunk 2020 to GURPS 4e. Requires GCS to work.
+This is a conversion of R. Talsorian Games' Cyberpunk 2020 to GURPS 4e. Requires GCS to work.
+
+What to expect?
+A couple of rules are introduced, for example GURPS never had Cyberpsychosis, now it will.
+Other than that it's mostly a bunch of items you can use for your Cyberpunk games.
 
 For the databases, notes, conversion rules etc. you will need a copy of GCS:
 http://gurpscharactersheet.com/
