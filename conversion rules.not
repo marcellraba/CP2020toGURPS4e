@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<note_list id="7eb03f5f-c41e-4f65-9a79-6442d4f7ea88" version="1">
+	<note_container version="1" open="yes">
+		<text>Rules</text>
+		<note version="1">
+			<text>Requires both Cyberpunk 2020 and GURPS 4e books to play.
+Required books to play: GURPS 4e Basic Set, Cyberpunk 2020 core rulebook.
+Recommended books to play: all Cyberpunk 2020 books and GURPS 4e Ultra-Tech, High-Tech, Martial Arts, Action 1&amp;2, Bio-Tech, Tactical Shooting or Gun-Fu, Spaceships 4, Horror
+Recommended magazines: Pyramid 3-21 Cyberpunk, Pyramid 3-34 Alternate GURPS (for the article Armor Revisited), Pyramid 3-40 Vehicles, Pyramid 3-83 Alternate GURPS 4 (for the Article Knowing Your Own Strength)
+Rule Changes:
+Skill checks, combat and other basic stuff as per 4e Basic Set.
+Netrunning as per Pyramid 3-21 Cyberpunk article titled Console Cowboys and Cyberspace Kung Fu OR alternatively a simple Computer Hacking roll..
+Smartguns as per Basic Set or alternatively Ultra-Tech p149
+Human attributes naturally can&#8217;t go over 16 or lower than 4, 15 requires the Unusual Background advantage (B96) with an equal point cost of the attribute increase/decrease, 16 requires another Unusual Background (B96) with double the point cost. Assuming normal distribution about 1 in every 2 million people will possess an attribute of 15 (about 3 people in Night City) and 16 is about 1 in 500 million (15-20 people on Earth), 17 would be 1 in 390 billion (probably noone in the history of the entire of the human race). People who don&#8217;t possess that unusual background cannot go over 14 naturally. You can go over this limit with cybernetics.
+</text>
+		</note>
+		<note version="1">
+			<text>Surgery codes are changed as the following:
+
+
+Negligable: 
+Requires: Mall clinic or other drop-in bodyshop
+Surgical time: 15m minutes - 1 hour
+Surgical damage: 1 HP
+Recovery time: 1-4 hours
+Surgical costs: included in the price of the cybernetics
+Modifiers to surgery skill: +4 (+2 if brain or eye)
+
+Minor:
+Requires: Medical center or Ripperdoc clinic
+Surgical time: 1-2 hours
+Surgical damage: 1d/2 HP
+Recovery time: 12-24 hours
+Surgical costs: 500 eb
+Modifiers to surgery skill: +2 (+0)
+
+Major:
+Requires: Full hospital with surgical center
+Surgical time: 2-4 hours
+Surgical damage: 1d HP
+Recovery time: 3-10 days
+Surgical costs: 1500 eb
+Modifiers to surgery skill: 0 (-2)
+
+Critical:
+Requires: Full hospital with surgery center
+Surgical time: 4-6 hours
+Surgical damage: 3d HP
+Recovery time: 2-8 weeks
+Surgical costs: 2500 eb
+Modifiers to surgery skill: -3 (-5)
+
+A modification is not functional until the recovery time has passed.</text>
+		</note>
+		<note version="1">
+			<text>Cyberpsychosis: Use Insanity mechanics from Horror p142-146 and/or Stress from Horror p141-142
+
+
+</text>
+		</note>
+	</note_container>
+</note_list>
