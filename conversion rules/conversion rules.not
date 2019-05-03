@@ -6,7 +6,7 @@
 			<text>Requires both Cyberpunk 2020 and GURPS 4e books to play.
 Required books to play: GURPS 4e Basic Set, Cyberpunk 2020 core rulebook.
 Recommended books to play: all Cyberpunk 2020 books and GURPS 4e Ultra-Tech, High-Tech, Martial Arts, Action 1&amp;2, Bio-Tech, Tactical Shooting or Gun-Fu, Spaceships 4, Horror
-Recommended magazines: Pyramid 3-21 Cyberpunk, Pyramid 3-34 Alternate GURPS (for the article Armor Revisited), Pyramid 3-40 Vehicles, Pyramid 3-83 Alternate GURPS 4 (for the Article Knowing Your Own Strength)
+Recommended magazines: Pyramid 3-21 Cyberpunk, Pyramid 3-34 Alternate GURPS (for the article Armor Revisited), Pyramid 3-40 Vehicles, Pyramid 3-83 Alternate GURPS 4 (for the Article Knowing Your Own Strength), also GURPS Cyberpunk albeit it's for an earlier edition.
 Rule Changes:
 Skill checks, combat and other basic stuff as per 4e Basic Set.
 Netrunning as per Pyramid 3-21 Cyberpunk article titled Console Cowboys and Cyberspace Kung Fu OR alternatively a simple Computer Hacking roll..
@@ -53,10 +53,27 @@ Modifiers to surgery skill: -3 (-5)
 A modification is not functional until the recovery time has passed.</text>
 		</note>
 		<note version="1">
-			<text>Cyberpsychosis: Use Insanity mechanics from Horror p142-146 and/or Stress from Horror p141-142
+			<text>When a character gets a new implant, they have to make both an HT roll and a Fright Check, modified by the modifier to the surgery roll for the procedure, the quality of the clinic the procedure is being performed at (usually "best equipment for the TL" for an actual hospital, less for a boozy street doc's chop shop), +1 if the person installing the cyber got a critical success on their Surgery roll, and further modifiers for the "grade" of cyberware being installed (-2 for cheap, +2 for expensive). As usual if the total modifiers are over +10, don't bother to roll. Note that some clinics are a TL higher for the purposes of determining the implants available, the difficulty of the procedure, and the equipment bonus they provide, but these clinics are generally at least 10x more expensive than regular ones and require special connections to even be able to schedule a procedure.
 
+Succeeding on the HT roll indicates there were no adverse effects from getting an implant. Crit success on either halves recovery time for the procedure. Failure on an HT roll results in a physical quirk, critical failure results in a -5 point physical. If the person getting the implant already has a implant-induced quirk or disad that might be relevant to the newly installed implant (they got Post-Combat Shakes from a botched HT roll on a reflex booster procedure and then failed another HT roll on another nueral implant, frex), failure bumps the quirk up to a disad, a -5 point disad up to a -10 point disad, etc. A critical failure bumps an existing quirk or disad up two levels. If the new implant isn't really related to a previously existing quirk or disad from a botched procedure (if instead of a nueral implant the new procedure was a smart tattoo in the previous example, frex) the person getting the implant just gets a new physical quirk or disad related to the type of the new implant instead.
 
+On a failed Fright Check use Insanity mechanics from Horror p142-146 and/or Stress from Horror p141-142
+
+(idea from Crakkerjakk, if you ever read this thanks)
 </text>
 		</note>
 	</note_container>
+	<note version="1">
+		<text>NEW EXAMPLE DISADVANTAGE
+
+Cyberpsychosis	-35/-40/-50 points
+
+You suffer from a specialized form of Post Traumatic Stress Disorder that only affects those with cybernetic implants. Specifically, you suffer from a variety of mental conditions specifically linked to the trauma of the implantation of your bionics. Cyberpsycho episodes are typically triggered by stress, and can result in unpredictable behavior. Those who know you're a cyberpsycho react to you at -2, except for fellow cyberpsychos, who accept you as a member of a weird fraternity and react to you at +1.
+
+Cyberpsychosis: Bad Temper (9) [-15]; Reputation (as above) [-5]; and -15 points of Mental disads from the following list: Alcoholism [-15]; Amnesia (partial) [-10]; Berserk [-10*]; Callous [-5]; Chronic Depression [-15*]; Confused [-10*]; Flashbacks [varies]; Impulsiveness [-10*]; Light Sleeper [-5]; Loner [-5*]; Manic-Depressive [-20]; Nightmares [-5*]; On the Edge [-15*]; Paranoia [-10]; Phantom Voices [-5 to -15]; Short Attention Span [-10*]. (Accessibility; only those with cybernetics, -40%). -35 points.
+
+Level 2 Cyberpsychosis: As above, except Bad Temper (6) [-20] and -20 points of Mental disads. -40 points.
+
+Level 3 Cyberpsychosis: As base Cyberpsychosis, except replace Bad Temper with Berserk (6) [-20]; and -30 points of Mental Disads from the list. (Accessibility; only those with cybernetics, -40%). -50 points.</text>
+	</note>
 </note_list>
