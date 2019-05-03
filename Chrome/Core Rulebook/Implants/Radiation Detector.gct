@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="6be079fa-1009-41a0-a52f-b48e5f897267" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Radiation Detector</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility: Requires Neuralware Processor</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Detect</name>
+				<type>Mental/Physical, Exotic</type>
+				<modifier version="1">
+					<name>Radiation</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Occasional Substance/Condition@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Common Substance/Condition@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Very Common Substance/Condition@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Precise</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Signal Detection</name>
+					<cost type="percentage">0</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Vague</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Analyzing</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>P47</reference>
+				</modifier>
+				<reference>B48</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Beep Alarm)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>200 eb, Minor surgery, LC4</text>
+		</note>
+	</note_list>
+</template>

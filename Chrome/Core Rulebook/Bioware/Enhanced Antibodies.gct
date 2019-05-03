@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="f19eae58-c936-43d7-8d4a-99b99ede1df3" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Enhanced Antibodies</name>
+			<advantage version="2">
+				<name>Resistant</name>
+				<type>Physical</type>
+				<modifier version="1" enabled="no">
+					<name>@Very Common: Metabolic Hazards, etc.@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B80</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Common: Poison, Sickness, etc.@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Disease</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Immunity</name>
+					<cost type="multiplier">1</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1">
+					<name>+8 to all HT rolls to resist</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>+3 to all HT rolls to resist</name>
+					<cost type="multiplier">0.33</cost>
+					<reference>B81</reference>
+				</modifier>
+				<reference>B81</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>Changed to disease resist because original game description &#175;\_(&#12484;)_/&#175;
+
+3000 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>

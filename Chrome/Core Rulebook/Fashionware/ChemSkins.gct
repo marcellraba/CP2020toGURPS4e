@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="a3f5db80-aae5-411b-86b5-30f89ac5974b" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>ChemSkins</name>
+			<advantage version="2">
+				<name>Unnatural Features (ChemSkins)</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>-1</points_per_level>
+				<reference>B22</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">disguise</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">-1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">shadowing</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">-1</amount>
+				</skill_bonus>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>Can be a 0 to -5 point Unnatural Feature.
+
+Negligible, 200 eb, LC4</text>
+		</note>
+	</note_list>
+</template>

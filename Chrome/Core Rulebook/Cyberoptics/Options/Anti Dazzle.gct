@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="442a167d-a435-43b1-a48b-24454de665da" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Anti Dazzle</name>
+			<modifier version="1">
+				<name>Accessibility: Requires Cyberoptic</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Protected Sense (Vision)</name>
+				<type>Physical, Exotic</type>
+				<base_points>5</base_points>
+				<reference>B78</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>200 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>

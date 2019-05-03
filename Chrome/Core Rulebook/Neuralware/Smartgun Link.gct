@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="7669ba1b-5613-440a-802c-278b7225e5a5" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Smartgun Link</name>
+			<modifier version="1">
+				<name>Accessibility (Requires Neuralware Processor)</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility (Smartguns only)</name>
+				<cost type="percentage">-30</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility (Requires Interface Plugs)</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Temporary Disadvantage, Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Accessory (Smartgun Link)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<notes>Enables Smartguns</notes>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>Smartguns are modified versions of normal firearms, linked to an internal microcomputer, which in turn is jacked to a human operator. A smartgun uses a small sonic or laser projector to lock onto the target, scanning it thousands of times per second. As the gun traverses the desired target, the computer link picks up your mental fire signal (or incoming data from the targeting reticule of your cyberoptic) and triggers the gun.
+
+100 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>

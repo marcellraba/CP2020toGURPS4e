@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<equipment_list id="67e16e86-fbe4-4d7b-b703-2a175e8c7919" version="1">
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Basic Tool Kit</description>
+		<legality_class>4</legality_class>
+		<value>500</value>
+		<weight>1 kg</weight>
+		<categories>
+			<category>tools</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>'Farinata' Tech Tool Kit</description>
+		<legality_class>4</legality_class>
+		<value>350</value>
+		<weight>0.5 lb</weight>
+		<notes>+1 to reaction rolls</notes>
+		<categories>
+			<category>tools</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Tool Kits by Buchsterhude Gmbh</description>
+		<legality_class>4</legality_class>
+		<value>1000</value>
+		<weight>1.75 lb</weight>
+		<notes>good quality</notes>
+		<categories>
+			<category>tools</category>
+		</categories>
+	</equipment>
+</equipment_list>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="4e0c081c-3560-4d70-97ba-cff8307c23e8" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Motion Detector</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility: Requires Neuralware Processor</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Reliable 6</name>
+				<cost type="percentage">30</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Detect</name>
+				<type>Mental/Physical, Exotic</type>
+				<modifier version="1" enabled="no">
+					<name>@Rare Substance/Condition@</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Occasional Substance/Condition@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Motion</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Very Common Substance/Condition@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Precise</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Signal Detection</name>
+					<cost type="percentage">0</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Vague</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B48</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Analyzing</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>P47</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Cannot Analyze</name>
+					<cost type="percentage">-10</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B48</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>200 eb, Minor surgery, LC4</text>
+		</note>
+	</note_list>
+</template>

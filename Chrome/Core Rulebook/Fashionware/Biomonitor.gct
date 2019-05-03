@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="e7087682-de35-49b3-81a2-6e14940aba2b" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Biomonitor</name>
+			<modifier version="1">
+				<name>Accessibility: Requires Neuralware Processor</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Temporary Disadvantage, Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Accessory (Biomonitor)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>100 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>
