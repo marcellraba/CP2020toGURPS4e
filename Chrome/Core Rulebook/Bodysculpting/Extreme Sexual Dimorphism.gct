@@ -6,6 +6,7 @@
 			<advantage version="2">
 				<name>Skill Bonus</name>
 				<type>Physical</type>
+				<base_points>4</base_points>
 				<notes>Sex Appeal +1</notes>
 				<skill_bonus>
 					<name compare="is">Sex Appeal</name>

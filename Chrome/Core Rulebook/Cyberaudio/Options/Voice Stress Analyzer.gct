@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="b187fb5f-aff5-41dc-8372-79a07d246b42" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Voice Stress Analyzer</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility: Requires Cyberaudio</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Skill Bonus</name>
+				<type>Physical</type>
+				<base_points>4</base_points>
+				<notes>+2 to Detect Lies and Interrogation</notes>
+				<skill_bonus>
+					<name compare="is">Detect Lies</name>
+					<specialization compare="is anything"></specialization>
+					<amount>2</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">Interrogation</name>
+					<specialization compare="is anything"></specialization>
+					<amount>2</amount>
+				</skill_bonus>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>200 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>
