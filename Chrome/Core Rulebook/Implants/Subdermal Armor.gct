@@ -164,7 +164,7 @@
 					<category>Advantage</category>
 				</categories>
 				<dr_bonus>
-					<location>full body</location>
+					<location>torso</location>
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
@@ -324,7 +324,7 @@
 					<category>Advantage</category>
 				</categories>
 				<dr_bonus>
-					<location>full body</location>
+					<location>torso</location>
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>

@@ -13,6 +13,49 @@
 				<cost type="percentage">-5</cost>
 				<affects>total</affects>
 			</modifier>
+			<advantage_container version="2" open="no" type="meta trait">
+				<name>Meta-Trait: Machine</name>
+				<modifier version="1">
+					<name>One Arm</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B263</reference>
+				<advantage version="2">
+					<name>Injury Tolerance (No Blood)</name>
+					<type>Physical, Exotic</type>
+					<base_points>5</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Injury Tolerance (Unliving)</name>
+					<type>Physical, Exotic</type>
+					<base_points>20</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>No fatigue points, Don't spend fatigue points</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Resistant (Immunity to Metabolic Hazards)</name>
+					<type>Physical</type>
+					<base_points>30</base_points>
+					<reference>B81</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Unhealing (Total)</name>
+					<type>Physical, Exotic</type>
+					<base_points>-30</base_points>
+					<reference>B160</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Wears out instead of aging</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+			</advantage_container>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
@@ -174,7 +217,7 @@
 					<category>Advantage</category>
 				</categories>
 				<dr_bonus>
-					<location>full body</location>
+					<location>arms</location>
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
@@ -263,11 +306,27 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
+			<advantage_container version="2" open="yes">
+				<name>Options</name>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="2" open="yes">
+			<name>Two Cyberarms</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessiblity: Requires Neuralware Processor</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
 			<advantage_container version="2" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<modifier version="1">
-					<name>One Arm</name>
-					<cost type="percentage">-40</cost>
+					<name>Arms</name>
+					<cost type="percentage">-20</cost>
 					<affects>total</affects>
 				</modifier>
 				<reference>B263</reference>
@@ -306,19 +365,6 @@
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Two Cyberarms</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessiblity: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
@@ -480,7 +526,7 @@
 					<category>Advantage</category>
 				</categories>
 				<dr_bonus>
-					<location>full body</location>
+					<location>arms</location>
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
@@ -578,48 +624,8 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
-				<name>Meta-Trait: Machine</name>
-				<modifier version="1">
-					<name>Arms</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B263</reference>
-				<advantage version="2">
-					<name>Injury Tolerance (No Blood)</name>
-					<type>Physical, Exotic</type>
-					<base_points>5</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Unliving)</name>
-					<type>Physical, Exotic</type>
-					<base_points>20</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No fatigue points, Don't spend fatigue points</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Resistant (Immunity to Metabolic Hazards)</name>
-					<type>Physical</type>
-					<base_points>30</base_points>
-					<reference>B81</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Unhealing (Total)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-30</base_points>
-					<reference>B160</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Wears out instead of aging</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
+			<advantage_container version="2" open="yes">
+				<name>Options</name>
 			</advantage_container>
 		</advantage_container>
 	</advantage_list>
