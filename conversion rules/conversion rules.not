@@ -12,7 +12,7 @@ Skill checks, combat and other basic stuff as per 4e Basic Set.
 Netrunning as per Pyramid 3-21 Cyberpunk article titled Console Cowboys and Cyberspace Kung Fu OR alternatively a simple Computer Hacking roll..
 Smartguns as per Basic Set or alternatively Ultra-Tech p149
 Human attributes naturally can&#8217;t go over 16 or lower than 4, 15 requires the Unusual Background advantage (B96) with an equal point cost of the attribute increase/decrease, 16 requires another Unusual Background (B96) with double the point cost. Assuming normal distribution about 1 in every 2 million people will possess an attribute of 15 (about 3 people in Night City) and 16 is about 1 in 500 million (15-20 people on Earth), 17 would be 1 in 390 billion (probably noone in the history of the entire of the human race). People who don&#8217;t possess that unusual background cannot go over 14 naturally. You can go over this limit with cybernetics.
-</text>
+Strength calculations assume the use of the Know Your Own Strength article from Pyramid 3/83, GCS can calculate with it automatically if you set it in Preferences under the Sheet tab.</text>
 		</note>
 		<note version="1">
 			<text>Surgery codes are changed as the following:
