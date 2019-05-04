@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="d7060c6a-b6cb-4207-8f3e-1afa4f213692" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Sex Change</name>
+			<advantage version="2">
+				<name>Genital Reassignment (Sterile)</name>
+				<type>Physical</type>
+			</advantage>
+			<advantage version="2">
+				<name>Superficial Sex Change</name>
+				<type>Physical</type>
+				<notes>If appearance level is modified, use notes from Appearance Change</notes>
+			</advantage>
+			<advantage version="2">
+				<name>Gender Reassignment (Sterile)</name>
+				<type>Physical</type>
+				<notes>If appearance level is modified, use notes from Appearance Change</notes>
+			</advantage>
+			<advantage version="2">
+				<name>Gender neutralization (Sexless)</name>
+				<type>Physical</type>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+			</advantage>
+			<advantage version="2">
+				<name>Complete Sex Change (able to bear/father children)</name>
+				<type>Physical</type>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>Choose one advantage
+
+Genital reassignment costs 2400 eb + Critical surgery, with a 2 week recovery time. LC3
+Superficial Sex Change costs 3600 eb + Critical surgery with a 2 week recovery time. LC3
+Gender reassignment costs 6000 eb + 2 Critical surgeries with a 2 week recovery time. LC3
+Gender neutralization costs 3600 eb + Critical surgery with a 2 week recovery time. LC3
+Ability to bear children +5000 eb + Critical surgery with a 2 week recovery time. LC3
+Ability to father children +10000 eb + Critical surgery with a 2 week recovery time. LC3 (it requires artificial Y chromosomes, it ought to be more expensive)
+
+Requires notification of authorities, 10 eb required to update and replace documents. 2-20 weeeks bureaucratic process also required.</text>
+		</note>
+	</note_list>
+</template>
