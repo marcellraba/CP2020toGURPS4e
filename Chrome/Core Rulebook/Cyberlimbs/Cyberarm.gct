@@ -57,6 +57,25 @@
 				</advantage>
 			</advantage_container>
 			<advantage version="2">
+				<name>Distinctive Features</name>
+				<type>Physical</type>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">disguise</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">shadowing</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>5</levels>
@@ -365,6 +384,25 @@
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
+			<advantage version="2">
+				<name>Distinctive Features</name>
+				<type>Physical</type>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">disguise</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">shadowing</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+			</advantage>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>

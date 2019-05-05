@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="81266be0-1590-4eff-8adc-58438b076037" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Microwave/EMP shielding</name>
+			<modifier version="1">
+				<name>Requires Cyberlimb</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<notes>Removes Temporary Disadvantage: Electrical</notes>
+			<advantage version="2">
+				<name>Accessory (EMP Shielding)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>300 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>

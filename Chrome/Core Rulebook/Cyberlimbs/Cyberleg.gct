@@ -13,6 +13,63 @@
 				<cost type="percentage">-5</cost>
 				<affects>total</affects>
 			</modifier>
+			<advantage_container version="2" open="no" type="meta trait">
+				<name>Meta-Trait: Machine</name>
+				<reference>B263</reference>
+				<advantage version="2">
+					<name>Injury Tolerance (No Blood)</name>
+					<type>Physical, Exotic</type>
+					<base_points>5</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Injury Tolerance (Unliving)</name>
+					<type>Physical, Exotic</type>
+					<base_points>20</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>No fatigue points, Don't spend fatigue points</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Resistant (Immunity to Metabolic Hazards)</name>
+					<type>Physical</type>
+					<base_points>30</base_points>
+					<reference>B81</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Unhealing (Total)</name>
+					<type>Physical, Exotic</type>
+					<base_points>-30</base_points>
+					<reference>B160</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Wears out instead of aging</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+			</advantage_container>
+			<advantage version="2">
+				<name>Distinctive Features</name>
+				<type>Physical</type>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">disguise</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">shadowing</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+			</advantage>
 			<advantage version="2">
 				<name>Lame (Missing Legs)</name>
 				<type>Physical</type>
@@ -219,6 +276,19 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
+		</advantage_container>
+		<advantage_container version="2" open="yes">
+			<name>Two Cyberlegs</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility: Requires Neuralware Processor</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
 			<advantage_container version="2" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
@@ -257,19 +327,6 @@
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Two Cyberlegs</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
 			<advantage version="2">
 				<name>Super Jump</name>
 				<type>Physical, Exotic</type>
@@ -333,6 +390,25 @@
 				<categories>
 					<category>Advantage</category>
 				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Distinctive Features</name>
+				<type>Physical</type>
+				<base_points>-1</base_points>
+				<reference>B165</reference>
+				<categories>
+					<category>Quirk</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">disguise</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">shadowing</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
 			</advantage>
 			<advantage version="2">
 				<name>Increased Basic Move</name>
@@ -555,44 +631,6 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
-				<name>Meta-Trait: Machine</name>
-				<reference>B263</reference>
-				<advantage version="2">
-					<name>Injury Tolerance (No Blood)</name>
-					<type>Physical, Exotic</type>
-					<base_points>5</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Unliving)</name>
-					<type>Physical, Exotic</type>
-					<base_points>20</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No fatigue points, Don't spend fatigue points</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Resistant (Immunity to Metabolic Hazards)</name>
-					<type>Physical</type>
-					<base_points>30</base_points>
-					<reference>B81</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Unhealing (Total)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-30</base_points>
-					<reference>B160</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Wears out instead of aging</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-			</advantage_container>
 		</advantage_container>
 	</advantage_list>
 	<note_list>

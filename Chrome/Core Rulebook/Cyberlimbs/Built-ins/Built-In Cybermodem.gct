@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="fea7fecc-abcc-4297-8fa1-d16d98c0d763" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Built-In Cybermodem</name>
+			<modifier version="1">
+				<name>Accessibility: Requires Cyberlimbs</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Accessory (Small Computer (Compact))</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Telecommunication</name>
+				<type>Mental/Physical, Exotic</type>
+				<modifier version="1" enabled="no">
+					<name>Infrared Communication</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Laser Communication</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Radio</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Telesend</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Broadcast</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Short Wave</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Universal</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Video</name>
+					<cost type="percentage">40</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Racial</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Receive Only</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Send Only</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Vague</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B91</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Directional Sound</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>P81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Gravity Ripple</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>P81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Neutrino</name>
+					<cost type="points">25</cost>
+					<affects>total</affects>
+					<reference>P81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Sonar</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>P81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Burst</name>
+					<cost type="percentage">30</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>P81</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>FTL</name>
+					<cost type="percentage">120</cost>
+					<affects>total</affects>
+					<reference>P82</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Secure</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>P82</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Sensie</name>
+					<cost type="percentage">80</cost>
+					<affects>total</affects>
+					<reference>P82</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Cable Jack</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>UT31</reference>
+				</modifier>
+				<reference>B91</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>3000 eb, Negligible surgery, LC4</text>
+		</note>
+	</note_list>
+</template>
