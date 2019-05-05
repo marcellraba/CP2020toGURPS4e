@@ -617,14 +617,6 @@
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
-				<cost_reduction>
-					<attribute>st</attribute>
-					<percentage>40</percentage>
-				</cost_reduction>
-				<cost_reduction>
-					<attribute>dx</attribute>
-					<percentage>40</percentage>
-				</cost_reduction>
 			</advantage>
 			<advantage version="2">
 				<name>Accessory (Option Slot)</name>

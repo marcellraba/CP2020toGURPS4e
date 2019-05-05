@@ -1,56 +1,63 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="fa4cd5f8-f719-4306-acaa-2da4ae51a299" version="2">
+<template id="05ee314d-c168-41e3-af31-b9b3b4861070" version="2">
 	<advantage_list>
 		<advantage_container version="2" open="yes">
-			<name>One Cyberleg</name>
+			<name>Tool Hand</name>
 			<modifier version="1">
 				<name>Temporary Disadvantage: Electrical</name>
 				<cost type="percentage">-20</cost>
 				<affects>total</affects>
 			</modifier>
 			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
+				<name>Accessibility: Requires Cyberarm</name>
+				<cost type="percentage">-10</cost>
 				<affects>total</affects>
 			</modifier>
-			<advantage_container version="2" open="no" type="meta trait">
-				<name>Meta-Trait: Machine</name>
-				<reference>B263</reference>
-				<advantage version="2">
-					<name>Injury Tolerance (No Blood)</name>
-					<type>Physical, Exotic</type>
-					<base_points>5</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Unliving)</name>
-					<type>Physical, Exotic</type>
-					<base_points>20</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No fatigue points, Don't spend fatigue points</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Resistant (Immunity to Metabolic Hazards)</name>
-					<type>Physical</type>
-					<base_points>30</base_points>
-					<reference>B81</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Unhealing (Total)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-30</base_points>
-					<reference>B160</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Wears out instead of aging</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-			</advantage_container>
+			<advantage version="2">
+				<name>Accessory (Screwdriver)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Adjustable Wrench)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Battery powered soldering iron)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Adjustable socket wrench)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Hammer)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
 			<advantage version="2">
 				<name>Distinctive Features</name>
 				<type>Physical</type>
@@ -71,26 +78,17 @@
 				</skill_bonus>
 			</advantage>
 			<advantage version="2">
-				<name>Lame (Missing Legs)</name>
+				<name>One Hand</name>
 				<type>Physical</type>
-				<base_points>-20</base_points>
+				<base_points>-15</base_points>
 				<modifier version="1">
 					<name>Mitigator</name>
 					<cost type="percentage">-70</cost>
 					<affects>total</affects>
 				</modifier>
-				<reference>B141</reference>
+				<reference>B147</reference>
 				<categories>
 					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
 				</categories>
 			</advantage>
 			<advantage version="2">
@@ -245,8 +243,8 @@
 					<reference>RSWL18</reference>
 				</modifier>
 				<modifier version="1">
-					<name>Partial: One Leg</name>
-					<cost type="percentage">-40</cost>
+					<name>Partial: One Hand</name>
+					<cost type="percentage">-80</cost>
 					<affects>total</affects>
 				</modifier>
 				<reference>B47</reference>
@@ -254,41 +252,10 @@
 					<category>Advantage</category>
 				</categories>
 				<dr_bonus>
-					<location>legs</location>
+					<location>hands</location>
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Two Cyberlegs</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
 			<advantage_container version="2" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
@@ -327,68 +294,62 @@
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
+		</advantage_container>
+		<advantage_container version="2" open="yes">
+			<name>Tool Hands</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility: Requires Cyberarm</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
 			<advantage version="2">
-				<name>Super Jump</name>
+				<name>Accessory (Screwdriver)</name>
 				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Bouncing</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Maneuverable</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Full Power Only</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Horizontal Only</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Lighter Than Air</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Planetary</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Projectile</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vertical Only</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bouncing Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>SU28</reference>
-				</modifier>
-				<reference>B89</reference>
+				<base_points>1</base_points>
+				<reference>B100</reference>
 				<categories>
-					<category>Advantage</category>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Adjustable Wrench)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Battery powered soldering iron)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Adjustable socket wrench)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (Hammer)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
 				</categories>
 			</advantage>
 			<advantage version="2">
@@ -411,187 +372,7 @@
 				</skill_bonus>
 			</advantage>
 			<advantage version="2">
-				<name>Increased Basic Move</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<reference>B17</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>move</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>5</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laminate</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>RSWL18</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Partial: Legs</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>legs</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Lame (Legless)</name>
+				<name>No Fine Manipulators</name>
 				<type>Physical</type>
 				<base_points>-30</base_points>
 				<modifier version="1">
@@ -599,45 +380,221 @@
 					<cost type="percentage">-70</cost>
 					<affects>total</affects>
 				</modifier>
-				<reference>B141</reference>
+				<reference>B145</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
+				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
+				<levels>5</levels>
+				<points_per_level>5</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Force Field</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Hardened</name>
+					<cost type="percentage">20</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Absorption</name>
+					<cost type="percentage">80</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>Enhances @Trait@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Absorption</name>
+					<cost type="percentage">80</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>Healing only</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Absorption</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>Enhances any trait</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Reflection</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="points">-1</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Rare@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="percentage">-5</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Occasional@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="percentage">-10</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Common@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Bane</name>
+					<cost type="percentage">-15</cost>
+					<affects>total</affects>
+					<reference>H14</reference>
+					<notes>@Very Common@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Directional</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+					<notes>Front</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Flexible</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Very Common Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Semi-Ablative</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Can't wear armor</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Directional</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Common Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Tough Skin</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-60</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Occasional Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Ablative</name>
+					<cost type="percentage">-80</cost>
+					<affects>total</affects>
+					<reference>B47</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Limited</name>
+					<cost type="percentage">-80</cost>
+					<affects>total</affects>
+					<reference>B46</reference>
+					<notes>@Rare Attack Form@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Laminate</name>
+					<cost type="percentage">10</cost>
+					<affects>total</affects>
+					<reference>RSWL18</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Partial: Hands</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B47</reference>
 				<categories>
-					<category>Perk</category>
+					<category>Advantage</category>
 				</categories>
+				<dr_bonus>
+					<location>hands</location>
+					<amount per_level="yes">1</amount>
+				</dr_bonus>
 			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
+			<advantage_container version="2" open="no" type="meta trait">
+				<name>Meta-Trait: Machine</name>
+				<reference>B263</reference>
+				<advantage version="2">
+					<name>Injury Tolerance (No Blood)</name>
+					<type>Physical, Exotic</type>
+					<base_points>5</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Injury Tolerance (Unliving)</name>
+					<type>Physical, Exotic</type>
+					<base_points>20</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>No fatigue points, Don't spend fatigue points</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Resistant (Immunity to Metabolic Hazards)</name>
+					<type>Physical</type>
+					<base_points>30</base_points>
+					<reference>B81</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Unhealing (Total)</name>
+					<type>Physical, Exotic</type>
+					<base_points>-30</base_points>
+					<reference>B160</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Wears out instead of aging</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+			</advantage_container>
 		</advantage_container>
 	</advantage_list>
 	<note_list>
 		<note version="1">
-			<text>3 option slots per leg
+			<text>200 eb per hand, Negligible surgery, LC4
 
-2000 eb per leg, Critical surgery, LC4</text>
+Gives equipment bonuses</text>
 		</note>
 	</note_list>
 </template>

@@ -1,56 +1,18 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="fa4cd5f8-f719-4306-acaa-2da4ae51a299" version="2">
+<template id="5a4ad8ac-8b5c-462c-9db4-a7f55ecac9e5" version="2">
 	<advantage_list>
 		<advantage_container version="2" open="yes">
-			<name>One Cyberleg</name>
+			<name>Standard Foot</name>
 			<modifier version="1">
 				<name>Temporary Disadvantage: Electrical</name>
 				<cost type="percentage">-20</cost>
 				<affects>total</affects>
 			</modifier>
 			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
+				<name>Accessibility: Requires Cyberleg</name>
+				<cost type="percentage">-10</cost>
 				<affects>total</affects>
 			</modifier>
-			<advantage_container version="2" open="no" type="meta trait">
-				<name>Meta-Trait: Machine</name>
-				<reference>B263</reference>
-				<advantage version="2">
-					<name>Injury Tolerance (No Blood)</name>
-					<type>Physical, Exotic</type>
-					<base_points>5</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Unliving)</name>
-					<type>Physical, Exotic</type>
-					<base_points>20</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No fatigue points, Don't spend fatigue points</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Resistant (Immunity to Metabolic Hazards)</name>
-					<type>Physical</type>
-					<base_points>30</base_points>
-					<reference>B81</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Unhealing (Total)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-30</base_points>
-					<reference>B160</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Wears out instead of aging</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-			</advantage_container>
 			<advantage version="2">
 				<name>Distinctive Features</name>
 				<type>Physical</type>
@@ -71,9 +33,9 @@
 				</skill_bonus>
 			</advantage>
 			<advantage version="2">
-				<name>Lame (Missing Legs)</name>
+				<name>Lame (Crippled Legs)</name>
 				<type>Physical</type>
-				<base_points>-20</base_points>
+				<base_points>-10</base_points>
 				<modifier version="1">
 					<name>Mitigator</name>
 					<cost type="percentage">-70</cost>
@@ -82,15 +44,6 @@
 				<reference>B141</reference>
 				<categories>
 					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
 				</categories>
 			</advantage>
 			<advantage version="2">
@@ -258,37 +211,6 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Two Cyberlegs</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
 			<advantage_container version="2" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
@@ -327,70 +249,19 @@
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
-				<name>Super Jump</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>10</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Bouncing</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Maneuverable</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Full Power Only</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Horizontal Only</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Lighter Than Air</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Planetary</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Projectile</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vertical Only</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>P80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bouncing Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>SU28</reference>
-				</modifier>
-				<reference>B89</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
+		</advantage_container>
+		<advantage_container version="2" open="yes">
+			<name>Standard Feet</name>
+			<modifier version="1">
+				<name>Temporary Disadvantage: Electrical</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Accessibility: Requires Cyberleg</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
 			<advantage version="2">
 				<name>Distinctive Features</name>
 				<type>Physical</type>
@@ -411,19 +282,18 @@
 				</skill_bonus>
 			</advantage>
 			<advantage version="2">
-				<name>Increased Basic Move</name>
+				<name>Lame (Paraplegic)</name>
 				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<reference>B17</reference>
+				<base_points>-30</base_points>
+				<modifier version="1">
+					<name>Mitigator</name>
+					<cost type="percentage">-70</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B141</reference>
 				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
+					<category>Disadvantage</category>
 				</categories>
-				<attribute_bonus>
-					<attribute>move</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
 			</advantage>
 			<advantage version="2">
 				<name>Damage Resistance</name>
@@ -577,8 +447,8 @@
 					<reference>RSWL18</reference>
 				</modifier>
 				<modifier version="1">
-					<name>Partial: Legs</name>
-					<cost type="percentage">-20</cost>
+					<name>One Leg</name>
+					<cost type="percentage">-40</cost>
 					<affects>total</affects>
 				</modifier>
 				<reference>B47</reference>
@@ -590,54 +460,49 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
-				<name>Lame (Legless)</name>
-				<type>Physical</type>
-				<base_points>-30</base_points>
-				<modifier version="1">
-					<name>Mitigator</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B141</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
+			<advantage_container version="2" open="no" type="meta trait">
+				<name>Meta-Trait: Machine</name>
+				<reference>B263</reference>
+				<advantage version="2">
+					<name>Injury Tolerance (No Blood)</name>
+					<type>Physical, Exotic</type>
+					<base_points>5</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Injury Tolerance (Unliving)</name>
+					<type>Physical, Exotic</type>
+					<base_points>20</base_points>
+					<reference>B61</reference>
+				</advantage>
+				<advantage version="2">
+					<name>No fatigue points, Don't spend fatigue points</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Resistant (Immunity to Metabolic Hazards)</name>
+					<type>Physical</type>
+					<base_points>30</base_points>
+					<reference>B81</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Unhealing (Total)</name>
+					<type>Physical, Exotic</type>
+					<base_points>-30</base_points>
+					<reference>B160</reference>
+				</advantage>
+				<advantage version="2">
+					<name>Wears out instead of aging</name>
+					<type>Physical</type>
+					<reference>B263</reference>
+				</advantage>
+			</advantage_container>
 		</advantage_container>
 	</advantage_list>
 	<note_list>
 		<note version="1">
-			<text>3 option slots per leg
-
-2000 eb per leg, Critical surgery, LC4</text>
+			<text>200 eb per foot, Negligible surgery, LC4</text>
 		</note>
 	</note_list>
 </template>
