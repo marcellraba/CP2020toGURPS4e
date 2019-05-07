@@ -579,7 +579,7 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="2" open="yes">
 				<name>Role Disadvantages</name>
 				<notes>Choose</notes>
 				<advantage version="2">
@@ -667,6 +667,15 @@
 						<specialization compare="is anything"></specialization>
 						<amount>-3</amount>
 					</skill_bonus>
+				</advantage>
+				<advantage version="2">
+					<name>Combat Paralysis</name>
+					<type>Physical</type>
+					<base_points>-15</base_points>
+					<reference>B127</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
 				</advantage>
 				<advantage version="2">
 					<name>Compulsive Carousing</name>
