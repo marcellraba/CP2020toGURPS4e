@@ -277,6 +277,48 @@
 						</categories>
 					</advantage>
 					<advantage version="2">
+						<name>Intolerance ()</name>
+						<type>Mental</type>
+						<modifier version="1" enabled="no">
+							<name>Scope: Common</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>B140</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Scope: Occasional</name>
+							<cost type="points">-2</cost>
+							<affects>total</affects>
+							<reference>B140</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Scope: Rare</name>
+							<cost type="points">-1</cost>
+							<affects>total</affects>
+							<reference>B140</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Scope: Anyone unlike you</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>B140</reference>
+						</modifier>
+						<reference>B140</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Like Doughnuts</name>
+						<type>Mental</type>
+						<levels>0</levels>
+						<base_points>-1</base_points>
+						<reference>B164</reference>
+						<categories>
+							<category>Quirk</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
 						<name>Low Empathy</name>
 						<type>Mental</type>
 						<base_points>-20</base_points>
@@ -471,16 +513,6 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
-						<name>Xenophobia (Strange and Unknown Things)</name>
-						<type>Mental</type>
-						<base_points>-15</base_points>
-						<cr>12</cr>
-						<reference>B150</reference>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
 				</advantage_container>
 			</advantage_container>
 			<advantage_container version="2" open="no">
@@ -520,8 +552,8 @@
 						<affects>total</affects>
 						<reference>B72</reference>
 					</modifier>
-					<modifier version="1">
-						<name>NCPD</name>
+					<modifier version="1" enabled="no">
+						<name>@Who: Organization with assets of at least 1000 times starting wealth@</name>
 						<cost type="points">10</cost>
 						<affects>total</affects>
 						<reference>B72</reference>
@@ -532,8 +564,8 @@
 						<affects>total</affects>
 						<reference>B72</reference>
 					</modifier>
-					<modifier version="1" enabled="no">
-						<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+					<modifier version="1">
+						<name>NCPD</name>
 						<cost type="points">15</cost>
 						<affects>total</affects>
 						<reference>B72</reference>

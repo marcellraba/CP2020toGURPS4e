@@ -4,176 +4,41 @@
 		<advantage_container version="2" open="yes">
 			<name>Solo</name>
 			<advantage_container version="2" open="no">
-				<name>Role Disadvantages</name>
-				<notes>Choose</notes>
+				<name>Role Attributes</name>
 				<advantage version="2">
-					<name>Alcoholism</name>
+					<name>Increased Dexterity</name>
 					<type>Physical</type>
-					<base_points>-15</base_points>
+					<levels>1</levels>
+					<points_per_level>20</points_per_level>
 					<modifier version="1" enabled="no">
-						<name>Illegal</name>
-						<cost type="points">-5</cost>
-						<affects>total</affects>
-						<reference>B122</reference>
-					</modifier>
-					<reference>B122</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Berserk</name>
-					<type>Mental</type>
-					<base_points>-10</base_points>
-					<cr>12</cr>
-					<modifier version="1" enabled="no">
-						<name>Battle Rage</name>
-						<cost type="percentage">50</cost>
+						<name>No Fine Manipulators</name>
+						<cost type="percentage">-40</cost>
 						<affects>total</affects>
 					</modifier>
-					<reference>B124</reference>
+					<reference>B15</reference>
 					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Bad Temper</name>
-					<type>Mental</type>
-					<base_points>-10</base_points>
-					<cr>12</cr>
-					<reference>B124</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Bloodlust</name>
-					<type>Mental</type>
-					<base_points>-10</base_points>
-					<cr>12</cr>
-					<reference>B125</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Compulsive Carousing</name>
-					<type>Mental</type>
-					<base_points>-5</base_points>
-					<cr>12</cr>
-					<reference>B128</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Compulsive Spending</name>
-					<type>Mental</type>
-					<base_points>-5</base_points>
-					<cr adj="major cost of living increase">12</cr>
-					<reference>B129</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-					<prereq_list all="yes">
-						<advantage_prereq has="no">
-							<name compare="is">miserliness</name>
-							<notes compare="is anything"></notes>
-						</advantage_prereq>
-					</prereq_list>
-				</advantage>
-				<advantage version="2">
-					<name>Flashbacks (Mild, -2, 2D seconds)</name>
-					<type>Physical</type>
-					<base_points>-5</base_points>
-					<reference>B136</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Hard of Hearing</name>
-					<type>Physical</type>
-					<base_points>-10</base_points>
-					<reference>B138</reference>
-					<categories>
-						<category>Disadvantage</category>
+						<category>Advantage</category>
+						<category>Attribute</category>
 					</categories>
 					<attribute_bonus>
-						<attribute>hearing</attribute>
-						<amount>-4</amount>
+						<attribute>dx</attribute>
+						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
 				<advantage version="2">
-					<name>Impulsiveness</name>
-					<type>Mental</type>
-					<base_points>-10</base_points>
-					<cr>12</cr>
-					<reference>B139</reference>
+					<name>Increased Health</name>
+					<type>Physical</type>
+					<levels>1</levels>
+					<points_per_level>10</points_per_level>
+					<reference>B14</reference>
 					<categories>
-						<category>Disadvantage</category>
+						<category>Advantage</category>
+						<category>Attribute</category>
 					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Gullibility</name>
-					<type>Mental</type>
-					<base_points>-10</base_points>
-					<cr>12</cr>
-					<reference>B137</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-					<skill_bonus>
-						<name compare="is">merchant</name>
-						<specialization compare="is anything"></specialization>
-						<amount>-3</amount>
-					</skill_bonus>
-					<prereq_list all="yes">
-						<skill_prereq has="no">
-							<name compare="is">detect lies</name>
-							<specialization compare="is anything"></specialization>
-						</skill_prereq>
-					</prereq_list>
-				</advantage>
-				<advantage version="2">
-					<name>Honesty</name>
-					<type>Mental</type>
-					<base_points>-10</base_points>
-					<cr>12</cr>
-					<reference>B138</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Lecherousness</name>
-					<type>Mental</type>
-					<base_points>-15</base_points>
-					<cr>12</cr>
-					<reference>B142</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Overconfidence</name>
-					<type>Mental</type>
-					<base_points>-5</base_points>
-					<cr>12</cr>
-					<reference>B148</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage version="2">
-					<name>Post-Combat Shakes</name>
-					<type>Mental</type>
-					<base_points>-5</base_points>
-					<cr>12</cr>
-					<reference>B150</reference>
-					<categories>
-						<category>Disadvantage</category>
-					</categories>
+					<attribute_bonus>
+						<attribute>ht</attribute>
+						<amount per_level="yes">1</amount>
+					</attribute_bonus>
 				</advantage>
 			</advantage_container>
 			<advantage_container version="2" open="no">
@@ -362,6 +227,7 @@
 							<affects>total</affects>
 						</modifier>
 						<reference>B15</reference>
+						<notes>Up to 2</notes>
 						<categories>
 							<category>Advantage</category>
 							<category>Attribute</category>
@@ -377,6 +243,7 @@
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
 						<reference>B14</reference>
+						<notes>Up to 2</notes>
 						<categories>
 							<category>Advantage</category>
 							<category>Attribute</category>
@@ -427,6 +294,7 @@
 							<reference>SU24</reference>
 						</modifier>
 						<reference>B14</reference>
+						<notes>Up to 3</notes>
 						<categories>
 							<category>Advantage</category>
 							<category>Attribute</category>
@@ -502,41 +370,176 @@
 				</advantage_container>
 			</advantage_container>
 			<advantage_container version="2" open="no">
-				<name>Role Attributes</name>
+				<name>Role Disadvantages</name>
+				<notes>Choose</notes>
 				<advantage version="2">
-					<name>Increased Dexterity</name>
+					<name>Alcoholism</name>
 					<type>Physical</type>
-					<levels>1</levels>
-					<points_per_level>20</points_per_level>
+					<base_points>-15</base_points>
 					<modifier version="1" enabled="no">
-						<name>No Fine Manipulators</name>
-						<cost type="percentage">-40</cost>
+						<name>Illegal</name>
+						<cost type="points">-5</cost>
+						<affects>total</affects>
+						<reference>B122</reference>
+					</modifier>
+					<reference>B122</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Berserk</name>
+					<type>Mental</type>
+					<base_points>-10</base_points>
+					<cr>12</cr>
+					<modifier version="1" enabled="no">
+						<name>Battle Rage</name>
+						<cost type="percentage">50</cost>
 						<affects>total</affects>
 					</modifier>
-					<reference>B15</reference>
+					<reference>B124</reference>
 					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Bad Temper</name>
+					<type>Mental</type>
+					<base_points>-10</base_points>
+					<cr>12</cr>
+					<reference>B124</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Bloodlust</name>
+					<type>Mental</type>
+					<base_points>-10</base_points>
+					<cr>12</cr>
+					<reference>B125</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Compulsive Carousing</name>
+					<type>Mental</type>
+					<base_points>-5</base_points>
+					<cr>12</cr>
+					<reference>B128</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Compulsive Spending</name>
+					<type>Mental</type>
+					<base_points>-5</base_points>
+					<cr adj="major cost of living increase">12</cr>
+					<reference>B129</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+					<prereq_list all="yes">
+						<advantage_prereq has="no">
+							<name compare="is">miserliness</name>
+							<notes compare="is anything"></notes>
+						</advantage_prereq>
+					</prereq_list>
+				</advantage>
+				<advantage version="2">
+					<name>Flashbacks (Mild, -2, 2D seconds)</name>
+					<type>Physical</type>
+					<base_points>-5</base_points>
+					<reference>B136</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Hard of Hearing</name>
+					<type>Physical</type>
+					<base_points>-10</base_points>
+					<reference>B138</reference>
+					<categories>
+						<category>Disadvantage</category>
 					</categories>
 					<attribute_bonus>
-						<attribute>dx</attribute>
-						<amount per_level="yes">1</amount>
+						<attribute>hearing</attribute>
+						<amount>-4</amount>
 					</attribute_bonus>
 				</advantage>
 				<advantage version="2">
-					<name>Increased Health</name>
-					<type>Physical</type>
-					<levels>1</levels>
-					<points_per_level>10</points_per_level>
-					<reference>B14</reference>
+					<name>Impulsiveness</name>
+					<type>Mental</type>
+					<base_points>-10</base_points>
+					<cr>12</cr>
+					<reference>B139</reference>
 					<categories>
-						<category>Advantage</category>
-						<category>Attribute</category>
+						<category>Disadvantage</category>
 					</categories>
-					<attribute_bonus>
-						<attribute>ht</attribute>
-						<amount per_level="yes">1</amount>
-					</attribute_bonus>
+				</advantage>
+				<advantage version="2">
+					<name>Gullibility</name>
+					<type>Mental</type>
+					<base_points>-10</base_points>
+					<cr>12</cr>
+					<reference>B137</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+					<skill_bonus>
+						<name compare="is">merchant</name>
+						<specialization compare="is anything"></specialization>
+						<amount>-3</amount>
+					</skill_bonus>
+					<prereq_list all="yes">
+						<skill_prereq has="no">
+							<name compare="is">detect lies</name>
+							<specialization compare="is anything"></specialization>
+						</skill_prereq>
+					</prereq_list>
+				</advantage>
+				<advantage version="2">
+					<name>Honesty</name>
+					<type>Mental</type>
+					<base_points>-10</base_points>
+					<cr>12</cr>
+					<reference>B138</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Lecherousness</name>
+					<type>Mental</type>
+					<base_points>-15</base_points>
+					<cr>12</cr>
+					<reference>B142</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Overconfidence</name>
+					<type>Mental</type>
+					<base_points>-5</base_points>
+					<cr>12</cr>
+					<reference>B148</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Post-Combat Shakes</name>
+					<type>Mental</type>
+					<base_points>-5</base_points>
+					<cr>12</cr>
+					<reference>B150</reference>
+					<categories>
+						<category>Disadvantage</category>
+					</categories>
 				</advantage>
 			</advantage_container>
 		</advantage_container>
@@ -1155,7 +1158,7 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="yes">
+				<skill_container version="2" open="no">
 					<name>Choose one</name>
 					<skill version="2">
 						<name>Brawling</name>
@@ -1172,6 +1175,18 @@
 							<level compare="at least">2</level>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
+					</skill>
+					<skill version="2">
+						<name>Judo</name>
+						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+						<difficulty>DX/H</difficulty>
+						<points>1</points>
+						<reference>B203</reference>
+						<notes>Allows parrying two different attacks per turn, one with each hand.</notes>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
 					</skill>
 					<skill version="2">
 						<name>Karate</name>
@@ -1195,6 +1210,16 @@
 							<level compare="at least">1</level>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
+					</skill>
+					<skill version="2">
+						<name>Wrestling</name>
+						<difficulty>DX/A</difficulty>
+						<points>1</points>
+						<reference>B228</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
 					</skill>
 				</skill_container>
 			</skill_container>
