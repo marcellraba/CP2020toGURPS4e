@@ -6,13 +6,15 @@
 			<text>Requires both Cyberpunk 2020 and GURPS 4e books to play.
 Required books to play: GURPS 4e Basic Set, Cyberpunk 2020 core rulebook.
 Recommended books to play: all Cyberpunk 2020 books and GURPS 4e Ultra-Tech, High-Tech, Martial Arts, Action 1&amp;2, Bio-Tech, Tactical Shooting or Gun-Fu, Spaceships 4, Horror, also GURPS Cyberpunk albeit it's for an earlier edition.
-Recommended magazines: Pyramid 3-21 Cyberpunk, Pyramid 3-34 Alternate GURPS (for the article Armor Revisited), Pyramid 3-40 Vehicles, Pyramid 3-83 Alternate GURPS 4 (for the Article Knowing Your Own Strength)
+Recommended magazines: Pyramid 3-21 Cyberpunk, Pyramid 3-34 Alternate GURPS (for the article Armor Revisited), Pyramid 3-40 Vehicles, Pyramid 3-83 Alternate GURPS 4 (for the Article Knowing Your Own Strength, albeit it requires a bit of work first)
+If using KYOS: Reduce weapon ST requirements as follows ST 12-13 to 12, 14-15 to 13 16 to 14, 17-18 to 15, 19-20 to 16.
+Two-handing one handed weapons (mostly handguns) decreases the ST requirement by 2 instead of making it 80% of the original, this is because of logarithmic scaling and most stuff will be due to that.
+You may substitute your Move score by ST-12 instead of ST/4.
 Rule Changes:
 Skill checks, combat and other basic stuff as per 4e Basic Set.
 Netrunning as per Pyramid 3-21 Cyberpunk article titled Console Cowboys and Cyberspace Kung Fu OR alternatively a simple Computer Hacking roll..
 Smartguns as per Basic Set or alternatively Ultra-Tech p149
-Human attributes naturally can&#8217;t go over 16 or lower than 4, 15 requires the Unusual Background advantage (B96) with an equal point cost of the attribute increase/decrease, 16 requires another Unusual Background (B96) with double the point cost. Assuming normal distribution about 1 in every 2 million people will possess an attribute of 15 (about 3 people in Night City) and 16 is about 1 in 500 million (15-20 people on Earth), 17 would be 1 in 390 billion (probably noone in the history of the entire of the human race). People who don&#8217;t possess that unusual background cannot go over 14 naturally. You can go over this limit with cybernetics.
-Strength calculations assume the use of the Knowing Your Own Strength article from Pyramid 3/83, GCS can calculate with it automatically if you set it in Preferences under the Sheet tab.</text>
+Human attributes naturally can&#8217;t go over 16 or lower than 4 (except for ST, that should be able to go to 20 unless you use KYOS which allows for the same sort of scaling as other attributes), 15 requires the Unusual Background advantage (B96) with an equal point cost of the attribute increase/decrease, 16 requires another Unusual Background (B96) with double the point cost. Assuming normal distribution about 1 in every 2 million people will possess an attribute of 15 (about 3 people in Night City) and 16 is about 1 in 500 million (15-20 people on Earth), 17 would be 1 in 390 billion (probably noone in the history of the entire of the human race). People who don&#8217;t possess that unusual background cannot go over 14 naturally. You can go over this limit with cybernetics.</text>
 		</note>
 		<note version="1">
 			<text>Surgery codes are changed as the following:
@@ -61,7 +63,7 @@ On a failed Fright Check use Insanity mechanics from Horror p142-146 and/or Stre
 
 (idea from Crakkerjakk, if you ever read this thanks)
 
-Alternatively the GM and the player can discuss a mental disadvantage in exchange for a cybernetic if it would fit the story better.</text>
+Alternatively the GM and the player can discuss a mental disadvantage in exchange for a cybernetic if it would fit the story better. Or you can use the Mad as Bones article from Pyramid #3/103 Setbacks for a more traditional sanity meter.</text>
 		</note>
 		<note version="1">
 			<text>At character creation buy everything but equipment from points
@@ -107,7 +109,7 @@ Most characters start here.
 
 250-300 points: Major Cinematic Heroes
 
-300+ points: Morgan Blackhand and GMPCs</text>
+300+ points: Morgan Blackhand and other GMPCs</text>
 		</note>
 		<note version="1">
 			<text>Roles are entirely optional, they are there as guides, feel free to make your own characters.</text>

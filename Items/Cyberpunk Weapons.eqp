@@ -8512,17 +8512,17 @@
 		<tech_level>9</tech_level>
 		<legality_class>3</legality_class>
 		<value>4525</value>
-		<weight>4 lb</weight>
+		<weight>6 lb</weight>
 		<reference>Chr1</reference>
 		<ranged_weapon>
-			<damage>9d+1 pi+</damage>
-			<strength>17</strength>
+			<damage>8d pi+</damage>
+			<strength>15</strength>
 			<accuracy>2</accuracy>
 			<range>800/4800</range>
 			<rate_of_fire>3</rate_of_fire>
 			<shots>6+1(3)</shots>
 			<bulk>-3</bulk>
-			<recoil>6</recoil>
+			<recoil>7</recoil>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
