@@ -8516,7 +8516,7 @@
 		<reference>Chr1</reference>
 		<ranged_weapon>
 			<damage>8d pi+</damage>
-			<strength>15</strength>
+			<strength>16</strength>
 			<accuracy>2</accuracy>
 			<range>800/4800</range>
 			<rate_of_fire>3</rate_of_fire>
