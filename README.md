@@ -17,3 +17,5 @@ Cyberpunk, and Cyberpunk:2020 are a Registered Trademark of R.Talsorian Corporat
 material Copyright 1989-2019 by R.Talsorian Corporation. All Rights Reserved. Used with permission. Any use of
 R.Talsorian Corporation's copyrighted material or trademarks in this archive should not be viewed as a challenge to those
 copyrights or trademarks.
+
+GURPS is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games . All rights are reserved by Steve Jackson Games. This game aid is the original creation of Ben Gauronskas and is released for free distribution, and not for resale, under the permissions granted in the Steve Jackson Games Online Policy 
