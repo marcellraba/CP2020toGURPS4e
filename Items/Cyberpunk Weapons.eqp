@@ -6141,7 +6141,7 @@
 		<weight>60 oz</weight>
 		<reference>Chr1</reference>
 		<ranged_weapon>
-			<damage>5d  pi-</damage>
+			<damage>2d+2 (2)  pi-</damage>
 			<strength>12</strength>
 			<accuracy>3</accuracy>
 			<range>2700/10000</range>
@@ -6214,7 +6214,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</ranged_weapon>
-		<notes>User must wear a safety chipped wristband</notes>
+		<notes>User must wear a safety chipped wristband, liquid propellant</notes>
 		<categories>
 			<category>Firearms</category>
 			<category>heavy pistols</category>

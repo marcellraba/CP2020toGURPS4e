@@ -4,11 +4,6 @@
 		<advantage_container version="2" open="yes">
 			<name>Adrenal Booster</name>
 			<modifier version="1">
-				<name>Limited Use 3/day</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
 				<name>Temporary Disadvantage: Electronic</name>
 				<cost type="percentage">-20</cost>
 				<affects>total</affects>
@@ -18,11 +13,50 @@
 				<cost type="percentage">-5</cost>
 				<affects>total</affects>
 			</modifier>
-			<notes>Duration: 10 seconds</notes>
+			<modifier version="1">
+				<name>Maximum Duration: 30 sec</name>
+				<cost type="percentage">-75</cost>
+				<affects>total</affects>
+			</modifier>
+			<notes>Duration: 30 seconds</notes>
+			<advantage version="2">
+				<name>Increased Strength</name>
+				<type>Physical</type>
+				<levels>2</levels>
+				<points_per_level>10</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>No Fine Manipulators</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>B15</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Size</name>
+					<cost type="percentage">-10</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>B15</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Super-Effort</name>
+					<cost type="percentage">300</cost>
+					<affects>total</affects>
+					<reference>SU24</reference>
+				</modifier>
+				<reference>B14</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>st</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
 			<advantage version="2">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
-				<levels>1</levels>
+				<levels>4</levels>
 				<points_per_level>20</points_per_level>
 				<modifier version="1" enabled="no">
 					<name>No Fine Manipulators</name>
@@ -37,21 +71,6 @@
 				<attribute_bonus>
 					<attribute>dx</attribute>
 					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Increased Basic Speed</name>
-				<type>Physical</type>
-				<levels>3</levels>
-				<points_per_level>5</points_per_level>
-				<reference>B17</reference>
-				<categories>
-					<category>Advantage</category>
-					<category>Attribute</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>speed</attribute>
-					<amount per_level="yes">0.25</amount>
 				</attribute_bonus>
 			</advantage>
 		</advantage_container>

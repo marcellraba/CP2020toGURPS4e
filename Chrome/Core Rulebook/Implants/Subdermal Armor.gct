@@ -3,9 +3,14 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes">
 			<name>Subdermal Armor</name>
-			<modifier version="1">
+			<modifier version="1" enabled="no">
 				<name>Partial: Torso Only</name>
 				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Low Signature</name>
+				<cost type="percentage">10</cost>
 				<affects>total</affects>
 			</modifier>
 			<advantage version="2">
@@ -158,6 +163,11 @@
 					<cost type="percentage">10</cost>
 					<affects>total</affects>
 					<reference>RSWL18</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Partial: Torso only</name>
+					<cost type="percentage">-10</cost>
+					<affects>total</affects>
 				</modifier>
 				<reference>B47</reference>
 				<categories>
@@ -318,6 +328,11 @@
 					<cost type="percentage">10</cost>
 					<affects>total</affects>
 					<reference>RSWL18</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Partial: Torso only</name>
+					<cost type="percentage">-10</cost>
+					<affects>total</affects>
 				</modifier>
 				<reference>B47</reference>
 				<categories>

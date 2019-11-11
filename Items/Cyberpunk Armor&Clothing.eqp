@@ -30,7 +30,7 @@
 		<value>90</value>
 		<weight>1 lb</weight>
 		<reference>CP2020</reference>
-		<notes>Flexible, 8 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 8 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft armor</category>
 			<category>clothing</category>
@@ -48,7 +48,7 @@
 		<value>90</value>
 		<weight>1 lb</weight>
 		<reference>CP2020</reference>
-		<notes>Flexible, 8 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 8 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft armor</category>
 			<category>clothing</category>
@@ -70,7 +70,7 @@
 		<value>200</value>
 		<weight>2 lb</weight>
 		<reference>CP2020</reference>
-		<notes>Flexible, 12 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 12 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft armor</category>
 			<category>clothing</category>
@@ -92,7 +92,7 @@
 		<value>250</value>
 		<weight>4 lb</weight>
 		<reference>CP2020</reference>
-		<notes>Flexible, 18 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 18 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft armor</category>
 			<category>clothing</category>
@@ -114,7 +114,7 @@
 		<value>200</value>
 		<weight>23 lb</weight>
 		<reference>CP2020</reference>
-		<notes>22 DR against pi, cutting fragmentation</notes>
+		<notes>22 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Hard Armor</category>
 		</categories>
@@ -128,10 +128,10 @@
 		<description>Metal Gear&#8482;</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>200</value>
+		<value>600</value>
 		<weight>2.2 kg</weight>
 		<reference>CP2020</reference>
-		<notes>treat as flexible for blunt trauma purposes</notes>
+		<notes>treat as flexible for blunt trauma purposes, semi-ablative</notes>
 		<categories>
 			<category>Hard Armor</category>
 		</categories>
@@ -177,19 +177,19 @@
 		<description>Steel Helmet</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>20</value>
-		<weight>6 lb</weight>
+		<value>250</value>
+		<weight>7.56 lb</weight>
 		<reference>CP2020</reference>
 		<categories>
 			<category>Hard Armor</category>
 		</categories>
 		<dr_bonus>
 			<location>skull</location>
-			<amount>22</amount>
+			<amount>10</amount>
 		</dr_bonus>
 		<dr_bonus>
 			<location>face</location>
-			<amount>11</amount>
+			<amount>10</amount>
 		</dr_bonus>
 	</equipment>
 	<equipment version="4">
@@ -200,6 +200,7 @@
 		<value>20</value>
 		<weight>4.4 lb</weight>
 		<reference>CP2020</reference>
+		<notes>semi-ablative</notes>
 		<categories>
 			<category>Hard Armor</category>
 		</categories>
@@ -263,7 +264,7 @@
 		<legality_class>4</legality_class>
 		<value>60</value>
 		<weight>2.5 lb</weight>
-		<notes>Flexible, 8 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 8 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -288,7 +289,7 @@
 		<legality_class>4</legality_class>
 		<value>200</value>
 		<weight>2 lb</weight>
-		<notes>Flexible, 12 DR pi, cutting fragmentation</notes>
+		<notes>Flexible, 12 DR pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -309,7 +310,7 @@
 		<legality_class>4</legality_class>
 		<value>300</value>
 		<weight>5 lb</weight>
-		<notes>Flexible, 18 DR pi, cutting fragmentation</notes>
+		<notes>Flexible, 18 DR pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -502,7 +503,7 @@
 		<legality_class>4</legality_class>
 		<value>500</value>
 		<weight>1.5 lb</weight>
-		<notes>Flexible, 12 DR against pi, cutting fragmentation, back only</notes>
+		<notes>Flexible, 12 DR against pi, cutting fragmentation, back only, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -667,7 +668,7 @@
 		<legality_class>4</legality_class>
 		<value>125</value>
 		<weight>2 lb</weight>
-		<notes>Flexible, 12 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 12 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -684,7 +685,7 @@
 		<legality_class>4</legality_class>
 		<value>30</value>
 		<weight>2 lb</weight>
-		<notes>Flexible, 12 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 12 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -701,7 +702,7 @@
 		<legality_class>4</legality_class>
 		<value>10</value>
 		<weight>1 lb</weight>
-		<notes>Flexible, 8 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 8 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
@@ -718,7 +719,7 @@
 		<legality_class>4</legality_class>
 		<value>150</value>
 		<weight>3 lb</weight>
-		<notes>Flexible, 12 DR against pi, cutting fragmentation</notes>
+		<notes>Flexible, 12 DR against pi, cutting fragmentation, semi-ablative</notes>
 		<categories>
 			<category>Soft Armor</category>
 			<category>clothing</category>
