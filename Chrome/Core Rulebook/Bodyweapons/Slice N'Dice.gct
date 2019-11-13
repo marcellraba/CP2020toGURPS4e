@@ -25,6 +25,11 @@
 						<name>Whip</name>
 						<modifier>0</modifier>
 					</default>
+					<default>
+						<type>Skill</type>
+						<name>Garrote</name>
+						<modifier>0</modifier>
+					</default>
 				</melee_weapon>
 				<modifier version="1" enabled="no">
 					<name>Small piercing</name>
