@@ -234,7 +234,7 @@
 				</modifier>
 				<modifier version="1">
 					<name>Swing-Capable</name>
-					<cost type="percentage">10</cost>
+					<cost type="percentage">20</cost>
 					<affects>total</affects>
 					<reference>PY65:25</reference>
 				</modifier>
