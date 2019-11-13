@@ -25,7 +25,7 @@
 			<advantage version="2">
 				<name>Skill Bonus</name>
 				<type>Physical</type>
-				<base_points>4</base_points>
+				<base_points>2</base_points>
 				<notes>Gives a +1 bonus to Erotic Art and Sex Appeal</notes>
 				<skill_bonus>
 					<name compare="is">Erotic Art</name>
