@@ -198,7 +198,7 @@
 			<advantage version="2">
 				<name>Striking ST</name>
 				<type>Physical, Exotic</type>
-				<levels>4</levels>
+				<levels>2</levels>
 				<points_per_level>5</points_per_level>
 				<modifier version="1" enabled="no">
 					<name>No Fine Manipulators</name>
@@ -224,7 +224,7 @@
 					<reference>P79</reference>
 					<notes>@Attack@</notes>
 				</modifier>
-				<modifier version="1" enabled="no">
+				<modifier version="1">
 					<name>Know Your Own Strength Pricing Variant</name>
 					<cost type="points">-4</cost>
 					<affects>levels only</affects>
@@ -247,7 +247,7 @@
 if it is for two limbs, apply a -20% limitation
 If it is for all four, don't apply a limitation to Striking ST.
 
-250 eb, Negligible surgery, LC4</text>
+250 eb per limb, Negligible surgery, LC4</text>
 		</note>
 	</note_list>
 </template>

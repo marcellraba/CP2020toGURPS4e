@@ -14,6 +14,44 @@
 				<affects>total</affects>
 			</modifier>
 			<advantage version="2">
+				<name>Injury Tolerance (Independent Body Parts)</name>
+				<type>Physical, Exotic</type>
+				<base_points>35</base_points>
+				<modifier version="1" enabled="no">
+					<name>Detachable Head</name>
+					<cost type="percentage">15</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Instant Reattachment</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>No Reattachment</name>
+					<cost type="percentage">-60</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Reattachment Only</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1">
+					<name>One Hand</name>
+					<cost type="percentage">-80</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>P53</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
 				<name>Accessory (Grappling Hook)</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
@@ -271,6 +309,44 @@
 				<cost type="percentage">-10</cost>
 				<affects>total</affects>
 			</modifier>
+			<advantage version="2">
+				<name>Injury Tolerance (Independent Body Parts)</name>
+				<type>Physical, Exotic</type>
+				<base_points>35</base_points>
+				<modifier version="1" enabled="no">
+					<name>Detachable Head</name>
+					<cost type="percentage">15</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Instant Reattachment</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>No Reattachment</name>
+					<cost type="percentage">-60</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Reattachment Only</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>P52</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Hands</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>P53</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
 			<advantage version="2">
 				<name>Accessory (Grappling Hook)</name>
 				<type>Physical, Exotic</type>
