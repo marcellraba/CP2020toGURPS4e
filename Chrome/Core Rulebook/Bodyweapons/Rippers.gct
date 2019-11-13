@@ -9,69 +9,63 @@
 				<affects>total</affects>
 			</modifier>
 			<advantage version="2">
-				<name>Extra Arm</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>10</points_per_level>
+				<name>Claws, Talons (Hands)</name>
+				<type>Physical</type>
+				<base_points>8</base_points>
 				<melee_weapon>
-					<damage>thr cut</damage>
-					<strength>0</strength>
+					<damage>thr-1 cut</damage>
+					<usage>Slash</usage>
 					<reach>C</reach>
 					<parry>0</parry>
-					<block>-</block>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
 				</melee_weapon>
-				<modifier version="1" enabled="no">
-					<name>Extra-Flexible</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Long</name>
-					<cost type="percentage">100</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Foot Manipulators</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Physical Attack</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weak</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Half body ST</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Weak</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-					<notes>Quarter body ST</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Weapon Mount</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B53</reference>
-				</modifier>
-				<reference>B53</reference>
+				<melee_weapon>
+					<damage>thr-1 imp</damage>
+					<usage>Stab</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<reference>B43</reference>
+				<notes>Only pay for hands or feet, not both</notes>
 				<categories>
 					<category>Advantage</category>
 				</categories>
