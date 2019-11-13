@@ -4,34 +4,18 @@
 		<advantage_container version="2" open="yes">
 			<name>Extreme Sexual Dimorphism</name>
 			<advantage version="2">
-				<name>Skill Bonus</name>
-				<type>Physical</type>
-				<base_points>4</base_points>
-				<notes>Sex Appeal +1</notes>
+				<name>Extreme Sexual Dimorphism</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>PU2:10</reference>
+				<notes>+1 to attempts to identify you, -1 to attempts to remain anonymous.</notes>
+				<categories>
+					<category>Perk</category>
+				</categories>
 				<skill_bonus>
 					<name compare="is">Sex Appeal</name>
 					<specialization compare="is anything"></specialization>
 					<amount>1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Distinctive Features</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<notes>Exaggerated sexual features</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
 				</skill_bonus>
 			</advantage>
 		</advantage_container>
