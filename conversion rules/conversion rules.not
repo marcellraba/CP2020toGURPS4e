@@ -83,10 +83,10 @@ Kill people using your cybernetics 1d corruption
 Kill people the regular way 1d-2 corruption
 Solve tasks with your cybernetics 1d-3 corruption (min 1)
 
-You can shed corruption undergoing therapy
+You can shed corruption undergoing therapy, the therapist has to possess Psychology 12+ for this to work, on a success see the corruption loss below, on a critical success you lose 1.5&#215; as much, on a failure nothing happens that week, on a critical failure gain that many corruption points.
 Outpatient 1000 eb/week, you lose 1d corruption per week
-Inpatient 5000 eb/week, you lose 2d corruption per week
-ICT 10 000 eb/week, you lose 3d corruption per week.
+Inpatient 5000 eb/week, you lose 2d+2 corruption per week
+ICT 10 000 eb/week, you lose 4d corruption per week.
 You also naturally lose corruption at the rate of 1 per week where you didn't gain more than 1 point of corruption.
 
 Once a character has acquired -40 points in disadvantages from Berserk, Paranoia, Megalomania, Fanaticism (Cybernetics, Extreme), Delusions (The Flesh is Weak, Severe), Bloodlust e and Sadism he is considered a cyberpsycho at which point they automatically become an NPC.</text>
