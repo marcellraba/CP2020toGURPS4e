@@ -1,197 +1,101 @@
-{
-	"type": "template",
-	"version": 1,
-	"id": "c6701409-8559-4014-a8eb-974c5ba627a9",
-	"advantages": [
-		{
-			"type": "advantage_container",
-			"version": 1,
-			"id": "32e88035-f82e-4d6f-84e2-4fbeb5b3f4d8",
-			"name": "Appearance change",
-			"open": true,
-			"children": [
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "c93a871f-9ef7-48df-8f50-fedfb08b9d6b",
-					"name": "Appearance",
-					"physical": true,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "4951c705-d4b1-40e2-bb3b-0d2b74b45c74",
-							"disabled": true,
-							"name": "Universal",
-							"cost_type": "percentage",
-							"cost": 25,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "1401a0e2-4cf4-46bb-9e3d-5db020409e04",
-							"disabled": true,
-							"name": "Off-the-Shelf Looks",
-							"cost_type": "percentage",
-							"cost": -50,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "8fa7ff0b-631b-4e2f-9f89-92455a26c56b",
-							"disabled": true,
-							"name": "Androgynous",
-							"cost_type": "points",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "406d284c-4c58-4d89-bffc-c417b8586d44",
-							"disabled": true,
-							"name": "Impressive",
-							"cost_type": "points",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "007b68ae-9a63-4849-bd79-5b077d43b17a",
-							"disabled": true,
-							"name": "Attractive",
-							"cost_type": "points",
-							"cost": 4,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "c864077b-a9ec-4f81-96c0-15c192380184",
-							"disabled": true,
-							"name": "Average",
-							"cost_type": "points",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "70e827df-cbfb-4b8f-a1c3-430dae18e46f",
-							"disabled": true,
-							"name": "Horrific",
-							"cost_type": "points",
-							"cost": -24,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "92e5397f-ab56-42f0-98ba-25d1ed4daa23",
-							"disabled": true,
-							"name": "Monstrous",
-							"cost_type": "points",
-							"cost": -20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "14b7fecc-c779-405a-be89-5b583c65025c",
-							"disabled": true,
-							"name": "Hideous",
-							"cost_type": "points",
-							"cost": -16,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "69f1776f-a1a7-4abf-9f20-e21fd363f14b",
-							"disabled": true,
-							"name": "Ugly",
-							"cost_type": "points",
-							"cost": -8,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "b75dc7f7-0b3b-4c9f-a985-e7e452d59b49",
-							"disabled": true,
-							"name": "Unattractive",
-							"cost_type": "points",
-							"cost": -4,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "25588c24-85b8-4683-82f2-aab30d8e4b8a",
-							"disabled": true,
-							"name": "Handsome",
-							"cost_type": "points",
-							"cost": 12,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "7df36f2d-9908-4ebf-a5aa-d5991a047c90",
-							"disabled": true,
-							"name": "Beautiful",
-							"cost_type": "points",
-							"cost": 12,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "98495136-0670-482a-82a8-586c495a6009",
-							"disabled": true,
-							"name": "Very Handsome",
-							"cost_type": "points",
-							"cost": 16,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "2592c85b-1745-4f4b-bacc-07f68e063c16",
-							"disabled": true,
-							"name": "Very Beautiful",
-							"cost_type": "points",
-							"cost": 16,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "b7f0343e-38db-4ef9-9c2e-e894afa26b56",
-							"disabled": true,
-							"name": "Transcendent",
-							"cost_type": "points",
-							"cost": 20,
-							"affects": "total"
-						}
-					],
-					"reference": "B21",
-					"categories": [
-						"Advantage"
-					]
-				}
-			]
-		}
-	],
-	"notes": [
-		{
-			"type": "note",
-			"version": 1,
-			"id": "22d6b2cc-9e51-461f-ae3b-54dcf7ce27bc",
-			"text": "Choose your new appearance level, 2 weeks recovery, 200 eb per character point, Androgynous costs an extra 600 eb LC4"
-		}
-	]
-}
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="c6701409-8559-4014-a8eb-974c5ba627a9" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Appearance change</name>
+			<advantage version="2">
+				<name>Appearance</name>
+				<type>Physical</type>
+				<modifier version="1" enabled="no">
+					<name>Universal</name>
+					<cost type="percentage">25</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Off-the-Shelf Looks</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Androgynous</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Impressive</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Attractive</name>
+					<cost type="points">4</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Average</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Horrific</name>
+					<cost type="points">-24</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Monstrous</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Hideous</name>
+					<cost type="points">-16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Ugly</name>
+					<cost type="points">-8</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unattractive</name>
+					<cost type="points">-4</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Handsome</name>
+					<cost type="points">12</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Beautiful</name>
+					<cost type="points">12</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Very Handsome</name>
+					<cost type="points">16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Very Beautiful</name>
+					<cost type="points">16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Transcendent</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B21</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>Choose your new appearance level, 2 weeks recovery, 200 eb per character point, Androgynous costs an extra 600 eb LC4</text>
+		</note>
+	</note_list>
+</template>

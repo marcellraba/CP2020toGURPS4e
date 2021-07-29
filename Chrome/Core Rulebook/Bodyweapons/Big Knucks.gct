@@ -1,577 +1,329 @@
-{
-	"type": "template",
-	"version": 1,
-	"id": "15735128-3abf-4790-b2ca-fd88c61e6905",
-	"advantages": [
-		{
-			"type": "advantage_container",
-			"version": 1,
-			"id": "a4206b64-51ec-4116-8af5-a34254eaaead",
-			"name": "Big Knucks",
-			"open": true,
-			"children": [
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "90ce0644-786a-4012-98b9-2f237a16c27d",
-					"name": "Natural Weapon (Big Knucks)",
-					"physical": true,
-					"weapons": [
-						{
-							"type": "melee_weapon",
-							"damage": {
-								"type": "cr",
-								"st": "thr"
-							},
-							"reach": "C",
-							"parry": "0",
-							"block": "-",
-							"defaults": [
-								{
-									"type": "DX"
-								},
-								{
-									"type": "Skill",
-									"name": "Brawling"
-								},
-								{
-									"type": "Skill",
-									"name": "Boxing"
-								},
-								{
-									"type": "Skill",
-									"name": "Karate"
-								}
-							]
-						}
-					],
-					"modifiers": [
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "d91e4694-da07-405d-8a14-53736fd6e996",
-							"disabled": true,
-							"name": "Small piercing",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 3,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ec45df51-509f-4499-ada8-0e085a20cf6d",
-							"disabled": true,
-							"name": "Toxic",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 4,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "9bdcd28d-866b-4512-8d46-5a6c6db9b1cf",
-							"disabled": true,
-							"name": "Burning",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 5,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "7d01b1f6-3d79-4689-9ec3-523b90513c3e",
-							"name": "Crushing",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 5,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ca206ea7-b7e7-4cc5-89f8-ff5ce58ab00d",
-							"disabled": true,
-							"name": "Piercing",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 5,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "3b8a8de7-4d52-4364-9895-78dc41251e8a",
-							"disabled": true,
-							"name": "Large piercing",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 6,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "15469cbe-a25d-4b75-82fb-49dba5880109",
-							"disabled": true,
-							"name": "Cutting",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 7,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "6ddee173-2b3a-4073-8604-30fa9956eb54",
-							"disabled": true,
-							"name": "Huge piercing",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 8,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "5832ae91-00af-4c91-a5d2-389ce625f1f8",
-							"disabled": true,
-							"name": "Impaling",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 8,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "00cb5fcc-0049-4290-a405-1ccd978f3acd",
-							"disabled": true,
-							"name": "Corrosion",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 10,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "715019f8-f2c6-4824-afd4-07986ddaf150",
-							"disabled": true,
-							"name": "Fatigue",
-							"reference": "PY65:24",
-							"cost_type": "points",
-							"cost": 10,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "a173eaea-de7f-4afa-9662-1d94c8c57e97",
-							"disabled": true,
-							"name": "Destructive Parry",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 40,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "2a5124d4-8389-499f-9dde-479d0422f93d",
-							"disabled": true,
-							"name": "Disarming",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "5bcc5807-7423-419c-8f76-017a28627b06",
-							"disabled": true,
-							"name": "Extra Damage Type",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "7415629b-41ab-4240-a828-35343353f30e",
-							"disabled": true,
-							"name": "Extra Reach ",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 20,
-							"affects": "total",
-							"levels": 1,
-							"notes": "20% per hex if you can only attack at maximum reach."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "8e280c3b-27ed-464d-92a4-65cea1073ef5",
-							"disabled": true,
-							"name": "Extra Reach",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 50,
-							"affects": "total",
-							"levels": 1,
-							"notes": "+50% per hex if you can attack at any reach."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "9e3da87d-f00e-4885-8045-15abc4720bfa",
-							"disabled": true,
-							"name": "Extra Reach",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 30,
-							"affects": "total",
-							"levels": 1,
-							"notes": "+30% per hex if you can attack at any reach but need a Ready maneuver to change reach. Changing reach from C to 1 is free."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ab013b8f-5384-4ea6-ab59-afd7e07e1f32",
-							"disabled": true,
-							"name": "Flexible",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 30,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ab0684fe-bb49-43b3-9b5d-0fd31fb2bcac",
-							"disabled": true,
-							"name": "Flexible",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 60,
-							"affects": "total",
-							"notes": "+60% if your weapon also imposes parrying penalties like a flail."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "4cdc8987-1a80-46af-baf1-17905af3e074",
-							"disabled": true,
-							"name": "Good Defense +1",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 30,
-							"affects": "total",
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"amount": 1,
-									"attribute": "parry"
-								}
-							]
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "b08a6838-dab5-406f-b25e-736711ac8d2b",
-							"disabled": true,
-							"name": "Good Defense +2",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 60,
-							"affects": "total",
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"amount": 2,
-									"attribute": "parry"
-								}
-							]
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "329f5ece-862d-4705-ab77-4d8b649de2df",
-							"disabled": true,
-							"name": "Heavy",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 10,
-							"affects": "total",
-							"levels": 1
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ccac5127-d6f3-41cc-bcd4-f0420f7f2b59",
-							"name": "Hidden",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "9909fe43-bec0-45cb-83c8-4716672980fc",
-							"disabled": true,
-							"name": "Increased Damage",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 30,
-							"affects": "total",
-							"levels": 1,
-							"features": [
-								{
-									"type": "weapon_bonus",
-									"amount": 1,
-									"selection_type": "weapons_with_required_skill",
-									"name": {
-										"compare": "is",
-										"qualifier": "Punch"
-									},
-									"level": {
-										"compare": "at_least",
-										"qualifier": 0
-									}
-								}
-							]
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "88a450a8-6ff5-4ebd-825a-2d0a05db93d8",
-							"disabled": true,
-							"name": "Intangible",
-							"reference": "PY65:24",
-							"cost_type": "percentage",
-							"cost": 50,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ab22fbcd-5133-432c-91df-3fb845bda5fb",
-							"disabled": true,
-							"name": "Projected",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": 50,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "d41d653a-d85b-466c-8a64-194b33fb7421",
-							"disabled": true,
-							"name": "Ranged",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": 100,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "41c7af3d-0504-4e56-8e3f-fc637567a309",
-							"name": "Resilient",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": 10,
-							"affects": "total",
-							"notes": "Your weapon is considered to be of fine quality for parrying purposes and has twice DR."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "4ce0b0f8-b7a9-4d8e-bb0d-085feb97b30e",
-							"disabled": true,
-							"name": "Resilient",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": 20,
-							"affects": "total",
-							"notes": "Your weapon is considered to be of very fine and multiplies DR by 5."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "17613487-3c75-4abf-83b4-69f48f5ae545",
-							"disabled": true,
-							"name": "Resilient",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": 40,
-							"affects": "total",
-							"notes": "Your weapon is considered to be of utterly unbreakable."
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "c7677c32-d2ca-457f-adc6-8fbf68caa40f",
-							"disabled": true,
-							"name": "Swing-Capable",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": 10,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "784ae7ec-39ff-4751-9bd1-65523c9d499a",
-							"disabled": true,
-							"name": "Cannot Parry",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -40,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "95b0f786-8341-484a-94b7-1b5da41322c7",
-							"disabled": true,
-							"name": "Fragile",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "ea16200e-f523-466f-b8fc-bdbca967c879",
-							"disabled": true,
-							"name": "Light",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -5,
-							"affects": "total",
-							"levels": 1
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "a9be6ce7-1ee2-4692-9e40-d10c66db775e",
-							"disabled": true,
-							"name": "Poor Defense",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -20,
-							"affects": "total",
-							"features": [
-								{
-									"type": "attribute_bonus",
-									"amount": -2,
-									"attribute": "parry"
-								}
-							]
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "bad12190-73cb-4937-9ec1-de5a65397734",
-							"disabled": true,
-							"name": "Reduced Damage",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -30,
-							"affects": "total",
-							"levels": 1,
-							"features": [
-								{
-									"type": "weapon_bonus",
-									"amount": -1,
-									"selection_type": "weapons_with_required_skill",
-									"name": {
-										"compare": "is",
-										"qualifier": "Punch"
-									},
-									"level": {
-										"compare": "at_least",
-										"qualifier": 0
-									}
-								}
-							]
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "58238e41-72ed-4bde-8946-13098fa55242",
-							"disabled": true,
-							"name": "Single",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "168d1908-f94d-44a2-948e-d7973f27ca04",
-							"disabled": true,
-							"name": "Two-Handed",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "1c970c5a-c46f-494c-bd3c-b7752c6fde53",
-							"disabled": true,
-							"name": "Unbalanced",
-							"reference": "PY65:25",
-							"cost_type": "percentage",
-							"cost": -30,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "f7feee88-aadd-4e40-9ea0-4eed571257f8",
-							"disabled": true,
-							"name": "Single",
-							"reference": "P",
-							"cost_type": "percentage",
-							"cost": -20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "63332329-4f48-4437-8ce4-830f83622e18",
-							"name": "Accessibility, breaking the weapon cripples the hand",
-							"cost_type": "percentage",
-							"cost": -20,
-							"affects": "total"
-						}
-					],
-					"reference": "PY65:24",
-					"categories": [
-						"Advantages"
-					]
-				}
-			]
-		}
-	],
-	"notes": [
-		{
-			"type": "note",
-			"version": 1,
-			"id": "c26bbb98-808d-4f07-b608-67a9bd0277cb",
-			"text": "500 eb, Minor surgery, LC1"
-		}
-	]
-}
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="15735128-3abf-4790-b2ca-fd88c61e6905" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Big Knucks</name>
+			<advantage version="2">
+				<name>Natural Weapon (Big Knucks)</name>
+				<type>Physical</type>
+				<melee_weapon>
+					<damage>thr cr</damage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<block>-</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<modifier version="1" enabled="no">
+					<name>Small piercing</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Toxic</name>
+					<cost type="points">4</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Burning</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Crushing</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Piercing</name>
+					<cost type="points">5</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Large piercing</name>
+					<cost type="points">6</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Cutting</name>
+					<cost type="points">7</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Huge piercing</name>
+					<cost type="points">8</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Impaling</name>
+					<cost type="points">8</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Corrosion</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Fatigue</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Destructive Parry</name>
+					<cost type="percentage">40</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Disarming</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Extra Damage Type</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Extra Reach </name>
+					<cost type="percentage">20</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<notes>20% per hex if you can only attack at maximum reach.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Extra Reach</name>
+					<cost type="percentage">50</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<notes>+50% per hex if you can attack at any reach.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Extra Reach</name>
+					<cost type="percentage">30</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<notes>+30% per hex if you can attack at any reach but need a Ready maneuver to change reach. Changing reach from C to 1 is free.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Flexible</name>
+					<cost type="percentage">30</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Flexible</name>
+					<cost type="percentage">60</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<notes>+60% if your weapon also imposes parrying penalties like a flail.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Good Defense +1</name>
+					<cost type="percentage">30</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<attribute_bonus>
+						<attribute>parry</attribute>
+						<amount>1</amount>
+					</attribute_bonus>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Good Defense +2</name>
+					<cost type="percentage">60</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<attribute_bonus>
+						<attribute>parry</attribute>
+						<amount>2</amount>
+					</attribute_bonus>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Heavy</name>
+					<cost type="percentage">10</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Hidden</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Increased Damage</name>
+					<cost type="percentage">30</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+					<weapon_bonus>
+						<name compare="is">Punch</name>
+						<specialization compare="is anything"></specialization>
+						<level compare="at least">0</level>
+						<amount>1</amount>
+					</weapon_bonus>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Intangible</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>PY65:24</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Projected</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Ranged</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Resilient</name>
+					<cost type="percentage">10</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+					<notes>Your weapon is considered to be of fine quality for parrying purposes and has twice DR.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Resilient</name>
+					<cost type="percentage">20</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+					<notes>Your weapon is considered to be of very fine and multiplies DR by 5.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Resilient</name>
+					<cost type="percentage">40</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+					<notes>Your weapon is considered to be of utterly unbreakable.</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Swing-Capable</name>
+					<cost type="percentage">10</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Cannot Parry</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Fragile</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Light</name>
+					<cost type="percentage">-5</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Poor Defense</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+					<attribute_bonus>
+						<attribute>parry</attribute>
+						<amount>-2</amount>
+					</attribute_bonus>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Reduced Damage</name>
+					<cost type="percentage">-30</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+					<weapon_bonus>
+						<name compare="is">Punch</name>
+						<specialization compare="is anything"></specialization>
+						<level compare="at least">0</level>
+						<amount>-1</amount>
+					</weapon_bonus>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Single</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Two-Handed</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unbalanced</name>
+					<cost type="percentage">-30</cost>
+					<affects>total</affects>
+					<reference>PY65:25</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Single</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+					<reference>P</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Accessibility, breaking the weapon cripples the hand</name>
+					<cost type="percentage">-20</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>PY65:24</reference>
+				<categories>
+					<category>Advantages</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>500 eb, Minor surgery, LC1</text>
+		</note>
+	</note_list>
+</template>

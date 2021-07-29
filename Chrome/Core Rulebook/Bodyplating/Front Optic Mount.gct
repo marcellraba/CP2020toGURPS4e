@@ -1,314 +1,176 @@
-{
-	"type": "template",
-	"version": 1,
-	"id": "79714c5c-f725-476c-961e-b8d54f1c5c78",
-	"advantages": [
-		{
-			"type": "advantage_container",
-			"version": 1,
-			"id": "70de80c7-d2db-48de-b80e-61545d53dd86",
-			"name": "Front Optic Mount",
-			"modifiers": [
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "3d30d00d-a9fd-4526-bb1a-b021ccf5eb44",
-					"name": "Accessibility: Requires Neuralware Processor",
-					"cost_type": "percentage",
-					"cost": -5,
-					"affects": "total"
-				}
-			],
-			"open": true,
-			"children": [
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "54e0590e-414b-4fac-9cdf-34feda43cdc1",
-					"name": "Appearance",
-					"physical": true,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "6d71e8fd-076f-499f-8eb1-cd55a1925a47",
-							"disabled": true,
-							"name": "Universal",
-							"cost_type": "percentage",
-							"cost": 25,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "2de7035c-9627-41f1-8f03-18da95856ef9",
-							"disabled": true,
-							"name": "Off-the-Shelf Looks",
-							"cost_type": "percentage",
-							"cost": -50,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "416e458b-c757-4ce1-bf62-5a16375d8068",
-							"disabled": true,
-							"name": "Androgynous",
-							"cost_type": "points",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "02d52a69-0572-47b1-b80e-c8b493cb0689",
-							"disabled": true,
-							"name": "Impressive",
-							"cost_type": "points",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "210cb2d3-3476-47d7-829b-d9a8c31c1555",
-							"disabled": true,
-							"name": "Attractive",
-							"cost_type": "points",
-							"cost": 4,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "649def80-21c5-418a-a760-cee6f5547010",
-							"disabled": true,
-							"name": "Average",
-							"cost_type": "points",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "66504826-f82b-4760-91b7-d69a8ca1955e",
-							"disabled": true,
-							"name": "Horrific",
-							"cost_type": "points",
-							"cost": -24,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "eaefb08c-a112-4aea-8a56-1e57648fb1dd",
-							"disabled": true,
-							"name": "Monstrous",
-							"cost_type": "points",
-							"cost": -20,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "2a4e64ee-edb7-4a2e-a723-9fc161326a76",
-							"name": "Hideous",
-							"cost_type": "points",
-							"cost": -16,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "1e2dabb9-1d0e-40ca-aff2-87f0d5a2aa35",
-							"disabled": true,
-							"name": "Ugly",
-							"cost_type": "points",
-							"cost": -8,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "38650568-4486-419e-9c37-d71e88da0303",
-							"disabled": true,
-							"name": "Unattractive",
-							"cost_type": "points",
-							"cost": -4,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "0450fa88-88f6-4979-8e88-b78f27c8601c",
-							"disabled": true,
-							"name": "Handsome",
-							"cost_type": "points",
-							"cost": 12,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "e12df365-9df4-4250-b6f5-50ff89d60839",
-							"disabled": true,
-							"name": "Beautiful",
-							"cost_type": "points",
-							"cost": 12,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "c382e3d7-6e0a-4aa9-bf2a-5b09eac1729b",
-							"disabled": true,
-							"name": "Very Handsome",
-							"cost_type": "points",
-							"cost": 16,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "5d031b17-7222-4222-800a-4e2ef115f848",
-							"disabled": true,
-							"name": "Very Beautiful",
-							"cost_type": "points",
-							"cost": 16,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"version": 1,
-							"id": "84636573-d34c-49fa-aba1-767666fb503c",
-							"disabled": true,
-							"name": "Transcendent",
-							"cost_type": "points",
-							"cost": 20,
-							"affects": "total"
-						}
-					],
-					"reference": "B21",
-					"categories": [
-						"Advantage"
-					]
-				},
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "46d3c26b-4af6-4f9d-80bf-de0dc193b1a6",
-					"name": "Unnatural Features (you replaced your face with eyes)",
-					"physical": true,
-					"levels": "4",
-					"points_per_level": -1,
-					"reference": "B22",
-					"features": [
-						{
-							"type": "skill_bonus",
-							"amount": -1,
-							"per_level": true,
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "disguise"
-							}
-						},
-						{
-							"type": "skill_bonus",
-							"amount": -1,
-							"per_level": true,
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "shadowing"
-							}
-						}
-					],
-					"categories": [
-						"Disadvantage"
-					]
-				},
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "bd4b070a-9157-4031-b2f0-f1ff1cf4facd",
-					"name": "Accessory (eye slot)",
-					"physical": true,
-					"exotic": true,
-					"base_points": 1,
-					"reference": "B100",
-					"categories": [
-						"Perk"
-					]
-				},
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "8c0b295f-f179-45e6-bf7f-d5b203c218c8",
-					"name": "Accessory (eye slot)",
-					"physical": true,
-					"exotic": true,
-					"base_points": 1,
-					"reference": "B100",
-					"categories": [
-						"Perk"
-					]
-				},
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "3269bda9-9dab-43e0-8537-11cbd05b8c0f",
-					"name": "Accessory (eye slot)",
-					"physical": true,
-					"exotic": true,
-					"base_points": 1,
-					"reference": "B100",
-					"categories": [
-						"Perk"
-					]
-				},
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "d136b534-90ff-457e-af29-baf117378401",
-					"name": "Accessory (eye slot)",
-					"physical": true,
-					"exotic": true,
-					"base_points": 1,
-					"reference": "B100",
-					"categories": [
-						"Perk"
-					]
-				},
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "e41c4e50-4a5d-4992-b113-ee01a31e2383",
-					"name": "Accessory (eye slot)",
-					"physical": true,
-					"exotic": true,
-					"base_points": 1,
-					"reference": "B100",
-					"categories": [
-						"Perk"
-					]
-				},
-				{
-					"type": "advantage_container",
-					"version": 1,
-					"id": "0fe41dee-36c5-4ca5-b0ad-1f3d45f44d81",
-					"name": "Cyberoptics",
-					"open": true
-				}
-			]
-		}
-	],
-	"notes": [
-		{
-			"type": "note",
-			"version": 1,
-			"id": "5c63b2e3-515c-4a3d-b148-7762c899b00f",
-			"text": "You can have up to 5 cyberoptics, after 2 use the independent cyberoptic option.\n\n1000 eb, Critical surgery, LC4"
-		}
-	]
-}
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="79714c5c-f725-476c-961e-b8d54f1c5c78" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Front Optic Mount</name>
+			<modifier version="1">
+				<name>Accessibility: Requires Neuralware Processor</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+			</modifier>
+			<advantage version="2">
+				<name>Appearance</name>
+				<type>Physical</type>
+				<modifier version="1" enabled="no">
+					<name>Universal</name>
+					<cost type="percentage">25</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Off-the-Shelf Looks</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Androgynous</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Impressive</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Attractive</name>
+					<cost type="points">4</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Average</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Horrific</name>
+					<cost type="points">-24</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Monstrous</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1">
+					<name>Hideous</name>
+					<cost type="points">-16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Ugly</name>
+					<cost type="points">-8</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unattractive</name>
+					<cost type="points">-4</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Handsome</name>
+					<cost type="points">12</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Beautiful</name>
+					<cost type="points">12</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Very Handsome</name>
+					<cost type="points">16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Very Beautiful</name>
+					<cost type="points">16</cost>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Transcendent</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B21</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Unnatural Features (you replaced your face with eyes)</name>
+				<type>Physical</type>
+				<levels>4</levels>
+				<points_per_level>-1</points_per_level>
+				<reference>B22</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">disguise</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">-1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">shadowing</name>
+					<specialization compare="is anything"></specialization>
+					<amount per_level="yes">-1</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (eye slot)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (eye slot)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (eye slot)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (eye slot)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Accessory (eye slot)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage_container version="2" open="yes">
+				<name>Cyberoptics</name>
+			</advantage_container>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>You can have up to 5 cyberoptics, after 2 use the independent cyberoptic option.
+
+1000 eb, Critical surgery, LC4</text>
+		</note>
+	</note_list>
+</template>
