@@ -1,89 +1,164 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="4e0c081c-3560-4d70-97ba-cff8307c23e8" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Motion Detector</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Reliable 6</name>
-				<cost type="percentage">30</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Detect</name>
-				<type>Mental/Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>@Rare Substance/Condition@</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional Substance/Condition@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Motion</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Very Common Substance/Condition@</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Precise</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Signal Detection</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Analyzing</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>P47</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Cannot Analyze</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B48</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "4e0c081c-3560-4d70-97ba-cff8307c23e8",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "5b975463-bc68-404a-88d5-449e80808938",
+			"name": "Motion Detector",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "dd6d8146-6030-4136-bb97-4fe8229c5c7f",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "98199cde-8c4b-41c3-addd-e01bb77483a3",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "6414a3dc-edcf-4125-b7fd-cbf5f1c7867c",
+					"name": "Reliable 6",
+					"cost_type": "percentage",
+					"cost": 30,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "214f31cf-089e-423d-98a3-e92e2afdaa52",
+					"name": "Detect",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "692c12ef-e88c-41d9-b977-19305386a5cd",
+							"disabled": true,
+							"name": "@Rare Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f12febc0-20ae-4582-8f41-dca2349f9bb9",
+							"disabled": true,
+							"name": "@Occasional Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6fa5ec52-6913-465c-b38c-dcf6f49fbfe2",
+							"name": "Motion",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ad6b3af1-40b0-4dca-95e8-ea93a7cdb48e",
+							"disabled": true,
+							"name": "@Very Common Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5dcd6c63-83da-49ed-8a91-f3f9db39b8f1",
+							"disabled": true,
+							"name": "Precise",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "df94f6b2-f8cb-41d0-8933-f99b18cbdd4e",
+							"disabled": true,
+							"name": "Signal Detection",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6a57ee08-fe64-47bc-9466-74c5a2fb9b0b",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "60e9bf91-3821-414b-8e41-63aae307e400",
+							"disabled": true,
+							"name": "Analyzing",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cd7734b5-71fe-42cb-9b01-7637a983a5f8",
+							"name": "Cannot Analyze",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B48",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "cf94a393-b48e-4fce-8e0e-d06258949f1c",
+			"text": "200 eb, Minor surgery, LC4"
+		}
+	]
+}

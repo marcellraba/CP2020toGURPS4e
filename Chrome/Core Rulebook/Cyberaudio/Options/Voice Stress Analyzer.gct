@@ -1,39 +1,73 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="b187fb5f-aff5-41dc-8372-79a07d246b42" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Voice Stress Analyzer</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberaudio</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Skill Bonus</name>
-				<type>Physical</type>
-				<base_points>2</base_points>
-				<notes>+2 to Detect Lies and Interrogation</notes>
-				<skill_bonus>
-					<name compare="is">Detect Lies</name>
-					<specialization compare="is anything"></specialization>
-					<amount>2</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Interrogation</name>
-					<specialization compare="is anything"></specialization>
-					<amount>2</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "b187fb5f-aff5-41dc-8372-79a07d246b42",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "fd040130-91a2-425a-831c-da576075dbf0",
+			"name": "Voice Stress Analyzer",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "35952f12-916b-4be1-8afe-9bb1adf9761e",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "069ea6dd-6fd1-4c08-bb18-806dcdb47440",
+					"name": "Accessibility: Requires Cyberaudio",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "cb2943fc-33b2-4feb-963b-23cdc35cd7a1",
+					"name": "Skill Bonus",
+					"physical": true,
+					"base_points": 2,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Detect Lies"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Interrogation"
+							}
+						}
+					],
+					"notes": "+2 to Detect Lies and Interrogation"
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "3e3e4705-0223-4bdd-a52c-048f6470fd69",
+			"text": "200 eb, Negligible surgery, LC4"
+		}
+	]
+}

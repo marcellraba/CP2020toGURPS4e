@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="c8722c67-5331-4aa4-ba76-8333e7a66078" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>MiniVid</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberlimb</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Video Camera)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>400 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "c8722c67-5331-4aa4-ba76-8333e7a66078",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "0cf84cdf-f306-4510-8d08-613f4340cdd9",
+			"name": "MiniVid",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1d120215-d19a-424f-a794-e7909bee4507",
+					"name": "Accessibility: Requires Cyberlimb",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f4a2679d-4955-4769-b4d7-a6d7c8e43c79",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e923f9cf-2967-46a8-a37a-cb8a66bff0e7",
+					"name": "Accessory (Video Camera)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "1e3f054e-9de8-4d2b-b774-f2c9b0415bc3",
+			"text": "400 eb, Negligible surgery, LC4"
+		}
+	]
+}

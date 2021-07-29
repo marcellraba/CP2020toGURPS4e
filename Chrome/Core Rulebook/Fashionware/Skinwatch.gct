@@ -1,27 +1,48 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="5ef2f730-36b9-4432-aaf3-dc3c91927da2" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Skinwatch</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Skinwatch)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>50 eb, Negligible, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "5ef2f730-36b9-4432-aaf3-dc3c91927da2",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c0338e44-9494-4cd6-8ea8-e634277abfe0",
+			"name": "Skinwatch",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7bcf8512-7e93-4a12-8c6e-53e7cacd6cc5",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6b9a078d-b3df-4046-be01-0ffcc707c7cc",
+					"name": "Accessory (Skinwatch)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "193b80fb-caa2-4e0d-8e32-7ae77f161ef4",
+			"text": "50 eb, Negligible, LC4"
+		}
+	]
+}

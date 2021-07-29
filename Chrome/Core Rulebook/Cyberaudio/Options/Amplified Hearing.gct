@@ -1,37 +1,65 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="77698252-604b-4e0b-9836-27df2cf91d8b" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Amplified Hearing</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberaudio</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Acute Hearing</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<reference>B35</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute>hearing</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "77698252-604b-4e0b-9836-27df2cf91d8b",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "432ad2d0-94d6-4497-b741-b0512aafed67",
+			"name": "Amplified Hearing",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f419a876-736c-4d40-9b66-df3b8144e400",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "369a7325-966e-4d97-b9c0-36c7c1e8b24c",
+					"name": "Accessibility: Requires Cyberaudio",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "42ba4b8a-8bd8-4479-8ae9-ecf7858970fe",
+					"name": "Acute Hearing",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 2,
+					"reference": "B35",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "hearing"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "d8b14119-8065-47ea-8765-6acdf96dea54",
+			"text": "200 eb, Negligible surgery, LC4"
+		}
+	]
+}

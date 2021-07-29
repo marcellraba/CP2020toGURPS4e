@@ -1,141 +1,204 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="d6b75499-4937-4e3c-a401-7c505efd94c8" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Chipware Socker</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage, Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Limitation: Accessibility (requires Neuralware Processor)</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Preparation Required</name>
-				<cost type="percentage">-60</cost>
-				<affects>total</affects>
-				<notes>Physical skills only, 1 day per skill level</notes>
-			</modifier>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Modular Abilities (Chip Slots)</name>
-				<type>Mental, Exotic</type>
-				<levels>4</levels>
-				<base_points>5</base_points>
-				<points_per_level>3</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>The chips override your natural skill.
-
-200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "d6b75499-4937-4e3c-a401-7c505efd94c8",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "e283c108-4c62-4279-8b46-26b24901ff43",
+			"name": "Chipware Socker",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "89828e0b-530b-41f4-8ea6-ef744768ddb6",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "e7538f82-a403-4e54-bba0-89cd2591b0ab",
+					"name": "Limitation: Accessibility (requires Neuralware Processor)",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "400d39bb-e346-4fdd-8c92-0383605720fa",
+					"name": "Preparation Required",
+					"cost_type": "percentage",
+					"cost": -60,
+					"affects": "total",
+					"notes": "Physical skills only, 1 day per skill level"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2a41919d-feaa-4e9c-b134-0ad1e90d832e",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "921c023e-979f-4e2a-a4ba-a86dd0a20a2b",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c63f8a4c-c0b2-4483-966c-b5b7718e60b8",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "851ff067-6f46-4c05-ba10-8d225dd3eb9a",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4b9b0c50-07dc-40f5-8df5-1c8afb223846",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "debc59d1-46ad-4912-acbe-6b9a400ec155",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5f5433d4-9173-49e3-979c-67031dc8c59d",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5e9c5786-ca63-4b14-b5b9-4654b4c49f83",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "25369e49-0026-47f3-9b9f-dd8ec3f058e0",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "17b3b244-7293-48c0-9ba8-693cc13d8ed3",
+					"name": "Modular Abilities (Chip Slots)",
+					"mental": true,
+					"exotic": true,
+					"levels": "4",
+					"base_points": 5,
+					"points_per_level": 3,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "1e631481-7690-41f0-9c8e-e020d603a8ad",
+			"text": "The chips override your natural skill.\n\n200 eb, Negligible surgery, LC4"
+		}
+	]
+}

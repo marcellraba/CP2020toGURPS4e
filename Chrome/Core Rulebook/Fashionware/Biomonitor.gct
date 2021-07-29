@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="e7087682-de35-49b3-81a2-6e14940aba2b" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Biomonitor</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage, Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Biomonitor)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>100 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "e7087682-de35-49b3-81a2-6e14940aba2b",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "82ef5ac3-44b7-4040-aa1d-df3c04a6d116",
+			"name": "Biomonitor",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c69c10b4-d05a-458d-af26-c1f1d5674190",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9c4bf3fc-f33b-419f-ba0d-2e56cda63baf",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4cf76594-b766-4cb5-bf7d-cda6ceadf27f",
+					"name": "Accessory (Biomonitor)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "1de702bb-d3b3-45af-84ac-b2123c4b58c6",
+			"text": "100 eb, Negligible surgery, LC4"
+		}
+	]
+}

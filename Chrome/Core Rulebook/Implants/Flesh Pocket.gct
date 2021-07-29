@@ -1,34 +1,62 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="c2619277-2ccd-4477-9f6a-d94294eedcde" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Flesh Pocket</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Payload (Flesh Pocket)</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>1</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Exposed</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B74</reference>
-				</modifier>
-				<reference>B74</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "c2619277-2ccd-4477-9f6a-d94294eedcde",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "9268b865-7eca-4d75-91ee-3a39ac081d14",
+			"name": "Flesh Pocket",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0529bc9b-1c7e-4ce0-8b12-61b1aa95f7e0",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "469b875b-79a2-4605-b6b1-b79594b9a33c",
+					"name": "Payload (Flesh Pocket)",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3ff72248-5001-46a8-9425-3843dc345ec6",
+							"disabled": true,
+							"name": "Exposed",
+							"reference": "B74",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B74",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "306025e5-3f0f-43f0-bcb5-bf9a4545cada",
+			"text": "200 eb, Minor surgery, LC4"
+		}
+	]
+}

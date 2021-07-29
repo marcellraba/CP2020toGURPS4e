@@ -1,34 +1,62 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="a2d3a574-f2bc-4592-82e7-549f809e0a7b" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Hidden Holster</name>
-			<modifier version="1">
-				<name>Requires Cyberleg</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Payload (Hidden Holster)</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>1</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Exposed</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B74</reference>
-				</modifier>
-				<reference>B74</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>100 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "a2d3a574-f2bc-4592-82e7-549f809e0a7b",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "e3eca3e2-3ae5-4b86-a86e-963143a04abe",
+			"name": "Hidden Holster",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "04351d9f-2b23-4381-b27b-903d2071429b",
+					"name": "Requires Cyberleg",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "84a98a36-6e58-48a8-a249-8b9b6baad8a3",
+					"name": "Payload (Hidden Holster)",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "49e87cbf-2191-4ba7-919e-4dc38a2b22f4",
+							"disabled": true,
+							"name": "Exposed",
+							"reference": "B74",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B74",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "8fa9c32a-e1c5-482b-a9ad-9bb319d794b3",
+			"text": "100 eb, Negligible surgery, LC4"
+		}
+	]
+}

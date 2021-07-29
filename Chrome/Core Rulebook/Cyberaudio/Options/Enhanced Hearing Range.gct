@@ -1,53 +1,96 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f51b0fde-c8a8-4771-8758-36016aa71026" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Enhanced Hearing Range</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberaudio</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Subsonic Hearing</name>
-				<type>Physical, Exotic</type>
-				<base_points>5</base_points>
-				<modifier version="1" enabled="no">
-					<name>No normal hearing</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B89</reference>
-				</modifier>
-				<reference>B89</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Ultrahearing</name>
-				<type>Physical, Exotic</type>
-				<base_points>5</base_points>
-				<modifier version="1" enabled="no">
-					<name>No normal hearing</name>
-					<cost type="points">-5</cost>
-					<affects>total</affects>
-					<reference>B94</reference>
-				</modifier>
-				<reference>B94</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>300 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "f51b0fde-c8a8-4771-8758-36016aa71026",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "e69b198a-c1d8-43c7-802a-018e696e765e",
+			"name": "Enhanced Hearing Range",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ba864f73-c391-4752-b51d-d58299f32c90",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1951e383-0556-48ba-a209-1f6bde96504e",
+					"name": "Accessibility: Requires Cyberaudio",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "069d26d2-234f-4ea8-8927-4e6d9bb6a8a2",
+					"name": "Subsonic Hearing",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "12013d32-1775-4a29-97cd-c0cfea27ae60",
+							"disabled": true,
+							"name": "No normal hearing",
+							"reference": "B89",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B89",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8ca54cae-98eb-427c-ad51-738d66437b45",
+					"name": "Ultrahearing",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "80f476bf-7bf7-48b2-826e-2ac5118c354e",
+							"disabled": true,
+							"name": "No normal hearing",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "728f00c9-903f-4ec2-b69e-aaeb36bc709e",
+			"text": "300 eb, Negligible surgery, LC4"
+		}
+	]
+}

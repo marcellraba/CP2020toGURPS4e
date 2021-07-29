@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="27d2c342-375d-4e8b-8e56-51ba006fcf52" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>LCD Screen Readout</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberlimb</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Video Screen)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "27d2c342-375d-4e8b-8e56-51ba006fcf52",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "d2d28371-441c-4c50-a4a0-789a705fa1a6",
+			"name": "LCD Screen Readout",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0f028174-063e-462c-8170-b92d95cbebec",
+					"name": "Accessibility: Requires Cyberlimb",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1de75442-06d0-4262-aaba-1a4deea0229f",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "602c4c5c-f12f-4109-9be0-fa82718e0220",
+					"name": "Accessory (Video Screen)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "bf74cf6d-692c-45ba-89cb-cb58064dc50c",
+			"text": "200 eb, Negligible surgery, LC4"
+		}
+	]
+}

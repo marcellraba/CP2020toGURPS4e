@@ -1,245 +1,444 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="7fa1b0a2-3552-459f-a4c4-d667e60be140" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Nanosurgeons</name>
-			<advantage version="2">
-				<name>Regeneration</name>
-				<type>Physical, Exotic</type>
-				<modifier version="1">
-					<name>Slow</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-					<notes>You recover 1 HP per 12 hours</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Regular</name>
-					<cost type="points">25</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-					<notes>You recover 1 HP per hour</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fast</name>
-					<cost type="points">50</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-					<notes>You recover 1 HP per minute</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Very Fast</name>
-					<cost type="points">100</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-					<notes>You recover 1 HP per second</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Extreme</name>
-					<cost type="points">150</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-					<notes>You recover 10 HP per second</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Heals Radiation</name>
-					<cost type="percentage">40</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radiation Only</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fatigue Recovery</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>P70</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fatigue Only</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>P70</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited: @Advantage@ Only</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>P70</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>H18</reference>
-					<notes>@Common or Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>H18</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H18</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<reference>B80</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Maintenance</name>
-				<type>Physical</type>
-				<modifier version="1">
-					<name>People Required: 1</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 2</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 3-5</name>
-					<cost type="points">-30</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 6-10</name>
-					<cost type="points">-40</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 11-20</name>
-					<cost type="points">-50</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 21-50</name>
-					<cost type="points">-60</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 51-100</name>
-					<cost type="points">-70</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 101-200</name>
-					<cost type="points">-80</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 201-400</name>
-					<cost type="points">-90</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 401-800</name>
-					<cost type="points">-100</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 801-1600</name>
-					<cost type="points">-110</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 1601-3200</name>
-					<cost type="points">-120</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 3201-6400</name>
-					<cost type="points">-130</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 6401-12800</name>
-					<cost type="points">-140</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 12801-25600</name>
-					<cost type="points">-150</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Monthly</name>
-					<cost type="multiplier">0.2</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Bi-weekly</name>
-					<cost type="multiplier">0.33333</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Frequency: Weekly</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Every other day</name>
-					<cost type="multiplier">0.75</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Daily</name>
-					<cost type="multiplier">1</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Twice daily</name>
-					<cost type="multiplier">2</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Three to five times daily</name>
-					<cost type="multiplier">3</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Constant</name>
-					<cost type="multiplier">5</cost>
-					<reference>B143</reference>
-				</modifier>
-				<reference>B143</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>6000 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "7fa1b0a2-3552-459f-a4c4-d667e60be140",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "5ca349e2-d3fa-4110-8723-f4819d3edc97",
+			"name": "Nanosurgeons",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7d37121d-043d-4e7a-b449-6bf27a865472",
+					"name": "Regeneration",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "444ee18e-0440-414b-b1b7-31d915d0d4c0",
+							"name": "Slow",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total",
+							"notes": "You recover 1 HP per 12 hours"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "da477d87-2cbf-490b-99c7-e94f69e442de",
+							"disabled": true,
+							"name": "Regular",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total",
+							"notes": "You recover 1 HP per hour"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "22af8216-0f46-48b5-a29f-b88cafc7d516",
+							"disabled": true,
+							"name": "Fast",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 50,
+							"affects": "total",
+							"notes": "You recover 1 HP per minute"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "84b61831-dd6f-4194-a2f9-a378934cdff3",
+							"disabled": true,
+							"name": "Very Fast",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 100,
+							"affects": "total",
+							"notes": "You recover 1 HP per second"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0b0090bb-00e1-4827-ba5b-e693a2296bbd",
+							"disabled": true,
+							"name": "Extreme",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 150,
+							"affects": "total",
+							"notes": "You recover 10 HP per second"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "528d1511-4547-4131-ac57-873a26a0e725",
+							"disabled": true,
+							"name": "Heals Radiation",
+							"reference": "B80",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6b577d66-ff14-4294-a3fe-5136f9273367",
+							"disabled": true,
+							"name": "Radiation Only",
+							"reference": "B80",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "262d659b-bee6-4171-bb80-9d51976e565a",
+							"disabled": true,
+							"name": "Fatigue Recovery",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6d69fa9d-9690-41f1-b962-b6d28838071e",
+							"disabled": true,
+							"name": "Fatigue Only",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cf24ee5f-8bca-4fd8-b509-f15fc083f09e",
+							"disabled": true,
+							"name": "Limited: @Advantage@ Only",
+							"reference": "P70",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "80ba01e1-6801-4452-a494-8629dafa8f7a",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "@Common or Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5700dab1-ade4-4a0d-b762-9b759ea7f53f",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aeead604-5765-4782-beb6-67ee833791d6",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H18",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Rare@"
+						}
+					],
+					"reference": "B80",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "418d2674-fff6-4677-9af3-ce0cc6981698",
+					"name": "Maintenance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "91b67b41-b093-40cc-9b6d-5a3b0d7584d4",
+							"name": "People Required: 1",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6c76b80e-5e1c-49a0-a861-ac41cd6d1b8f",
+							"disabled": true,
+							"name": "People Required: 2",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7e19f107-da8b-4134-b8ca-c01cbd622d37",
+							"disabled": true,
+							"name": "People Required: 3-5",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c36d3564-77b1-42d3-bb75-46094521f533",
+							"disabled": true,
+							"name": "People Required: 6-10",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9bb6177f-4e7e-4132-871e-e2eebee00b1f",
+							"disabled": true,
+							"name": "People Required: 11-20",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "215cd54c-e7be-4ed6-95ee-d592fd22ce9f",
+							"disabled": true,
+							"name": "People Required: 21-50",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1fd72224-d565-4d1a-8384-e52ea7cb8901",
+							"disabled": true,
+							"name": "People Required: 51-100",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -70,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "66fba3ab-0a07-4ed4-8329-173fa2449f16",
+							"disabled": true,
+							"name": "People Required: 101-200",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6ec58467-e82f-4ccd-b16d-dccc3f782886",
+							"disabled": true,
+							"name": "People Required: 201-400",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -90,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5af9ca2a-f0bc-46f3-926e-9d04c4ed98f6",
+							"disabled": true,
+							"name": "People Required: 401-800",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4a965d2f-2ff4-4950-8c1d-3a5b38d564b5",
+							"disabled": true,
+							"name": "People Required: 801-1600",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -110,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "14a8e29c-fc46-46fd-ae03-4851e08e9084",
+							"disabled": true,
+							"name": "People Required: 1601-3200",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -120,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "64e76f6f-a3ef-4cc7-a30f-27bba14d9eee",
+							"disabled": true,
+							"name": "People Required: 3201-6400",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -130,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "78083d49-09e6-43dc-b02c-656d492c2623",
+							"disabled": true,
+							"name": "People Required: 6401-12800",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -140,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8254847a-baf0-4415-a06d-f9c2e6e9a250",
+							"disabled": true,
+							"name": "People Required: 12801-25600",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -150,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8aad3b27-a5fe-40b5-bac2-cf29770ba024",
+							"disabled": true,
+							"name": "Frequency: Monthly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c9adb775-8c66-457b-a2ec-2ce23be235f5",
+							"disabled": true,
+							"name": "Frequency: Bi-weekly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.33333
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d4345870-3dc9-41e5-aa5f-b627df802c4d",
+							"name": "Frequency: Weekly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d6da6310-b79f-49c6-9d3b-dfb0ddebb888",
+							"disabled": true,
+							"name": "Frequency: Every other day",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.75
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f94576a9-9fa8-4ebd-9491-8e35f90fe244",
+							"disabled": true,
+							"name": "Frequency: Daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eff15ba0-c8dc-46e4-b0b5-bc7e921cb211",
+							"disabled": true,
+							"name": "Frequency: Twice daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b3c8be3a-ef96-4b35-bc31-fa8a66726bde",
+							"disabled": true,
+							"name": "Frequency: Three to five times daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 3
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8436bcac-633b-45f5-b33f-84313873d458",
+							"disabled": true,
+							"name": "Frequency: Constant",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 5
+						}
+					],
+					"reference": "B143",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "eee2c664-975d-4d48-b880-439ca2be6fc4",
+			"text": "6000 eb, Negligible surgery, LC4"
+		}
+	]
+}

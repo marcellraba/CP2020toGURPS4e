@@ -1,34 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f856c7b2-9d5d-428e-8a4b-50ada5f5d625" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Audio/Video Tape Recorder</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Audio/Video Tape Recorder)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>(For hipsters only)
-
-300 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "f856c7b2-9d5d-428e-8a4b-50ada5f5d625",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "38d3b3d1-0d2e-4316-a71a-a2fbc815aa45",
+			"name": "Audio/Video Tape Recorder",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5a5dc83b-8c58-4fad-8d24-802f31848657",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5d6617e2-9139-48ad-be78-128738dc63b8",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7bb71d70-d4bd-41e8-86eb-fbb9c9300ecb",
+					"name": "Accessory (Audio/Video Tape Recorder)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "90319bcf-5f9e-4326-be33-4786c65ae553",
+			"text": "(For hipsters only)\n\n300 eb, Minor surgery, LC4"
+		}
+	]
+}

@@ -1,185 +1,315 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="1ed4ebf0-1061-4680-8f82-a9377de4e83b" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Dart Gun</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessiblity: Requires Cyberoptic</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Innate Attack (Small Pierce)</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>2</points_per_level>
-				<ranged_weapon>
-					<damage>1d-4 pi-</damage>
-					<accuracy>1</accuracy>
-					<range>1</range>
-					<rate_of_fire>1</rate_of_fire>
-					<shots>1(60)</shots>
-					<recoil>1</recoil>
-					<default>
-						<type>Skill</type>
-						<name>Innate Attack</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Innate Attack</name>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>DX</type>
-						<modifier>-4</modifier>
-					</default>
-				</ranged_weapon>
-				<ranged_weapon>
-					<damage>varies</damage>
-					<usage>Follow-up (poison)</usage>
-				</ranged_weapon>
-				<modifier version="1" enabled="no">
-					<name>Double Blunt Trauma</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-					<notes>1HP per 10 dmg</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Explosion</name>
-					<cost type="percentage">50</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fragmentation</name>
-					<cost type="percentage">15</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Fragmentation</name>
-					<cost type="percentage">15</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B104</reference>
-					<notes>Hot</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Surge</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>2</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>3</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">150</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>5</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">200</cost>
-					<affects>total</affects>
-					<reference>B102</reference>
-					<notes>10</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Side Effect</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B109</reference>
-					<notes>@Effect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Symptoms</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B109</reference>
-					<notes>@Effect@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.5</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.2</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Armor Divisor</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-					<reference>B110</reference>
-					<notes>0.1</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Blunt Trauma</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B111</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Wounding</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B111</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Incendiary</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B104</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Follow-up</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Reduced Range</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B62</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "1ed4ebf0-1061-4680-8f82-a9377de4e83b",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "84c3d29f-fa29-4517-854b-84becf12657e",
+			"name": "Dart Gun",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fd7ac930-dc84-4344-af30-6f13bbc18cd3",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fddfa265-2ece-4921-9bbb-a5fe0a968470",
+					"name": "Accessiblity: Requires Cyberoptic",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "50732f50-7c57-4ca5-b5e4-4f6047451ffb",
+					"name": "Innate Attack (Small Pierce)",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 2,
+					"weapons": [
+						{
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "pi-",
+								"base": "1d-4"
+							},
+							"accuracy": "1",
+							"range": "1",
+							"rate_of_fire": "1",
+							"shots": "1(60)",
+							"recoil": "1",
+							"defaults": [
+								{
+									"type": "Skill",
+									"name": "Innate Attack"
+								},
+								{
+									"type": "Skill",
+									"name": "Innate Attack",
+									"modifier": -2
+								},
+								{
+									"type": "DX",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "varies"
+							},
+							"usage": "Follow-up (poison)"
+						}
+					],
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "99784752-96f3-474f-ad39-4318d0aa88e3",
+							"disabled": true,
+							"name": "Double Blunt Trauma",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"notes": "1HP per 10 dmg"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8b9996ba-d76b-42c6-949f-e52b742692dc",
+							"disabled": true,
+							"name": "Explosion",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b4b8e0bd-be00-45ec-bf20-0dd807a598f4",
+							"disabled": true,
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ba501af1-d11d-430c-9aac-bb4246440c16",
+							"disabled": true,
+							"name": "Fragmentation",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total",
+							"levels": 1,
+							"notes": "Hot"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "caf86382-d2ee-478f-9c35-0c8bd0d7f308",
+							"disabled": true,
+							"name": "Surge",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eb0cb18f-0916-4646-87c9-0e149fb558d9",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "2"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3d6c6bf0-30c5-4795-b66a-9add484851ce",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "3"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fad8d299-ee2a-49b1-ace1-8d3ffdc183c3",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 150,
+							"affects": "total",
+							"notes": "5"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e9eff9e3-3d95-40c0-ae99-0d020d73896c",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B102",
+							"cost_type": "percentage",
+							"cost": 200,
+							"affects": "total",
+							"notes": "10"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b435ea9f-6684-404e-be32-f149c60c66a6",
+							"disabled": true,
+							"name": "Side Effect",
+							"reference": "B109",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "@Effect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3830cdff-d58a-4608-9e4f-63fe9f3626aa",
+							"disabled": true,
+							"name": "Symptoms",
+							"reference": "B109",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "@Effect@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f17b03da-3792-4e01-92a5-0466bf033495",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "0.5"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4e3e194c-c916-436a-8354-44aa26095383",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "0.2"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "837c5e45-5d79-4847-a0ac-d8be9a5c99ca",
+							"disabled": true,
+							"name": "Armor Divisor",
+							"reference": "B110",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total",
+							"notes": "0.1"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7254f7d1-5282-4ee4-8836-650813bd46f3",
+							"disabled": true,
+							"name": "No Blunt Trauma",
+							"reference": "B111",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "11e275b7-ea83-4db6-98b5-8d7f577541d9",
+							"disabled": true,
+							"name": "No Wounding",
+							"reference": "B111",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1f5d6bc7-c96b-472a-ba29-1421a90069a0",
+							"disabled": true,
+							"name": "Incendiary",
+							"reference": "B104",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "acb6efd2-1ff5-4ec6-92bb-d89e70862e9e",
+							"name": "Follow-up",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8f59d041-7844-4602-b044-0d3b26501a4f",
+							"name": "Reduced Range",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B62",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "2d687dcd-59bc-4693-843d-7d7ea1cebdfe",
+			"text": "200 eb, Negligible surgery, LC4"
+		}
+	]
+}

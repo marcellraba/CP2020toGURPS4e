@@ -1,22 +1,37 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="c20fd53b-9c50-481f-bff6-29f07258a858" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Nasal Filters</name>
-			<advantage version="2">
-				<name>Filter Lungs</name>
-				<type>Physical, Exotic</type>
-				<base_points>5</base_points>
-				<reference>B55</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>60 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "c20fd53b-9c50-481f-bff6-29f07258a858",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "93c1d596-3502-40ba-9022-ac346abfe81b",
+			"name": "Nasal Filters",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8361ee8e-abf5-455d-a0fd-003122375299",
+					"name": "Filter Lungs",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"reference": "B55",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "2cf8eb85-773f-4566-bc99-ea53b16cf4fd",
+			"text": "60 eb, Minor surgery, LC4"
+		}
+	]
+}

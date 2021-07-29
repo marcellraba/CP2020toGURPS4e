@@ -1,40 +1,70 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="5b42b02b-663e-419d-a337-2a0714bb9487" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Synthskins</name>
-			<advantage version="2">
-				<name>Unnatural Features (Synthskins)</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>-1</points_per_level>
-				<modifier version="1">
-					<name>Mitigator: switchable</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B22</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">-1</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>Can be a 1-5 point Unnatural Feature.
-
-Negligible, 400 eb, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "5b42b02b-663e-419d-a337-2a0714bb9487",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "bab00a00-c6e0-4db5-abed-4a0b262a62b4",
+			"name": "Synthskins",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3c6175db-3a29-4227-9f05-7e5f3acf3289",
+					"name": "Unnatural Features (Synthskins)",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -1,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "909f29b0-a458-4ef9-985e-65154b099f28",
+							"name": "Mitigator: switchable",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B22",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "83305785-8c88-4190-904c-beb25c23413f",
+			"text": "Can be a 1-5 point Unnatural Feature.\n\nNegligible, 400 eb, LC4"
+		}
+	]
+}

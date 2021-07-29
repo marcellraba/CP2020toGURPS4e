@@ -1,20 +1,22 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="0a95e05b-1d66-425d-a640-120b65850b40" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Altered Appearance</name>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>Add every change unless it gives a gameplay modifier as a 0 point feature.
-
-If you get Off the Shelf Looks, halve cost.
-
-Minor changes are 1000 eb per change, plus surgery costs, one week recovery time
-Major changes are 2000 eb per change, plus surgery costs, two weeks recovery time
-
-If you choose to copy someone else's appearance then you already have to have their Appearance level plus any options. The minimum amount of money to qualify for Mistaken Identity is 1200 eb</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "0a95e05b-1d66-425d-a640-120b65850b40",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "97d1da04-bace-4e3a-92f1-c9b4cae596d4",
+			"name": "Altered Appearance",
+			"open": true
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "0c02c8ff-ab6a-46d7-b7e1-af6b6e47d141",
+			"text": "Add every change unless it gives a gameplay modifier as a 0 point feature.\n\nIf you get Off the Shelf Looks, halve cost.\n\nMinor changes are 1000 eb per change, plus surgery costs, one week recovery time\nMajor changes are 2000 eb per change, plus surgery costs, two weeks recovery time\n\nIf you choose to copy someone else's appearance then you already have to have their Appearance level plus any options. The minimum amount of money to qualify for Mistaken Identity is 1200 eb"
+		}
+	]
+}

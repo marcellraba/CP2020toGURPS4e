@@ -1,178 +1,313 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="ada9b038-0126-4f8e-8edb-dcee7d9dafec" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Faceplate</name>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>25</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laminate</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>RSWL18</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Partial: Face Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>full body</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>400 eb, Critical surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "ada9b038-0126-4f8e-8edb-dcee7d9dafec",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "102e3047-09bc-4090-aecb-bc6f9eb96722",
+			"name": "Faceplate",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "6b1eea4b-33e0-472b-bfe9-98be5747c095",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "25",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c3419701-ea10-4ead-8dfd-f0a3f53c26b2",
+							"disabled": true,
+							"name": "Force Field",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e179c615-664a-4ff0-bac7-d9a762fa268a",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1f12b4ab-18ed-4b74-8d23-965f3fd31ae1",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eba74e45-7fb9-4313-a373-85561efcf196",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7c6d5a9b-dfb7-45e6-b5c2-6bff7a8f2b1c",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2df3fafc-5999-460a-8ae1-bce2d742ffea",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "56fadaa5-3d3e-472e-82ff-3db6f1ae5363",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total",
+							"notes": "@Rare@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1c6241b3-ae32-4ec8-be65-f9244b47520c",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c6948298-d455-4a26-a16c-005e4757bdb9",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "04dff07e-07d5-46cc-9f78-6031ffcf5852",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total",
+							"notes": "@Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3aa386fc-e2b1-4a43-9353-eb7139683463",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ffa1f317-4c8c-4bce-bf48-84ec308798cc",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "83c64949-9c07-43e3-be0e-275a46558390",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "319e0543-71ae-432e-9c9b-28d2eb084656",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aaeafc5f-79da-4496-bd91-e5e270e7e6f8",
+							"disabled": true,
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6c713476-8990-4bc3-ad9d-70d4a343ffda",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4765aba0-15c8-43aa-9191-a5c945d5ffe5",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7e6cd6fe-6dec-4748-8129-5d42db67a779",
+							"disabled": true,
+							"name": "Tough Skin",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "411e02da-f024-45c8-9664-af0f554bc949",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8004ca27-eb65-4abf-8520-8056fbe4133b",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "52569947-638a-484b-99b9-7689187f81ad",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e32ecec0-f5b3-475f-80ec-6b9a31373102",
+							"disabled": true,
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7c081eb8-5f61-46bb-b55f-af94aadb1e4a",
+							"name": "Partial: Face Only",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "full_body"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "cab256b6-2a7b-422f-90a8-d77d8f3ecbb8",
+			"text": "400 eb, Critical surgery, LC4"
+		}
+	]
+}

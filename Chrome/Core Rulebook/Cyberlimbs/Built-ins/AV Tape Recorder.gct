@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="7b277a68-f3a4-4a66-9291-d1218eb1af0a" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>AV Tape Recorder</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberlimb</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (AV Tape Recorder)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>250 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "7b277a68-f3a4-4a66-9291-d1218eb1af0a",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "6434c32b-e154-4b81-8633-ac86a88492ca",
+			"name": "AV Tape Recorder",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "62b531b4-d326-4ec2-b234-806cacb15d49",
+					"name": "Accessibility: Requires Cyberlimb",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ba15205e-e9f6-4743-8cc8-f6c8c168096e",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0ac0bb67-0ec7-4fd3-b986-50b8d9e2fc14",
+					"name": "Accessory (AV Tape Recorder)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "71c2c94f-0b4a-44ae-aca7-3d787694f543",
+			"text": "250 eb, Negligible surgery, LC4"
+		}
+	]
+}

@@ -1,18 +1,32 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="be9d2ded-43a3-4705-9785-9e8d760c4459" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Contraceptive Implant</name>
-			<advantage version="2">
-				<name>Sterility</name>
-				<type>Physical</type>
-				<notes>Effective up to 5 years</notes>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>100 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "be9d2ded-43a3-4705-9785-9e8d760c4459",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "68ca7389-f5f3-44fd-ace5-49fe763a8bd8",
+			"name": "Contraceptive Implant",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a9fa029b-0348-4848-bd4d-434c11557805",
+					"name": "Sterility",
+					"physical": true,
+					"notes": "Effective up to 5 years"
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "e7079e4d-e530-4e61-b7ee-d3ff5cf29204",
+			"text": "100 eb, Negligible surgery, LC4"
+		}
+	]
+}

@@ -1,171 +1,306 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="d39a1504-4059-4632-9a76-740c0c5b9eff" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Radar Sensor</name>
-			<advantage version="2">
-				<name>Scanning Sense</name>
-				<type>Physical, Exotic</type>
-				<modifier version="1">
-					<name>Imaging Radar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ladar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Para-Radar</name>
-					<cost type="points">40</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sonar</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Extended Arc</name>
-					<cost type="percentage">75</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>240&#176;</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Extended Arc</name>
-					<cost type="percentage">125</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-					<notes>360&#176;</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Low-Probability Intercept</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Multi-Mode</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Penetrating</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Targeting</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Targeting Only</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Active IR</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>T-Ray Vision</name>
-					<cost type="points">25</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bio-Scan</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Intercept</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Scanner</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P72</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Field Sense</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>SU27</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Extended Arc: 180&#176;</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Reduced Range: 1/2</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Temporary Disadvantage: Electrical</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Accessibility: Requires Neuralware Processor</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B81</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Distinctive Features</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<notes>Bulging Forehead</notes>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "d39a1504-4059-4632-9a76-740c0c5b9eff",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "435175b3-3036-4f79-8b5a-fd21299dd3e8",
+			"name": "Radar Sensor",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "05a96ced-ea19-4aa3-99b0-a4c399cee6ff",
+					"name": "Scanning Sense",
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3c99df3b-ce15-4145-bf56-380ab2ab4921",
+							"name": "Imaging Radar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1cc2bbd1-cce2-4141-ae1c-bfffd395d827",
+							"disabled": true,
+							"name": "Radar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "86eaad76-63ac-4b54-85ae-15e90140010c",
+							"disabled": true,
+							"name": "Ladar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "66906f05-c163-41a6-aa41-829ef914e99c",
+							"disabled": true,
+							"name": "Para-Radar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a68df8b2-21f7-4668-b4b3-dd8145e87a97",
+							"disabled": true,
+							"name": "Sonar",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2470adfc-8eb5-4991-b1c2-fb3d7ceea4cc",
+							"disabled": true,
+							"name": "Extended Arc",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 75,
+							"affects": "total",
+							"notes": "240°"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "836e073a-9f56-46ba-b478-6b86fff34544",
+							"disabled": true,
+							"name": "Extended Arc",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 125,
+							"affects": "total",
+							"notes": "360°"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "db30f848-76c9-46b3-8a23-47b3f2e74ea6",
+							"disabled": true,
+							"name": "Low-Probability Intercept",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1c3063c5-5a04-4521-ac4b-6cbe32e9c660",
+							"disabled": true,
+							"name": "Multi-Mode",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "20c174ca-a543-4436-861b-f726981ca398",
+							"disabled": true,
+							"name": "Penetrating",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e9aba8e9-4b1e-4185-829f-04f893609ec9",
+							"disabled": true,
+							"name": "Targeting",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f1c518d8-54dd-4131-920e-527739ec297b",
+							"disabled": true,
+							"name": "Targeting Only",
+							"reference": "B82",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3d690ce0-6cc1-4477-bc2c-e8d6b577589b",
+							"disabled": true,
+							"name": "Active IR",
+							"reference": "P72",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7b2d0ba2-1bad-43b1-9efb-5c63643ff518",
+							"disabled": true,
+							"name": "T-Ray Vision",
+							"reference": "P72",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3b36142b-a61d-403c-9727-4788b1fc7196",
+							"disabled": true,
+							"name": "Bio-Scan",
+							"reference": "P72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d2fc9f6d-0687-4667-bdff-5276ce539303",
+							"disabled": true,
+							"name": "No Intercept",
+							"reference": "P72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bc0d7328-4f52-45af-8cb7-92e64aca8840",
+							"disabled": true,
+							"name": "Scanner",
+							"reference": "P72",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "81766710-400f-4db7-af5c-293dca341d8d",
+							"disabled": true,
+							"name": "Field Sense",
+							"reference": "SU27",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4bf7789a-8b40-4d1d-a281-13ef2bfdf72e",
+							"name": "Extended Arc: 180°",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cfd622cc-a7a0-4014-a3e5-1ff9bec4946e",
+							"name": "Reduced Range: 1/2",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3c049738-5002-47ee-a87a-55b904267399",
+							"name": "Temporary Disadvantage: Electrical",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "086637fa-96cc-4513-b0bb-a9b55ab1f76d",
+							"name": "Accessibility: Requires Neuralware Processor",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B81",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c76507e7-dd5f-44fe-b5ac-ce5fc22917e7",
+					"name": "Distinctive Features",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"notes": "Bulging Forehead",
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "27ab36c0-0e1d-4509-bac8-0a2a818ab2bd",
+			"text": "200 eb, Minor surgery, LC4"
+		}
+	]
+}

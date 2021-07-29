@@ -1,169 +1,298 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="179e01e8-69bc-4ada-9bd6-db89f6d506ff" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Interface Plugs</name>
-			<modifier version="1">
-				<name>Accessiblity (Requires Neuralware Processor)</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage, Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility (Requires Links)</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Telecommunication</name>
-				<type>Mental/Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>Infrared Communication</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laser Communication</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radio</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Telesend</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Broadcast</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short Wave</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Universal</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Video</name>
-					<cost type="percentage">40</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Racial</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Receive Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Send Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional Sound</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Gravity Ripple</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Neutrino</name>
-					<cost type="points">25</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sonar</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Burst</name>
-					<cost type="percentage">30</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>FTL</name>
-					<cost type="percentage">120</cost>
-					<affects>total</affects>
-					<reference>P82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Secure</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>P82</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Sensie</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>P82</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Cable Jack</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>UT31</reference>
-				</modifier>
-				<reference>B91</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>These are the staple of Cyberpunk culture. Usually installed in the bones of the wrist, spine or skull, they tap into major nerve trunks and interface with the neural processor to send and receive signals. The plug itself can be used to insert information and reflex "skill chips", or as a plug in for a set of interface cables (allowing you to directly control any device you have the proper "link" with). In game terms, interface plugs allow the player to directly link to many types of machines, such as cybermodems or cybervehicles.
-
-Interface plugs are quite common; many companies will even pay for their installation. Quite a few factory and construction workers now "stud" directly into their machines. Interface plugs are critical to people like Netrunners (who must have them to gain the speed and ability to run the Net), and Solos (who use them to operate smartguns).
-
-Most people wear their plugs on wrists for ease of use. Occasionally, a true cybertechie will mount them at the temples (a plug head), just behind the ears (called a frankensetein) or in the back of the head (a puppethead). Some cover them with inlaid silver or gold caps, others with wristwarmers. Once again, a matter of style.
-
-200 eb, minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "179e01e8-69bc-4ada-9bd6-db89f6d506ff",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "33f2f6f0-e172-47ab-818c-0aefe84f7a32",
+			"name": "Interface Plugs",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "911f21cc-ed8f-4e32-b9e0-1ff3fa09865f",
+					"name": "Accessiblity (Requires Neuralware Processor)",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7494bc31-0626-44ea-867a-8237d902041c",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5670165f-5c23-4fdb-9a72-f5b47d1cdc4d",
+					"name": "Accessibility (Requires Links)",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c2d22416-b6a5-4317-ac37-2cda7d445efe",
+					"name": "Telecommunication",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "62a3091b-14b1-46be-9d46-f5215b71f4ae",
+							"disabled": true,
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d44d5d81-59b8-44d2-83a5-fc3754dc3fea",
+							"disabled": true,
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e05fa7dd-3fbf-4a8f-9105-bfe60bdea34f",
+							"disabled": true,
+							"name": "Radio",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e60e5ac9-9d9f-4197-872d-f989a10c2262",
+							"disabled": true,
+							"name": "Telesend",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1c177e9e-619f-486c-9ebe-0d576d63500c",
+							"disabled": true,
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0d22e306-7dc3-41d2-b5a3-9c5a5322a4a1",
+							"disabled": true,
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e99b8c49-c72e-409a-a1fc-2f3a92e7caef",
+							"disabled": true,
+							"name": "Universal",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "968126cc-713a-4b84-b8c0-355136b31c1f",
+							"disabled": true,
+							"name": "Video",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "92f58951-9e4e-4104-b926-e703de5e21da",
+							"disabled": true,
+							"name": "Racial",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c311a999-3ed9-4304-bcbf-f18dd161be32",
+							"disabled": true,
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1991a337-e0e5-4506-b302-f7046abbe8e0",
+							"disabled": true,
+							"name": "Send Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "15d0ee72-0b07-41b0-8eb2-8a507dcc9534",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b07c07e1-2359-4b04-bcd1-53ec592fe5a1",
+							"disabled": true,
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "946521e3-2c36-4d71-a149-32b39284b531",
+							"disabled": true,
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aa6df9f7-d126-4776-84a9-a713f807e9a6",
+							"disabled": true,
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e3710d37-f816-47e8-b070-709cbc481c6c",
+							"disabled": true,
+							"name": "Sonar",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5bc71c77-f672-494d-a218-c6db76095060",
+							"disabled": true,
+							"name": "Burst",
+							"reference": "P81",
+							"cost_type": "percentage",
+							"cost": 30,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a495e7f8-e827-45b4-9192-74fdca7bc766",
+							"disabled": true,
+							"name": "FTL",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 120,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4864c3d0-a5e1-4233-b47c-1d03689e7f3e",
+							"disabled": true,
+							"name": "Secure",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c3148cc6-06c6-4928-943d-17980c06c411",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4e87e260-7052-4aa3-ac81-48a30bd08112",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						}
+					],
+					"reference": "B91",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "ed365956-47cf-4ffd-95a4-59368f59bb74",
+			"text": "These are the staple of Cyberpunk culture. Usually installed in the bones of the wrist, spine or skull, they tap into major nerve trunks and interface with the neural processor to send and receive signals. The plug itself can be used to insert information and reflex \"skill chips\", or as a plug in for a set of interface cables (allowing you to directly control any device you have the proper \"link\" with). In game terms, interface plugs allow the player to directly link to many types of machines, such as cybermodems or cybervehicles.\n\nInterface plugs are quite common; many companies will even pay for their installation. Quite a few factory and construction workers now \"stud\" directly into their machines. Interface plugs are critical to people like Netrunners (who must have them to gain the speed and ability to run the Net), and Solos (who use them to operate smartguns).\n\nMost people wear their plugs on wrists for ease of use. Occasionally, a true cybertechie will mount them at the temples (a plug head), just behind the ears (called a frankensetein) or in the back of the head (a puppethead). Some cover them with inlaid silver or gold caps, others with wristwarmers. Once again, a matter of style.\n\n200 eb, minor surgery, LC4"
+		}
+	]
+}

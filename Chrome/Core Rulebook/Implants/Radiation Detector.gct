@@ -1,88 +1,159 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="6be079fa-1009-41a0-a52f-b48e5f897267" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Radiation Detector</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Detect</name>
-				<type>Mental/Physical, Exotic</type>
-				<modifier version="1">
-					<name>Radiation</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional Substance/Condition@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Common Substance/Condition@</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Very Common Substance/Condition@</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Precise</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Signal Detection</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B48</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Analyzing</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>P47</reference>
-				</modifier>
-				<reference>B48</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Beep Alarm)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "6be079fa-1009-41a0-a52f-b48e5f897267",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "cd2733de-3b26-4d27-903c-7dfc774c77df",
+			"name": "Radiation Detector",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "583ae7e9-d8e4-4768-a8e8-28be30443fc9",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4cadc1cf-6b22-42f1-bbf6-c85d5c549ad0",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "17bf05a3-c46b-4102-8b13-f12a0e6b86cd",
+					"name": "Detect",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cbd79bfe-0001-41eb-acbf-67d1b94bf625",
+							"name": "Radiation",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "28e7d7b4-ca2f-4a04-bcb4-c2e80e23190f",
+							"disabled": true,
+							"name": "@Occasional Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "885823ad-b539-467c-b6c8-25fd1a2d704f",
+							"disabled": true,
+							"name": "@Common Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b59b1d8d-dbc7-4fef-b13a-c0149fca9be3",
+							"disabled": true,
+							"name": "@Very Common Substance/Condition@",
+							"reference": "B48",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6deb4175-d530-4561-a307-c4cce88e8b89",
+							"disabled": true,
+							"name": "Precise",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "12fd9466-304f-4e15-a7fe-de1bf1bb7f0a",
+							"disabled": true,
+							"name": "Signal Detection",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "244aee15-063a-4785-94fd-a3b3efa08079",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B48",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2727fc81-c15e-4813-a850-235634198fdf",
+							"disabled": true,
+							"name": "Analyzing",
+							"reference": "P47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						}
+					],
+					"reference": "B48",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "75fa298b-8c2c-4276-9b31-19a3f3a7463b",
+					"name": "Accessory (Beep Alarm)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "91b18274-6615-4e0f-8a50-98defab4d276",
+			"text": "200 eb, Minor surgery, LC4"
+		}
+	]
+}

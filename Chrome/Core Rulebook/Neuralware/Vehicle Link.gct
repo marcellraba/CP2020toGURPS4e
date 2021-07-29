@@ -1,65 +1,113 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="5e585ba2-944b-4d94-aa25-bd7c2eec7be0" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Vehicle Link</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage, Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility (Requires Neuralware Processor)</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility (Cybervehicles Only)</name>
-				<cost type="percentage">-25</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility (Requires Interface Plugs)</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Vehicle Link)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Skill Bonus</name>
-				<type>Physical</type>
-				<base_points>6</base_points>
-				<notes>Gives a +2 bonus to any Driving, Piloting and Boating skill, counts as equipment modifier</notes>
-				<skill_bonus>
-					<name compare="is">Driving</name>
-					<specialization compare="is anything"></specialization>
-					<amount>2</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Piloting</name>
-					<specialization compare="is anything"></specialization>
-					<amount>2</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">Boating</name>
-					<specialization compare="is anything"></specialization>
-					<amount>2</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>This allows the user to control a vehicle through direct mental control. Cybervehicles include cars, AV-4s, aircraft, rotorcraft or motorcycles which have had their normal control systems replaced by a computer. The character plugs directly into the computer using interface plugs and cables, sending commands through his own nervous system. Power servos then steer wheels, depress accelerators, and control braking. Cybervehicles are inhumanly responsive - like driving an extension of yourself. As a result, a cyberassisted vehicle will give you a bonus on any driving, piloting and boating skill.
-
-100 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "5e585ba2-944b-4d94-aa25-bd7c2eec7be0",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "850f98be-e707-40db-8be1-472556ed4344",
+			"name": "Vehicle Link",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "56985280-e8ed-40a9-ad6d-ae8fcf38e0d0",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3ba02f4f-e4ae-477f-abda-4824b983d0f7",
+					"name": "Accessibility (Requires Neuralware Processor)",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1544ef52-03fc-4399-ae9a-7b1eeb35afbc",
+					"name": "Accessibility (Cybervehicles Only)",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "576eee00-5d8a-4037-b676-147436be5523",
+					"name": "Accessibility (Requires Interface Plugs)",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d82bb1ae-26d1-4d3a-965b-fc40861646bf",
+					"name": "Accessory (Vehicle Link)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7ea7ba85-81a3-4b21-aa64-4d1f46f08cbd",
+					"name": "Skill Bonus",
+					"physical": true,
+					"base_points": 6,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Driving"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Piloting"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 2,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Boating"
+							}
+						}
+					],
+					"notes": "Gives a +2 bonus to any Driving, Piloting and Boating skill, counts as equipment modifier"
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "447822e1-9dd8-40af-ad61-3bd314738245",
+			"text": "This allows the user to control a vehicle through direct mental control. Cybervehicles include cars, AV-4s, aircraft, rotorcraft or motorcycles which have had their normal control systems replaced by a computer. The character plugs directly into the computer using interface plugs and cables, sending commands through his own nervous system. Power servos then steer wheels, depress accelerators, and control braking. Cybervehicles are inhumanly responsive - like driving an extension of yourself. As a result, a cyberassisted vehicle will give you a bonus on any driving, piloting and boating skill.\n\n100 eb, Negligible surgery, LC4"
+		}
+	]
+}

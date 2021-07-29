@@ -1,49 +1,68 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f1dc85d1-5d11-4280-b2e3-b118a27b13d3" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Scratchers</name>
-			<advantage version="2">
-				<name>Claws, Sharp (Hands)</name>
-				<type>Physical</type>
-				<base_points>5</base_points>
-				<melee_weapon>
-					<damage>thr-1 cut</damage>
-					<usage>Slash</usage>
-					<reach>C</reach>
-					<parry>0</parry>
-					<block>No</block>
-					<default>
-						<type>DX</type>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Boxing</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Karate</name>
-						<modifier>0</modifier>
-					</default>
-				</melee_weapon>
-				<reference>B42</reference>
-				<notes>Only pay for hands or feet, not both</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>100 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "f1dc85d1-5d11-4280-b2e3-b118a27b13d3",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "1c36cdc2-834c-45fd-a337-aa4c9b644cf8",
+			"name": "Scratchers",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5ba66255-d8e9-4e17-9bd6-ba410f3101fd",
+					"name": "Claws, Sharp (Hands)",
+					"physical": true,
+					"base_points": 5,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "DX"
+								},
+								{
+									"type": "Skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "Skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "Skill",
+									"name": "Karate"
+								}
+							]
+						}
+					],
+					"reference": "B42",
+					"notes": "Only pay for hands or feet, not both",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "06f59795-ede2-4368-8032-54bfe8972bf1",
+			"text": "100 eb, Negligible surgery, LC4"
+		}
+	]
+}

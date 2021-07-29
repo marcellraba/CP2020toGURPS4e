@@ -1,38 +1,70 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="fadd9d5e-b579-4b93-8ab6-6556785aa381" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Ultraviolet</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberoptic</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Ultravision</name>
-				<type>Physical, Exotic</type>
-				<base_points>10</base_points>
-				<modifier version="1" enabled="no">
-					<name>No normal vision</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B94</reference>
-				</modifier>
-				<reference>B94</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "fadd9d5e-b579-4b93-8ab6-6556785aa381",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "b1107d1e-7025-4b80-9bb9-bad08b0de695",
+			"name": "Ultraviolet",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "771c5dcc-a7fb-48ae-8242-739e9ac020dc",
+					"name": "Accessibility: Requires Cyberoptic",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "32eb1a87-e477-46c8-8f0d-0f5032a5a395",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "cc5712f4-1123-4c1d-bd40-f66e18638441",
+					"name": "Ultravision",
+					"physical": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f967096d-7d2f-4f75-a566-25317f17f985",
+							"disabled": true,
+							"name": "No normal vision",
+							"reference": "B94",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B94",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "d119a232-6f43-4acb-a415-3afff8865b68",
+			"text": "200 eb, Negligible surgery, LC4"
+		}
+	]
+}

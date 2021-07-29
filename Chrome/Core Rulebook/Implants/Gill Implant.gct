@@ -1,88 +1,155 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="8bca24ea-35a1-4580-91d1-7b076704a78e" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Gill Implant</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage, Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<notes>4 hours of continous operation max</notes>
-			<advantage version="2">
-				<name>Doesn't Breathe</name>
-				<type>Physical, Exotic</type>
-				<base_points>20</base_points>
-				<modifier version="1">
-					<name>Gills</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Gills</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-					<notes>Suffocates in air</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Absorption</name>
-					<cost type="percentage">-25</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Storage</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-					<notes>Can hold breath 25 times as long as normal</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Storage</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-					<notes>Can hold breath 50 times as long as normal</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Storage</name>
-					<cost type="percentage">-30</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-					<notes>Can hold breath 100 times as long as normal</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Storage</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-					<notes>Can hold breath 200 times as long as normal</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Storage</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-					<notes>Can hold breath 300 times as long as normal</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Oxygen Combustion</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B49</reference>
-				</modifier>
-				<reference>B49</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>400 eb, Major surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "8bca24ea-35a1-4580-91d1-7b076704a78e",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "05c2057a-9d4c-4426-8ea0-1eb3850fd53b",
+			"name": "Gill Implant",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "75434bb3-4b7c-4efc-916f-8b9844645c29",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"notes": "4 hours of continous operation max",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a655bf04-d44b-4bdf-ab5a-b7e6d8b49670",
+					"name": "Doesn't Breathe",
+					"physical": true,
+					"exotic": true,
+					"base_points": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b2eb54f2-e773-4859-9632-57f49b2be215",
+							"name": "Gills",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "caf7db33-18d8-4ebd-96aa-e0a13c9c3c1b",
+							"disabled": true,
+							"name": "Gills",
+							"reference": "B49",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Suffocates in air"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "55d779f3-893b-402b-b276-73b829a4a259",
+							"disabled": true,
+							"name": "Oxygen Absorption",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aa2e7757-bf97-480d-9476-3bfaa7f3d1f9",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total",
+							"notes": "Can hold breath 25 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8015bc6e-bcd3-480d-87cb-16dd4245dcd3",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Can hold breath 50 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9e3a2a22-da45-431f-bd9e-0dec28993fd5",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -30,
+							"affects": "total",
+							"notes": "Can hold breath 100 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fe7f60f1-9a7d-495f-8947-a06511401ce3",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Can hold breath 200 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4a1203b8-78df-4145-a8e0-d002b26f9cfb",
+							"disabled": true,
+							"name": "Oxygen Storage",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "Can hold breath 300 times as long as normal"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eb30e52f-bc7f-4cd5-9e0e-e59633227167",
+							"disabled": true,
+							"name": "Oxygen Combustion",
+							"reference": "B49",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						}
+					],
+					"reference": "B49",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "bced657e-80be-45ef-8692-746600a496cb",
+			"text": "400 eb, Major surgery, LC4"
+		}
+	]
+}

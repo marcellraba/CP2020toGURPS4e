@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f77788b3-9967-4e1f-89c7-b007e4b658c6" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Digital Recorder</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberlimb</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Digital Recorder)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>300 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "f77788b3-9967-4e1f-89c7-b007e4b658c6",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "04769c08-6b36-4875-9459-b6000e95d07e",
+			"name": "Digital Recorder",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c46c6628-cf79-47a6-b9eb-3abea440bbdd",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8c7b1261-9458-4744-856e-39e967dcf2db",
+					"name": "Accessibility: Requires Cyberlimb",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "ce5d0ba9-036e-42e6-aa30-e60f42801126",
+					"name": "Accessory (Digital Recorder)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "204ed27a-d343-4424-a002-1cb2bec24651",
+			"text": "300 eb, Negligible surgery, LC4"
+		}
+	]
+}

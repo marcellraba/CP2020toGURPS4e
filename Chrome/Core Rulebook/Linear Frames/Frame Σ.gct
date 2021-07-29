@@ -1,108 +1,192 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="de2ff699-ef5d-48d0-b147-744b2192474e" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Frame &#931;</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Lifting ST</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>3</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Size</name>
-					<cost type="percentage">-10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Super-Effort</name>
-					<cost type="percentage">400</cost>
-					<affects>total</affects>
-					<reference>P58</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Know Your Own Strength Variant Price</name>
-					<cost type="points">4</cost>
-					<affects>levels only</affects>
-					<reference>PY83:18</reference>
-				</modifier>
-				<reference>B65</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute limitation="lifting only">st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Striking ST</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Size</name>
-					<cost type="percentage">-10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Super Effort</name>
-					<cost type="percentage">400</cost>
-					<affects>total</affects>
-					<reference>SU24</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>One Attack Only</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>P79</reference>
-					<notes>@Attack@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Know Your Own Strength Pricing Variant</name>
-					<cost type="points">-4</cost>
-					<affects>levels only</affects>
-					<reference>PY83:18</reference>
-				</modifier>
-				<reference>B88</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute limitation="striking only">st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>6000 eb, Major surgery, LC4
-
-If used by a ST 10 character this makes him around 1.5 times as strong</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "de2ff699-ef5d-48d0-b147-744b2192474e",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "77fe0172-6ba4-41ba-8291-85903372dcc2",
+			"name": "Frame Σ",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "3b23e5bd-f512-4c0e-814d-c6bd7d7c7be5",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "45275d6f-2b66-4b17-ae14-4b52fdd52f27",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "250495ab-d53d-4b9b-9f18-d8e6bc088747",
+					"name": "Lifting ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 3,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "cb5c2f80-80a7-487f-a7a8-b6055043b260",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "03f86123-41e8-414a-a408-66f17a2d3957",
+							"disabled": true,
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b23e7761-6691-425d-9ae6-e9ee7662d628",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "P58",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aaedf39c-4e3a-4701-83da-75e6fe37772b",
+							"name": "Know Your Own Strength Variant Price",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B65",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "lifting_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "12bcb60d-17f7-4801-b055-81f49c638143",
+					"name": "Striking ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1863b210-942f-43b6-8f34-3e59b5351d45",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e0045685-7cc9-471a-bc95-72420525176e",
+							"disabled": true,
+							"name": "Size",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "853625e0-f841-4d63-b917-90b34347d5b8",
+							"disabled": true,
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ceed73b1-edf1-4c7a-873b-a42b3d7e06a3",
+							"disabled": true,
+							"name": "One Attack Only",
+							"reference": "P79",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Attack@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2ec58908-b99d-4d69-a2a4-764c9e402a01",
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B88",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "striking_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "0f6fe76d-2067-4a86-a2e7-5275ecb5501c",
+			"text": "6000 eb, Major surgery, LC4\n\nIf used by a ST 10 character this makes him around 1.5 times as strong"
+		}
+	]
+}

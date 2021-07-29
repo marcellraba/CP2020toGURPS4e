@@ -1,33 +1,58 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="12383267-0513-4ade-8d23-31bbf39811e8" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Sound Editing</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberaudio</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Parabolic Hearing</name>
-				<type>Physical, Exotic</type>
-				<levels>2</levels>
-				<points_per_level>4</points_per_level>
-				<reference>B72</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>150 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "12383267-0513-4ade-8d23-31bbf39811e8",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "3d98027a-808a-4753-b2cb-52d268ff5d2d",
+			"name": "Sound Editing",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "46fde3da-1356-4f3c-b5d4-9c2f8f70c24e",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "81af12d5-eb14-4408-9ce3-d190a4dc079c",
+					"name": "Accessibility: Requires Cyberaudio",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "764b2119-6b78-4fa2-95ab-452a3531db0d",
+					"name": "Parabolic Hearing",
+					"physical": true,
+					"exotic": true,
+					"levels": "2",
+					"points_per_level": 4,
+					"reference": "B72",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "a9537ec7-4687-48a8-a429-43be0c71d811",
+			"text": "150 eb, Negligible surgery, LC4"
+		}
+	]
+}

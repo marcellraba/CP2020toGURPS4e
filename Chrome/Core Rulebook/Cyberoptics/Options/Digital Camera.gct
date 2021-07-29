@@ -1,34 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="89fbf89d-80b5-4401-a3b1-8050eee5f8a6" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Digital Camera</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberoptic</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Digital Camera)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>300 eb, Negligible surgery, LC4
-
-Requires 2 option slots</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "89fbf89d-80b5-4401-a3b1-8050eee5f8a6",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "61a53140-9b2e-41e0-a205-0f7150ca8da3",
+			"name": "Digital Camera",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4139a5a9-137f-4744-a8f1-74aaf34cf0de",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "00a2061e-3677-4ca6-9e84-43609102e774",
+					"name": "Accessibility: Requires Cyberoptic",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "19d995a7-0eb4-4a7c-ba8c-832d19810e45",
+					"name": "Accessory (Digital Camera)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "ea559588-f4ae-4f96-aec6-0f12c323c8c0",
+			"text": "300 eb, Negligible surgery, LC4\n\nRequires 2 option slots"
+		}
+	]
+}

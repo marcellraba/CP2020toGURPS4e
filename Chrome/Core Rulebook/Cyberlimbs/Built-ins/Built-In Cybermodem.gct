@@ -1,167 +1,302 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="fea7fecc-abcc-4297-8fa1-d16d98c0d763" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Built-In Cybermodem</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberlimbs</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Small Computer (Compact))</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Telecommunication</name>
-				<type>Mental/Physical, Exotic</type>
-				<modifier version="1" enabled="no">
-					<name>Infrared Communication</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laser Communication</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Radio</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Telesend</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Broadcast</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Short Wave</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Universal</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Video</name>
-					<cost type="percentage">40</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Racial</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Receive Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Send Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional Sound</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Gravity Ripple</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Neutrino</name>
-					<cost type="points">25</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sonar</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Burst</name>
-					<cost type="percentage">30</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>P81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>FTL</name>
-					<cost type="percentage">120</cost>
-					<affects>total</affects>
-					<reference>P82</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Secure</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>P82</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Sensie</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>P82</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Cable Jack</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>UT31</reference>
-				</modifier>
-				<reference>B91</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>3000 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "fea7fecc-abcc-4297-8fa1-d16d98c0d763",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "64deb535-95b2-4d39-8641-5d6770417752",
+			"name": "Built-In Cybermodem",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5a5f2246-5324-413e-82fa-88380441e00a",
+					"name": "Accessibility: Requires Cyberlimbs",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bb301a3f-55da-40cf-a425-cf7a36382d95",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "a6cf3a04-a796-4cb7-b220-32b19c180e68",
+					"name": "Accessory (Small Computer (Compact))",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "535f8d93-3c2c-4066-8d88-3f37d4c2fded",
+					"name": "Telecommunication",
+					"mental": true,
+					"physical": true,
+					"exotic": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5bd55818-e088-4b8b-a17b-a084218d470f",
+							"disabled": true,
+							"name": "Infrared Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1d712f96-4d34-4a93-81d6-65bbcab6cb6e",
+							"disabled": true,
+							"name": "Laser Communication",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c2d543d5-0a51-42fd-9633-48bfaaeeaf58",
+							"disabled": true,
+							"name": "Radio",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ee97d413-1946-449a-b0ef-f8950c81f1fe",
+							"disabled": true,
+							"name": "Telesend",
+							"reference": "B91",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc269d64-6f7b-44bc-aa66-abe41aa5e521",
+							"disabled": true,
+							"name": "Broadcast",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "04e86579-74c4-478b-9426-023dc554c3a4",
+							"disabled": true,
+							"name": "Short Wave",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b134cc5e-cb6b-4129-af15-c330022664ed",
+							"disabled": true,
+							"name": "Universal",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e4d4d248-52f5-4e98-89bc-d6a78ed12141",
+							"disabled": true,
+							"name": "Video",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": 40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f7d72b2f-6a23-4601-b788-b3b794fe22ab",
+							"disabled": true,
+							"name": "Racial",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0fcd18f1-4ea2-4cfa-bfab-1932f26c0cfe",
+							"disabled": true,
+							"name": "Receive Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c7da1c3b-5839-491c-8fb4-ab3219cd1a05",
+							"disabled": true,
+							"name": "Send Only",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ab335141-008d-4396-95c7-9c30e55d9ad1",
+							"disabled": true,
+							"name": "Vague",
+							"reference": "B91",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "897c488e-c074-43af-9d7c-bb37f37f406f",
+							"disabled": true,
+							"name": "Directional Sound",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "76ac77c9-bf16-42b3-8a47-c37d2d1c123d",
+							"disabled": true,
+							"name": "Gravity Ripple",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c3348400-ce79-4b64-b102-7718f532d4f9",
+							"disabled": true,
+							"name": "Neutrino",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1864e368-9f3c-45fd-89ba-867cd154a333",
+							"disabled": true,
+							"name": "Sonar",
+							"reference": "P81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f9185fe3-1b96-40fd-9b7f-d3fa2ca14412",
+							"disabled": true,
+							"name": "Burst",
+							"reference": "P81",
+							"cost_type": "percentage",
+							"cost": 30,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6d310915-e5f1-4456-8061-d19dae044bf7",
+							"disabled": true,
+							"name": "FTL",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 120,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6c8e1260-e848-4d76-a4c6-b6fa0cb8bfde",
+							"disabled": true,
+							"name": "Secure",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a450508b-4e34-4748-8d2b-f4fa03e3bcad",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d200404d-99f6-41fd-aff9-38bc58ea776a",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						}
+					],
+					"reference": "B91",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "d2fa21b5-c15a-4601-8f27-3855415afcd6",
+			"text": "3000 eb, Negligible surgery, LC4"
+		}
+	]
+}

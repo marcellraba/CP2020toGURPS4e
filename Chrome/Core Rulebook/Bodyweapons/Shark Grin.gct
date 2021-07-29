@@ -1,57 +1,92 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="a68f90f8-5057-4039-bc18-0d1353e591e3" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Shark Grin</name>
-			<advantage version="2">
-				<name>Teeth, Sharp</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<melee_weapon>
-					<damage>thr-1 cut</damage>
-					<usage>Bite</usage>
-					<reach>C</reach>
-					<parry>No</parry>
-					<block>No</block>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>DX</type>
-						<modifier>0</modifier>
-					</default>
-				</melee_weapon>
-				<reference>B91</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Distinctive Features</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "a68f90f8-5057-4039-bc18-0d1353e591e3",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "0f3de165-1db8-4fc9-99cc-a9ba799aefc1",
+			"name": "Shark Grin",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e0df2563-5671-48b3-8af1-4e60dc86e1fe",
+					"name": "Teeth, Sharp",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"parry": "No",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "Skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "DX"
+								}
+							]
+						}
+					],
+					"reference": "B91",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "cae0a624-4756-4210-a8a8-3dbf8b4b9059",
+					"name": "Distinctive Features",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "afb47454-43e4-415f-b6cc-81ee53046df4",
+			"text": "200 eb, Negligible surgery, LC4"
+		}
+	]
+}

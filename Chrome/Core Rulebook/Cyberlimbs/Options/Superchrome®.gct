@@ -1,35 +1,59 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="803b4c04-9455-4fbd-b3a5-93550ca523c3" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Superchrome&#174;</name>
-			<advantage version="2">
-				<name>Unnatural Features (Chromed limb)</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>-1</points_per_level>
-				<reference>B22</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">-1</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>200 eb per limb, Negligible surgery, LC4
-
-Can be Unnatural Feature 1-5.</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "803b4c04-9455-4fbd-b3a5-93550ca523c3",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "31b7b149-3759-4e0b-9b04-719736c54d80",
+			"name": "Superchrome®",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "803e25e2-be74-435f-9e67-d50440556c2f",
+					"name": "Unnatural Features (Chromed limb)",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": -1,
+					"reference": "B22",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "71954ff6-3d6d-490b-86de-660a58f2aa1c",
+			"text": "200 eb per limb, Negligible surgery, LC4\n\nCan be Unnatural Feature 1-5."
+		}
+	]
+}

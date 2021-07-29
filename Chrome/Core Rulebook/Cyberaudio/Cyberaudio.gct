@@ -1,94 +1,152 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="1bd457a3-80ac-4579-b44b-96fa321b9309" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Cyberaudio</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Deafness</name>
-				<type>Physical</type>
-				<base_points>-20</base_points>
-				<modifier version="1">
-					<name>Mitigator</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B129</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Option Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage_container version="2" open="yes">
-				<name>Options</name>
-			</advantage_container>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>500 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "1bd457a3-80ac-4579-b44b-96fa321b9309",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "02ab8c01-20b9-4810-9689-1a56b4e46422",
+			"name": "Cyberaudio",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f15db8b7-9595-47c3-aa55-bfbc35e61965",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2acfa88d-c841-4af4-a2a5-6f33a8fc364d",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "85d03633-98e0-4a72-8357-d6bd04c522cb",
+					"name": "Deafness",
+					"physical": true,
+					"base_points": -20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7b78bd08-33f5-46bd-90a4-930ca02a8baa",
+							"name": "Mitigator",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total"
+						}
+					],
+					"reference": "B129",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "55235c13-5471-450c-86bc-a67215865340",
+					"name": "Accessory (Option Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "77e38958-93e9-430c-bdc9-5d5236db1f81",
+					"name": "Accessory (Option Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "7bd41bba-6110-40d8-a817-269ff3751e3d",
+					"name": "Accessory (Option Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3bcd9f71-745b-4574-85c3-cd061b692714",
+					"name": "Accessory (Option Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d0ae6d65-b251-4615-b13f-87474288b903",
+					"name": "Accessory (Option Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c2422191-62e1-41a4-8027-48dae9e772a9",
+					"name": "Accessory (Option Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "e12278c8-1ecc-4b63-9cc9-843721cf9a9e",
+					"name": "Options",
+					"open": true
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "3ad77365-a226-4948-a94b-bb0c3098c147",
+			"text": "500 eb, Minor surgery, LC4"
+		}
+	]
+}

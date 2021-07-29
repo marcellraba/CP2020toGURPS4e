@@ -1,98 +1,172 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="74aa895f-d7f9-42e0-a7b2-841354e126ac" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Grafted Muslce</name>
-			<advantage version="2">
-				<name>Striking ST</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Size</name>
-					<cost type="percentage">-10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Super Effort</name>
-					<cost type="percentage">400</cost>
-					<affects>total</affects>
-					<reference>SU24</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>One Attack Only</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>P79</reference>
-					<notes>@Attack@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Know Your Own Strength Pricing Variant</name>
-					<cost type="points">-4</cost>
-					<affects>levels only</affects>
-					<reference>PY83:18</reference>
-				</modifier>
-				<reference>B88</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute limitation="striking only">st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>Lifting ST</name>
-				<type>Physical, Exotic</type>
-				<levels>1</levels>
-				<points_per_level>3</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>No Fine Manipulators</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Size</name>
-					<cost type="percentage">-10</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B15</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Super-Effort</name>
-					<cost type="percentage">400</cost>
-					<affects>total</affects>
-					<reference>P58</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Know Your Own Strength Variant Price</name>
-					<cost type="points">4</cost>
-					<affects>levels only</affects>
-					<reference>PY83:18</reference>
-				</modifier>
-				<reference>B65</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<attribute_bonus>
-					<attribute limitation="lifting only">st</attribute>
-					<amount per_level="yes">1</amount>
-				</attribute_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>Can improve ST by +1 to +2 (you have to combine Striking and Lifting ST).
-
-1000 eb/level, Major surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "74aa895f-d7f9-42e0-a7b2-841354e126ac",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "9c7af26b-e291-4112-886b-3d1e20a50061",
+			"name": "Grafted Muslce",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f1f37343-5b7c-408d-b7f7-da03a5c93c0e",
+					"name": "Striking ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8db7f883-a0d0-419a-b6a4-aff58e7deb4b",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3095e34d-9853-4c76-8742-308a861be463",
+							"disabled": true,
+							"name": "Size",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bf85ae86-6e69-49ed-b4a7-e303a3ea4fdd",
+							"disabled": true,
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "adfe2406-59d1-472d-9fdb-de95e8749850",
+							"disabled": true,
+							"name": "One Attack Only",
+							"reference": "P79",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Attack@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "279cb781-1db2-431a-8aac-5e7951902c17",
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": -4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B88",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "striking_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f7e11cf8-43ca-43f7-bd5c-4c431099d3fc",
+					"name": "Lifting ST",
+					"physical": true,
+					"exotic": true,
+					"levels": "1",
+					"points_per_level": 3,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "10dced28-96d1-4b14-8bf1-eebf8b063420",
+							"disabled": true,
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fdfd57c9-9593-4ad7-9788-8f2c3f7b752c",
+							"disabled": true,
+							"name": "Size",
+							"reference": "B15",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2c269735-5952-40e7-9957-1c5790bc6e4a",
+							"disabled": true,
+							"name": "Super-Effort",
+							"reference": "P58",
+							"cost_type": "percentage",
+							"cost": 400,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f06e440a-589f-44ac-9722-15b0ad9dfb43",
+							"name": "Know Your Own Strength Variant Price",
+							"reference": "PY83:18",
+							"cost_type": "points",
+							"cost": 4,
+							"affects": "levels_only"
+						}
+					],
+					"reference": "B65",
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"amount": 1,
+							"per_level": true,
+							"attribute": "st",
+							"limitation": "lifting_only"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "76ec5f7f-0f45-4172-a054-230a1594bea0",
+			"text": "Can improve ST by +1 to +2 (you have to combine Striking and Lifting ST).\n\n1000 eb/level, Major surgery, LC4"
+		}
+	]
+}

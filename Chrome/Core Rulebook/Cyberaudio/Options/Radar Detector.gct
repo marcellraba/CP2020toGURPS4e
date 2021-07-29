@@ -1,32 +1,57 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="eaa47bf3-faf4-4398-8b04-023c17aeb1af" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Radar Detector</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberaudio</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Radar detector)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>150 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "eaa47bf3-faf4-4398-8b04-023c17aeb1af",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "a84f4288-df09-41bf-ba0a-e75270ced115",
+			"name": "Radar Detector",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5ff49c01-6d1f-4bc0-82e7-1fc3a95bab03",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "be1d4afe-b1d8-404f-ae4f-3e98963d67a6",
+					"name": "Accessibility: Requires Cyberaudio",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "b443110f-783e-4350-a9fa-4a71c5e1d6a9",
+					"name": "Accessory (Radar detector)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "8d4d5386-69ec-462b-8de7-af3af2abd1f0",
+			"text": "150 eb, Negligible surgery, LC4"
+		}
+	]
+}

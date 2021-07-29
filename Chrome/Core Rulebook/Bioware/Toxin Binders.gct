@@ -1,60 +1,109 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f2bb7213-ba41-4aa5-9b36-25affe19a2d1" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Toxin Binders</name>
-			<advantage version="2">
-				<name>Resistant</name>
-				<type>Physical</type>
-				<modifier version="1" enabled="no">
-					<name>@Very Common: Metabolic Hazards, etc.@</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B80</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Posion</name>
-					<cost type="points">15</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Occasional: Disease, Ingested Poison, etc.@</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Immunity</name>
-					<cost type="multiplier">1</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1">
-					<name>+8 to all HT rolls to resist</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B81</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>+3 to all HT rolls to resist</name>
-					<cost type="multiplier">0.33</cost>
-					<reference>B81</reference>
-				</modifier>
-				<reference>B81</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>3000 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "f2bb7213-ba41-4aa5-9b36-25affe19a2d1",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "d435cf28-f28e-4096-829d-e13e29188d7d",
+			"name": "Toxin Binders",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "63d88281-1c2e-4534-9d7d-7e043bfe0b3a",
+					"name": "Resistant",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "68ff7c28-5904-467a-9db1-0ecaed68c54f",
+							"disabled": true,
+							"name": "@Very Common: Metabolic Hazards, etc.@",
+							"reference": "B80",
+							"cost_type": "points",
+							"cost": 30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "421e9772-99b6-4381-9b05-e827a93ba78f",
+							"name": "Posion",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "593d4f07-e4de-4cd0-bf69-17293f2162da",
+							"disabled": true,
+							"name": "@Occasional: Disease, Ingested Poison, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0de3a5d1-9173-443d-8534-7595d1691529",
+							"disabled": true,
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dc530727-5742-424d-82cc-a23449898282",
+							"disabled": true,
+							"name": "Immunity",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5194c652-36a9-4ec4-b9b1-89886e3e6fef",
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "121f1229-0895-4324-ad5f-01e292d82a4e",
+							"disabled": true,
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost_type": "multiplier",
+							"cost": 0.33
+						}
+					],
+					"reference": "B81",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "b234da9e-d3ae-4214-9475-22646f90535a",
+			"text": "3000 eb, Negligible surgery, LC4"
+		}
+	]
+}
