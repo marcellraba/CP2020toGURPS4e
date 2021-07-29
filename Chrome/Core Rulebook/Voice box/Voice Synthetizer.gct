@@ -1,55 +1,97 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="063679c7-3872-4aa6-98e1-2809d646f4de" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Voiice Synthetizer</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Mimicry</name>
-				<type>Mental, Exotic</type>
-				<base_points>10</base_points>
-				<modifier version="1" enabled="no">
-					<name>Voice Library</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P61</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Can't forget, but only stores 10 voices.</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Reliable 1</name>
-					<cost type="percentage">5</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Uses software IQ 10</name>
-					<cost type="percentage">0</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B68</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>IQ roll is made by the implant at effective IQ of 11 (reliable included)
-
-600 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "063679c7-3872-4aa6-98e1-2809d646f4de",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "7032e2af-e10c-4409-98f6-4c7062b7e7bb",
+			"name": "Voiice Synthetizer",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d47a2b7f-75ca-416e-b95c-fd6e3cc49f96",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7976b4eb-ae0a-4cfd-aaac-e86c10cb635d",
+					"name": "Accessibility: Requires Neuralware",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9542506a-d967-47aa-8246-0fd859a1c825",
+					"name": "Mimicry",
+					"mental": true,
+					"exotic": true,
+					"base_points": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f17cd80e-a966-4749-b521-99bb0fffc523",
+							"disabled": true,
+							"name": "Voice Library",
+							"reference": "P61",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0254dbda-2d1a-4813-9273-8cd9b25669ac",
+							"name": "Can't forget, but only stores 10 voices.",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "dddf886c-1adc-4381-bc02-2e8674fdc893",
+							"name": "Reliable 1",
+							"cost_type": "percentage",
+							"cost": 5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f4d09360-6e99-4d09-9108-9df908066b01",
+							"name": "Uses software IQ 10",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"reference": "B68",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "53b4646f-839b-4aa3-a43c-126c04674ae2",
+			"text": "IQ roll is made by the implant at effective IQ of 11 (reliable included)\n\n600 eb, Minor surgery, LC4"
+		}
+	]
+}

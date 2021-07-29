@@ -1,34 +1,65 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="2d3428a7-a619-40c1-83e7-4623657db2f9" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>AudioVox</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Skill Bonus</name>
-				<type>Physical</type>
-				<levels>2</levels>
-				<base_points>4</base_points>
-				<skill_bonus>
-					<name compare="is">Singing</name>
-					<specialization compare="is anything"></specialization>
-					<amount per_level="yes">1</amount>
-				</skill_bonus>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>700 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "2d3428a7-a619-40c1-83e7-4623657db2f9",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "48fed63e-07fb-4897-bcad-cfe6da918307",
+			"name": "AudioVox",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cbaff8c1-ad90-4b1b-841e-d2ea4a782338",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c7487cde-0cac-435a-9113-cfdd187a450f",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9a089799-7fef-4eae-8143-ab8f529432f4",
+					"name": "Skill Bonus",
+					"physical": true,
+					"levels": "2",
+					"base_points": 4,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Singing"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "fc2ff4d2-6dbe-429a-82c8-13dd4ab44bd6",
+			"text": "700 eb, Minor surgery, LC4"
+		}
+	]
+}

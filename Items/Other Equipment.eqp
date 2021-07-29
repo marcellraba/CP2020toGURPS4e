@@ -1,35 +1,45 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<equipment_list id="67e16e86-fbe4-4d7b-b703-2a175e8c7919" version="1">
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Basic Tool Kit</description>
-		<legality_class>4</legality_class>
-		<value>500</value>
-		<weight>1 kg</weight>
-		<categories>
-			<category>tools</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>'Farinata' Tech Tool Kit</description>
-		<legality_class>4</legality_class>
-		<value>350</value>
-		<weight>0.5 lb</weight>
-		<notes>+1 to reaction rolls</notes>
-		<categories>
-			<category>tools</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Tool Kits by Buchsterhude Gmbh</description>
-		<legality_class>4</legality_class>
-		<value>1000</value>
-		<weight>1.75 lb</weight>
-		<notes>good quality</notes>
-		<categories>
-			<category>tools</category>
-		</categories>
-	</equipment>
-</equipment_list>
+{
+	"type": "equipment_list",
+	"version": 1,
+	"id": "67e16e86-fbe4-4d7b-b703-2a175e8c7919",
+	"rows": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "21433c43-3b4c-41c8-aa50-b008d599654c",
+			"quantity": 1,
+			"description": "Basic Tool Kit",
+			"value": "500",
+			"weight": "1 kg",
+			"categories": [
+				"tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c996dec6-ff2a-4d5a-97e4-37632453e2ba",
+			"quantity": 1,
+			"description": "'Farinata' Tech Tool Kit",
+			"value": "350",
+			"weight": "0.5 lb",
+			"notes": "+1 to reaction rolls",
+			"categories": [
+				"tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "003b9e50-ddc5-4f94-a6a9-f5d258a81e04",
+			"quantity": 1,
+			"description": "Tool Kits by Buchsterhude Gmbh",
+			"value": "1000",
+			"weight": "1.75 lb",
+			"notes": "good quality",
+			"categories": [
+				"tools"
+			]
+		}
+	]
+}
