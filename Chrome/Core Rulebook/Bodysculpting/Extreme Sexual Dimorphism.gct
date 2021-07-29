@@ -1,49 +1,29 @@
-{
-	"type": "template",
-	"version": 1,
-	"id": "a986ad8c-e510-430f-866e-08572df8693c",
-	"advantages": [
-		{
-			"type": "advantage_container",
-			"version": 1,
-			"id": "8cb8543c-66eb-4c60-ac4a-15705b74dd7f",
-			"name": "Extreme Sexual Dimorphism",
-			"open": true,
-			"children": [
-				{
-					"type": "advantage",
-					"version": 1,
-					"id": "40c6d22f-d480-4cc8-b269-938b4caabbb2",
-					"name": "Extreme Sexual Dimorphism",
-					"physical": true,
-					"exotic": true,
-					"base_points": 1,
-					"reference": "PU2:10",
-					"features": [
-						{
-							"type": "skill_bonus",
-							"amount": 1,
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "Sex Appeal"
-							}
-						}
-					],
-					"notes": "+1 to attempts to identify you, -1 to attempts to remain anonymous.",
-					"categories": [
-						"Perk"
-					]
-				}
-			]
-		}
-	],
-	"notes": [
-		{
-			"type": "note",
-			"version": 1,
-			"id": "32a065e8-61b6-401e-891e-d320ff822f68",
-			"text": "1200 eb + Critical surgery, 1 week recovery time. LC4\nRequires Attractive or better Appearance."
-		}
-	]
-}
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="a986ad8c-e510-430f-866e-08572df8693c" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Extreme Sexual Dimorphism</name>
+			<advantage version="2">
+				<name>Extreme Sexual Dimorphism</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>PU2:10</reference>
+				<notes>+1 to attempts to identify you, -1 to attempts to remain anonymous.</notes>
+				<categories>
+					<category>Perk</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">Sex Appeal</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
+			</advantage>
+		</advantage_container>
+	</advantage_list>
+	<note_list>
+		<note version="1">
+			<text>1200 eb + Critical surgery, 1 week recovery time. LC4
+Requires Attractive or better Appearance.</text>
+		</note>
+	</note_list>
+</template>
