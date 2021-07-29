@@ -1,85 +1,144 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="735b306e-e2b6-4558-8122-a4cd64b6de28" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Cybersnake</name>
-			<advantage version="2">
-				<name>Extra Attack</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>25</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Multi-Strike</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>P49</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Single Skill</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P49</reference>
-					<notes>@Skill@</notes>
-				</modifier>
-				<modifier version="1">
-					<name>Cybersnake only</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B53</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Striker, Impaling (Cybersnake)</name>
-				<type>Physical, Exotic</type>
-				<base_points>8</base_points>
-				<melee_weapon>
-					<damage>thr:+1 imp</damage>
-					<reach>C</reach>
-					<parry>0</parry>
-					<block>No</block>
-					<default>
-						<type>DX</type>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>0</modifier>
-					</default>
-				</melee_weapon>
-				<modifier version="1">
-					<name>Cannot Parry</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Long, +1 SM</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Temporary Disadvantage, Electrical</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-				</modifier>
-				<modifier version="1">
-					<name>Accessibility: Requires Neuralware Processor</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B88</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>1200 eb, Minor surgery, LC1</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "735b306e-e2b6-4558-8122-a4cd64b6de28",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "67b1cc75-12ec-4653-9489-18cd4b34c416",
+			"name": "Cybersnake",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "72a4ee9f-e832-48b6-8016-40ff7953f837",
+					"name": "Extra Attack",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 25,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bcb4bca6-ab07-4117-8c27-b9e0374e1791",
+							"disabled": true,
+							"name": "Multi-Strike",
+							"reference": "P49",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eee2a5fe-ccac-4d9a-beda-816e4c0c1ac5",
+							"disabled": true,
+							"name": "Single Skill",
+							"reference": "P49",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Skill@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "86df6acc-da23-422a-b5d0-525d6d25cd78",
+							"name": "Cybersnake only",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B53",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8ae6b801-6496-43ca-b023-9d90f1645556",
+					"name": "Striker, Impaling (Cybersnake)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 8,
+					"weapons": [
+						{
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"modifier_per_die": 1
+							},
+							"reach": "C",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "DX"
+								},
+								{
+									"type": "Skill",
+									"name": "Brawling"
+								}
+							]
+						}
+					],
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e2104bce-7c0b-499b-ba97-ed829770c49a",
+							"name": "Cannot Parry",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "19eba58f-1eee-4cca-bf84-c3aca1ba5ff9",
+							"name": "Long, +1 SM",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "42f5b416-c8c5-4a8d-b55a-a5028833493c",
+							"name": "Temporary Disadvantage, Electrical",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "34a76995-a932-42e6-bae2-8c1244aa3dd5",
+							"name": "Accessibility: Requires Neuralware Processor",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total"
+						}
+					],
+					"reference": "B88",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "11454fa9-df6b-456f-84b4-e8d9432dd54d",
+			"text": "1200 eb, Minor surgery, LC1"
+		}
+	]
+}

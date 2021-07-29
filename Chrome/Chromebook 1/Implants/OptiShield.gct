@@ -1,32 +1,51 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="d8a36fab-bb6a-43e6-95d1-fc7be74505ef" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>OptiShield</name>
-			<advantage version="2">
-				<name>Nictitating Membrane</name>
-				<type>Physical, Exotic</type>
-				<levels>6</levels>
-				<points_per_level>1</points_per_level>
-				<reference>B71</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Protected Sense (Vision)</name>
-				<type>Physical, Exotic</type>
-				<base_points>5</base_points>
-				<reference>B78</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>300 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "d8a36fab-bb6a-43e6-95d1-fc7be74505ef",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "9e62c83d-b3c2-44ee-b8a1-9db21b86b00f",
+			"name": "OptiShield",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "45872738-1723-4815-8dea-24d4bdc330b3",
+					"name": "Nictitating Membrane",
+					"physical": true,
+					"exotic": true,
+					"levels": "6",
+					"points_per_level": 1,
+					"reference": "B71",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "f6577513-a899-4123-9928-f8de3728ad88",
+					"name": "Protected Sense (Vision)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 5,
+					"reference": "B78",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "eb954e92-8517-4eb5-82f0-f930a2fa3a47",
+			"text": "300 eb, Minor surgery, LC4"
+		}
+	]
+}

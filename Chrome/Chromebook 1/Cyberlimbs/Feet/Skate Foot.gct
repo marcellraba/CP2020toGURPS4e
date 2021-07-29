@@ -1,79 +1,141 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="8193e937-9aba-436c-8cb5-c6c8405ae434" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Skate Foot</name>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberlimb</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Switchable</name>
-				<cost type="percentage">10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2" allow_half_levels="yes">
-				<name>Enhanced Move (Ground: Skates)</name>
-				<type>Physical, Exotic</type>
-				<levels half_level="yes">1</levels>
-				<points_per_level>20</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Handling Bonus</name>
-					<cost type="percentage">5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Handling Penalty</name>
-					<cost type="percentage">-5</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Newtonian</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Road-Bound</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>All-Out</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>P49</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cosmic</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>SU26</reference>
-					<notes>Instantaneous Acceleration</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cosmic</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>SU27</reference>
-					<notes>Complete Maneuverability</notes>
-				</modifier>
-				<reference>B52</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>440 eb, Negligible surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "8193e937-9aba-436c-8cb5-c6c8405ae434",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "098d5703-f9eb-4ccc-96f9-3db199b8c426",
+			"name": "Skate Foot",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5ffe402f-8aee-49d6-80e0-8614370e4f4a",
+					"name": "Accessibility: Requires Cyberlimb",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "91e964ed-288a-40a7-bab5-0177bc457e38",
+					"name": "Switchable",
+					"cost_type": "percentage",
+					"cost": 10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "e6940d0e-b9ce-4df9-9861-c888ceae3214",
+					"allow_half_levels": true,
+					"name": "Enhanced Move (Ground: Skates)",
+					"physical": true,
+					"exotic": true,
+					"levels": "1.5",
+					"points_per_level": 20,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e0bf0d92-5d7a-468b-a688-1ce699e702a7",
+							"disabled": true,
+							"name": "Handling Bonus",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": 5,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0048683e-2383-4f12-adf6-e45107f59ae7",
+							"disabled": true,
+							"name": "Handling Penalty",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fc94d3d0-e542-448d-83df-00f524486e19",
+							"disabled": true,
+							"name": "Newtonian",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4f9d4f21-b41d-4b94-ac63-71afd4e009ec",
+							"name": "Road-Bound",
+							"reference": "B52",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bac1f41f-750d-4523-9bd5-7eba398eb678",
+							"disabled": true,
+							"name": "All-Out",
+							"reference": "P49",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "16dc8df7-21c1-459b-8db4-3a617b03b443",
+							"disabled": true,
+							"name": "Cosmic",
+							"reference": "SU26",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Instantaneous Acceleration"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "04805990-5fd2-4fa6-8a78-65517b49eb65",
+							"disabled": true,
+							"name": "Cosmic",
+							"reference": "SU27",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total",
+							"notes": "Complete Maneuverability"
+						}
+					],
+					"reference": "B52",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "133f018c-001f-4720-b7c8-2cb068f88da8",
+			"text": "440 eb, Negligible surgery, LC4"
+		}
+	]
+}

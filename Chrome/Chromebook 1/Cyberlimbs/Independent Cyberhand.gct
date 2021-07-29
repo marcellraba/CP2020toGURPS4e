@@ -1,860 +1,1539 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="586215ec-bfed-4446-be95-15fb35669c2d" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Independent Cyberhand</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberarm</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Maintenance</name>
-				<type>Physical</type>
-				<modifier version="1">
-					<name>People Required: 1</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 2</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 3-5</name>
-					<cost type="points">-30</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 6-10</name>
-					<cost type="points">-40</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 11-20</name>
-					<cost type="points">-50</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 21-50</name>
-					<cost type="points">-60</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 51-100</name>
-					<cost type="points">-70</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 101-200</name>
-					<cost type="points">-80</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 201-400</name>
-					<cost type="points">-90</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 401-800</name>
-					<cost type="points">-100</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 801-1600</name>
-					<cost type="points">-110</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 1601-3200</name>
-					<cost type="points">-120</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 3201-6400</name>
-					<cost type="points">-130</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 6401-12800</name>
-					<cost type="points">-140</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 12801-25600</name>
-					<cost type="points">-150</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Frequency: Monthly</name>
-					<cost type="multiplier">0.2</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Bi-weekly</name>
-					<cost type="multiplier">0.33333</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Weekly</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Every other day</name>
-					<cost type="multiplier">0.75</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Daily</name>
-					<cost type="multiplier">1</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Twice daily</name>
-					<cost type="multiplier">2</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Three to five times daily</name>
-					<cost type="multiplier">3</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Constant</name>
-					<cost type="multiplier">5</cost>
-					<reference>B143</reference>
-				</modifier>
-				<reference>B143</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Injury Tolerance (Independent Body Parts)</name>
-				<type>Physical, Exotic</type>
-				<base_points>35</base_points>
-				<modifier version="1" enabled="no">
-					<name>Detachable Head</name>
-					<cost type="percentage">15</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Instant Reattachment</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Reattachment</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Reattachment Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1">
-					<name>One Hand</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>P53</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Distinctive Features</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>One Hand</name>
-				<type>Physical</type>
-				<base_points>-15</base_points>
-				<modifier version="1">
-					<name>Mitigator</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B147</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>5</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laminate</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>RSWL18</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Partial: One Hand</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>hands</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
-				<name>Meta-Trait: Machine</name>
-				<reference>B263</reference>
-				<advantage version="2">
-					<name>Injury Tolerance (No Blood)</name>
-					<type>Physical, Exotic</type>
-					<base_points>5</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Unliving)</name>
-					<type>Physical, Exotic</type>
-					<base_points>20</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No fatigue points, Don't spend fatigue points</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Resistant (Immunity to Metabolic Hazards)</name>
-					<type>Physical</type>
-					<base_points>30</base_points>
-					<reference>B81</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Unhealing (Total)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-30</base_points>
-					<reference>B160</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Wears out instead of aging</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-			</advantage_container>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Independent Cyberhands</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Cyberarm</name>
-				<cost type="percentage">-10</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Maintenance</name>
-				<type>Physical</type>
-				<modifier version="1">
-					<name>People Required: 1</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 2</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 3-5</name>
-					<cost type="points">-30</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 6-10</name>
-					<cost type="points">-40</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 11-20</name>
-					<cost type="points">-50</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 21-50</name>
-					<cost type="points">-60</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 51-100</name>
-					<cost type="points">-70</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 101-200</name>
-					<cost type="points">-80</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 201-400</name>
-					<cost type="points">-90</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 401-800</name>
-					<cost type="points">-100</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 801-1600</name>
-					<cost type="points">-110</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 1601-3200</name>
-					<cost type="points">-120</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 3201-6400</name>
-					<cost type="points">-130</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 6401-12800</name>
-					<cost type="points">-140</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>People Required: 12801-25600</name>
-					<cost type="points">-150</cost>
-					<affects>total</affects>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Frequency: Monthly</name>
-					<cost type="multiplier">0.2</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Bi-weekly</name>
-					<cost type="multiplier">0.33333</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Weekly</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Every other day</name>
-					<cost type="multiplier">0.75</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Daily</name>
-					<cost type="multiplier">1</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Twice daily</name>
-					<cost type="multiplier">2</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Three to five times daily</name>
-					<cost type="multiplier">3</cost>
-					<reference>B143</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Frequency: Constant</name>
-					<cost type="multiplier">5</cost>
-					<reference>B143</reference>
-				</modifier>
-				<reference>B143</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Injury Tolerance (Independent Body Parts)</name>
-				<type>Physical, Exotic</type>
-				<base_points>35</base_points>
-				<modifier version="1" enabled="no">
-					<name>Detachable Head</name>
-					<cost type="percentage">15</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Instant Reattachment</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>No Reattachment</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Reattachment Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>P52</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Hands</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>P53</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Distinctive Features</name>
-				<type>Physical</type>
-				<base_points>-1</base_points>
-				<reference>B165</reference>
-				<categories>
-					<category>Quirk</category>
-				</categories>
-				<skill_bonus>
-					<name compare="is">disguise</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-				<skill_bonus>
-					<name compare="is">shadowing</name>
-					<specialization compare="is anything"></specialization>
-					<amount>-1</amount>
-				</skill_bonus>
-			</advantage>
-			<advantage version="2">
-				<name>No Fine Manipulators</name>
-				<type>Physical</type>
-				<base_points>-30</base_points>
-				<modifier version="1">
-					<name>Mitigator</name>
-					<cost type="percentage">-70</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B145</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Damage Resistance</name>
-				<type>Physical, Exotic</type>
-				<levels>5</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Force Field</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Hardened</name>
-					<cost type="percentage">20</cost>
-					<levels>1</levels>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances @Trait@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Healing only</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Absorption</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>Enhances any trait</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Reflection</name>
-					<cost type="percentage">100</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Rare@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-5</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Occasional@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-10</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Bane</name>
-					<cost type="percentage">-15</cost>
-					<affects>total</affects>
-					<reference>H14</reference>
-					<notes>@Very Common@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>Front</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Flexible</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Very Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Semi-Ablative</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Can't wear armor</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Directional</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-					<notes>@Direction: Back, Right, Left, Top or Underside@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Common Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Tough Skin</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-					<notes>Effects that just require skin contact or a scratch ignore this DR</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-60</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Occasional Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Ablative</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B47</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Limited</name>
-					<cost type="percentage">-80</cost>
-					<affects>total</affects>
-					<reference>B46</reference>
-					<notes>@Rare Attack Form@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Laminate</name>
-					<cost type="percentage">10</cost>
-					<affects>total</affects>
-					<reference>RSWL18</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Partial: Hands</name>
-					<cost type="percentage">-40</cost>
-					<affects>total</affects>
-				</modifier>
-				<reference>B47</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-				<dr_bonus>
-					<location>hands</location>
-					<amount per_level="yes">1</amount>
-				</dr_bonus>
-			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
-				<name>Meta-Trait: Machine</name>
-				<reference>B263</reference>
-				<advantage version="2">
-					<name>Injury Tolerance (No Blood)</name>
-					<type>Physical, Exotic</type>
-					<base_points>5</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Injury Tolerance (Unliving)</name>
-					<type>Physical, Exotic</type>
-					<base_points>20</base_points>
-					<reference>B61</reference>
-				</advantage>
-				<advantage version="2">
-					<name>No fatigue points, Don't spend fatigue points</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Resistant (Immunity to Metabolic Hazards)</name>
-					<type>Physical</type>
-					<base_points>30</base_points>
-					<reference>B81</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Unhealing (Total)</name>
-					<type>Physical, Exotic</type>
-					<base_points>-30</base_points>
-					<reference>B160</reference>
-				</advantage>
-				<advantage version="2">
-					<name>Wears out instead of aging</name>
-					<type>Physical</type>
-					<reference>B263</reference>
-				</advantage>
-			</advantage_container>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>750 eb, Major surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "586215ec-bfed-4446-be95-15fb35669c2d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "6f5fe3df-53f0-4fd2-9c86-1839177385bc",
+			"name": "Independent Cyberhand",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "70918c52-dc7f-4018-875b-07934becf512",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f02c7e99-7667-4f19-82d6-3ea361632f8e",
+					"name": "Accessibility: Requires Cyberarm",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5bbbfde5-57d1-44b7-b6ec-1c93d4c79b8a",
+					"name": "Maintenance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7cc2873e-e274-483e-b4a7-5c77318b83ed",
+							"name": "People Required: 1",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bce18473-c2ae-40f1-bddb-37895cbb8d12",
+							"disabled": true,
+							"name": "People Required: 2",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fb6f63ce-a709-4a3e-beff-275f21f5c2f6",
+							"disabled": true,
+							"name": "People Required: 3-5",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f2101dfa-cd9f-4352-b01a-3e0149fcd512",
+							"disabled": true,
+							"name": "People Required: 6-10",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8c871607-d25b-4596-8e00-ca7d909f8cda",
+							"disabled": true,
+							"name": "People Required: 11-20",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "aeeb27ba-70a0-444a-a02c-bd07abc7660f",
+							"disabled": true,
+							"name": "People Required: 21-50",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "284a98ef-ccfd-43e1-a140-320dea6b03f3",
+							"disabled": true,
+							"name": "People Required: 51-100",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -70,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a48482c2-489a-4a10-8f76-4c39e93e4a15",
+							"disabled": true,
+							"name": "People Required: 101-200",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "fe5b75f0-6ef7-4115-b2de-cbed28e9b5bb",
+							"disabled": true,
+							"name": "People Required: 201-400",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -90,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1dd849eb-dbb3-4b79-80cc-692cf99ccd24",
+							"disabled": true,
+							"name": "People Required: 401-800",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "af5e031e-b8ba-463b-bb81-2b525e1c7d45",
+							"disabled": true,
+							"name": "People Required: 801-1600",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -110,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d8eac16f-4bbf-443c-80d8-4155214db396",
+							"disabled": true,
+							"name": "People Required: 1601-3200",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -120,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "28166a08-3158-41ab-a8c0-25eece081307",
+							"disabled": true,
+							"name": "People Required: 3201-6400",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -130,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "73115ca3-149e-414f-97b4-20550b4e769e",
+							"disabled": true,
+							"name": "People Required: 6401-12800",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -140,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "68ec4eff-1b46-40ad-b658-3a4b3d584a99",
+							"disabled": true,
+							"name": "People Required: 12801-25600",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -150,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1e6c215e-536e-4178-b27a-628a78f1a22f",
+							"name": "Frequency: Monthly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "56711e67-27f0-4b85-93b0-aa5b6a06b454",
+							"disabled": true,
+							"name": "Frequency: Bi-weekly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.33333
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "30c0da27-17df-4600-90ad-98451ed687c9",
+							"disabled": true,
+							"name": "Frequency: Weekly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9473885d-dc14-4013-b1ba-f3d39a899859",
+							"disabled": true,
+							"name": "Frequency: Every other day",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.75
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d234f49f-6eb5-4b70-bb2d-b39c6879050a",
+							"disabled": true,
+							"name": "Frequency: Daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "67f5d12a-30d9-40f9-98e5-805f2ee3da7d",
+							"disabled": true,
+							"name": "Frequency: Twice daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2dc281ec-0d21-4310-b469-20013192f7df",
+							"disabled": true,
+							"name": "Frequency: Three to five times daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 3
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "699d3442-f295-4026-ba87-db698e639255",
+							"disabled": true,
+							"name": "Frequency: Constant",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 5
+						}
+					],
+					"reference": "B143",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "33a576e8-d35f-4483-b25c-f24774556b24",
+					"name": "Injury Tolerance (Independent Body Parts)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 35,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "99e89c14-2999-4b4b-97e0-9c98f5a156e8",
+							"disabled": true,
+							"name": "Detachable Head",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "7db631f0-2944-4b37-a4af-f72a2e0994d5",
+							"disabled": true,
+							"name": "Instant Reattachment",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "84e799cb-1cbf-4165-87c3-9e55cda16989",
+							"disabled": true,
+							"name": "No Reattachment",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2bd82de2-2cf1-4e24-b112-77998a80ee38",
+							"name": "Reattachment Only",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "eb78871b-243c-4777-b149-86a1d5fee97c",
+							"name": "One Hand",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "P53",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "9e8785d6-9574-439d-9d7c-26bd6307c51d",
+					"name": "Distinctive Features",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "fc552494-ab68-4541-b1f0-7411cc2ca902",
+					"name": "One Hand",
+					"physical": true,
+					"base_points": -15,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a5bcd2cc-7cee-4f14-9174-20f6242429cb",
+							"name": "Mitigator",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total"
+						}
+					],
+					"reference": "B147",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "398466cc-ec8f-498c-9de3-29fac3ff318b",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "5",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a2f64a98-17e1-4513-bc6e-6ee8356b0bd5",
+							"disabled": true,
+							"name": "Force Field",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "afb67ba7-db24-4c35-9219-a45d3455cf40",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8f189121-ed18-46e4-a2af-9dcc60b57fc6",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b24a2ddc-1130-4952-9abb-86b8ff17c235",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f325aefb-f968-4af2-8fe2-810562abd36c",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "efd5aa77-a036-4895-941a-916d0933ea2e",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9b23d6ec-6c7a-45d3-8114-ee72c78392de",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total",
+							"notes": "@Rare@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9c41a958-38ab-49a3-89aa-390520ebdf29",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37e99744-df11-443e-b57a-7b9304a964f5",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0634f4bf-a507-46f4-8b13-ab5256219d67",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total",
+							"notes": "@Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2908ed40-d507-458f-b3fc-fb2e7552ac6c",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0fc78167-7007-44a1-9915-119bff0cd712",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1c2f7435-2f49-4237-a778-eb5eea68f609",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d9767601-f370-444e-b2d0-e87ecc4b752e",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d27bfce5-6b47-462e-bd51-206a570e68a3",
+							"disabled": true,
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b6c26564-f1a5-4c05-8a82-ab40bc7991e8",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9d86a2e6-1b8d-4205-9661-7d50604b95a4",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5767b08c-aa8a-4dbd-b7f8-e0cb12fda974",
+							"disabled": true,
+							"name": "Tough Skin",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "61756464-0948-4af5-8c1c-ae06351fb5c2",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a77d2910-9c6b-4ab5-9c36-448a7ebb8ab3",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f1073e1a-b08d-42f3-8d44-8b7a6ac85433",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "92ab2854-f99f-4f85-83df-af8edadffc80",
+							"disabled": true,
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d3a3171b-6af7-42cc-a5df-9d0ae939df2a",
+							"name": "Partial: One Hand",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "hands"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "b2636985-6608-4ec0-b541-47803304a164",
+					"container_type": "meta_trait",
+					"name": "Meta-Trait: Machine",
+					"reference": "B263",
+					"open": false,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "0c34089d-a1e4-4443-8204-f0c9fa9c21d4",
+							"name": "Injury Tolerance (No Blood)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 5,
+							"reference": "B61"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "dc98cb47-0773-44c6-8897-2a020e2b7b39",
+							"name": "Injury Tolerance (Unliving)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 20,
+							"reference": "B61"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "366c3526-2532-4a49-a2c0-e4709b5fec28",
+							"name": "No fatigue points, Don't spend fatigue points",
+							"physical": true,
+							"reference": "B263"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "dc182a64-652e-4581-82cd-7d739c51504c",
+							"name": "Resistant (Immunity to Metabolic Hazards)",
+							"physical": true,
+							"base_points": 30,
+							"reference": "B81"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "4cb63626-aa68-4962-a145-6e44f7899a29",
+							"name": "Unhealing (Total)",
+							"physical": true,
+							"exotic": true,
+							"base_points": -30,
+							"reference": "B160"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "e01456a7-9b5d-4c66-92be-675956f54f8b",
+							"name": "Wears out instead of aging",
+							"physical": true,
+							"reference": "B263"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "c75e2dfd-b726-4593-a3c4-5483cf623776",
+			"name": "Independent Cyberhands",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "802a7c17-1475-433a-b2e3-50bcce968270",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "c5ddd1d3-156f-41e9-94dc-16853d8a8165",
+					"name": "Accessibility: Requires Cyberarm",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "78b39061-f278-4ca5-937f-93d1d7168a60",
+					"name": "Maintenance",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ed0afcd3-4e2d-4de0-8dbf-9124766857a7",
+							"name": "People Required: 1",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "1ef1521d-e787-4187-ac4c-aa6b838411eb",
+							"disabled": true,
+							"name": "People Required: 2",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "bbf49b86-7d73-4bd6-9795-ab925c3e8f63",
+							"disabled": true,
+							"name": "People Required: 3-5",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a286691c-9296-447a-a744-b29c1650d535",
+							"disabled": true,
+							"name": "People Required: 6-10",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "30231529-2395-477e-a14c-97c8d3ab2c9d",
+							"disabled": true,
+							"name": "People Required: 11-20",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c530f4d8-e90d-4e0d-9b1e-e87b05e85322",
+							"disabled": true,
+							"name": "People Required: 21-50",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "869c9b0f-32f1-492b-9565-8d77f2c27d29",
+							"disabled": true,
+							"name": "People Required: 51-100",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -70,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "469b7b19-cdc3-4500-8640-62d1ff1c28ba",
+							"disabled": true,
+							"name": "People Required: 101-200",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "863839ef-f262-4178-a031-b5ac530111ba",
+							"disabled": true,
+							"name": "People Required: 201-400",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -90,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2713a1d8-3756-4b7c-8f3a-d16c9593b3d3",
+							"disabled": true,
+							"name": "People Required: 401-800",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "55ce427e-0c0a-4b45-a2ac-e1313740f90a",
+							"disabled": true,
+							"name": "People Required: 801-1600",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -110,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "56e8a32e-1cf3-40fc-aeb2-9fe181f55f65",
+							"disabled": true,
+							"name": "People Required: 1601-3200",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -120,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "a58a6a8d-ba8a-43d4-9b4a-39003f91500c",
+							"disabled": true,
+							"name": "People Required: 3201-6400",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -130,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0d7d96c7-af4d-4c7d-96a7-1c54b8f73ea7",
+							"disabled": true,
+							"name": "People Required: 6401-12800",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -140,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5e5018cc-155a-43a9-bb43-bd5707315e3b",
+							"disabled": true,
+							"name": "People Required: 12801-25600",
+							"reference": "B143",
+							"cost_type": "points",
+							"cost": -150,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8e1f0964-2126-4074-8b02-f455d158638d",
+							"name": "Frequency: Monthly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b019b43d-a4c8-41c4-a96a-e3917f092a87",
+							"disabled": true,
+							"name": "Frequency: Bi-weekly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.33333
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "9e15f6a7-d4c8-4e96-9bff-a6eddcf586ab",
+							"disabled": true,
+							"name": "Frequency: Weekly",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.5
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "80a971fd-ea38-4dda-9d15-cd28b17fbbbc",
+							"disabled": true,
+							"name": "Frequency: Every other day",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 0.75
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "b88b45af-ed4f-4dd8-9403-cd455ca50bea",
+							"disabled": true,
+							"name": "Frequency: Daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "371502d6-5df4-40cd-9865-23cfc06f75bc",
+							"disabled": true,
+							"name": "Frequency: Twice daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 2
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "768b9725-e003-4da8-9621-d4556527ac43",
+							"disabled": true,
+							"name": "Frequency: Three to five times daily",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 3
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "adccaa95-cbea-4e9f-99c2-392a83e2bbf6",
+							"disabled": true,
+							"name": "Frequency: Constant",
+							"reference": "B143",
+							"cost_type": "multiplier",
+							"cost": 5
+						}
+					],
+					"reference": "B143",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "0e434673-87f2-4fa1-bfed-e7e7d962c04f",
+					"name": "Injury Tolerance (Independent Body Parts)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 35,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "51487e06-bd97-4820-8a5f-de0172ba0598",
+							"disabled": true,
+							"name": "Detachable Head",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": 15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "8d8fe595-6053-45e0-bfa3-48e773afaf63",
+							"disabled": true,
+							"name": "Instant Reattachment",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": 50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37969eff-63d6-4dca-a86b-89dc47722aa6",
+							"disabled": true,
+							"name": "No Reattachment",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5630de4b-4483-4fd3-9006-5ea658f7196f",
+							"name": "Reattachment Only",
+							"reference": "P52",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "37ec6fe4-af48-4ce8-ad2e-fcc266a26fc6",
+							"name": "Hands",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "P53",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "29722e4e-c4bd-454f-90f7-d93c1de94ddd",
+					"name": "Distinctive Features",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B165",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": -1,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "shadowing"
+							}
+						}
+					],
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "00562d60-b69d-477e-b4fd-498a8bb6edb8",
+					"name": "No Fine Manipulators",
+					"physical": true,
+					"base_points": -30,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "043ad693-d51a-447f-b3d3-deb961032505",
+							"name": "Mitigator",
+							"cost_type": "percentage",
+							"cost": -70,
+							"affects": "total"
+						}
+					],
+					"reference": "B145",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "5e91383b-8c80-46ec-b9f2-4f979df68146",
+					"name": "Damage Resistance",
+					"physical": true,
+					"exotic": true,
+					"levels": "5",
+					"points_per_level": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e12aa5f9-351c-48a2-9eb7-0cfd8397688d",
+							"disabled": true,
+							"name": "Force Field",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "0bcc3e31-4f84-41dc-aac7-e0720c097aa2",
+							"disabled": true,
+							"name": "Hardened",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 20,
+							"affects": "total",
+							"levels": 1
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f78a3934-2f9c-4049-9744-593484ddb255",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Enhances @Trait@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "5abd5aa7-84a7-44b7-ac18-26a935e03dbe",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 80,
+							"affects": "total",
+							"notes": "Healing only"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6a02b635-e11a-4433-93f6-d1bdb943ec9f",
+							"disabled": true,
+							"name": "Absorption",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total",
+							"notes": "Enhances any trait"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "3612f00d-6e32-4619-9a2b-225bf0a072b7",
+							"disabled": true,
+							"name": "Reflection",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": 100,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e326b882-52f7-4508-9fb9-050972fba5df",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total",
+							"notes": "@Rare@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "01592f15-d527-4462-ae3a-610bfc509c54",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -5,
+							"affects": "total",
+							"notes": "@Occasional@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "6ec85713-c604-4b24-be61-fd847e4bd44f",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -10,
+							"affects": "total",
+							"notes": "@Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "22b78187-bcff-4058-846e-3d3182ad41d6",
+							"disabled": true,
+							"name": "Bane",
+							"reference": "H14",
+							"cost_type": "percentage",
+							"cost": -15,
+							"affects": "total",
+							"notes": "@Very Common@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2f62e500-ba8a-41ee-bff8-4bf94f7071b1",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "Front"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e9ed2125-fd61-4759-a131-6ab31c261e4e",
+							"disabled": true,
+							"name": "Flexible",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "4a8b905f-2d2c-4464-993c-74f33762176f",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total",
+							"notes": "@Very Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "d90d53c8-5a2d-401a-8cb4-b4a7e4baae5b",
+							"disabled": true,
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "ebe44348-8ceb-491a-894d-61aeaea91503",
+							"disabled": true,
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "f3aecf6b-6d80-474f-9395-400fcedc1c3b",
+							"disabled": true,
+							"name": "Directional",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "91452d9b-3c6c-4414-8009-15663670f4e6",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "@Common Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "65725f80-e1b0-4595-9288-cb4ced64ef7c",
+							"disabled": true,
+							"name": "Tough Skin",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "882b96e4-b1d0-49a6-8ceb-fca4b6240406",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -60,
+							"affects": "total",
+							"notes": "@Occasional Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c83fbd23-84ab-467c-a907-ef77d5b29fb9",
+							"disabled": true,
+							"name": "Ablative",
+							"reference": "B47",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "e0501c2f-5e7f-429d-8035-babef3295015",
+							"disabled": true,
+							"name": "Limited",
+							"reference": "B46",
+							"cost_type": "percentage",
+							"cost": -80,
+							"affects": "total",
+							"notes": "@Rare Attack Form@"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "c4de75e9-58a9-478d-9112-a3b507b87c55",
+							"disabled": true,
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost_type": "percentage",
+							"cost": 10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "2d0ee32d-21dc-4851-b272-0fa9be616f4f",
+							"name": "Partial: Hands",
+							"cost_type": "percentage",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B47",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "hands"
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "a235b8e5-71e1-4ed9-a47e-5eeebbb5f785",
+					"container_type": "meta_trait",
+					"name": "Meta-Trait: Machine",
+					"reference": "B263",
+					"open": false,
+					"children": [
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "93dfdc37-f9cf-4eb5-9637-cc8a24c84359",
+							"name": "Injury Tolerance (No Blood)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 5,
+							"reference": "B61"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "57221767-3c4d-4adb-b3ee-c43ccaec8495",
+							"name": "Injury Tolerance (Unliving)",
+							"physical": true,
+							"exotic": true,
+							"base_points": 20,
+							"reference": "B61"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "0399f98f-494d-44bd-9e46-3fef1e1266ee",
+							"name": "No fatigue points, Don't spend fatigue points",
+							"physical": true,
+							"reference": "B263"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "c671f5ec-0932-41b9-bb38-f6067d3397bd",
+							"name": "Resistant (Immunity to Metabolic Hazards)",
+							"physical": true,
+							"base_points": 30,
+							"reference": "B81"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "9ec7c636-4287-41c6-9264-b593db377743",
+							"name": "Unhealing (Total)",
+							"physical": true,
+							"exotic": true,
+							"base_points": -30,
+							"reference": "B160"
+						},
+						{
+							"type": "advantage",
+							"version": 1,
+							"id": "d0bcaaea-e707-4268-b71c-22f1dc07b2af",
+							"name": "Wears out instead of aging",
+							"physical": true,
+							"reference": "B263"
+						}
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "bd658d7a-cfd9-46d6-91f3-c1b7e53e277a",
+			"text": "750 eb, Major surgery, LC4"
+		}
+	]
+}

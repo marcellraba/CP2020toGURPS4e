@@ -1,44 +1,77 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="e1ab0287-9709-4536-990f-d0e1c29caa9d" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Sensory Extensions</name>
-			<modifier version="1">
-				<name>Temporary Disadvantage: Electrical</name>
-				<cost type="percentage">-20</cost>
-				<affects>total</affects>
-			</modifier>
-			<modifier version="1">
-				<name>Accessibility: Requires Neuralware Processor</name>
-				<cost type="percentage">-5</cost>
-				<affects>total</affects>
-			</modifier>
-			<advantage version="2">
-				<name>Accessory (Independent Cyberoptic Slot)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Accessory (Microphone)</name>
-				<type>Physical, Exotic</type>
-				<base_points>1</base_points>
-				<reference>B100</reference>
-				<categories>
-					<category>Perk</category>
-				</categories>
-			</advantage>
-			<advantage_container version="2" open="yes">
-				<name>Cyberoptic</name>
-			</advantage_container>
-		</advantage_container>
-	</advantage_list>
-	<note_list>
-		<note version="1">
-			<text>500 eb, Minor surgery, LC4</text>
-		</note>
-	</note_list>
-</template>
+{
+	"type": "template",
+	"version": 1,
+	"id": "e1ab0287-9709-4536-990f-d0e1c29caa9d",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "56d0d8e7-b7d6-4288-9d3b-87f2daaab3ce",
+			"name": "Sensory Extensions",
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "4aae8c23-69a9-46ef-9199-fa73834ecef3",
+					"name": "Temporary Disadvantage: Electrical",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d47053b7-9142-4b85-8e55-b16c0c4797c6",
+					"name": "Accessibility: Requires Neuralware Processor",
+					"cost_type": "percentage",
+					"cost": -5,
+					"affects": "total"
+				}
+			],
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "88822479-366a-4aa8-a8b0-531655112aab",
+					"name": "Accessory (Independent Cyberoptic Slot)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c8d0eb6c-ed5f-403b-87d0-751148fc6443",
+					"name": "Accessory (Microphone)",
+					"physical": true,
+					"exotic": true,
+					"base_points": 1,
+					"reference": "B100",
+					"categories": [
+						"Perk"
+					]
+				},
+				{
+					"type": "advantage_container",
+					"version": 1,
+					"id": "b61bee25-7c31-422d-90b9-851a97aaf407",
+					"name": "Cyberoptic",
+					"open": true
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "08d54336-f2a7-402a-a406-a25cdcdbd7b7",
+			"text": "500 eb, Minor surgery, LC4"
+		}
+	]
+}
