@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "81266be0-1590-4eff-8adc-58438b076037",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "3f77a7f7-b73f-4496-967e-cb81ca3f9ea6",
 			"name": "Microwave/EMP shielding",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "41a0865c-1c25-4b4f-a237-3b29dd2d2405",
 					"name": "Requires Cyberlimb",
 					"cost_type": "percentage",
@@ -19,18 +17,23 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"notes": "Removes Temporary Disadvantage: Electrical",
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "3879f247-f616-4caf-947e-bc5c2169f2c1",
 					"name": "Accessory (EMP Shielding)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
@@ -41,7 +44,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "3af701c0-6e8e-486b-87cb-537c1c281169",
 			"text": "300 eb per limb, Negligible surgery, LC4"
 		}

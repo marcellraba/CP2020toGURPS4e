@@ -1,24 +1,28 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "a986ad8c-e510-430f-866e-08572df8693c",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "4963048e-66df-4fb7-810f-b8cfdc1817e4",
 			"name": "Extreme Sexual Dimorphism",
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "4bcdced6-cb95-4bde-b355-a1d19b157b13",
 					"name": "Extreme Sexual Dimorphism",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "PU2:10",
+					"calc": {
+						"points": 1
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -41,7 +45,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "197c828e-dbc1-47e1-9903-d0298acdad10",
 			"text": "1200 eb + Critical surgery, 1 week recovery time. LC4\nRequires Attractive or better Appearance."
 		}

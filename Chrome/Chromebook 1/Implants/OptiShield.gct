@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "d8a36fab-bb6a-43e6-95d1-fc7be74505ef",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "45164462-d340-4119-8dd7-e069bfa97d45",
 			"name": "OptiShield",
+			"calc": {
+				"points": 11
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "ee835a52-6ccb-4365-8928-bff1e4c37778",
 					"name": "Nictitating Membrane",
 					"physical": true,
@@ -20,19 +21,24 @@
 					"levels": "6",
 					"points_per_level": 1,
 					"reference": "B71",
+					"calc": {
+						"points": 6
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "873f0d54-82f9-439a-9513-1457c8b64d7b",
 					"name": "Protected Sense (Vision)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 5,
 					"reference": "B78",
+					"calc": {
+						"points": 5
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -43,7 +49,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "12b9310f-5abd-4b02-8d22-b1ffb9fa2641",
 			"text": "300 eb, Minor surgery, LC4"
 		}

@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "bc2cd8c7-18e7-4f5c-b345-e053e8355b8e",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "e04be591-6989-4bf7-9466-a184e0e2ab6d",
 			"name": "Light Tattoos",
+			"calc": {
+				"points": 0
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "2a38e303-141d-44bf-b735-5c1ab9ca2e82",
 					"name": "Unnatural Features (Light Tattoos)",
 					"physical": true,
@@ -21,7 +22,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "038b217a-5c2a-47c6-ba18-7111e1108cbd",
 							"name": "Flourescent, requires light",
 							"cost_type": "percentage",
@@ -30,6 +30,9 @@
 						}
 					],
 					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -62,7 +65,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "74022d7a-0137-4b67-9cd1-a1a8fb15fec3",
 			"text": "Negligible, 1-20 eb, LC4"
 		}

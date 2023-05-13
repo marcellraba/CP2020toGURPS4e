@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "f16b6b04-f53b-4f64-bfd5-0e1f1788746b",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "e611db4e-88d4-4a96-b5fa-f91a3f662b48",
 			"name": "One Cyberoptic",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "ac782bcb-cef5-459e-ac87-02e9757b452e",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "b5dc9d0c-45bc-4f7c-bd69-ab1ccfb90130",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -28,24 +25,28 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 3
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "c9a61db7-bdee-46b4-bdc9-2cbf5367c3c2",
 					"name": "Accessory (Video Display)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "656bb28f-1fcc-483a-b461-3ddc14826bf5",
 					"name": "Nictitating Membrane",
 					"physical": true,
@@ -55,7 +56,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "08e72b34-da66-4808-9a1d-4f7d832af2cb",
 							"name": "One Eye",
 							"cost_type": "percentage",
@@ -64,13 +64,15 @@
 						}
 					],
 					"reference": "B71",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "9b6a4d6d-42e8-49b9-934a-1443f028fd3a",
 					"name": "One Eye",
 					"physical": true,
@@ -78,7 +80,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ce9bb385-1418-4dc5-859d-a775e2983a05",
 							"name": "Mitigator",
 							"cost_type": "percentage",
@@ -87,80 +88,91 @@
 						}
 					],
 					"reference": "B147",
+					"calc": {
+						"points": -3
+					},
 					"categories": [
 						"Disadvantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "cfb9cb28-ee49-4377-a2a6-8a82f24ef185",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "64f90df6-9320-4ac6-884c-79e4dafc2be2",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "1576bbbe-06ab-4550-93e8-dca57091812f",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "70d8f3ba-08aa-40d4-9d2a-74000c8f7a77",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "367a18f1-05b3-4cd5-811d-f8cf25281adf",
 					"name": "Options",
+					"calc": {
+						"points": 0
+					},
 					"open": true
 				}
 			]
 		},
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "91202a14-9d98-4c4b-bb90-2bab54761136",
 			"name": "Two Cyberoptics",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "e77d137c-0b3b-49ef-824b-3949a18bb646",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -169,7 +181,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "7a49abfb-0b97-4ddf-a8af-4b08ea22099d",
 					"name": "Accessibility: Requires Neuralware",
 					"cost_type": "percentage",
@@ -177,24 +188,28 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": -3
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "c4acd2d4-5d95-46d8-a7f3-9ebd1c55b4ee",
 					"name": "Accessory (Video Display)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "bd84d606-03e8-4434-b601-5c6451acc9f4",
 					"name": "Nictitating Membrane",
 					"physical": true,
@@ -202,13 +217,15 @@
 					"levels": "2",
 					"points_per_level": 1,
 					"reference": "B71",
+					"calc": {
+						"points": 2
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "4d565e8c-2d95-47cb-b178-6c38afefaf6d",
 					"name": "Blindness",
 					"physical": true,
@@ -216,7 +233,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3a069ea4-6bdd-4a98-ba6e-a8227baa2d93",
 							"name": "Mitigator",
 							"cost_type": "percentage",
@@ -225,6 +241,9 @@
 						}
 					],
 					"reference": "B124",
+					"calc": {
+						"points": -10
+					},
 					"notes": "-6 to all combat skills; cannot target hit locations",
 					"categories": [
 						"Disadvantage"
@@ -232,74 +251,82 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "dfbaddf4-bca4-43f9-a71b-a22ce27b0c0a",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "cc9788ce-37e3-4218-b6aa-b3610544b6eb",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "d05e298b-d4e6-4d9a-b547-118105c70524",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "cec6b4fd-dbb3-4470-a4d0-a7b7525a98db",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "2d45df8e-2afb-46fd-855d-1dae035694ee",
 					"name": "Options",
+					"calc": {
+						"points": 0
+					},
 					"open": true
 				}
 			]
 		},
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "a10755d3-bf08-42ad-bd88-66cc09861f3a",
 			"name": "Independent Cyberoptic",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "649a7469-4c6b-49d7-a789-7bd6277ebef5",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -308,7 +335,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "8910b65d-b3c5-4d76-9607-b839b5f970f5",
 					"name": "Accessibility: Requires Neuralware",
 					"cost_type": "percentage",
@@ -316,24 +342,28 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 7
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "ed5e6ff6-895d-485d-9bcd-1624ed2379ca",
 					"name": "Accessory (Video Display)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "4f4607f1-fb4c-4574-8a30-f28b355b346b",
 					"name": "Nictitating Membrane",
 					"physical": true,
@@ -341,67 +371,80 @@
 					"levels": "2",
 					"points_per_level": 1,
 					"reference": "B71",
+					"calc": {
+						"points": 2
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "af691771-b025-4478-9e5d-886e9776c955",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "faa98358-728d-4855-a052-78b6680a6167",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "b51e0e48-6b73-4a65-9dcf-e4ea8495331c",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "ff9bfe87-b6c6-4dab-92fe-36707fa87695",
 					"name": "Accessory (option slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "4a6cd2a4-856b-4ef9-aa75-6bd6a70d71c7",
 					"name": "Options",
+					"calc": {
+						"points": 0
+					},
 					"open": true
 				}
 			]
@@ -410,7 +453,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "323ec32b-0558-411b-9e29-1c22bee7db2f",
 			"text": "500 eb/piece, Major surgery, LC4\n\nHas 4 option slots.\n\nWhen buying options for one eye, apply the One Eye (-50%) Limitation where it makes sense."
 		}

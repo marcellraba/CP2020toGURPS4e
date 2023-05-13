@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "432e6f4e-8bb6-4177-b10e-af4dd2efb589",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "57251e92-84e0-4a26-85d3-da797f8d36bb",
 			"name": "Sonar Implant",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "f681649a-aa64-4b62-a6c9-f83c8eadc0f0",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "39a407d8-bce9-4d41-b6a3-a2a445acd975",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 19
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "f8b68241-9ca0-4e03-b0c2-3ee0a5ae9acf",
 					"name": "Scanning Sense",
 					"physical": true,
@@ -40,7 +39,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8dcfc287-3d81-4a0d-9399-2dac80dc872e",
 							"disabled": true,
 							"name": "Imaging Radar",
@@ -51,7 +49,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "78aef831-45be-46e4-9015-b756f6d4d91e",
 							"disabled": true,
 							"name": "Radar",
@@ -62,7 +59,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a260b33f-772f-4232-bc1a-f7415c8a4273",
 							"disabled": true,
 							"name": "Ladar",
@@ -73,7 +69,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0b8aea8d-8c28-45cf-92b5-683a2c830cb9",
 							"disabled": true,
 							"name": "Para-Radar",
@@ -84,7 +79,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2cc0bf9e-ecd3-4731-ada5-1d0d30311891",
 							"name": "Sonar",
 							"reference": "B81",
@@ -94,7 +88,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "42b3d063-9a59-44dc-9401-316d4b8b849c",
 							"disabled": true,
 							"name": "Extended Arc",
@@ -106,7 +99,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "af8880ab-585d-4cff-bccd-858812e1cf11",
 							"disabled": true,
 							"name": "Extended Arc",
@@ -118,7 +110,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4846b03f-071f-4bc6-bcfe-159ecbe569f6",
 							"disabled": true,
 							"name": "Low-Probability Intercept",
@@ -129,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3c34d335-108e-462e-8ba5-e13dae4ebb5e",
 							"disabled": true,
 							"name": "Multi-Mode",
@@ -140,7 +130,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e682cbbf-7c97-4b2f-8f95-913d7b305e0a",
 							"disabled": true,
 							"name": "Penetrating",
@@ -151,7 +140,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "450b9958-a54b-47c9-8902-2e1a27dfb2a2",
 							"disabled": true,
 							"name": "Targeting",
@@ -162,7 +150,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c8ba14b5-9bf1-49f2-b2a3-3d498929e4bc",
 							"disabled": true,
 							"name": "Targeting Only",
@@ -173,7 +160,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f6c1bc8a-c82b-4a14-9878-1b3096e42941",
 							"disabled": true,
 							"name": "Active IR",
@@ -184,7 +170,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "02e087a9-9215-4153-b361-9e683088d801",
 							"disabled": true,
 							"name": "T-Ray Vision",
@@ -195,7 +180,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a620c334-2cf4-49f7-99c8-e94535c6dcfe",
 							"disabled": true,
 							"name": "Bio-Scan",
@@ -206,7 +190,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "318e4b38-00fd-49b6-af98-105dba2ffaca",
 							"disabled": true,
 							"name": "No Intercept",
@@ -217,7 +200,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "54c2400e-74ff-43cc-bb2c-7748a29d33f7",
 							"disabled": true,
 							"name": "Scanner",
@@ -228,7 +210,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b78c64bc-20d2-44e2-ba94-ad6d158d5b5b",
 							"disabled": true,
 							"name": "Field Sense",
@@ -239,7 +220,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7f175ed4-9b5d-44be-b91d-4ca46866a7fb",
 							"name": "Reduced Range: 1/10",
 							"cost_type": "percentage",
@@ -248,7 +228,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "00d6c826-69ed-4648-994c-2d76f317fb09",
 							"name": "Extended Arc: 180°",
 							"cost_type": "percentage",
@@ -257,6 +236,9 @@
 						}
 					],
 					"reference": "B81",
+					"calc": {
+						"points": 19
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -267,7 +249,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "e19d1304-51e1-431b-b837-6c087f95f8ed",
 			"text": "300 eb, Minor surgery, LC4"
 		}

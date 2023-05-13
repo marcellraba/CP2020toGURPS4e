@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "fea7fecc-abcc-4297-8fa1-d16d98c0d763",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "64deb535-95b2-4d39-8641-5d6770417752",
 			"name": "Built-In Cybermodem",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "5a5f2246-5324-413e-82fa-88380441e00a",
 					"name": "Accessibility: Requires Cyberlimbs",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "bb301a3f-55da-40cf-a425-cf7a36382d95",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -28,24 +25,28 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 9
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "a6cf3a04-a796-4cb7-b220-32b19c180e68",
 					"name": "Accessory (Small Computer (Compact))",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "535f8d93-3c2c-4066-8d88-3f37d4c2fded",
 					"name": "Telecommunication",
 					"mental": true,
@@ -54,7 +55,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5bd55818-e088-4b8b-a17b-a084218d470f",
 							"disabled": true,
 							"name": "Infrared Communication",
@@ -65,7 +65,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1d712f96-4d34-4a93-81d6-65bbcab6cb6e",
 							"disabled": true,
 							"name": "Laser Communication",
@@ -76,7 +75,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c2d543d5-0a51-42fd-9633-48bfaaeeaf58",
 							"disabled": true,
 							"name": "Radio",
@@ -87,7 +85,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ee97d413-1946-449a-b0ef-f8950c81f1fe",
 							"disabled": true,
 							"name": "Telesend",
@@ -98,7 +95,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fc269d64-6f7b-44bc-aa66-abe41aa5e521",
 							"disabled": true,
 							"name": "Broadcast",
@@ -109,7 +105,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "04e86579-74c4-478b-9426-023dc554c3a4",
 							"disabled": true,
 							"name": "Short Wave",
@@ -120,7 +115,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b134cc5e-cb6b-4129-af15-c330022664ed",
 							"disabled": true,
 							"name": "Universal",
@@ -131,7 +125,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e4d4d248-52f5-4e98-89bc-d6a78ed12141",
 							"disabled": true,
 							"name": "Video",
@@ -142,7 +135,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f7d72b2f-6a23-4601-b788-b3b794fe22ab",
 							"disabled": true,
 							"name": "Racial",
@@ -153,7 +145,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0fcd18f1-4ea2-4cfa-bfab-1932f26c0cfe",
 							"disabled": true,
 							"name": "Receive Only",
@@ -164,7 +155,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c7da1c3b-5839-491c-8fb4-ab3219cd1a05",
 							"disabled": true,
 							"name": "Send Only",
@@ -175,7 +165,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ab335141-008d-4396-95c7-9c30e55d9ad1",
 							"disabled": true,
 							"name": "Vague",
@@ -186,7 +175,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "897c488e-c074-43af-9d7c-bb37f37f406f",
 							"disabled": true,
 							"name": "Directional Sound",
@@ -197,7 +185,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "76ac77c9-bf16-42b3-8a47-c37d2d1c123d",
 							"disabled": true,
 							"name": "Gravity Ripple",
@@ -208,7 +195,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c3348400-ce79-4b64-b102-7718f532d4f9",
 							"disabled": true,
 							"name": "Neutrino",
@@ -219,7 +205,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1864e368-9f3c-45fd-89ba-867cd154a333",
 							"disabled": true,
 							"name": "Sonar",
@@ -230,7 +215,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f9185fe3-1b96-40fd-9b7f-d3fa2ca14412",
 							"disabled": true,
 							"name": "Burst",
@@ -242,7 +226,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6d310915-e5f1-4456-8061-d19dae044bf7",
 							"disabled": true,
 							"name": "FTL",
@@ -253,7 +236,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6c8e1260-e848-4d76-a4c6-b6fa0cb8bfde",
 							"disabled": true,
 							"name": "Secure",
@@ -264,7 +246,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a450508b-4e34-4748-8d2b-f4fa03e3bcad",
 							"name": "Sensie",
 							"reference": "P82",
@@ -274,7 +255,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d200404d-99f6-41fd-aff9-38bc58ea776a",
 							"name": "Cable Jack",
 							"reference": "UT31",
@@ -284,6 +264,9 @@
 						}
 					],
 					"reference": "B91",
+					"calc": {
+						"points": 8
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -294,7 +277,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "d2fa21b5-c15a-4601-8f27-3855415afcd6",
 			"text": "3000 eb, Negligible surgery, LC4"
 		}

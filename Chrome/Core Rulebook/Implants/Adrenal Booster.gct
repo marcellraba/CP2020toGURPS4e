@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "a57a6ded-7bfa-4312-8823-01b08ee6d232",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "708faf59-fd06-4593-8bd2-1685706294c3",
 			"name": "Adrenal Booster",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "5c6305d4-0dfd-4561-9578-398f33bcc222",
 					"name": "Temporary Disadvantage: Electronic",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "8b2ab51b-2164-49aa-a247-581c0c6537c1",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -29,7 +26,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "4683123c-8f22-4d9a-a72e-8b4679c8cf32",
 					"name": "Maximum Duration: 30 sec",
 					"cost_type": "percentage",
@@ -37,12 +33,14 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 20
+			},
 			"notes": "Duration: 30 seconds",
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "81b06167-b793-4241-b50b-a07fac0eb412",
 					"name": "Increased Strength",
 					"physical": true,
@@ -51,7 +49,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ba101ac6-fe80-4f11-ab52-7ab05a5b71fb",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -62,7 +59,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a56d5ae2-9de9-46df-b304-abf6908e3f0f",
 							"disabled": true,
 							"name": "Size",
@@ -74,7 +70,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "9c57cd7c-843b-427f-adb5-27c90476885a",
 							"disabled": true,
 							"name": "Super-Effort",
@@ -85,6 +80,9 @@
 						}
 					],
 					"reference": "B14",
+					"calc": {
+						"points": 4
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -100,7 +98,6 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "bd68f70c-bd2d-404f-829c-7375ae0fac2a",
 					"name": "Increased Dexterity",
 					"physical": true,
@@ -109,7 +106,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7f7ba152-6861-4cc7-9122-a7c5894a34df",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -119,6 +115,9 @@
 						}
 					],
 					"reference": "B15",
+					"calc": {
+						"points": 16
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -138,7 +137,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "75adadd4-298f-4ac1-bc92-95e7eeec3fc6",
 			"text": "400 eb, Minor surgery, LC4"
 		}

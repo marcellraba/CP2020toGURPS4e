@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "7669ba1b-5613-440a-802c-278b7225e5a5",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "4d11fd90-6bd7-4824-82e1-643fc3e8622e",
 			"name": "Smartgun Link",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "4b8f1ef8-76e8-438b-8bce-dc333e620319",
 					"name": "Accessibility (Requires Neuralware Processor)",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "b95a481c-f378-4c5c-9769-85d887a078fc",
 					"name": "Accessibility (Smartguns only)",
 					"cost_type": "percentage",
@@ -29,7 +26,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "e0a1a7ba-6805-4716-a0bd-69e59675b348",
 					"name": "Accessibility (Requires Interface Plugs)",
 					"cost_type": "percentage",
@@ -38,7 +34,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "b93a928b-c5be-46f5-aa66-f5e7c7c09314",
 					"name": "Temporary Disadvantage, Electrical",
 					"cost_type": "percentage",
@@ -46,17 +41,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "fb73f1b1-8374-4bb7-b836-0a8d4462e7ac",
 					"name": "Accessory (Smartgun Link)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"notes": "Enables Smartguns",
 					"categories": [
 						"Perk"
@@ -68,7 +68,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "a6766621-dcd6-4e38-b063-dfed746a46d8",
 			"text": "Smartguns are modified versions of normal firearms, linked to an internal microcomputer, which in turn is jacked to a human operator. A smartgun uses a small sonic or laser projector to lock onto the target, scanning it thousands of times per second. As the gun traverses the desired target, the computer link picks up your mental fire signal (or incoming data from the targeting reticule of your cyberoptic) and triggers the gun.\n\n100 eb, Negligible surgery, LC4"
 		}

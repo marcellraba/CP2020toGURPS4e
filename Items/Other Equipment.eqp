@@ -1,28 +1,34 @@
 {
 	"type": "equipment_list",
-	"version": 1,
+	"version": 2,
 	"id": "67e16e86-fbe4-4d7b-b703-2a175e8c7919",
 	"rows": [
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "21433c43-3b4c-41c8-aa50-b008d599654c",
 			"quantity": 1,
 			"description": "Basic Tool Kit",
 			"value": "500",
 			"weight": "1 kg",
+			"calc": {
+				"extended_value": "500",
+				"extended_weight": "1 kg"
+			},
 			"categories": [
 				"tools"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "c996dec6-ff2a-4d5a-97e4-37632453e2ba",
 			"quantity": 1,
 			"description": "'Farinata' Tech Tool Kit",
 			"value": "350",
 			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": "350",
+				"extended_weight": "0.5 lb"
+			},
 			"notes": "+1 to reaction rolls",
 			"categories": [
 				"tools"
@@ -30,12 +36,15 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "003b9e50-ddc5-4f94-a6a9-f5d258a81e04",
 			"quantity": 1,
 			"description": "Tool Kits by Buchsterhude Gmbh",
 			"value": "1000",
 			"weight": "1.75 lb",
+			"calc": {
+				"extended_value": "1000",
+				"extended_weight": "1.75 lb"
+			},
 			"notes": "good quality",
 			"categories": [
 				"tools"

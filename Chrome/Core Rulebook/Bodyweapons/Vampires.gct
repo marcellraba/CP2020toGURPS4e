@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "6e24f40d-ebac-4966-b947-6bd29426b7a0",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "05edd321-961d-43db-bcb4-f2140ae782ca",
 			"name": "Vampires",
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "9719953d-26db-422b-9845-4cad916cedeb",
 					"name": "Teeth, Fangs",
 					"physical": true,
@@ -30,30 +31,41 @@
 							"reach": "C",
 							"parry": "No",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "No",
+								"block": "No",
+								"damage": "thr-1 imp"
+							},
 							"defaults": [
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								},
 								{
-									"type": "DX"
+									"type": "dx"
 								}
 							]
 						}
 					],
 					"reference": "B91",
+					"calc": {
+						"points": 2
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "902d2249-2444-482b-888b-10c161824b57",
 					"name": "Distinctive Features",
 					"physical": true,
 					"base_points": -1,
 					"reference": "B165",
+					"calc": {
+						"points": -1
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -84,7 +96,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "f6de7d52-e8b6-407c-9b20-c2f0bb66145c",
 			"text": "200 eb, Negligible surgery, LC4"
 		}

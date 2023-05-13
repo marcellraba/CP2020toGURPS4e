@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "063679c7-3872-4aa6-98e1-2809d646f4de",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "7032e2af-e10c-4409-98f6-4c7062b7e7bb",
 			"name": "Voiice Synthetizer",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "d47a2b7f-75ca-416e-b95c-fd6e3cc49f96",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "7976b4eb-ae0a-4cfd-aaac-e86c10cb635d",
 					"name": "Accessibility: Requires Neuralware",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 8
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "9542506a-d967-47aa-8246-0fd859a1c825",
 					"name": "Mimicry",
 					"mental": true,
@@ -41,7 +40,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f17cd80e-a966-4749-b521-99bb0fffc523",
 							"disabled": true,
 							"name": "Voice Library",
@@ -52,7 +50,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0254dbda-2d1a-4813-9273-8cd9b25669ac",
 							"name": "Can't forget, but only stores 10 voices.",
 							"cost_type": "percentage",
@@ -61,7 +58,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "dddf886c-1adc-4381-bc02-2e8674fdc893",
 							"name": "Reliable 1",
 							"cost_type": "percentage",
@@ -70,7 +66,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f4d09360-6e99-4d09-9108-9df908066b01",
 							"name": "Uses software IQ 10",
 							"cost_type": "percentage",
@@ -79,6 +74,9 @@
 						}
 					],
 					"reference": "B68",
+					"calc": {
+						"points": 8
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -89,7 +87,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "53b4646f-839b-4aa3-a43c-126c04674ae2",
 			"text": "IQ roll is made by the implant at effective IQ of 11 (reliable included)\n\n600 eb, Minor surgery, LC4"
 		}

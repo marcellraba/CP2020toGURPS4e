@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "8193e937-9aba-436c-8cb5-c6c8405ae434",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "fcc8d552-e474-46d2-b381-5c7c8071d099",
 			"name": "Skate Foot",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "74db0dbc-8aaa-42bf-aeac-a61e39ad3dcb",
 					"name": "Accessibility: Requires Cyberlimb",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "770d26b4-315e-4ba5-9b05-429b998d4ca3",
 					"name": "Switchable",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 15
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "a66dfa8c-fdc6-4566-a34b-dbd4803a2a37",
 					"allow_half_levels": true,
 					"name": "Enhanced Move (Ground: Skates)",
@@ -43,7 +42,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d62c15ea-b2cb-4eb8-bb85-f9f33c514351",
 							"disabled": true,
 							"name": "Handling Bonus",
@@ -55,7 +53,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f439dd37-ad4c-400a-bcf7-b26370ff6f75",
 							"disabled": true,
 							"name": "Handling Penalty",
@@ -67,7 +64,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "683e632d-f6af-42ae-b035-ecf637c49ada",
 							"disabled": true,
 							"name": "Newtonian",
@@ -78,7 +74,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f0446e78-100a-4282-81a8-4b14e319019b",
 							"name": "Road-Bound",
 							"reference": "B52",
@@ -88,7 +83,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "40a43ce0-cfee-4cfd-a243-40beabedc968",
 							"disabled": true,
 							"name": "All-Out",
@@ -99,7 +93,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b0423d44-87df-487c-8903-3759261f7a97",
 							"disabled": true,
 							"name": "Cosmic",
@@ -111,7 +104,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e39fe67e-e2de-472e-a8a1-bc1dcf9250c1",
 							"disabled": true,
 							"name": "Cosmic",
@@ -123,6 +115,9 @@
 						}
 					],
 					"reference": "B52",
+					"calc": {
+						"points": 15
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -133,7 +128,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "b0e11703-b23a-4c78-adcc-3a5a3147f118",
 			"text": "440 eb, Negligible surgery, LC4"
 		}

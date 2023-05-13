@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "6c698c95-f2af-4d91-b460-d3664632d1c4",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "d41b1da6-758e-41ce-b326-00aaa9cb290b",
 			"name": "Phone Splice",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "5be43953-fd84-4821-ac26-acba80d0725e",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "747b9439-93a9-4bd5-9642-1e6efe1c30e0",
 					"name": "Accessibility: Requires Cyberaudio",
 					"cost_type": "percentage",
@@ -29,7 +26,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "35f8cee9-8614-4a57-a9fe-31d48acd79f7",
 					"name": "Accessibility: Requires Phone",
 					"cost_type": "percentage",
@@ -38,7 +34,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "1df81893-73c8-45aa-a610-1601d9c3d26d",
 					"name": "Reduced Range: 1/1000",
 					"cost_type": "percentage",
@@ -46,12 +41,14 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 2
+			},
 			"notes": "3 meter max range, you need a phone to use it.",
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "0a51480b-3fcf-40fb-b4de-2ad349299b42",
 					"name": "Telecommunication",
 					"mental": true,
@@ -60,7 +57,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "06b9b3f3-299f-47e9-9401-6e98165a0576",
 							"disabled": true,
 							"name": "Infrared Communication",
@@ -71,7 +67,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a97ee5cf-fb0c-48a5-8ea3-db0641f8a1b8",
 							"disabled": true,
 							"name": "Laser Communication",
@@ -82,7 +77,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1b9cc206-5701-4b8d-b4c6-f41f983b5202",
 							"name": "Radio",
 							"reference": "B91",
@@ -92,7 +86,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "38f13a05-4c4f-4da5-8a8d-81f28603aceb",
 							"disabled": true,
 							"name": "Telesend",
@@ -103,7 +96,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "dd840f84-d82c-48a6-9cd8-0563800a33f7",
 							"disabled": true,
 							"name": "Broadcast",
@@ -114,7 +106,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "97298d14-a6c8-4b2f-b153-de284ed8da43",
 							"disabled": true,
 							"name": "Short Wave",
@@ -125,7 +116,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "23d0cf0a-223a-4e41-bfda-51de43ced0b7",
 							"disabled": true,
 							"name": "Universal",
@@ -136,7 +126,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "845dc42b-e0ac-4a0b-a82c-bfb27c848f29",
 							"disabled": true,
 							"name": "Video",
@@ -147,7 +136,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6027d344-5570-4c1e-aacc-0c89e210304f",
 							"disabled": true,
 							"name": "Racial",
@@ -158,7 +146,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7bb59584-a1bd-41eb-a234-139ff8fce970",
 							"disabled": true,
 							"name": "Receive Only",
@@ -169,7 +156,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bed61ba6-45b1-49ca-973d-10fea00095ce",
 							"disabled": true,
 							"name": "Send Only",
@@ -180,7 +166,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5823abee-f7ba-4134-99d5-a9fc4f961585",
 							"disabled": true,
 							"name": "Vague",
@@ -191,7 +176,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "97ed8e22-4e7a-4a6c-902c-1f49e5bc007c",
 							"disabled": true,
 							"name": "Directional Sound",
@@ -202,7 +186,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a053d516-a782-41ba-8040-2f59e0978559",
 							"disabled": true,
 							"name": "Gravity Ripple",
@@ -213,7 +196,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a92b62be-b6cf-49ec-b270-165c86110523",
 							"disabled": true,
 							"name": "Neutrino",
@@ -224,7 +206,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8cf81da4-b78f-4036-8724-994a905ec616",
 							"disabled": true,
 							"name": "Sonar",
@@ -235,7 +216,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b0cf8975-c4a3-453a-b2db-91b9d0b3939d",
 							"disabled": true,
 							"name": "Burst",
@@ -247,7 +227,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "235bfa3c-c7ee-41e3-a04c-4deb61955bf2",
 							"disabled": true,
 							"name": "FTL",
@@ -258,7 +237,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "67b6600e-cb2a-44ba-8731-07f1507a3fb4",
 							"disabled": true,
 							"name": "Secure",
@@ -269,7 +247,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "18dceeff-7b3d-440f-bc32-1e570821e860",
 							"disabled": true,
 							"name": "Sensie",
@@ -280,7 +257,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a69ea550-f6ec-46f8-856a-2248c06355ac",
 							"disabled": true,
 							"name": "Cable Jack",
@@ -291,6 +267,9 @@
 						}
 					],
 					"reference": "B91",
+					"calc": {
+						"points": 2
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -301,7 +280,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "0c66408d-94a1-46c9-a7c2-eeea37e451cd",
 			"text": "150 eb, Negligible surgery, LC4"
 		}

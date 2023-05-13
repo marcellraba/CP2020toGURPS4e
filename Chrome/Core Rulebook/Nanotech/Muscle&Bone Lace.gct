@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "5fc88664-4db9-4668-afd3-5e134fb466c4",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "829449aa-fad8-48bc-ba3b-72ac35c7d9d9",
 			"name": "Muscle&Bone Lace",
+			"calc": {
+				"points": 16
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "e6b496a5-7405-4e9f-ac74-a07608261b58",
 					"name": "Striking ST",
 					"physical": true,
@@ -22,7 +23,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e6251bee-c32d-4db1-bea8-5c4e1549d7b2",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -32,7 +32,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1b59e4ed-6493-4469-a160-86d205e3564b",
 							"disabled": true,
 							"name": "Size",
@@ -43,7 +42,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "de82f09a-e59b-4965-925e-87a97aadd605",
 							"disabled": true,
 							"name": "Super Effort",
@@ -54,7 +52,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "25018060-8390-497e-a2ec-4cce9a642d46",
 							"disabled": true,
 							"name": "One Attack Only",
@@ -66,7 +63,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0caa556a-fbe5-46fa-89e4-54b4788234e6",
 							"name": "Know Your Own Strength Pricing Variant",
 							"reference": "PY83:18",
@@ -76,6 +72,9 @@
 						}
 					],
 					"reference": "B88",
+					"calc": {
+						"points": 2
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -91,7 +90,6 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "71171ad2-6b3f-4ee6-a332-b31e8bc44e4b",
 					"name": "Lifting ST",
 					"physical": true,
@@ -101,7 +99,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "523b9f1c-77dd-4662-8ec4-c7e6d81242e1",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -112,7 +109,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "9aac82eb-fe4b-4b9e-aba1-ed547fedbbb9",
 							"disabled": true,
 							"name": "Size",
@@ -124,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bf6423b4-edb0-49eb-a62e-9b81a35382e6",
 							"disabled": true,
 							"name": "Super-Effort",
@@ -135,7 +130,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "132f6aaa-f6b8-4fb8-a20e-4e34fd5fd87b",
 							"name": "Know Your Own Strength Variant Price",
 							"reference": "PY83:18",
@@ -145,6 +139,9 @@
 						}
 					],
 					"reference": "B65",
+					"calc": {
+						"points": 14
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -164,7 +161,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "51c5c1b7-da67-4b5f-80fe-5dc590001aae",
 			"text": "1500 eb, Negligible surgery, LC4"
 		}

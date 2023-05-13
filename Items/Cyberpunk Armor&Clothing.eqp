@@ -1,11 +1,10 @@
 {
 	"type": "equipment_list",
-	"version": 1,
+	"version": 2,
 	"id": "5b60da85-e714-41f5-b776-45840d238302",
 	"rows": [
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "ef2a38e0-91f0-467e-bc8b-3563c1bcc29b",
 			"quantity": 1,
 			"description": "Leather Jacket",
@@ -13,6 +12,10 @@
 			"value": "30",
 			"weight": "4 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "30",
+				"extended_weight": "4 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -22,7 +25,12 @@
 				{
 					"type": "dr_bonus",
 					"amount": 1,
-					"location": "arms"
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "arm"
 				}
 			],
 			"notes": "Flexible",
@@ -33,7 +41,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "62b6203c-26c0-409b-8219-0bdfac696e94",
 			"quantity": 1,
 			"description": "Kevlar T-shirt",
@@ -41,11 +48,20 @@
 			"value": "90",
 			"weight": "1 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "90",
+				"extended_weight": "1 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 2,
 					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "vitals"
 				}
 			],
 			"notes": "Flexible, 8 DR against pi, cutting fragmentation, semi-ablative",
@@ -56,7 +72,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "3da13ffe-973b-4177-9504-adbdfcecbc1d",
 			"quantity": 1,
 			"description": "Light Armored Jacket",
@@ -64,6 +79,10 @@
 			"value": "90",
 			"weight": "1 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "90",
+				"extended_weight": "1 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -73,7 +92,12 @@
 				{
 					"type": "dr_bonus",
 					"amount": 2,
-					"location": "arms"
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "arm"
 				}
 			],
 			"notes": "Flexible, 8 DR against pi, cutting fragmentation, semi-ablative",
@@ -84,7 +108,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "0f65716f-23b3-4d27-a684-7de9ff9b9c9d",
 			"quantity": 1,
 			"description": "Medium Armored Jacket",
@@ -92,6 +115,10 @@
 			"value": "200",
 			"weight": "2 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "2 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -101,7 +128,12 @@
 				{
 					"type": "dr_bonus",
 					"amount": 5,
-					"location": "arms"
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "arm"
 				}
 			],
 			"notes": "Flexible, 12 DR against pi, cutting fragmentation, semi-ablative",
@@ -112,7 +144,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "d88ca04b-6762-437c-9b0d-f614f991fcbd",
 			"quantity": 1,
 			"description": "Heavy Armored Jacket",
@@ -120,6 +151,10 @@
 			"value": "250",
 			"weight": "4 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "250",
+				"extended_weight": "4 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -129,7 +164,12 @@
 				{
 					"type": "dr_bonus",
 					"amount": 7,
-					"location": "arms"
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 7,
+					"location": "arm"
 				}
 			],
 			"notes": "Flexible, 18 DR against pi, cutting fragmentation, semi-ablative",
@@ -140,7 +180,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "d1ce4c6d-f3cf-4c06-a9ae-040e7c9a23cb",
 			"quantity": 1,
 			"description": "Flak Vest + Armor Plates",
@@ -148,11 +187,20 @@
 			"value": "200",
 			"weight": "23 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "23 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 20,
 					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 20,
+					"location": "vitals"
 				}
 			],
 			"notes": "22 DR against pi, cutting fragmentation, semi-ablative",
@@ -162,7 +210,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "e90b6a8a-3309-423e-9864-d2f0b42c4b47",
 			"quantity": 1,
 			"description": "Metal Gear™",
@@ -170,11 +217,20 @@
 			"value": "600",
 			"weight": "2.2 kg",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "600",
+				"extended_weight": "2.2 kg"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 30,
 					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 30,
+					"location": "vitals"
 				},
 				{
 					"type": "dr_bonus",
@@ -194,7 +250,7 @@
 				{
 					"type": "dr_bonus",
 					"amount": 30,
-					"location": "arms"
+					"location": "arm"
 				},
 				{
 					"type": "dr_bonus",
@@ -204,17 +260,17 @@
 				{
 					"type": "dr_bonus",
 					"amount": 30,
-					"location": "legs"
+					"location": "leg"
 				},
 				{
 					"type": "dr_bonus",
 					"amount": 20,
-					"location": "hands"
+					"location": "hand"
 				},
 				{
 					"type": "dr_bonus",
 					"amount": 20,
-					"location": "feet"
+					"location": "foot"
 				}
 			],
 			"notes": "treat as flexible for blunt trauma purposes, semi-ablative",
@@ -224,7 +280,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "77d3463b-73ca-4aa2-9691-5f40ab03ec67",
 			"quantity": 1,
 			"description": "Steel Helmet",
@@ -232,6 +287,10 @@
 			"value": "250",
 			"weight": "7.56 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "250",
+				"extended_weight": "7.56 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -250,7 +309,6 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "376410a0-ea56-493b-8ee6-864a4ceb0faf",
 			"quantity": 1,
 			"description": "Nylon helmet",
@@ -258,6 +316,10 @@
 			"value": "20",
 			"weight": "4.4 lb",
 			"reference": "CP2020",
+			"calc": {
+				"extended_value": "20",
+				"extended_weight": "4.4 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -268,6 +330,11 @@
 					"type": "dr_bonus",
 					"amount": 10,
 					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 10,
+					"location": "vitals"
 				}
 			],
 			"notes": "semi-ablative",
@@ -277,65 +344,80 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "ff111929-c2d0-4e96-87ec-d624ed1a1e09",
 			"quantity": 1,
 			"description": "Uniware Utility Belt",
 			"tech_level": "9",
 			"value": "15",
 			"weight": "0.1 kg",
+			"calc": {
+				"extended_value": "15",
+				"extended_weight": "0.1 kg"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "39fc4713-fc1e-4a16-9a09-afe86ad04979",
 			"quantity": 1,
 			"description": "Uniware Blouse/Shirt",
 			"tech_level": "9",
 			"value": "20",
 			"weight": "0.1 kg",
+			"calc": {
+				"extended_value": "20",
+				"extended_weight": "0.1 kg"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "86ef9231-6c8f-493d-aa49-8e6644626c99",
 			"quantity": 1,
 			"description": "Uniware Vest",
 			"tech_level": "9",
 			"value": "20",
 			"weight": "0.3 kg",
+			"calc": {
+				"extended_value": "20",
+				"extended_weight": "0.3 kg"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "0968d352-cb80-4a03-812f-3dd34d64fc24",
 			"quantity": 1,
 			"description": "Uniware Pants/Skirt",
 			"tech_level": "9",
 			"value": "35",
 			"weight": "0.4 kg",
+			"calc": {
+				"extended_value": "35",
+				"extended_weight": "0.4 kg"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "fa227563-d071-46ad-90f0-ddc297bd87bf",
 			"quantity": 1,
 			"description": "Uniware Torso Armor/Legpads",
 			"tech_level": "9",
 			"value": "60",
 			"weight": "2.5 lb",
+			"calc": {
+				"extended_value": "60",
+				"extended_weight": "2.5 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -345,12 +427,17 @@
 				{
 					"type": "dr_bonus",
 					"amount": 2,
-					"location": "arms"
+					"location": "vitals"
 				},
 				{
 					"type": "dr_bonus",
 					"amount": 2,
-					"location": "legs"
+					"location": "arm"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "leg"
 				}
 			],
 			"notes": "Flexible, 8 DR against pi, cutting fragmentation, semi-ablative",
@@ -361,13 +448,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f36902e1-983e-4244-9875-9fd1dcc12603",
 			"quantity": 1,
 			"description": "Uniware Armor Jacket",
 			"tech_level": "9",
 			"value": "200",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "2 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -377,7 +467,12 @@
 				{
 					"type": "dr_bonus",
 					"amount": 5,
-					"location": "arms"
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "arm"
 				}
 			],
 			"notes": "Flexible, 12 DR pi, cutting fragmentation, semi-ablative",
@@ -388,13 +483,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "9b7b238d-4734-45cc-9c42-197d59c81a55",
 			"quantity": 1,
 			"description": "Uniware Armor Trenchcoat",
 			"tech_level": "9",
 			"value": "300",
 			"weight": "5 lb",
+			"calc": {
+				"extended_value": "300",
+				"extended_weight": "5 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -404,12 +502,17 @@
 				{
 					"type": "dr_bonus",
 					"amount": 7,
-					"location": "arms"
+					"location": "vitals"
 				},
 				{
 					"type": "dr_bonus",
 					"amount": 7,
-					"location": "legs"
+					"location": "arm"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 7,
+					"location": "leg"
 				}
 			],
 			"notes": "Flexible, 18 DR pi, cutting fragmentation, semi-ablative",
@@ -420,18 +523,21 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "a92aeba5-471c-4670-b7f8-02c6f78e0a1c",
 			"quantity": 1,
 			"description": "Armored Stockings",
 			"tech_level": "9",
 			"value": "110",
 			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": "110",
+				"extended_weight": "0.2 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 3,
-					"location": "legs"
+					"location": "leg"
 				}
 			],
 			"notes": "Flexible",
@@ -442,39 +548,48 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f6312cdf-ff82-4e0d-829e-f31c77a23fc9",
 			"quantity": 1,
 			"description": "Leather Boots",
 			"tech_level": "9",
 			"value": "100",
 			"weight": "1 lb",
+			"calc": {
+				"extended_value": "100",
+				"extended_weight": "1 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "ddf8942a-20f8-4822-bf9d-8b4221a1ac41",
 			"quantity": 1,
 			"description": "Duster Coat",
 			"tech_level": "9",
 			"value": "200",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "2 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "a8487489-311d-4029-a116-ab9b1c460555",
 			"quantity": 1,
 			"description": "Disposa Clothes",
 			"tech_level": "9",
 			"value": "200",
 			"weight": "3 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "3 lb"
+			},
 			"notes": "75-350 eb",
 			"categories": [
 				"clothing"
@@ -482,157 +597,202 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "9cce6091-1675-45e7-b932-736e3eb0d986",
 			"quantity": 1,
 			"description": "Slicksuits",
 			"tech_level": "9",
 			"value": "200",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "2 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "9b3c824e-aa35-4ce1-a43f-86e40788b4f4",
 			"quantity": 1,
 			"description": "Body Line Tattoo - Stars & Shapes",
 			"tech_level": "9",
 			"value": "50",
+			"weight": "0 lb",
+			"calc": {
+				"extended_value": "50",
+				"extended_weight": "0 lb"
+			},
 			"categories": [
 				"misc"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "1aaaee88-cf3e-4336-bd7c-49d215b162ff",
 			"quantity": 1,
 			"description": "Body Line Tattoo - Trademarks & Logos",
 			"tech_level": "9",
 			"value": "100",
+			"weight": "0 lb",
+			"calc": {
+				"extended_value": "100",
+				"extended_weight": "0 lb"
+			},
 			"categories": [
 				"misc"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "36de6fa5-8119-4c63-ad75-9bac08ed4b26",
 			"quantity": 1,
 			"description": "Body Line Tattoo - Heat Sensitive Color Changer",
 			"tech_level": "9",
 			"value": "200",
+			"weight": "0 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "0 lb"
+			},
 			"categories": [
 				"misc"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "cff48c65-5bb7-47de-a325-be97c6ddc966",
 			"quantity": 1,
 			"description": "Body Line Tattoo - Heat Sensitive Color Changer",
 			"tech_level": "9",
 			"value": "200",
+			"weight": "0 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "0 lb"
+			},
 			"categories": [
 				"misc"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "3c173023-71e5-4d74-8148-af4a40d536df",
 			"quantity": 1,
 			"description": "Reactimesh Smartbag",
 			"tech_level": "9",
 			"value": "3",
 			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": "3",
+				"extended_weight": "0.2 lb"
+			},
 			"categories": [
 				"misc"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "86a7100c-11d6-435a-96af-3ee82d863897",
 			"quantity": 1,
 			"description": "Athelon Nylon Carrybag",
 			"tech_level": "9",
 			"value": "5",
 			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": "5",
+				"extended_weight": "0.2 lb"
+			},
 			"categories": [
 				"misc"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f0ef8255-f395-499b-9e00-ba81aab9d02c",
 			"quantity": 1,
 			"description": "Nu-Tek Video Jacket",
 			"tech_level": "9",
 			"value": "300",
 			"weight": "4 lb",
+			"calc": {
+				"extended_value": "300",
+				"extended_weight": "4 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "95fa68e8-ee91-47d9-be8d-d56d4a7771f8",
 			"quantity": 1,
 			"description": "Nu-Tek Video Skirt",
 			"tech_level": "9",
 			"value": "200",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "200",
+				"extended_weight": "2 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "87b0e2c5-de21-4f11-ba5f-eb5926144a42",
 			"quantity": 1,
 			"description": "Eji of Japan Designer Jeans",
 			"tech_level": "9",
 			"value": "50",
 			"weight": "1 lb",
+			"calc": {
+				"extended_value": "50",
+				"extended_weight": "1 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "c1ddb6b3-f5bb-4b36-9a21-c3927eee7ce3",
 			"quantity": 1,
 			"description": "Eji of Japan Wool Sweater",
 			"tech_level": "9",
 			"value": "60",
 			"weight": "1 lb",
+			"calc": {
+				"extended_value": "60",
+				"extended_weight": "1 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "fdb20e2c-2b45-43c4-962a-8ea02bc47e9d",
 			"quantity": 1,
 			"description": "Eji of Japan Light Panel Cloak",
 			"tech_level": "9",
 			"value": "500",
 			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": "500",
+				"extended_weight": "1.5 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 5,
 					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "vitals"
 				}
 			],
 			"notes": "Flexible, 12 DR against pi, cutting fragmentation, back only, semi-ablative",
@@ -643,13 +803,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "12ac580e-e998-4a41-b8f2-6e7eb1ab3ce7",
 			"quantity": 1,
 			"description": "Cryo-Max Wrap-on Mem Plastic Skirt",
 			"tech_level": "9",
 			"value": "180",
 			"weight": "1 lb",
+			"calc": {
+				"extended_value": "180",
+				"extended_weight": "1 lb"
+			},
 			"notes": "+1 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -657,31 +820,42 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "6813aa0a-20cb-47d0-9313-439c6decd8b1",
 			"quantity": 1,
 			"description": "London Mist Transparent Raincoat",
 			"tech_level": "9",
 			"value": "360",
 			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": "360",
+				"extended_weight": "1.5 lb"
+			},
 			"categories": [
 				"clothing"
 			]
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "eee17ac0-2d28-4b9d-b914-6c665a38265b",
 			"quantity": 1,
 			"description": "Duraweave Stockings",
 			"tech_level": "9",
 			"value": "105",
 			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": "105",
+				"extended_weight": "1.5 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 3,
 					"location": "torso"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 3,
+					"location": "vitals"
 				}
 			],
 			"notes": "Flexible",
@@ -692,13 +866,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "7c0c8af6-b498-4342-89f9-f060af51bc9c",
 			"quantity": 1,
 			"description": "Alex of Milan Illumi Strips Jacket",
 			"tech_level": "9",
 			"value": "250",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "250",
+				"extended_weight": "2 lb"
+			},
 			"notes": "+2 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -706,13 +883,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "0594f4b6-90e1-402b-b4b5-4ed4d6118de3",
 			"quantity": 1,
 			"description": "Image Fashionwear Bodysuit",
 			"tech_level": "9",
 			"value": "300",
 			"weight": "3.5 lb",
+			"calc": {
+				"extended_value": "300",
+				"extended_weight": "3.5 lb"
+			},
 			"notes": "+2 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -720,13 +900,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f42a149e-0a4a-434a-909d-0832d4a3d744",
 			"quantity": 1,
 			"description": "Image Fashionwear Jacket",
 			"tech_level": "9",
 			"value": "250",
 			"weight": "1.75 lb",
+			"calc": {
+				"extended_value": "250",
+				"extended_weight": "1.75 lb"
+			},
 			"notes": "+2 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -734,13 +917,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "3a092fab-bdc6-461f-82c3-b4ed8d04b33e",
 			"quantity": 1,
 			"description": "Cyro-Max Translucent Pantaloons",
 			"tech_level": "9",
 			"value": "180",
 			"weight": "1.2 lb",
+			"calc": {
+				"extended_value": "180",
+				"extended_weight": "1.2 lb"
+			},
 			"notes": "+1 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -748,13 +934,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "5bd02b2f-a107-463a-8cc5-bc57d22e489c",
 			"quantity": 1,
 			"description": "HiFacs Short Cape",
 			"tech_level": "9",
 			"value": "440",
 			"weight": "2.1 lb",
+			"calc": {
+				"extended_value": "440",
+				"extended_weight": "2.1 lb"
+			},
 			"notes": "+3 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -762,13 +951,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "050d566c-ff6b-456a-929d-bfabda13c105",
 			"quantity": 1,
 			"description": "Leopold's Reacti-mesh Cape",
 			"tech_level": "9",
 			"value": "900",
 			"weight": "2.2 lb",
+			"calc": {
+				"extended_value": "900",
+				"extended_weight": "2.2 lb"
+			},
 			"notes": "+2 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -776,13 +968,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "e33993f5-7c7d-4650-b5db-ee77f72a9c8c",
 			"quantity": 1,
 			"description": "Alex of Milan Polychromic Suit",
 			"tech_level": "9",
 			"value": "715",
 			"weight": "3.15 lb",
+			"calc": {
+				"extended_value": "715",
+				"extended_weight": "3.15 lb"
+			},
 			"notes": "+2 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -790,13 +985,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "6a661861-8870-468c-9933-2a3abfb15305",
 			"quantity": 1,
 			"description": "Royo Bodyfree Mask",
 			"tech_level": "9",
 			"value": "600",
 			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": "600",
+				"extended_weight": "0.5 lb"
+			},
 			"notes": "+1 to reaction rolls",
 			"categories": [
 				"clothing"
@@ -804,13 +1002,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "bca09b9f-ff92-4674-87d1-71592099c098",
 			"quantity": 1,
 			"description": "Dignity Clothing",
 			"tech_level": "9",
 			"value": "2000",
 			"weight": "4 lb",
+			"calc": {
+				"extended_value": "2000",
+				"extended_weight": "4 lb"
+			},
 			"notes": "750-2500 eb",
 			"categories": [
 				"clothing"
@@ -818,18 +1019,21 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "13e4c307-55b8-4ddd-b8fa-649b580bfd9e",
 			"quantity": 1,
 			"description": "Gibson Battlegear Fatigue Pants",
 			"tech_level": "9",
 			"value": "125",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "125",
+				"extended_weight": "2 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 5,
-					"location": "legs"
+					"location": "leg"
 				}
 			],
 			"notes": "Flexible, 12 DR against pi, cutting fragmentation, semi-ablative",
@@ -840,18 +1044,21 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "f4b65088-f0de-4872-9a5c-5c3890f3fe22",
 			"quantity": 1,
 			"description": "Gibson Battlegear Armored Jeans",
 			"tech_level": "9",
 			"value": "30",
 			"weight": "2 lb",
+			"calc": {
+				"extended_value": "30",
+				"extended_weight": "2 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 5,
-					"location": "legs"
+					"location": "leg"
 				}
 			],
 			"notes": "Flexible, 12 DR against pi, cutting fragmentation, semi-ablative",
@@ -862,18 +1069,21 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "c030deb9-4227-4f80-b1ec-21ea2df15317",
 			"quantity": 1,
 			"description": "Gibson Battlegear Armored T-Shirt",
 			"tech_level": "9",
 			"value": "10",
 			"weight": "1 lb",
+			"calc": {
+				"extended_value": "10",
+				"extended_weight": "1 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 2,
-					"location": "legs"
+					"location": "leg"
 				}
 			],
 			"notes": "Flexible, 8 DR against pi, cutting fragmentation, semi-ablative",
@@ -884,13 +1094,16 @@
 		},
 		{
 			"type": "equipment",
-			"version": 1,
 			"id": "11ea7711-5e09-4c1b-a44a-2f5ff7c92475",
 			"quantity": 1,
 			"description": "Gibson Battlegear Denim Jacket",
 			"tech_level": "9",
 			"value": "150",
 			"weight": "3 lb",
+			"calc": {
+				"extended_value": "150",
+				"extended_weight": "3 lb"
+			},
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -900,7 +1113,12 @@
 				{
 					"type": "dr_bonus",
 					"amount": 5,
-					"location": "arms"
+					"location": "vitals"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 5,
+					"location": "arm"
 				}
 			],
 			"notes": "Flexible, 12 DR against pi, cutting fragmentation, semi-ablative",

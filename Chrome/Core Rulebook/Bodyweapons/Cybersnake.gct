@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "735b306e-e2b6-4558-8122-a4cd64b6de28",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "00e98eb3-d61a-4ed1-91c6-8570bb3c3b75",
 			"name": "Cybersnake",
+			"calc": {
+				"points": 31
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "0c2e0e19-82f7-41fb-a208-8dad8d3b1945",
 					"name": "Extra Attack",
 					"physical": true,
@@ -21,7 +22,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "959719ba-364a-41f0-b430-541377edfb05",
 							"disabled": true,
 							"name": "Multi-Strike",
@@ -32,7 +32,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "dc63633f-172c-4c5f-8772-7e2ae15daaf2",
 							"disabled": true,
 							"name": "Single Skill",
@@ -44,7 +43,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "90b8c41d-e567-411c-be33-6f834157ebbe",
 							"name": "Cybersnake only",
 							"cost_type": "percentage",
@@ -53,13 +51,15 @@
 						}
 					],
 					"reference": "B53",
+					"calc": {
+						"points": 20
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "2296d607-a359-4f53-bf54-f3f3d7daa598",
 					"name": "Striker, Impaling (Cybersnake)",
 					"physical": true,
@@ -76,12 +76,18 @@
 							"reach": "C",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr (+1 per die) imp"
+							},
 							"defaults": [
 								{
-									"type": "DX"
+									"type": "dx"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								}
 							]
@@ -90,7 +96,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0df33de1-11c4-4d83-9b7b-03ed777b2d67",
 							"name": "Cannot Parry",
 							"cost_type": "percentage",
@@ -99,7 +104,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "75e1d7f3-78f8-45ca-ae57-af1bb582cf72",
 							"name": "Long, +1 SM",
 							"cost_type": "percentage",
@@ -108,7 +112,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e42f2e56-1a0a-4511-b66c-eabc8ef28090",
 							"name": "Temporary Disadvantage, Electrical",
 							"cost_type": "percentage",
@@ -117,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "490446ca-1e36-4ecf-8f63-141cf1df44e1",
 							"name": "Accessibility: Requires Neuralware Processor",
 							"cost_type": "percentage",
@@ -126,6 +128,9 @@
 						}
 					],
 					"reference": "B88",
+					"calc": {
+						"points": 11
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -136,7 +141,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "22a2b934-5e65-48cc-ab2c-d42d2fbc6b78",
 			"text": "1200 eb, Minor surgery, LC1"
 		}

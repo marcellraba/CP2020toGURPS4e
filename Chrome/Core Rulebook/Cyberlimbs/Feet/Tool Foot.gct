@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "0456fdbe-c046-465c-b4a5-5d90a9d3ef35",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "50d70d3d-43d6-4faf-8a45-a43e47e7e6ba",
 			"name": "Tool Foot",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "1dce0425-46b1-451d-b335-36b2f207f9da",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "7a62d3b0-7599-4fb0-a73d-8897b1a566d2",
 					"name": "Accessibility: Requires Cyberleg",
 					"cost_type": "percentage",
@@ -28,18 +25,19 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 32
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "4d8fe903-54ae-40fb-b07f-be609152dfa4",
 					"name": "Maintenance",
 					"physical": true,
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "cc6dc29a-2df9-4c6b-8fa1-1facec1516be",
 							"name": "People Required: 1",
 							"reference": "B143",
@@ -49,7 +47,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3c800e2f-5248-4233-a2ed-45bdfed7c252",
 							"disabled": true,
 							"name": "People Required: 2",
@@ -60,7 +57,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "88219c79-493e-409c-941e-13eeadde3016",
 							"disabled": true,
 							"name": "People Required: 3-5",
@@ -71,7 +67,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "17c6b62e-df7e-404d-8ba8-a4c7d1d0ecc1",
 							"disabled": true,
 							"name": "People Required: 6-10",
@@ -82,7 +77,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4621f7ec-9cf2-404a-8bb5-c3ddfcf55ef5",
 							"disabled": true,
 							"name": "People Required: 11-20",
@@ -93,7 +87,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "54ba8675-9c3f-4966-a15d-6d1d3e929efd",
 							"disabled": true,
 							"name": "People Required: 21-50",
@@ -104,7 +97,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "88d7f262-5469-4143-b2c5-a70e884f5748",
 							"disabled": true,
 							"name": "People Required: 51-100",
@@ -115,7 +107,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "82502807-37a8-4486-b8a3-d1f36f64b4a6",
 							"disabled": true,
 							"name": "People Required: 101-200",
@@ -126,7 +117,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c707b3e0-5bb6-497d-9eea-8945a08f0c2a",
 							"disabled": true,
 							"name": "People Required: 201-400",
@@ -137,7 +127,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c7535788-bc9e-41dd-a1b6-3b2e43c248cf",
 							"disabled": true,
 							"name": "People Required: 401-800",
@@ -148,7 +137,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1cafa79d-31a9-4ef0-bd1f-92135c2454ee",
 							"disabled": true,
 							"name": "People Required: 801-1600",
@@ -159,7 +147,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ed5e93e8-7d06-4f0a-bd54-3e9f93e24b38",
 							"disabled": true,
 							"name": "People Required: 1601-3200",
@@ -170,7 +157,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "92706292-eecd-4dea-a4b2-d57c1502b350",
 							"disabled": true,
 							"name": "People Required: 3201-6400",
@@ -181,7 +167,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "aeec6bce-9160-4f18-87ea-c2c1d3d670f3",
 							"disabled": true,
 							"name": "People Required: 6401-12800",
@@ -192,7 +177,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "73e694b9-ac86-4684-9bc8-5eb8d0a42b33",
 							"disabled": true,
 							"name": "People Required: 12801-25600",
@@ -203,7 +187,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "847163e0-5903-49f5-bc67-091774b5608c",
 							"name": "Frequency: Monthly",
 							"reference": "B143",
@@ -212,7 +195,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "146bc512-93f7-4b2d-9f02-33f34cf5cc1c",
 							"disabled": true,
 							"name": "Frequency: Bi-weekly",
@@ -222,7 +204,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "44081da8-aa0d-47e0-a470-e2080abafcce",
 							"disabled": true,
 							"name": "Frequency: Weekly",
@@ -232,7 +213,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "02b9843e-65b8-457c-b127-aa532c8cebe7",
 							"disabled": true,
 							"name": "Frequency: Every other day",
@@ -242,7 +222,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fe730c92-b6b0-4481-8699-51e200181668",
 							"disabled": true,
 							"name": "Frequency: Daily",
@@ -252,7 +231,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "70b52f57-8854-427b-86e3-6902fb1b3529",
 							"disabled": true,
 							"name": "Frequency: Twice daily",
@@ -262,7 +240,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "9a4768d3-f939-4039-985a-62407e268d9a",
 							"disabled": true,
 							"name": "Frequency: Three to five times daily",
@@ -272,7 +249,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5c317027-3032-4663-a8b2-2839957265bb",
 							"disabled": true,
 							"name": "Frequency: Constant",
@@ -282,13 +258,15 @@
 						}
 					],
 					"reference": "B143",
+					"calc": {
+						"points": -1
+					},
 					"categories": [
 						"Disadvantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "7cbc1c43-5bde-4101-8e00-4683970a32eb",
 					"name": "Injury Tolerance (Independent Body Parts)",
 					"physical": true,
@@ -297,7 +275,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "620d1eff-d907-4640-bb75-ad5ab6cf27db",
 							"disabled": true,
 							"name": "Detachable Head",
@@ -308,7 +285,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "47e83ad9-9d7a-4ea5-b7c0-60caaddd2b29",
 							"disabled": true,
 							"name": "Instant Reattachment",
@@ -319,7 +295,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8b2b7d23-849c-4240-a766-713350b93498",
 							"disabled": true,
 							"name": "No Reattachment",
@@ -330,7 +305,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "dd5e1ab1-dc12-4443-b102-b8b2734387ba",
 							"name": "Reattachment Only",
 							"reference": "P52",
@@ -340,7 +314,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a79451b7-faee-4bf2-8306-8de9fc4e3ba5",
 							"name": "One Foot",
 							"cost_type": "percentage",
@@ -349,83 +322,98 @@
 						}
 					],
 					"reference": "P53",
+					"calc": {
+						"points": 7
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "2f293157-fe88-4875-94b1-0c713dc05fdc",
 					"name": "Accessory (Screwdriver)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "8b56fe5a-5feb-48e8-bb24-2e7f9d8b6d28",
 					"name": "Accessory (Adjustable Wrench)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "7c09197a-3b74-4737-9b01-c541aff47a7e",
 					"name": "Accessory (Battery powered soldering iron)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "b60a95e5-2be8-492d-af2e-6a7f2ce35f5e",
 					"name": "Accessory (Adjustable socket wrench)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "01dd329a-3ce9-40b6-8222-be37ccedfdca",
 					"name": "Accessory (Hammer)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "3380bdcb-6896-47c3-b5a9-2a66bf28321e",
 					"name": "Distinctive Features",
 					"physical": true,
 					"base_points": -1,
 					"reference": "B165",
+					"calc": {
+						"points": 0
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -452,7 +440,6 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "c63f3fac-da80-411c-a32d-95fae814c7f0",
 					"name": "Lame (Crippled Legs)",
 					"physical": true,
@@ -460,7 +447,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "14621af2-b145-42ab-bc36-bbac42d9d6c9",
 							"name": "Mitigator",
 							"cost_type": "percentage",
@@ -469,13 +455,15 @@
 						}
 					],
 					"reference": "B141",
+					"calc": {
+						"points": -2
+					},
 					"categories": [
 						"Disadvantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "753b1257-f4e9-44ce-8737-617183253110",
 					"name": "Damage Resistance",
 					"physical": true,
@@ -485,7 +473,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ac1b3bbd-e477-4ee0-9a57-4a9fe2b30878",
 							"disabled": true,
 							"name": "Force Field",
@@ -496,7 +483,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b351c0ab-1dbf-4693-9c2d-bf4bbff2ffd4",
 							"disabled": true,
 							"name": "Hardened",
@@ -508,7 +494,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5349d31b-99ec-4bdd-bb5d-8da690cf664e",
 							"disabled": true,
 							"name": "Absorption",
@@ -520,7 +505,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6847d674-1c7f-409f-b02d-1f9a37c7a8b1",
 							"disabled": true,
 							"name": "Absorption",
@@ -532,7 +516,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f8ba7acf-796a-40c7-ba65-b60c950b0aa9",
 							"disabled": true,
 							"name": "Absorption",
@@ -544,7 +527,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c03d3123-8e5e-4e2b-8f4f-f0e537a963c8",
 							"disabled": true,
 							"name": "Reflection",
@@ -555,7 +537,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0f566cf1-1bd1-47f1-85db-82c75584c020",
 							"disabled": true,
 							"name": "Bane",
@@ -567,7 +548,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ec5844e5-1f63-441f-b7d2-77aad2d93bf4",
 							"disabled": true,
 							"name": "Bane",
@@ -579,7 +559,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c44a0901-2032-43ab-87f0-ad57e7b784a4",
 							"disabled": true,
 							"name": "Bane",
@@ -591,7 +570,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "86293457-bf05-4dfa-84f1-f0ea4224e5cd",
 							"disabled": true,
 							"name": "Bane",
@@ -603,7 +581,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3ec4e0b9-a49d-457a-95df-d6c4099cf564",
 							"disabled": true,
 							"name": "Directional",
@@ -615,7 +592,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6659f024-c1d6-412b-ac9d-45132b97369b",
 							"disabled": true,
 							"name": "Flexible",
@@ -626,7 +602,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "71c237d2-0e96-43dd-ad05-375e4aec3e9e",
 							"disabled": true,
 							"name": "Limited",
@@ -638,7 +613,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "edfb929b-2b4c-4c73-993b-64bd5966648d",
 							"disabled": true,
 							"name": "Semi-Ablative",
@@ -649,7 +623,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "61ff5890-7a6e-4ef0-99fa-c40a4301a7e3",
 							"disabled": true,
 							"name": "Can't wear armor",
@@ -660,7 +633,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e29d9497-10ed-42ac-8015-c18e24e5d45f",
 							"disabled": true,
 							"name": "Directional",
@@ -672,7 +644,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f14acf3d-225b-4fdc-8d7a-e76036838874",
 							"disabled": true,
 							"name": "Limited",
@@ -684,7 +655,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "26f12782-bd76-4629-acdf-4b9e3d85e5dc",
 							"disabled": true,
 							"name": "Tough Skin",
@@ -695,7 +665,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "9449cff6-bc06-4b35-be00-f7d296030070",
 							"disabled": true,
 							"name": "Limited",
@@ -707,7 +676,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8733cfb6-2291-4521-90aa-818dec87a927",
 							"disabled": true,
 							"name": "Ablative",
@@ -718,7 +686,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bc123eb7-b784-43b6-a8ab-bd65be9cc1ed",
 							"disabled": true,
 							"name": "Limited",
@@ -730,7 +697,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bab7016f-b2b6-4896-b02b-949b375cacca",
 							"disabled": true,
 							"name": "Laminate",
@@ -741,7 +707,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2747acd3-ae84-4b8f-ae9e-f117a04ed81a",
 							"name": "Partial: One Feet",
 							"cost_type": "percentage",
@@ -750,12 +715,15 @@
 						}
 					],
 					"reference": "B47",
+					"calc": {
+						"points": 5
+					},
 					"features": [
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "legs"
+							"location": "leg"
 						}
 					],
 					"categories": [
@@ -764,67 +732,81 @@
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "d0d2ae8e-e85c-4d27-bc17-1ac939b41c2e",
 					"container_type": "meta_trait",
 					"name": "Meta-Trait: Machine",
 					"reference": "B263",
+					"calc": {
+						"points": 18
+					},
 					"open": false,
 					"children": [
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "aea38614-892b-4143-b813-22961f5e5081",
 							"name": "Injury Tolerance (No Blood)",
 							"physical": true,
 							"exotic": true,
 							"base_points": 5,
-							"reference": "B61"
+							"reference": "B61",
+							"calc": {
+								"points": 4
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "9209a736-d7f7-4dca-b758-6ed4acac9bfa",
 							"name": "Injury Tolerance (Unliving)",
 							"physical": true,
 							"exotic": true,
 							"base_points": 20,
-							"reference": "B61"
+							"reference": "B61",
+							"calc": {
+								"points": 14
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "1b1c3c25-fa37-472b-b93c-c6fe80a446e5",
 							"name": "No fatigue points, Don't spend fatigue points",
 							"physical": true,
-							"reference": "B263"
+							"reference": "B263",
+							"calc": {
+								"points": 0
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "a9784bf4-0c54-4173-8612-b13af7e13dd3",
 							"name": "Resistant (Immunity to Metabolic Hazards)",
 							"physical": true,
 							"base_points": 30,
-							"reference": "B81"
+							"reference": "B81",
+							"calc": {
+								"points": 21
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "dbb48971-579d-49b0-adb6-a3c7dfea16d8",
 							"name": "Unhealing (Total)",
 							"physical": true,
 							"exotic": true,
 							"base_points": -30,
-							"reference": "B160"
+							"reference": "B160",
+							"calc": {
+								"points": -21
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "392a29ea-aa00-4691-8a6e-15811747f79c",
 							"name": "Wears out instead of aging",
 							"physical": true,
-							"reference": "B263"
+							"reference": "B263",
+							"calc": {
+								"points": 0
+							}
 						}
 					]
 				}
@@ -832,13 +814,11 @@
 		},
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "910e7f4a-bad9-428b-ac65-4aee46575e90",
 			"name": "Tool Feet",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "11ecbf70-19f5-4f31-9b96-20f9556ced76",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -847,7 +827,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "d4fdf42b-374f-4223-8532-3753879fec75",
 					"name": "Accessibility: Requires Cyberleg",
 					"cost_type": "percentage",
@@ -855,18 +834,19 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 31
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "020a9c42-48c8-4142-962c-88111c6e6780",
 					"name": "Maintenance",
 					"physical": true,
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "680282f6-9802-48b2-880f-e49608bb2292",
 							"name": "People Required: 1",
 							"reference": "B143",
@@ -876,7 +856,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "65a5dbb8-3fac-4ee4-980f-beec3fe078c0",
 							"disabled": true,
 							"name": "People Required: 2",
@@ -887,7 +866,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8484c3e4-26bb-44d2-8cd1-f8466af5752e",
 							"disabled": true,
 							"name": "People Required: 3-5",
@@ -898,7 +876,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a396ead7-6927-4ce6-b53a-6cfb9b63d307",
 							"disabled": true,
 							"name": "People Required: 6-10",
@@ -909,7 +886,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "58235090-9c67-4d4f-89de-bc7f56b7beca",
 							"disabled": true,
 							"name": "People Required: 11-20",
@@ -920,7 +896,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3c60d469-1b91-4a2c-8e68-c62ee65d36c7",
 							"disabled": true,
 							"name": "People Required: 21-50",
@@ -931,7 +906,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "36398e09-2a5e-46c3-853c-3c96e6ae208c",
 							"disabled": true,
 							"name": "People Required: 51-100",
@@ -942,7 +916,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3d3aad02-fd37-4da3-bdec-9199f2dec30f",
 							"disabled": true,
 							"name": "People Required: 101-200",
@@ -953,7 +926,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b332d51b-0acd-46d9-8991-f107f58fd3d1",
 							"disabled": true,
 							"name": "People Required: 201-400",
@@ -964,7 +936,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6eb79212-963a-4232-accd-583fc0866064",
 							"disabled": true,
 							"name": "People Required: 401-800",
@@ -975,7 +946,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0f187fbb-14a7-4cc3-a14d-05aecf24b585",
 							"disabled": true,
 							"name": "People Required: 801-1600",
@@ -986,7 +956,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "49ec035b-279c-4db9-b427-825b189b3337",
 							"disabled": true,
 							"name": "People Required: 1601-3200",
@@ -997,7 +966,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "62d80a7a-8059-44d0-a297-21656f2be0d4",
 							"disabled": true,
 							"name": "People Required: 3201-6400",
@@ -1008,7 +976,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2b4e6d3e-b907-4771-8a7b-0d3b8831bf5b",
 							"disabled": true,
 							"name": "People Required: 6401-12800",
@@ -1019,7 +986,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5deb70e3-c8e0-49e9-a88c-a647a04296b9",
 							"disabled": true,
 							"name": "People Required: 12801-25600",
@@ -1030,7 +996,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4e858060-e34b-44a5-8ef7-f489de7ea978",
 							"name": "Frequency: Monthly",
 							"reference": "B143",
@@ -1039,7 +1004,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "85107ea6-3840-4577-969a-f459ffcfa4c2",
 							"disabled": true,
 							"name": "Frequency: Bi-weekly",
@@ -1049,7 +1013,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d984e507-ddbc-4c8b-9e5a-814e219a0ba7",
 							"disabled": true,
 							"name": "Frequency: Weekly",
@@ -1059,7 +1022,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2b22010d-56e2-4a9b-abf4-705e9e991800",
 							"disabled": true,
 							"name": "Frequency: Every other day",
@@ -1069,7 +1031,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1e3fe5e4-e7e6-4a0c-9a96-177dc06fc560",
 							"disabled": true,
 							"name": "Frequency: Daily",
@@ -1079,7 +1040,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e0b6ea4f-20d2-43a5-8829-578651f8822e",
 							"disabled": true,
 							"name": "Frequency: Twice daily",
@@ -1089,7 +1049,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "16a7218d-1c3f-42b0-ba2f-83c5eb91125e",
 							"disabled": true,
 							"name": "Frequency: Three to five times daily",
@@ -1099,7 +1058,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1202affd-0444-4d34-a5e0-5d509b0a45a2",
 							"disabled": true,
 							"name": "Frequency: Constant",
@@ -1109,13 +1067,15 @@
 						}
 					],
 					"reference": "B143",
+					"calc": {
+						"points": -1
+					},
 					"categories": [
 						"Disadvantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "b18f6ed2-36c2-4abe-b2e7-c7c40e28a4d9",
 					"name": "Injury Tolerance (Independent Body Parts)",
 					"physical": true,
@@ -1124,7 +1084,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7ab49e73-56d0-49fa-91ac-7d6d2e653a3d",
 							"disabled": true,
 							"name": "Detachable Head",
@@ -1135,7 +1094,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b66b52b9-451d-409a-a0e9-41a51726805e",
 							"disabled": true,
 							"name": "Instant Reattachment",
@@ -1146,7 +1104,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "176c8f17-9fa7-4167-a611-5bccbe363dcd",
 							"disabled": true,
 							"name": "No Reattachment",
@@ -1157,7 +1114,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "157b796b-1a36-40fe-9f4c-6722cc9d64fd",
 							"name": "Reattachment Only",
 							"reference": "P52",
@@ -1167,7 +1123,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "80a763b7-17ee-4046-8b71-221f3ff13628",
 							"name": "Feet",
 							"cost_type": "percentage",
@@ -1176,83 +1131,98 @@
 						}
 					],
 					"reference": "P53",
+					"calc": {
+						"points": 7
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "dc7b0075-addf-45d0-a3d2-e9790f8552a1",
 					"name": "Accessory (Screwdriver)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "403c85d0-103e-444f-a000-2c628e09c761",
 					"name": "Accessory (Adjustable Wrench)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "90a6329b-543d-411b-bf26-f65c7f385785",
 					"name": "Accessory (Battery powered soldering iron)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "3d1dd96f-9bf6-4c33-a14f-ad24981a8825",
 					"name": "Accessory (Adjustable socket wrench)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "8627b31f-8c13-475d-8c9c-44b02c70d791",
 					"name": "Accessory (Hammer)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "05617554-e6bd-498b-a0b5-0a37342b1e3c",
 					"name": "Distinctive Features",
 					"physical": true,
 					"base_points": -1,
 					"reference": "B165",
+					"calc": {
+						"points": 0
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -1279,7 +1249,6 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "fccfa3a9-922e-45ce-b87f-869a2fcb1c6d",
 					"name": "Lame (Paraplegic)",
 					"physical": true,
@@ -1287,7 +1256,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0ef3a16a-5cd6-4a34-9936-e5fb4463bffd",
 							"name": "Mitigator",
 							"cost_type": "percentage",
@@ -1296,13 +1264,15 @@
 						}
 					],
 					"reference": "B141",
+					"calc": {
+						"points": -6
+					},
 					"categories": [
 						"Disadvantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "b51c2372-be45-498d-942d-7a4857c0c074",
 					"name": "Damage Resistance",
 					"physical": true,
@@ -1312,7 +1282,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e8d53e7b-0032-4b3e-814e-fd96e84963b9",
 							"disabled": true,
 							"name": "Force Field",
@@ -1323,7 +1292,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "768219a4-5743-453b-9297-bae60ab47e8f",
 							"disabled": true,
 							"name": "Hardened",
@@ -1335,7 +1303,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "79eedbc5-8e0a-4f85-ac8e-3c065823d572",
 							"disabled": true,
 							"name": "Absorption",
@@ -1347,7 +1314,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "de204d5a-e16b-4f6b-bfc5-1d8563754cc2",
 							"disabled": true,
 							"name": "Absorption",
@@ -1359,7 +1325,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "98158ace-2096-4197-a7cf-ed6d06a0848a",
 							"disabled": true,
 							"name": "Absorption",
@@ -1371,7 +1336,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "516cbd64-a5a3-4300-b2a3-7f6c0ba0f00e",
 							"disabled": true,
 							"name": "Reflection",
@@ -1382,7 +1346,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "43e8495c-db92-4b38-94c3-d60014ba3b02",
 							"disabled": true,
 							"name": "Bane",
@@ -1394,7 +1357,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a0ebcb44-7c75-4cd2-a85e-60d538d4b8dd",
 							"disabled": true,
 							"name": "Bane",
@@ -1406,7 +1368,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fc90dae7-9a9d-4c8d-ac47-42854d54a940",
 							"disabled": true,
 							"name": "Bane",
@@ -1418,7 +1379,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "57cac704-8960-4310-bab4-1be1d94f6d6a",
 							"disabled": true,
 							"name": "Bane",
@@ -1430,7 +1390,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2eadb0ad-8dda-4c2a-8d69-b4768c8735f5",
 							"disabled": true,
 							"name": "Directional",
@@ -1442,7 +1401,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2ace5674-1407-4fbf-8087-de1fb02f0e62",
 							"disabled": true,
 							"name": "Flexible",
@@ -1453,7 +1411,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c5976bca-0645-4918-bde3-07389b4190f0",
 							"disabled": true,
 							"name": "Limited",
@@ -1465,7 +1422,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "60c17e69-19da-4382-9f43-8b286d60b1af",
 							"disabled": true,
 							"name": "Semi-Ablative",
@@ -1476,7 +1432,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "57f4fea0-5fc5-4ebb-8b4d-dd0cd00bed63",
 							"disabled": true,
 							"name": "Can't wear armor",
@@ -1487,7 +1442,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "71726d76-aee1-426f-9644-430b6c2fa516",
 							"disabled": true,
 							"name": "Directional",
@@ -1499,7 +1453,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f6c7bc74-5683-4707-98a2-c45d08502272",
 							"disabled": true,
 							"name": "Limited",
@@ -1511,7 +1464,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "de076ddc-774f-44d8-9528-907900172581",
 							"disabled": true,
 							"name": "Tough Skin",
@@ -1522,7 +1474,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0dab05d5-8963-463d-9fcf-371068aff0b9",
 							"disabled": true,
 							"name": "Limited",
@@ -1534,7 +1485,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c7fdb74b-9d95-4b77-bdef-ca1fbec78d38",
 							"disabled": true,
 							"name": "Ablative",
@@ -1545,7 +1495,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7f98c0e7-1796-4ed0-a8da-404be81d6c8d",
 							"disabled": true,
 							"name": "Limited",
@@ -1557,7 +1506,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1578d529-c07c-4a97-a5f5-8c482a5f11fe",
 							"disabled": true,
 							"name": "Laminate",
@@ -1568,7 +1516,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "28e8c2c9-b524-4b16-aabc-271fa2fcb673",
 							"name": "Feet",
 							"cost_type": "percentage",
@@ -1577,12 +1524,15 @@
 						}
 					],
 					"reference": "B47",
+					"calc": {
+						"points": 8
+					},
 					"features": [
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "legs"
+							"location": "leg"
 						}
 					],
 					"categories": [
@@ -1591,67 +1541,81 @@
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "127eed35-eb30-4ec1-9e04-36bb8de5ccbd",
 					"container_type": "meta_trait",
 					"name": "Meta-Trait: Machine",
 					"reference": "B263",
+					"calc": {
+						"points": 18
+					},
 					"open": false,
 					"children": [
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "9e20987b-da86-40f5-a746-f8c813ee806a",
 							"name": "Injury Tolerance (No Blood)",
 							"physical": true,
 							"exotic": true,
 							"base_points": 5,
-							"reference": "B61"
+							"reference": "B61",
+							"calc": {
+								"points": 4
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "18911e4b-e81f-45b3-a9de-09645dfbc369",
 							"name": "Injury Tolerance (Unliving)",
 							"physical": true,
 							"exotic": true,
 							"base_points": 20,
-							"reference": "B61"
+							"reference": "B61",
+							"calc": {
+								"points": 14
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "17054ae4-e8e2-4b41-9402-613a74e48015",
 							"name": "No fatigue points, Don't spend fatigue points",
 							"physical": true,
-							"reference": "B263"
+							"reference": "B263",
+							"calc": {
+								"points": 0
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "bec4cd40-fc4d-498c-ac02-bbdd632fbd86",
 							"name": "Resistant (Immunity to Metabolic Hazards)",
 							"physical": true,
 							"base_points": 30,
-							"reference": "B81"
+							"reference": "B81",
+							"calc": {
+								"points": 21
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "424e1da7-d8e2-497b-83b6-e13729812d2a",
 							"name": "Unhealing (Total)",
 							"physical": true,
 							"exotic": true,
 							"base_points": -30,
-							"reference": "B160"
+							"reference": "B160",
+							"calc": {
+								"points": -21
+							}
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "b91a48fc-cb65-45c6-901e-935e23e17e04",
 							"name": "Wears out instead of aging",
 							"physical": true,
-							"reference": "B263"
+							"reference": "B263",
+							"calc": {
+								"points": 0
+							}
 						}
 					]
 				}
@@ -1661,7 +1625,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "ac29b708-86f3-46c3-a16b-3306a574b46b",
 			"text": "300 eb per feet, Negligible surgery, LC4"
 		}

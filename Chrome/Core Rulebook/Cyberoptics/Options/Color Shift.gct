@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "5e3e18a9-e7ac-4949-976a-03ca8acce571",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "a031ea04-cf49-4af7-b0cb-3dced29e370a",
 			"name": "Color Shift",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "b9c3034b-8c82-433f-9894-d04b0dd7cf9f",
 					"name": "Accessibility: Requires Cyberoptic",
 					"cost_type": "percentage",
@@ -19,17 +17,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 0
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "70d06253-d726-480e-b6f7-44723a648e89",
 					"name": "Unnatural Features (Color Shift)",
 					"physical": true,
 					"levels": "1",
 					"points_per_level": -1,
 					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -62,7 +65,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "66aea8ec-b901-4e34-9391-328d141ccace",
 			"text": "300 eb, Negligible surgery, LC4"
 		}

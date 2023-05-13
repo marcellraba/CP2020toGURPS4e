@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "5b42b02b-663e-419d-a337-2a0714bb9487",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "bab00a00-c6e0-4db5-abed-4a0b262a62b4",
 			"name": "Synthskins",
+			"calc": {
+				"points": 0
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "3c6175db-3a29-4227-9f05-7e5f3acf3289",
 					"name": "Unnatural Features (Synthskins)",
 					"physical": true,
@@ -21,7 +22,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "909f29b0-a458-4ef9-985e-65154b099f28",
 							"name": "Mitigator: switchable",
 							"cost_type": "percentage",
@@ -30,6 +30,9 @@
 						}
 					],
 					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -62,7 +65,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "83305785-8c88-4190-904c-beb25c23413f",
 			"text": "Can be a 1-5 point Unnatural Feature.\n\nNegligible, 400 eb, LC4"
 		}

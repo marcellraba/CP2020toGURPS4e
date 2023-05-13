@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "f1dc85d1-5d11-4280-b2e3-b118a27b13d3",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "1c36cdc2-834c-45fd-a337-aa4c9b644cf8",
 			"name": "Scratchers",
+			"calc": {
+				"points": 5
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "5ba66255-d8e9-4e17-9bd6-ba410f3101fd",
 					"name": "Claws, Sharp (Hands)",
 					"physical": true,
@@ -29,26 +30,35 @@
 							"reach": "C",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr-1 cut"
+							},
 							"defaults": [
 								{
-									"type": "DX"
+									"type": "dx"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Boxing"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Karate"
 								}
 							]
 						}
 					],
 					"reference": "B42",
+					"calc": {
+						"points": 5
+					},
 					"notes": "Only pay for hands or feet, not both",
 					"categories": [
 						"Advantage"
@@ -60,7 +70,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "06f59795-ede2-4368-8032-54bfe8972bf1",
 			"text": "100 eb, Negligible surgery, LC4"
 		}

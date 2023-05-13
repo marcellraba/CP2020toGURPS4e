@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "fadd9d5e-b579-4b93-8ab6-6556785aa381",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "b1107d1e-7025-4b80-9bb9-bad08b0de695",
 			"name": "Ultraviolet",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "771c5dcc-a7fb-48ae-8242-739e9ac020dc",
 					"name": "Accessibility: Requires Cyberoptic",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "32eb1a87-e477-46c8-8f0d-0f5032a5a395",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 7
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "cc5712f4-1123-4c1d-bd40-f66e18638441",
 					"name": "Ultravision",
 					"physical": true,
@@ -41,7 +40,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f967096d-7d2f-4f75-a566-25317f17f985",
 							"disabled": true,
 							"name": "No normal vision",
@@ -52,6 +50,9 @@
 						}
 					],
 					"reference": "B94",
+					"calc": {
+						"points": 7
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -62,7 +63,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "d119a232-6f43-4acb-a415-3afff8865b68",
 			"text": "200 eb, Negligible surgery, LC4"
 		}

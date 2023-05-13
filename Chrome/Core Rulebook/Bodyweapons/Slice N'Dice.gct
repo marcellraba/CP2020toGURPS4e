@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "7b7c7a7d-f261-4843-96a7-841bee3c4a13",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "9709bd4a-d58a-4ca4-b7d2-470b53b5bf40",
 			"name": "Slice n'Dice",
+			"calc": {
+				"points": 36
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "45a3fc44-3118-4e89-a6d8-a6f216a91f63",
 					"name": "Natural Weapon (Slice n'Dice)",
 					"physical": true,
@@ -28,20 +29,26 @@
 							"reach": "C-3*",
 							"parry": "-2U",
 							"block": "-",
+							"calc": {
+								"level": 0,
+								"parry": "-2U",
+								"block": "-",
+								"damage": "sw(10) (+2 per die) cut"
+							},
 							"defaults": [
 								{
-									"type": "DX"
+									"type": "dx"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Whip"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Garrote"
 								}
 							]
@@ -50,7 +57,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e10633a0-42b0-4773-9723-2da180d52e8f",
 							"disabled": true,
 							"name": "Small piercing",
@@ -61,7 +67,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "97526068-ec21-49f0-b1f1-ff6f1013ef3d",
 							"disabled": true,
 							"name": "Toxic",
@@ -72,7 +77,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0530427c-887a-4128-86d1-b730bd40969b",
 							"disabled": true,
 							"name": "Burning",
@@ -83,7 +87,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "59d3d1a7-6a12-4cba-bbec-7b50c013e226",
 							"disabled": true,
 							"name": "Crushing",
@@ -94,7 +97,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c8c87268-ec7c-45bf-8a72-47b14670fac9",
 							"disabled": true,
 							"name": "Piercing",
@@ -105,7 +107,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a2a7597e-16e9-4326-8110-9cd7df445465",
 							"disabled": true,
 							"name": "Large piercing",
@@ -116,7 +117,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7d2c7eaf-4c71-4c89-919e-f1ef9830d109",
 							"name": "Cutting",
 							"reference": "PY65:24",
@@ -126,7 +126,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2fd02f3d-1f0c-43cf-a356-d732238961a9",
 							"disabled": true,
 							"name": "Huge piercing",
@@ -137,7 +136,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6a1feb1c-5344-49fd-bc86-3cb40ea0fe3e",
 							"disabled": true,
 							"name": "Impaling",
@@ -148,7 +146,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "362fdecb-a2ba-4a92-a534-3be45f6d1751",
 							"disabled": true,
 							"name": "Corrosion",
@@ -159,7 +156,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ef055c1b-fa46-4c69-a1d2-07177cee204c",
 							"disabled": true,
 							"name": "Fatigue",
@@ -170,7 +166,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fef7c050-e83a-4b27-86a3-a635bf9925f9",
 							"disabled": true,
 							"name": "Destructive Parry",
@@ -181,7 +176,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "29037a3b-5312-46bd-919a-0e33da2c9e62",
 							"disabled": true,
 							"name": "Disarming",
@@ -192,7 +186,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6fe54484-b932-4092-940a-0afed90b1837",
 							"disabled": true,
 							"name": "Extra Damage Type",
@@ -203,7 +196,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "28263ac7-a7ed-48ba-84d7-c6360359f5de",
 							"disabled": true,
 							"name": "Extra Reach ",
@@ -216,7 +208,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "cbcf0cc8-35e1-42ee-a386-7697bc5ecc3f",
 							"disabled": true,
 							"name": "Extra Reach",
@@ -229,7 +220,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1e8e656a-f02a-49c5-af98-ca67adf403e9",
 							"name": "Extra Reach",
 							"reference": "PY65:24",
@@ -241,7 +231,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "62d57808-25c5-421f-8a82-1466be4906df",
 							"name": "Flexible",
 							"reference": "PY65:24",
@@ -251,7 +240,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e595f4b8-7918-4927-9987-401ee7147214",
 							"disabled": true,
 							"name": "Flexible",
@@ -263,7 +251,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d1a2d38b-d6ff-444e-8dbe-5c7df340cfa3",
 							"disabled": true,
 							"name": "Good Defense +1",
@@ -281,7 +268,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a7cbe2ed-3a1b-4736-ba80-48727ded519f",
 							"disabled": true,
 							"name": "Good Defense +2",
@@ -299,7 +285,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "072f6c78-2d7e-4647-b20f-2cc27cfde825",
 							"disabled": true,
 							"name": "Heavy",
@@ -311,7 +296,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5f1f0dfc-fbe1-4546-b33a-5eabed9cfa11",
 							"name": "Hidden",
 							"reference": "PY65:24",
@@ -321,7 +305,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7a9f9d5b-75c2-4817-98a9-e3b765444eec",
 							"name": "Increased Damage",
 							"reference": "PY65:24",
@@ -348,7 +331,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "66445663-5778-4122-b51a-a8da52f668a9",
 							"disabled": true,
 							"name": "Intangible",
@@ -359,7 +341,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8d417eeb-030d-4f48-a8b0-ccb510c01165",
 							"disabled": true,
 							"name": "Projected",
@@ -370,7 +351,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7c94ced5-79ac-4031-b55f-44644b6c3253",
 							"disabled": true,
 							"name": "Ranged",
@@ -381,7 +361,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "970400f4-83dc-412d-92ce-0d75810e14b7",
 							"disabled": true,
 							"name": "Resilient",
@@ -393,7 +372,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b98aca05-f27a-456a-8c03-8d35657de025",
 							"disabled": true,
 							"name": "Resilient",
@@ -405,7 +383,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5f5a0f96-7016-4642-81f5-ec8543c179c5",
 							"disabled": true,
 							"name": "Resilient",
@@ -417,7 +394,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "17519ac9-5262-4ab6-b252-a444ed04859c",
 							"name": "Swing-Capable",
 							"reference": "PY65:25",
@@ -427,7 +403,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b0875cd2-434c-48be-995f-e6391516c3ce",
 							"disabled": true,
 							"name": "Cannot Parry",
@@ -438,7 +413,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f78c0493-1116-4c8f-ba97-ad13777ab72d",
 							"disabled": true,
 							"name": "Fragile",
@@ -449,7 +423,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0e008498-f5ec-4e32-96e8-090a91fd7f6d",
 							"disabled": true,
 							"name": "Light",
@@ -461,7 +434,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "02171f9a-6dbe-477c-b7dc-2ed3ab2cb2ad",
 							"name": "Poor Defense",
 							"reference": "PY65:25",
@@ -478,7 +450,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "103fc599-8ad2-4f09-9e45-27153db21dc0",
 							"disabled": true,
 							"name": "Reduced Damage",
@@ -505,7 +476,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e77ff5d8-685b-4b7a-8e16-d8f28de6335c",
 							"name": "Single",
 							"reference": "PY65:25",
@@ -515,7 +485,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "76a55a8a-a600-467c-b6d0-846018e11785",
 							"disabled": true,
 							"name": "Two-Handed",
@@ -526,7 +495,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "31805da3-360c-45d5-b3ac-9359c7bc7aee",
 							"name": "Unbalanced",
 							"reference": "PY65:25",
@@ -536,7 +504,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d3776dbd-39e1-4971-8489-7075fe1970ff",
 							"disabled": true,
 							"name": "Single",
@@ -547,7 +514,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "22c50c4d-e865-4b9c-a479-19089339e216",
 							"name": "Armor Divisor (10)",
 							"cost_type": "percentage",
@@ -556,6 +522,9 @@
 						}
 					],
 					"reference": "PY65:24",
+					"calc": {
+						"points": 36
+					},
 					"categories": [
 						"Advantages"
 					]
@@ -566,7 +535,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "c5a46a08-84c7-48e7-a688-a18b9e7b2088",
 			"text": "700 eb, Minor surgery, LC1"
 		}

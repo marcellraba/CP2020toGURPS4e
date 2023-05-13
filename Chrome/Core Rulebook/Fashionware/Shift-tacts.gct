@@ -1,24 +1,28 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "358dc32d-b368-460b-a18e-9830c1783f05",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "573bd503-94b5-4d75-8843-ce4a3dde200e",
 			"name": "Shift-tacts",
+			"calc": {
+				"points": -1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "0d479992-ffe1-4b55-8fdc-68c9c0cbd72b",
 					"name": "Unnatural Features (Shift-tacts)",
 					"physical": true,
 					"levels": "1",
 					"points_per_level": -1,
 					"reference": "B22",
+					"calc": {
+						"points": -1
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -51,7 +55,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "5f5114f9-6f51-453f-9a26-0f98de044804",
 			"text": "Negligible, 1-200 eb, LC4"
 		}

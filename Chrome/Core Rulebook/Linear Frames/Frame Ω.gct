@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "fefd0e21-9808-4407-b464-b9b51580369a",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "19400efe-1096-499b-94e0-3493e830e96a",
 			"name": "Frame Ω",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "afd21964-8a7f-47c8-bafd-ff86d84d9953",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "9bd97ace-a897-491d-ad96-41c20e661cc8",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 24
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "3f498a0d-09b2-4e50-a696-9018858460fa",
 					"name": "Lifting ST",
 					"physical": true,
@@ -42,7 +41,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a4670659-a234-40dc-a678-8c983c967584",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -53,7 +51,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d3831602-01be-4831-9af3-dd09cb0f45d8",
 							"disabled": true,
 							"name": "Size",
@@ -65,7 +62,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "404b378e-368c-4e59-9883-c46e724a5438",
 							"disabled": true,
 							"name": "Super-Effort",
@@ -76,7 +72,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "53531600-cb11-4bce-9521-6961c56ff377",
 							"name": "Know Your Own Strength Variant Price",
 							"reference": "PY83:18",
@@ -86,6 +81,9 @@
 						}
 					],
 					"reference": "B65",
+					"calc": {
+						"points": 21
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -101,7 +99,6 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "42205ecf-fd85-41bb-b863-82d04c75d5e9",
 					"name": "Striking ST",
 					"physical": true,
@@ -111,7 +108,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c6bbd66a-d85d-43ab-8270-81c91e086e83",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -121,7 +117,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d3f82541-afa5-46c4-92b0-033e6bbce826",
 							"disabled": true,
 							"name": "Size",
@@ -132,7 +127,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "06c2ecfa-d21a-46f5-a915-dd93d01ffce0",
 							"disabled": true,
 							"name": "Super Effort",
@@ -143,7 +137,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e8baca7b-0e76-4e63-b632-3386b97c5b10",
 							"disabled": true,
 							"name": "One Attack Only",
@@ -155,7 +148,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4bc13a7a-487f-4648-8d1d-d8133e1be6c0",
 							"name": "Know Your Own Strength Pricing Variant",
 							"reference": "PY83:18",
@@ -165,6 +157,9 @@
 						}
 					],
 					"reference": "B88",
+					"calc": {
+						"points": 3
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -184,7 +179,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "9b3a34cb-f236-44ce-942a-eb0d77a8daa0",
 			"text": "10000 eb, Major surgery, LC4\n\n\nIf used by a ST 10 character this makes him around 2.5 times as strong"
 		}

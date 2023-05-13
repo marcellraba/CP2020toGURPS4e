@@ -1,24 +1,28 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "8b74fab1-51e0-4a9b-a9b1-f08d8f7f4688",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "4ccf35f2-64e7-447a-afc4-1232ee8eface",
 			"name": "Quick Change Mount",
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "140bbab0-f563-4aee-9cd3-393eeec07b80",
 					"name": "Accessory (Quick Change Mount)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"notes": "Allows to change cyberlimbs in 5 turns.",
 					"categories": [
 						"Perk"
@@ -30,7 +34,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "2335824b-86d3-4520-9685-8bc6679dcf02",
 			"text": "200 eb per limb, Negligible surgery, LC4"
 		}

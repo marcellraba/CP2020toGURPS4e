@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "27579d09-8ac8-401a-8d63-7c46be3a0d8f",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "621082a1-bdd7-4f25-b411-faa1a3a5c764",
 			"name": "Magnetic Hands",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "a7660e91-62fe-4177-85e9-32aceb8c765a",
 					"name": "Accessibility: Requires Cyberleg",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "fa0543c6-8fe9-4503-bf1a-aa3018d480f6",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 5
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "50d86a16-f873-4ca0-a917-08dbe0bc4511",
 					"name": "Clinging",
 					"physical": true,
@@ -41,7 +40,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ca032d1b-8f01-467b-9dda-c0ded5d909cd",
 							"name": "Specific",
 							"reference": "B43",
@@ -52,7 +50,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "44328cc1-304a-43b8-8365-b928b09a45fa",
 							"disabled": true,
 							"name": "Specific",
@@ -64,7 +61,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a81deda0-900a-4c4f-b046-9ceb6f446ef6",
 							"disabled": true,
 							"name": "Specific",
@@ -76,7 +72,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b6f9e6fc-b1ae-41c8-bd68-9303736b6da5",
 							"disabled": true,
 							"name": "Attraction",
@@ -87,7 +82,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6bc68725-0272-4c23-a967-f81be0354353",
 							"name": "Requires Low Gravity",
 							"reference": "P45",
@@ -98,6 +92,9 @@
 						}
 					],
 					"reference": "B43",
+					"calc": {
+						"points": 5
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -108,7 +105,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "212bbde2-86b9-4d87-b618-c8b18eb11124",
 			"text": "60 eb/pair, Negligible surgery, LC4"
 		}

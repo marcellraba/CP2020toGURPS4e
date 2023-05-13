@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "79714c5c-f725-476c-961e-b8d54f1c5c78",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "83bed5f7-f90f-4bff-9c66-ab78d59ab68c",
 			"name": "Front Optic Mount",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "732a3416-068c-46b9-a32c-2ed637c7bf16",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -19,18 +17,19 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": -13
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "46947b0c-9572-40c8-9aba-5c285925f1cb",
 					"name": "Appearance",
 					"physical": true,
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1bf17ec7-b68e-4f51-95f1-a676f6d43933",
 							"disabled": true,
 							"name": "Universal",
@@ -40,7 +39,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b2c73289-39bf-4349-a584-29b5a9f3ef0b",
 							"disabled": true,
 							"name": "Off-the-Shelf Looks",
@@ -50,7 +48,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "44e8bde9-ae34-4c32-8093-e5ad27719f7e",
 							"disabled": true,
 							"name": "Androgynous",
@@ -60,7 +57,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "aadd1c44-a8b1-4c1f-a634-441fc9cd4546",
 							"disabled": true,
 							"name": "Impressive",
@@ -70,7 +66,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "89e1a15a-943e-4414-8421-051be5bb7198",
 							"disabled": true,
 							"name": "Attractive",
@@ -80,7 +75,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ce050cdc-2c53-4f4c-ba58-7b03e11436f6",
 							"disabled": true,
 							"name": "Average",
@@ -90,7 +84,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "400cf5c2-e1b7-4bb5-a2cf-8c5a909db8a5",
 							"disabled": true,
 							"name": "Horrific",
@@ -100,7 +93,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c948cb5e-1e3f-432c-8c73-40a5863e4dd1",
 							"disabled": true,
 							"name": "Monstrous",
@@ -110,7 +102,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a2fbd9fb-c06a-4ff4-b563-75c796462a96",
 							"name": "Hideous",
 							"cost_type": "points",
@@ -119,7 +110,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2cbf7e03-9987-4661-aacd-9a745fca3256",
 							"disabled": true,
 							"name": "Ugly",
@@ -129,7 +119,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "17f83009-6a21-490a-bbb0-0ea8d3faadb4",
 							"disabled": true,
 							"name": "Unattractive",
@@ -139,7 +128,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a5c9fd60-9125-4810-82c3-9e43fb7d7668",
 							"disabled": true,
 							"name": "Handsome",
@@ -149,7 +137,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "73146963-1dd6-4578-af63-6e750c452db2",
 							"disabled": true,
 							"name": "Beautiful",
@@ -159,7 +146,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "756296cf-def2-484e-bfad-3c88dde4dd50",
 							"disabled": true,
 							"name": "Very Handsome",
@@ -169,7 +155,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bcc39e68-dc20-4abc-96ee-de0ec325c68c",
 							"disabled": true,
 							"name": "Very Beautiful",
@@ -179,7 +164,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b9a9fb21-54fa-4130-8f76-b60d54359700",
 							"disabled": true,
 							"name": "Transcendent",
@@ -189,19 +173,24 @@
 						}
 					],
 					"reference": "B21",
+					"calc": {
+						"points": -15
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "5ae05bb0-3005-46d8-9c40-fc1497607623",
 					"name": "Unnatural Features (you replaced your face with eyes)",
 					"physical": true,
 					"levels": "4",
 					"points_per_level": -1,
 					"reference": "B22",
+					"calc": {
+						"points": -3
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -230,74 +219,86 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "7ed11b30-bf24-48d5-b46e-6d579410eee4",
 					"name": "Accessory (eye slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "2956f883-8e05-4913-acdf-9960ac711173",
 					"name": "Accessory (eye slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "0e5426ad-bbed-416f-b07e-38aabbb5467b",
 					"name": "Accessory (eye slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "2ca15055-870e-4e4b-925f-92c1ddac32ee",
 					"name": "Accessory (eye slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "dd6b76ad-d4f8-45f8-a2c9-a7851c396f8d",
 					"name": "Accessory (eye slot)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "042d2831-8662-4354-879f-beb49651505c",
 					"name": "Cyberoptics",
+					"calc": {
+						"points": 0
+					},
 					"open": true
 				}
 			]
@@ -306,7 +307,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "9714d62d-9302-40d6-a315-b4012037930d",
 			"text": "You can have up to 5 cyberoptics, after 2 use the independent cyberoptic option.\n\n1000 eb, Critical surgery, LC4"
 		}

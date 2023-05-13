@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "c421db4b-f663-480b-916e-bdcee5ed60bb",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "29494f6a-c450-48cb-a872-537abe61657c",
 			"name": "RealSkinn™",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "254ba344-3ab9-42e7-a652-cdcd54841b7d",
 					"name": "Accessibility: Requires Cyberlimb",
 					"cost_type": "percentage",
@@ -19,17 +17,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "69670e2e-5699-463d-be4f-a5d0b8ac00e7",
 					"name": "Accessory (RealSkinn)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"notes": "Removes Distinctive Features from Cyberlimb",
 					"categories": [
 						"Perk"
@@ -41,7 +44,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "9622007c-3c29-4b08-8623-cb4eaedc7ea2",
 			"text": "Removes Distinctive Features from Cyberlimb. If applied when installing a new cyberlimb, gain 1d less corruption points.\n\n200 eb per limb, Negligible surgery, LC4"
 		}
