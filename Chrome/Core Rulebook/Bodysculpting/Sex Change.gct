@@ -1,74 +1,84 @@
 {
 	"type": "template",
-	"version": 2,
+	"version": 4,
 	"id": "d7060c6a-b6cb-4207-8f3e-1afa4f213692",
-	"advantages": [
+	"traits": [
 		{
-			"type": "advantage_container",
 			"id": "a600cc9a-bc38-42e8-9e8f-8bb6ab3679d5",
-			"name": "Sex Change",
-			"calc": {
-				"points": -1
-			},
+			"type": "trait_container",
 			"open": true,
 			"children": [
 				{
-					"type": "advantage",
 					"id": "b10dcbeb-47e3-41df-b620-0c397444ad47",
+					"type": "trait",
 					"name": "Genital Reassignment (Sterile)",
-					"physical": true,
+					"tags": [
+						"Physical"
+					],
 					"calc": {
 						"points": 0
 					}
 				},
 				{
-					"type": "advantage",
 					"id": "f0c47d09-bed6-4e2a-999b-d5e5a5953e9d",
+					"type": "trait",
 					"name": "Superficial Sex Change",
-					"physical": true,
+					"notes": "If appearance level is modified, use notes from Appearance Change",
+					"tags": [
+						"Physical"
+					],
 					"calc": {
 						"points": 0
-					},
-					"notes": "If appearance level is modified, use notes from Appearance Change"
+					}
 				},
 				{
-					"type": "advantage",
 					"id": "47816842-019b-45bf-a58a-d3a8545c0f9b",
+					"type": "trait",
 					"name": "Gender Reassignment (Sterile)",
-					"physical": true,
+					"notes": "If appearance level is modified, use notes from Appearance Change",
+					"tags": [
+						"Physical"
+					],
 					"calc": {
 						"points": 0
-					},
-					"notes": "If appearance level is modified, use notes from Appearance Change"
+					}
 				},
 				{
-					"type": "advantage",
 					"id": "f5e23198-548c-4e40-82f6-c0eb70926db7",
+					"type": "trait",
 					"name": "Gender neutralization (Sexless)",
-					"physical": true,
-					"base_points": -1,
 					"reference": "B165",
+					"tags": [
+						"Physical"
+					],
+					"base_points": -1,
 					"calc": {
 						"points": -1
 					}
 				},
 				{
-					"type": "advantage",
 					"id": "2175c903-7216-4bde-8a98-1568e1504506",
+					"type": "trait",
 					"name": "Complete Sex Change (able to bear/father children)",
-					"physical": true,
+					"tags": [
+						"Physical"
+					],
 					"calc": {
 						"points": 0
 					}
 				}
-			]
+			],
+			"name": "Sex Change",
+			"calc": {
+				"points": -1
+			}
 		}
 	],
 	"notes": [
 		{
-			"type": "note",
 			"id": "a6ac29ee-d71a-42de-81e1-204adb7c930f",
-			"text": "Choose one advantage\n\nGenital reassignment costs 2400 eb + Critical surgery, with a 2 week recovery time. LC3\nSuperficial Sex Change costs 3600 eb + Critical surgery with a 2 week recovery time. LC3\nGender reassignment costs 6000 eb + 2 Critical surgeries with a 2 week recovery time. LC3\nGender neutralization costs 3600 eb + Critical surgery with a 2 week recovery time. LC3\nAbility to bear children +5000 eb + Critical surgery with a 2 week recovery time. LC3\nAbility to father children +10000 eb + Critical surgery with a 2 week recovery time. LC3 (it requires artificial Y chromosomes, it ought to be more expensive)\n\nRequires notification of authorities, 10 eb required to update and replace documents. 2-20 weeeks bureaucratic process also required."
+			"type": "note",
+			"text": "Choose one advantage\n\nGenital reassignment costs 2400 eb + Critical surgery, with a 2 week recovery time. LC3\n\nSuperficial Sex Change (basically HRT) costs 3600 eb + Critical surgery with a 2 week recovery time. LC3\n\nGender reassignment (previous two together at once) costs 6000 eb + 2 Critical surgeries with a 2 week recovery time. LC3\n\nGender neutralization costs 3600 eb + Critical surgery with a 2 week recovery time. LC3\n\nAbility to bear children +5000 eb + Critical surgery with a 2 week recovery time. LC3\n\nAbility to father children +10000 eb + Critical surgery with a 2 week recovery time. LC3 (it requires artificial Y chromosomes, it ought to be more expensive)\n\nRequires notification of authorities, 10 eb required to update and replace documents. 2-20 weeeks bureaucratic process also required."
 		}
 	]
 }
