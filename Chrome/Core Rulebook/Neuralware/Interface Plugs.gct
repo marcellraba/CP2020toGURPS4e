@@ -217,8 +217,9 @@
 					"name": "Icon Interface",
 					"notes": "Phase length is 2x",
 					"base_points": 25,
+					"disabled": true,
 					"calc": {
-						"points": 17
+						"points": 0
 					}
 				},
 				{
@@ -227,8 +228,9 @@
 					"name": "Environmental Interface",
 					"notes": "no modification to phase length",
 					"base_points": 30,
+					"disabled": true,
 					"calc": {
-						"points": 20
+						"points": 0
 					}
 				}
 			],
@@ -254,7 +256,7 @@
 				}
 			],
 			"calc": {
-				"points": 58
+				"points": 21
 			}
 		}
 	],

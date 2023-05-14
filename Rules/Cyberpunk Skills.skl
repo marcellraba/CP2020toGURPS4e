@@ -1,0 +1,167 @@
+{
+	"type": "skill_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "3b5850bf-9aa2-42bd-bcb0-a716e4cda7ee",
+			"type": "skill",
+			"name": "Area Knowledge (Cyberspace)",
+			"reference": "B62, C25",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			]
+		},
+		{
+			"id": "052e1a10-f107-4472-a289-c0834a0f6b76",
+			"type": "skill",
+			"name": "Electronics (Cybertech)",
+			"reference": "B60, C25",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "22d57693-e1c0-4a34-99c8-8dd027ca9542",
+			"type": "skill",
+			"name": "Mechanic (Cybertech)",
+			"reference": "B64, C24",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			]
+		},
+		{
+			"id": "1ef554ae-fa58-4ed0-97d6-232003f56fd9",
+			"type": "skill",
+			"name": "Savoir-Faire",
+			"reference": "C26",
+			"difficulty": "10/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Savoir-Faire",
+					"modifier": -2
+				}
+			]
+		},
+		{
+			"id": "505e1eef-273d-4f9e-9c78-9697c0d134e4",
+			"type": "skill",
+			"name": "Survival (Urban)",
+			"reference": "C26",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per"
+				}
+			]
+		},
+		{
+			"id": "1bb52e20-4008-4e1c-9506-b212f665db5e",
+			"type": "skill",
+			"name": "Computer Hacking",
+			"reference": "C26",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Computer Operation",
+					"modifier": -8
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Interface Plugs"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b7d45ae7-1548-4f66-9b33-a40fefcee4d2",
+			"type": "skill",
+			"name": "Cyberdeck Operation",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Computer Operation",
+					"modifier": -8
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Cyberdeck"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Interface Plugs"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3e9c7755-8e5a-481c-b16d-5a4faa7a74a2",
+			"type": "skill",
+			"name": "Video Production",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				},
+				{
+					"type": "skill",
+					"name": "any Performance Skill",
+					"modifier": -4
+				}
+			]
+		}
+	]
+}
