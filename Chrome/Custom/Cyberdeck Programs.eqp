@@ -1,0 +1,177 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "94361d4e-d45a-489d-815b-1b720d3fc059",
+			"type": "equipment",
+			"description": "Alter ",
+			"reference": "P#3-21 p. 7",
+			"notes": "Single Execution, Complexity 4, Default: Computer Hacking-3 or Computer Programming-3",
+			"tech_level": "TL9",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 100,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f1d7414a-412f-45f1-9a0d-c7eb47b2cb5c",
+			"type": "equipment",
+			"description": "Analyze",
+			"reference": "P#3-21 p. 7",
+			"notes": "Continuous or Single Execution, Base Complexity 3, Default: Computer Programming-3 or Expert (Computer\nSecurity)-2",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "0f1579d0-892a-4899-b2a0-0e9e99d64b32",
+			"type": "equipment",
+			"description": "Breach",
+			"notes": "Single Execution, Base Complexity: 3, Default: Computer Hacking-2",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "af1295df-736f-4188-8531-1eef9517b8aa",
+			"type": "equipment",
+			"description": "Control",
+			"notes": "Single Execution, Base Complexity: 4, Default: Computer Hacking-2 or Computer Operation-3",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 100,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "a5368ee4-55b0-4790-8d5c-16b022448077",
+			"type": "equipment",
+			"description": "Damage",
+			"notes": "Single Execution, Base Complexity: 5, Default: Computer Hacking-3 or Expert (Computer\nSecurity)-3",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 333,
+			"equipped": true,
+			"calc": {
+				"extended_value": 333,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "fa546d89-f1e8-4008-8b8c-8382d9cee1eb",
+			"type": "equipment",
+			"description": "ICE",
+			"notes": "Continuous, Base Complexity: 3, Default: Computer Hacking-2 or Expert (Computer Security)",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "7edde47f-5c43-48f4-89d7-5a37018222e8",
+			"type": "equipment",
+			"description": "Jam",
+			"notes": "Continuous, Default: Computer Hacking-2.\nBase Complexity: 2",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "fe8311d0-d372-4c90-876a-8f5534563b2c",
+			"type": "equipment",
+			"description": "Listen",
+			"notes": "Continuous, Default: Computer Hacking-2 or Expert (Computer Security), Base Complexity: 2",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 10,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "c8630604-2528-4d75-b4c4-f9594cd10938",
+			"type": "equipment",
+			"description": "Search",
+			"notes": "Continuous or Single Execution, Default: Computer Operation-2 or Expert (Computer\nSecurity)-1, Base Complexity: 3",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "610d60ca-22fc-48a5-8bc6-28ef5c28f4b9",
+			"type": "equipment",
+			"description": "Spoof",
+			"notes": "Single Execution or Continuous, Default: Computer Hacking-3, Base Complexity: 4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 100,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "c5f15d87-c8dc-43f8-a5b2-585113dfd238",
+			"type": "equipment",
+			"description": "Stealth",
+			"notes": "Continuous, Default: Computer Hacking-3 or Expert (Computer Security)-3, Base Complexity: 4",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 100,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "61452cb9-5e99-4d79-918d-567844a70543",
+			"type": "equipment",
+			"description": "Trigger",
+			"notes": "Continuous, Default: Computer Operation or Expert (Computer Security), Base Complexity: 3",
+			"legality_class": "4",
+			"quantity": 1,
+			"value": 30,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

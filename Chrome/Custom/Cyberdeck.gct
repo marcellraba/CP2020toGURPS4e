@@ -9,234 +9,39 @@
 			"open": true,
 			"children": [
 				{
-					"id": "c2eb69da-04b0-48f8-bf32-72fa86f1ada6",
+					"id": "243a099e-d796-48a8-a314-779a06a69622",
 					"type": "trait",
-					"name": "Complexity 2 Cyberdeck",
-					"notes": "Default Speed Index: 1",
+					"name": "Computer Implant",
+					"reference": "UT215",
+					"notes": "Accessory (Tiny computer) [1]; Photographic Memory",
 					"modifiers": [
 						{
-							"id": "c68e1a00-df8f-4406-97f2-532095401d50",
+							"id": "6a980a58-3e86-4354-9334-1053a2415775",
 							"type": "modifier",
-							"name": "Speed Index 2",
-							"cost": 25,
-							"disabled": true
+							"name": "Complexity 1"
 						},
 						{
-							"id": "1e8d4474-5c5a-4084-9307-236c109af759",
+							"id": "2077f61a-cdb3-45da-a341-1a76a60df265",
 							"type": "modifier",
-							"name": "Speed Index 3",
-							"cost": 50,
-							"disabled": true
+							"name": "Complexity 2",
+							"cost": 10,
+							"cost_type": "multiplier"
 						},
 						{
-							"id": "39a31d34-63d3-40c1-a91c-ddce3b050ebd",
+							"id": "fd99a03b-3896-4fcc-9168-7cfecfbe3e69",
 							"type": "modifier",
-							"name": "Speed Index 4",
-							"cost": 75,
-							"disabled": true
-						},
-						{
-							"id": "eb23afe0-8ade-43fb-984e-733b2268563a",
-							"type": "modifier",
-							"name": "Speed Index 5",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "997691d2-6831-486f-9876-8c760767a053",
-							"type": "modifier",
-							"name": "Speed Index 6",
-							"cost": 125,
-							"disabled": true
-						},
-						{
-							"id": "e40f8622-e5de-4102-8c1a-941c2722b1d8",
-							"type": "modifier",
-							"name": "Speed Index 7",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "c8367078-da32-42a7-8906-beffc8126766",
-							"type": "modifier",
-							"name": "Speed Index 8",
-							"cost": 175,
-							"disabled": true
-						},
-						{
-							"id": "f56e8009-b1de-4b08-933b-5a24e07f9ae0",
-							"type": "modifier",
-							"name": "Speed Index 9",
-							"cost": 200,
-							"disabled": true
-						},
-						{
-							"id": "c770923b-bafc-46f7-8f7c-c718859feffd",
-							"type": "modifier",
-							"name": "Speed Index 10",
-							"cost": 225,
-							"disabled": true
+							"name": "Complexity 3",
+							"cost": 10,
+							"cost_type": "multiplier"
 						}
 					],
-					"base_points": 100,
+					"base_points": 7,
 					"calc": {
-						"points": 75
-					}
-				},
-				{
-					"id": "2c62cdd9-d24e-4ce4-853b-61b3fdab62cd",
-					"type": "trait",
-					"name": "Complexity 3 Cyberdeck",
-					"notes": "Default Speed Index: 1",
-					"modifiers": [
-						{
-							"id": "c68e1a00-df8f-4406-97f2-532095401d50",
-							"type": "modifier",
-							"name": "Speed Index 2",
-							"cost": 25,
-							"disabled": true
-						},
-						{
-							"id": "1e8d4474-5c5a-4084-9307-236c109af759",
-							"type": "modifier",
-							"name": "Speed Index 3",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "39a31d34-63d3-40c1-a91c-ddce3b050ebd",
-							"type": "modifier",
-							"name": "Speed Index 4",
-							"cost": 75,
-							"disabled": true
-						},
-						{
-							"id": "eb23afe0-8ade-43fb-984e-733b2268563a",
-							"type": "modifier",
-							"name": "Speed Index 5",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "997691d2-6831-486f-9876-8c760767a053",
-							"type": "modifier",
-							"name": "Speed Index 6",
-							"cost": 125,
-							"disabled": true
-						},
-						{
-							"id": "e40f8622-e5de-4102-8c1a-941c2722b1d8",
-							"type": "modifier",
-							"name": "Speed Index 7",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "c8367078-da32-42a7-8906-beffc8126766",
-							"type": "modifier",
-							"name": "Speed Index 8",
-							"cost": 175,
-							"disabled": true
-						},
-						{
-							"id": "f56e8009-b1de-4b08-933b-5a24e07f9ae0",
-							"type": "modifier",
-							"name": "Speed Index 9",
-							"cost": 200,
-							"disabled": true
-						},
-						{
-							"id": "c770923b-bafc-46f7-8f7c-c718859feffd",
-							"type": "modifier",
-							"name": "Speed Index 10",
-							"cost": 225,
-							"disabled": true
-						}
-					],
-					"base_points": 150,
-					"disabled": true,
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "a3c4736c-1121-4467-95f6-4b01964898ee",
-					"type": "trait",
-					"name": "Complexity 4 Cyberdeck",
-					"notes": "Default Speed Index: 1",
-					"modifiers": [
-						{
-							"id": "c68e1a00-df8f-4406-97f2-532095401d50",
-							"type": "modifier",
-							"name": "Speed Index 2",
-							"cost": 25,
-							"disabled": true
-						},
-						{
-							"id": "1e8d4474-5c5a-4084-9307-236c109af759",
-							"type": "modifier",
-							"name": "Speed Index 3",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "39a31d34-63d3-40c1-a91c-ddce3b050ebd",
-							"type": "modifier",
-							"name": "Speed Index 4",
-							"cost": 75,
-							"disabled": true
-						},
-						{
-							"id": "eb23afe0-8ade-43fb-984e-733b2268563a",
-							"type": "modifier",
-							"name": "Speed Index 5",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "997691d2-6831-486f-9876-8c760767a053",
-							"type": "modifier",
-							"name": "Speed Index 6",
-							"cost": 125,
-							"disabled": true
-						},
-						{
-							"id": "e40f8622-e5de-4102-8c1a-941c2722b1d8",
-							"type": "modifier",
-							"name": "Speed Index 7",
-							"cost": 150,
-							"disabled": true
-						},
-						{
-							"id": "c8367078-da32-42a7-8906-beffc8126766",
-							"type": "modifier",
-							"name": "Speed Index 8",
-							"cost": 175,
-							"disabled": true
-						},
-						{
-							"id": "f56e8009-b1de-4b08-933b-5a24e07f9ae0",
-							"type": "modifier",
-							"name": "Speed Index 9",
-							"cost": 200,
-							"disabled": true
-						},
-						{
-							"id": "c770923b-bafc-46f7-8f7c-c718859feffd",
-							"type": "modifier",
-							"name": "Speed Index 10",
-							"cost": 225,
-							"disabled": true
-						}
-					],
-					"base_points": 175,
-					"disabled": true,
-					"calc": {
-						"points": 0
+						"points": 490
 					}
 				}
 			],
-			"name": "Neural Cyberdeck Implant",
+			"name": "Cyberdeck",
 			"modifiers": [
 				{
 					"id": "89828e0b-530b-41f4-8ea6-ef744768ddb6",
@@ -249,10 +54,16 @@
 					"type": "modifier",
 					"name": "Limitation: Accessibility (requires Neuralware Processor)",
 					"cost": -5
+				},
+				{
+					"id": "5c913092-456b-43e4-8633-8af82491bb14",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (requires Interface Plugs)",
+					"cost": -5
 				}
 			],
 			"calc": {
-				"points": 75
+				"points": 490
 			}
 		}
 	],
@@ -260,7 +71,7 @@
 		{
 			"id": "1e631481-7690-41f0-9c8e-e020d603a8ad",
 			"type": "note",
-			"text": "##### Complexity\n\nCyberdecks have a Complexity rating that determines the complexity of the programs they can run. Each level of complexity is ten times more powerful than the one before it. So a complexity 3 cyberdeck can run ten complexity 2 programs or one complexity 3 program, while a complexity 2 cyberdeck can run ten complexity 1 programs and one complexity 2 program. The cost goes like this:\n\n1. Complexity 2 - 5000 eb\n2. Complexity 3 - 50000 eb\n3. Complexity 4 - 300000 eb\n\nHigher complexity cyberdeck implants don't exist.\n\n##### Speed Index\n\nA cyberdeck's Speed Index (SI) determines how quickly it can process information when working in conjunction with a neural interface. The SI shows how fast the deck is in relation to a standard deck, which has an SI of 1.\n\nThe higher a deck's SI, the faster it is; an icon Interface, running on a deck with an SI of 4, would only take 1,000 milliseconds per phase (a quarter of its normal time)! Of course, some decks are slower (but cheaper); on a deck with an SI of 1/2, the same phase would take eight full seconds."
+			"text": "##### Complexity\n\nCyberdecks have a Complexity rating that determines the complexity of the programs they can run. A program can only be run on a computer of its complexity rating or higher. Each level of complexity is twenty times more powerful than the one before it. So a complexity 3 cyberdeck can run twenty complexity 2 programs or one complexity 3 program, while a complexity 2 cyberdeck can run twenty complexity 1 programs and one complexity 2 program.\n\nCyberdecks can only run a VR interface of the same or lower complexity, so you need a cyberdeck of complexity 3 to run an AR Terminal, complexity 4 to run Basic VR, and complexity 5 to run Deep Dive/Total VR.\n\nIf you have interface plugs you can suppliment it with an extra external computer (see Pyramid #3-21 p.6, remember $1 = ~$0.5-0.3 eb).\n\n##### Programs/\"Quickhacks\"\n\nCyberdecks are used to run various hacking programs like Stealth, Breach, Damage, etc, which must be bought separately and of the right complexity level."
 		}
 	]
 }

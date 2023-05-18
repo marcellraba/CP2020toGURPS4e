@@ -11,8 +11,8 @@
 				{
 					"id": "c2d22416-b6a5-4317-ac37-2cda7d445efe",
 					"type": "trait",
-					"name": "Telecommunication",
-					"reference": "B91",
+					"name": "Neural Jack",
+					"reference": "B91,UT217",
 					"tags": [
 						"Advantage",
 						"Exotic",
@@ -20,24 +20,6 @@
 						"Physical"
 					],
 					"modifiers": [
-						{
-							"id": "62a3091b-14b1-46be-9d46-f5215b71f4ae",
-							"type": "modifier",
-							"name": "Infrared Communication",
-							"reference": "B91",
-							"cost": 10,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "d44d5d81-59b8-44d2-83a5-fc3754dc3fea",
-							"type": "modifier",
-							"name": "Laser Communication",
-							"reference": "B91",
-							"cost": 15,
-							"cost_type": "points",
-							"disabled": true
-						},
 						{
 							"id": "e05fa7dd-3fbf-4a8f-9105-bfe60bdea34f",
 							"type": "modifier",
@@ -48,26 +30,9 @@
 							"disabled": true
 						},
 						{
-							"id": "e60e5ac9-9d9f-4197-872d-f989a10c2262",
-							"type": "modifier",
-							"name": "Telesend",
-							"reference": "B91",
-							"cost": 30,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
 							"id": "1c177e9e-619f-486c-9ebe-0d576d63500c",
 							"type": "modifier",
 							"name": "Broadcast",
-							"reference": "B91",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "0d22e306-7dc3-41d2-b5a3-9c5a5322a4a1",
-							"type": "modifier",
-							"name": "Short Wave",
 							"reference": "B91",
 							"cost": 50,
 							"disabled": true
@@ -81,19 +46,19 @@
 							"disabled": true
 						},
 						{
+							"id": "f228e059-e430-4376-a834-04fba115952e",
+							"type": "modifier",
+							"name": "Reduced Range",
+							"notes": "1/10th range",
+							"cost": 30,
+							"disabled": true
+						},
+						{
 							"id": "968126cc-713a-4b84-b8c0-355136b31c1f",
 							"type": "modifier",
 							"name": "Video",
 							"reference": "B91",
 							"cost": 40,
-							"disabled": true
-						},
-						{
-							"id": "92f58951-9e4e-4104-b926-e703de5e21da",
-							"type": "modifier",
-							"name": "Racial",
-							"reference": "B91",
-							"cost": -20,
 							"disabled": true
 						},
 						{
@@ -110,67 +75,6 @@
 							"name": "Send Only",
 							"reference": "B91",
 							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "15d0ee72-0b07-41b0-8eb2-8a507dcc9534",
-							"type": "modifier",
-							"name": "Vague",
-							"reference": "B91",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "b07c07e1-2359-4b04-bcd1-53ec592fe5a1",
-							"type": "modifier",
-							"name": "Directional Sound",
-							"reference": "P81",
-							"cost": 5,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "946521e3-2c36-4d71-a149-32b39284b531",
-							"type": "modifier",
-							"name": "Gravity Ripple",
-							"reference": "P81",
-							"cost": 20,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "aa6df9f7-d126-4776-84a9-a713f807e9a6",
-							"type": "modifier",
-							"name": "Neutrino",
-							"reference": "P81",
-							"cost": 25,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "e3710d37-f816-47e8-b070-709cbc481c6c",
-							"type": "modifier",
-							"name": "Sonar",
-							"reference": "P81",
-							"cost": 10,
-							"cost_type": "points",
-							"disabled": true
-						},
-						{
-							"id": "5bc71c77-f672-494d-a218-c6db76095060",
-							"type": "modifier",
-							"name": "Burst",
-							"reference": "P81",
-							"cost": 30,
-							"levels": 1,
-							"disabled": true
-						},
-						{
-							"id": "a495e7f8-e827-45b4-9192-74fdca7bc766",
-							"type": "modifier",
-							"name": "FTL",
-							"reference": "P82",
-							"cost": 120,
 							"disabled": true
 						},
 						{
@@ -202,35 +106,55 @@
 					}
 				},
 				{
-					"id": "9bc7bd63-6039-4037-ba49-d74720402eea",
-					"type": "trait",
-					"name": "Marquee Interface",
-					"notes": "Command Phase takes 4 x normal length",
-					"base_points": 20,
+					"id": "678f25f5-b8e5-4c67-a892-991897c7bf2a",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "2cf54c82-1e5b-4200-ad29-3258679be433",
+							"type": "trait",
+							"name": "AR Terminal",
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "3b3856fa-1ed7-499e-8aeb-c98413baee8d",
+							"type": "trait",
+							"name": "Basic VR",
+							"base_points": 5,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "4609c26f-7861-45e9-bbd5-df8f85b21f2c",
+							"type": "trait",
+							"name": "Deep Dive",
+							"modifiers": [
+								{
+									"id": "15a23080-5535-4a4e-98ef-fb6dbb1121de",
+									"type": "modifier",
+									"name": "Limitation: Accessibility (requires Cyberdeck)"
+								}
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 7
+							}
+						}
+					],
+					"name": "Interface",
+					"reference": "P#3-21 p. 5",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
 					"calc": {
-						"points": 13
-					}
-				},
-				{
-					"id": "ed8d8ef1-9df1-4391-8002-7332eceb792e",
-					"type": "trait",
-					"name": "Icon Interface",
-					"notes": "Phase length is 2x",
-					"base_points": 25,
-					"disabled": true,
-					"calc": {
-						"points": 0
-					}
-				},
-				{
-					"id": "d64cdd56-8365-46d9-8ce1-4e86a23a083c",
-					"type": "trait",
-					"name": "Environmental Interface",
-					"notes": "no modification to phase length",
-					"base_points": 30,
-					"disabled": true,
-					"calc": {
-						"points": 0
+						"points": 11
 					}
 				}
 			],
@@ -256,7 +180,7 @@
 				}
 			],
 			"calc": {
-				"points": 21
+				"points": 19
 			}
 		}
 	],
@@ -264,7 +188,7 @@
 		{
 			"id": "ed365956-47cf-4ffd-95a4-59368f59bb74",
 			"type": "note",
-			"text": "These are the staple of Cyberpunk culture. Usually installed in the bones of the wrist, spine or skull, they tap into major nerve trunks and interface with the neural processor to send and receive signals. The plug itself can be used to insert information and reflex \"skill chips\", or as a plug in for a set of interface cables (allowing you to directly control any device you have the proper \"link\" with). In game terms, interface plugs allow the player to directly link to many types of machines, such as cybermodems or cybervehicles.\n\nInterface plugs are quite common; many companies will even pay for their installation. Quite a few factory and construction workers now \"stud\" directly into their machines. Interface plugs are critical to people like Netrunners (who must have them to gain the speed and ability to run the Net), and Solos (who use them to operate smartguns).\n\nMost people wear their plugs on wrists for ease of use. Occasionally, a true cybertechie will mount them at the temples (a plug head), just behind the ears (called a frankensetein) or in the back of the head (a puppethead). Some cover them with inlaid silver or gold caps, others with wristwarmers. Once again, a matter of style.\n\n200 eb, minor surgery, LC4"
+			"text": "These are the staple of Cyberpunk culture. Usually installed in the bones of the wrist, spine or skull, they tap into major nerve trunks and interface with the neural processor to send and receive signals. The plug itself can be used to insert information and reflex \"skill chips\", or as a plug in for a set of interface cables (allowing you to directly control any device you have the proper \"link\" with). In game terms, interface plugs allow the player to directly link to many types of machines, such as cybermodems or cybervehicles.\n\nInterface plugs are quite common; many companies will even pay for their installation. Quite a few factory and construction workers now \"stud\" directly into their machines. Interface plugs are critical to people like Netrunners (who must have them to gain the speed and ability to run the Net), and Solos (who use them to operate smartguns).\n\nMost people wear their plugs on wrists for ease of use. Occasionally, a true cybertechie will mount them at the temples (a plug head), just behind the ears (called a frankensetein) or in the back of the head (a puppethead). Some cover them with inlaid silver or gold caps, others with wristwarmers. Once again, a matter of style.\n\nFor each step from AR terminal to basic VR to total VR (deep dive), apply a -2 to the skill levels of the lower-end technology’s user. Someone using a terminal interface gets a -4 in any contested rolls against one using total VR, or -2 against a basic VR user.\n\n200 eb, minor surgery, LC4"
 		}
 	]
 }
