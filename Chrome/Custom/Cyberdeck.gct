@@ -18,19 +18,19 @@
 						{
 							"id": "6a980a58-3e86-4354-9334-1053a2415775",
 							"type": "modifier",
-							"name": "Complexity 1"
+							"name": "Complexity 3"
 						},
 						{
 							"id": "2077f61a-cdb3-45da-a341-1a76a60df265",
 							"type": "modifier",
-							"name": "Complexity 2",
+							"name": "Complexity 4",
 							"cost": 10,
 							"cost_type": "multiplier"
 						},
 						{
 							"id": "fd99a03b-3896-4fcc-9168-7cfecfbe3e69",
 							"type": "modifier",
-							"name": "Complexity 3",
+							"name": "Complexity 5",
 							"cost": 10,
 							"cost_type": "multiplier"
 						}
