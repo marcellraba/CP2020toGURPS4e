@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "7fa1b0a2-3552-459f-a4c4-d667e60be140",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "5ca349e2-d3fa-4110-8723-f4819d3edc97",
 			"name": "Nanosurgeons",
+			"calc": {
+				"points": 5
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "7d37121d-043d-4e7a-b449-6bf27a865472",
 					"name": "Regeneration",
 					"physical": true,
@@ -20,7 +21,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "444ee18e-0440-414b-b1b7-31d915d0d4c0",
 							"name": "Slow",
 							"reference": "B80",
@@ -31,7 +31,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "da477d87-2cbf-490b-99c7-e94f69e442de",
 							"disabled": true,
 							"name": "Regular",
@@ -43,7 +42,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "22af8216-0f46-48b5-a29f-b88cafc7d516",
 							"disabled": true,
 							"name": "Fast",
@@ -55,7 +53,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "84b61831-dd6f-4194-a2f9-a378934cdff3",
 							"disabled": true,
 							"name": "Very Fast",
@@ -67,7 +64,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0b0090bb-00e1-4827-ba5b-e693a2296bbd",
 							"disabled": true,
 							"name": "Extreme",
@@ -79,7 +75,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "528d1511-4547-4131-ac57-873a26a0e725",
 							"disabled": true,
 							"name": "Heals Radiation",
@@ -90,7 +85,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6b577d66-ff14-4294-a3fe-5136f9273367",
 							"disabled": true,
 							"name": "Radiation Only",
@@ -101,7 +95,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "262d659b-bee6-4171-bb80-9d51976e565a",
 							"disabled": true,
 							"name": "Fatigue Recovery",
@@ -112,7 +105,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6d69fa9d-9690-41f1-b962-b6d28838071e",
 							"disabled": true,
 							"name": "Fatigue Only",
@@ -123,7 +115,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "cf24ee5f-8bca-4fd8-b509-f15fc083f09e",
 							"disabled": true,
 							"name": "Limited: @Advantage@ Only",
@@ -134,7 +125,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "80ba01e1-6801-4452-a494-8629dafa8f7a",
 							"disabled": true,
 							"name": "Bane",
@@ -146,7 +136,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5700dab1-ade4-4a0d-b762-9b759ea7f53f",
 							"disabled": true,
 							"name": "Bane",
@@ -158,7 +147,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "aeead604-5765-4782-beb6-67ee833791d6",
 							"disabled": true,
 							"name": "Bane",
@@ -170,20 +158,21 @@
 						}
 					],
 					"reference": "B80",
+					"calc": {
+						"points": 10
+					},
 					"categories": [
 						"Advantage"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "418d2674-fff6-4677-9af3-ce0cc6981698",
 					"name": "Maintenance",
 					"physical": true,
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "91b67b41-b093-40cc-9b6d-5a3b0d7584d4",
 							"name": "People Required: 1",
 							"reference": "B143",
@@ -193,7 +182,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6c76b80e-5e1c-49a0-a861-ac41cd6d1b8f",
 							"disabled": true,
 							"name": "People Required: 2",
@@ -204,7 +192,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7e19f107-da8b-4134-b8ca-c01cbd622d37",
 							"disabled": true,
 							"name": "People Required: 3-5",
@@ -215,7 +202,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c36d3564-77b1-42d3-bb75-46094521f533",
 							"disabled": true,
 							"name": "People Required: 6-10",
@@ -226,7 +212,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "9bb6177f-4e7e-4132-871e-e2eebee00b1f",
 							"disabled": true,
 							"name": "People Required: 11-20",
@@ -237,7 +222,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "215cd54c-e7be-4ed6-95ee-d592fd22ce9f",
 							"disabled": true,
 							"name": "People Required: 21-50",
@@ -248,7 +232,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1fd72224-d565-4d1a-8384-e52ea7cb8901",
 							"disabled": true,
 							"name": "People Required: 51-100",
@@ -259,7 +242,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "66fba3ab-0a07-4ed4-8329-173fa2449f16",
 							"disabled": true,
 							"name": "People Required: 101-200",
@@ -270,7 +252,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6ec58467-e82f-4ccd-b16d-dccc3f782886",
 							"disabled": true,
 							"name": "People Required: 201-400",
@@ -281,7 +262,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5af9ca2a-f0bc-46f3-926e-9d04c4ed98f6",
 							"disabled": true,
 							"name": "People Required: 401-800",
@@ -292,7 +272,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4a965d2f-2ff4-4950-8c1d-3a5b38d564b5",
 							"disabled": true,
 							"name": "People Required: 801-1600",
@@ -303,7 +282,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "14a8e29c-fc46-46fd-ae03-4851e08e9084",
 							"disabled": true,
 							"name": "People Required: 1601-3200",
@@ -314,7 +292,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "64e76f6f-a3ef-4cc7-a30f-27bba14d9eee",
 							"disabled": true,
 							"name": "People Required: 3201-6400",
@@ -325,7 +302,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "78083d49-09e6-43dc-b02c-656d492c2623",
 							"disabled": true,
 							"name": "People Required: 6401-12800",
@@ -336,7 +312,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8254847a-baf0-4415-a06d-f9c2e6e9a250",
 							"disabled": true,
 							"name": "People Required: 12801-25600",
@@ -347,7 +322,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8aad3b27-a5fe-40b5-bac2-cf29770ba024",
 							"disabled": true,
 							"name": "Frequency: Monthly",
@@ -357,7 +331,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c9adb775-8c66-457b-a2ec-2ce23be235f5",
 							"disabled": true,
 							"name": "Frequency: Bi-weekly",
@@ -367,7 +340,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d4345870-3dc9-41e5-aa5f-b627df802c4d",
 							"name": "Frequency: Weekly",
 							"reference": "B143",
@@ -376,7 +348,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d6da6310-b79f-49c6-9d3b-dfb0ddebb888",
 							"disabled": true,
 							"name": "Frequency: Every other day",
@@ -386,7 +357,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f94576a9-9fa8-4ebd-9491-8e35f90fe244",
 							"disabled": true,
 							"name": "Frequency: Daily",
@@ -396,7 +366,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "eff15ba0-c8dc-46e4-b0b5-bc7e921cb211",
 							"disabled": true,
 							"name": "Frequency: Twice daily",
@@ -406,7 +375,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b3c8be3a-ef96-4b35-bc31-fa8a66726bde",
 							"disabled": true,
 							"name": "Frequency: Three to five times daily",
@@ -416,7 +384,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8436bcac-633b-45f5-b33f-84313873d458",
 							"disabled": true,
 							"name": "Frequency: Constant",
@@ -426,6 +393,9 @@
 						}
 					],
 					"reference": "B143",
+					"calc": {
+						"points": -5
+					},
 					"categories": [
 						"Disadvantage"
 					]
@@ -436,7 +406,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "eee2c664-975d-4d48-b880-439ca2be6fc4",
 			"text": "6000 eb, Negligible surgery, LC4"
 		}

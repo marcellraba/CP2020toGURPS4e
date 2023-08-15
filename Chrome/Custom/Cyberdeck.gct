@@ -1,0 +1,77 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "d6b75499-4937-4e3c-a401-7c505efd94c8",
+	"traits": [
+		{
+			"id": "e283c108-4c62-4279-8b46-26b24901ff43",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "243a099e-d796-48a8-a314-779a06a69622",
+					"type": "trait",
+					"name": "Computer Implant",
+					"reference": "UT215",
+					"notes": "Accessory (Tiny computer) [1]; Photographic Memory",
+					"modifiers": [
+						{
+							"id": "6a980a58-3e86-4354-9334-1053a2415775",
+							"type": "modifier",
+							"name": "Complexity 3"
+						},
+						{
+							"id": "2077f61a-cdb3-45da-a341-1a76a60df265",
+							"type": "modifier",
+							"name": "Complexity 4",
+							"cost": 10,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "fd99a03b-3896-4fcc-9168-7cfecfbe3e69",
+							"type": "modifier",
+							"name": "Complexity 5",
+							"cost": 10,
+							"cost_type": "multiplier"
+						}
+					],
+					"base_points": 7,
+					"calc": {
+						"points": 490
+					}
+				}
+			],
+			"name": "Cyberdeck",
+			"modifiers": [
+				{
+					"id": "89828e0b-530b-41f4-8ea6-ef744768ddb6",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				},
+				{
+					"id": "e7538f82-a403-4e54-bba0-89cd2591b0ab",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "5c913092-456b-43e4-8633-8af82491bb14",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (requires Interface Plugs)",
+					"cost": -5
+				}
+			],
+			"calc": {
+				"points": 490
+			}
+		}
+	],
+	"notes": [
+		{
+			"id": "1e631481-7690-41f0-9c8e-e020d603a8ad",
+			"type": "note",
+			"text": "##### Complexity\n\nCyberdecks have a Complexity rating that determines the complexity of the programs they can run. A program can only be run on a computer of its complexity rating or higher. Each level of complexity is twenty times more powerful than the one before it. So a complexity 3 cyberdeck can run twenty complexity 2 programs or one complexity 3 program, while a complexity 2 cyberdeck can run twenty complexity 1 programs and one complexity 2 program.\n\nCyberdecks can only run a VR interface of the same or lower complexity, so you need a cyberdeck of complexity 3 to run an AR Terminal, complexity 4 to run Basic VR, and complexity 5 to run Deep Dive/Total VR.\n\nIf you have interface plugs you can suppliment it with an extra external computer (see Pyramid #3-21 p.6, remember $1 = ~$0.5-0.3 eb).\n\n##### Programs/\"Quickhacks\"\n\nCyberdecks are used to run various hacking programs like Stealth, Breach, Damage, etc, which must be bought separately and of the right complexity level."
+		}
+	]
+}

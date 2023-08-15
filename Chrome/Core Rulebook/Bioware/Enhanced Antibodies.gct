@@ -1,25 +1,25 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "f19eae58-c936-43d7-8d4a-99b99ede1df3",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "ebde5baf-5489-414f-a6c1-36b64d37ff4b",
 			"name": "Enhanced Antibodies",
+			"calc": {
+				"points": 5
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "39f3b571-0935-4bd6-a836-c885bddd9c8f",
 					"name": "Resistant",
 					"physical": true,
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e09153df-126f-4342-aa82-57ac716d2cf2",
 							"disabled": true,
 							"name": "@Very Common: Metabolic Hazards, etc.@",
@@ -30,7 +30,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "9a568306-da02-4c4c-bb9d-bbcb6fb86081",
 							"disabled": true,
 							"name": "@Common: Poison, Sickness, etc.@",
@@ -41,7 +40,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "637b70ac-3c11-4161-b2ed-81ad2c74247f",
 							"name": "Disease",
 							"reference": "B81",
@@ -51,7 +49,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "75952af4-1b3b-45b0-91a2-ae7bd95606f6",
 							"disabled": true,
 							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
@@ -62,7 +59,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1767cde9-0df7-474d-a2cd-d6fe0ed3b9f0",
 							"disabled": true,
 							"name": "Immunity",
@@ -72,7 +68,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "250558a8-22c4-406e-b839-fb2b81069e50",
 							"name": "+8 to all HT rolls to resist",
 							"reference": "B81",
@@ -81,7 +76,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bb4927ba-4a2d-43e5-9e1b-824519c87eaa",
 							"disabled": true,
 							"name": "+3 to all HT rolls to resist",
@@ -91,6 +85,9 @@
 						}
 					],
 					"reference": "B81",
+					"calc": {
+						"points": 5
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -101,7 +98,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "11d8b02f-17b9-46ec-8950-9806330dc7ee",
 			"text": "Changed to disease resist because original game description ¯\\_(ツ)_/¯\n\n3000 eb, Negligible surgery, LC4"
 		}

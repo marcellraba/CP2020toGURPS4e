@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "a68f90f8-5057-4039-bc18-0d1353e591e3",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "0f3de165-1db8-4fc9-99cc-a9ba799aefc1",
 			"name": "Shark Grin",
+			"calc": {
+				"points": 0
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "e0df2563-5671-48b3-8af1-4e60dc86e1fe",
 					"name": "Teeth, Sharp",
 					"physical": true,
@@ -30,30 +31,41 @@
 							"reach": "C",
 							"parry": "No",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "No",
+								"block": "No",
+								"damage": "thr-1 cut"
+							},
 							"defaults": [
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								},
 								{
-									"type": "DX"
+									"type": "dx"
 								}
 							]
 						}
 					],
 					"reference": "B91",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "cae0a624-4756-4210-a8a8-3dbf8b4b9059",
 					"name": "Distinctive Features",
 					"physical": true,
 					"base_points": -1,
 					"reference": "B165",
+					"calc": {
+						"points": -1
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -84,7 +96,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "afb47454-43e4-415f-b6cc-81ee53046df4",
 			"text": "200 eb, Negligible surgery, LC4"
 		}

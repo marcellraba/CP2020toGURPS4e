@@ -1,95 +1,85 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 4,
 	"id": "70686339-1303-45e4-b8c5-8e41949b70d5",
-	"advantages": [
+	"traits": [
 		{
-			"type": "advantage_container",
-			"version": 1,
 			"id": "337b8d68-0dcb-463c-a9c0-8319e7c7432f",
-			"name": "Sandevistan Speedware",
-			"modifiers": [
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "c143bb6c-fdcf-47dd-a03c-2f9eff707b41",
-					"disabled": true,
-					"name": "Limitation: Takes Recharge (5 seconds)",
-					"cost_type": "percentage",
-					"cost": -10,
-					"affects": "total"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "6bf6a032-5169-426f-b3e8-66d7b9206751",
-					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
-					"cost_type": "percentage",
-					"cost": -5,
-					"affects": "total"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "994d8b3c-750e-4c76-bcc7-d28669fe269f",
-					"name": "Temporary Disadvantage, Electrical",
-					"cost_type": "percentage",
-					"cost": -20,
-					"affects": "total"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "cc7e5ff2-5fc3-41ad-b769-12c68674081c",
-					"name": "Takes Extra Time: 1 Concentrate maneuver",
-					"cost_type": "percentage",
-					"cost": -10,
-					"affects": "total"
-				},
-				{
-					"type": "modifier",
-					"version": 1,
-					"id": "f9750b08-f0fd-4a01-9b31-625ac90ea02a",
-					"name": "Maximum Duration: 15 Seconds with inability to activate again for 6 seconds",
-					"cost_type": "percentage",
-					"cost": -60,
-					"affects": "total"
-				}
-			],
-			"notes": "Lasts 15 seconds",
+			"type": "trait_container",
 			"open": true,
 			"children": [
 				{
-					"type": "advantage",
-					"version": 1,
-					"id": "1de8bf5b-3e1c-4d68-ba4d-687641f9241e",
-					"name": "Increased Basic Speed",
-					"physical": true,
-					"levels": "3",
-					"points_per_level": 5,
-					"reference": "B17",
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"amount": 0.25,
-							"per_level": true,
-							"attribute": "speed"
-						}
-					],
-					"categories": [
-						"Advantage",
-						"Attribute"
-					]
+					"id": "edaa8d0c-8789-43e3-a559-9c33d731bdbc",
+					"type": "trait",
+					"name": "Increased Time Rate (Modified)",
+					"reference": "B38-39",
+					"notes": "Your rate of time perception is faster than that of a normal human. The first level of this advantage lets you experience time twice as fast as normal --- that is, you experience two subjective seconds for each real second that passes --- and each level past that multiplies that ratio by the level: level 3 is three times as fast as level 2, level 4 is four times as fast as level 3, and so on.\n\nMechanically, each level lets you take one additional maneuver on your turn in combat. This advantage affects how fast you can do things, but doesn't increase your reaction time if it isn't activated.",
+					"base_points": 100,
+					"levels": 4,
+					"points_per_level": 100,
+					"can_level": true,
+					"calc": {
+						"points": 100
+					}
+				},
+				{
+					"id": "84a1be32-de70-4de7-9b66-7990b8bcde0b",
+					"type": "trait",
+					"name": "Enhanced Dodge",
+					"reference": "B51",
+					"notes": "At base level, this trait grants you +1 to your Dodge score. For each level thereafter, the previous bonus is multiplied by the new level, e.g.: at level 2, it's +2, at level 3, it's +6, and so on. Level is equal to the level of the Increased Time Rate trait or the Sandevistan trait as a whole.",
+					"levels": 4,
+					"can_level": true,
+					"calc": {
+						"points": 0
+					}
 				}
-			]
+			],
+			"name": "Sandevistan Speedware",
+			"notes": "Lasts 15 seconds",
+			"modifiers": [
+				{
+					"id": "c143bb6c-fdcf-47dd-a03c-2f9eff707b41",
+					"type": "modifier",
+					"name": "Limitation: Takes Recharge (5 seconds)",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "6bf6a032-5169-426f-b3e8-66d7b9206751",
+					"type": "modifier",
+					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
+					"cost": -5
+				},
+				{
+					"id": "994d8b3c-750e-4c76-bcc7-d28669fe269f",
+					"type": "modifier",
+					"name": "Temporary Disadvantage, Electrical",
+					"cost": -20
+				},
+				{
+					"id": "cc7e5ff2-5fc3-41ad-b769-12c68674081c",
+					"type": "modifier",
+					"name": "Takes Extra Time: 1 Concentrate maneuver",
+					"cost": -10
+				},
+				{
+					"id": "f9750b08-f0fd-4a01-9b31-625ac90ea02a",
+					"type": "modifier",
+					"name": "Maximum Duration: 15 Seconds with inability to activate again for 6 seconds",
+					"cost": -60
+				}
+			],
+			"calc": {
+				"points": 100
+			}
 		}
 	],
 	"notes": [
 		{
-			"type": "note",
-			"version": 1,
 			"id": "5e673063-c99b-4604-85d7-5d8b53e44c48",
-			"text": "Speedware (also known as Sandevistan) kicks in only when desired, eliminating much of the need to adapt one's entire life to an inhumanly fast reaction time. The character must first subvocalize a mental command word before boost is activated, then wait one turn before the boost kicks in. (In game terms, you must take a ready action to activate). He will remain boosted for 15 seconds before the boost cuts out. He must then subvocalize the command again, and wait 6 seconds before regaining a boosted state.\nSpeedware's big advantages are in lower mental impact and improved performance; because the body isn't \"on\" all the time, more can be drawn from it during the boost mode.\n\n1600 eb, negligible surgery, LC4"
+			"type": "note",
+			"text": "Speedware (also known as Sandevistan) kicks in only when desired, eliminating much of the need to adapt one's entire life to an inhumanly fast reaction time. The character must first subvocalize a mental command word before boost is activated, then wait one turn before the boost kicks in. (In game terms, you must take a ready action to activate). He will remain boosted for 15 seconds before the boost cuts out. He must then subvocalize the command again, and wait 6 seconds before regaining a boosted state. Speedware's big advantages are in lower mental impact and improved performance; because the body isn't \"on\" all the time, more can be drawn from it during the boost mode.\n\n1600 eb, minor surgery, LC4"
 		}
 	]
 }

@@ -1,24 +1,28 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "3a7fc10f-dcb8-4af8-af76-ce5b8b74121d",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "aa0f1c78-1ca6-4b8d-aa6f-ba4a28da3ae6",
 			"name": "Techhair",
+			"calc": {
+				"points": -1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "d012a3ef-7657-4231-9644-9cb79ec6c8f0",
 					"name": "Unnatural Features (Techhair)",
 					"physical": true,
 					"levels": "1",
 					"points_per_level": -1,
 					"reference": "B22",
+					"calc": {
+						"points": -1
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -51,7 +55,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "e1ea9759-eb3a-4dc0-85ff-be74c0ca2a85",
 			"text": "1 to -5 point Unnatural Feature, Mitigators might apply.\n\nNegligible, 600 eb, LC4"
 		}

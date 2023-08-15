@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "442a167d-a435-43b1-a48b-24454de665da",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "c1587751-b6d2-41be-89ab-84c4bc1b0a5f",
 			"name": "Anti Dazzle",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "8d79db2b-bf71-4988-8a88-6948b9ac4b46",
 					"name": "Accessibility: Requires Cyberoptic",
 					"cost_type": "percentage",
@@ -19,17 +17,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 5
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "324fc8fa-eb30-48a1-a4ee-eca734450d4e",
 					"name": "Protected Sense (Vision)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 5,
 					"reference": "B78",
+					"calc": {
+						"points": 5
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -40,7 +43,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "fc24f374-a3af-414d-9a77-ec4c58051881",
 			"text": "200 eb, Negligible surgery, LC4"
 		}

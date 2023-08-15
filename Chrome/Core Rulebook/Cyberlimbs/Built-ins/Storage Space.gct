@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "887a4ef4-49fd-4c94-a54f-d920a1325ed4",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "782d1751-3688-4b9a-8bcc-7c2ab28cbad6",
 			"name": "Storage Space",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "f091a0d0-a4af-4f41-b250-73b88c0f8a38",
 					"name": "Accessibility: Requires Cyberlimb",
 					"cost_type": "percentage",
@@ -19,11 +17,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "3eb60331-d218-42e0-8be2-564e1c572386",
 					"name": "Payload (Hidden Compartment)",
 					"physical": true,
@@ -33,7 +33,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6467c471-727d-4e24-97ea-76cb89a530ee",
 							"disabled": true,
 							"name": "Exposed",
@@ -44,6 +43,9 @@
 						}
 					],
 					"reference": "B74",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -54,7 +56,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "fad07c21-fc27-4d2e-82bc-7177d4bb211d",
 			"text": "50 eb, Negligible surgery, LC4"
 		}

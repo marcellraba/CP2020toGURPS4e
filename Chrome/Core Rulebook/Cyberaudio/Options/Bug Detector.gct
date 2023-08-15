@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "90a73396-34d1-4394-babf-c6d78396119b",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "36298495-89aa-45f1-b645-b92853b294e5",
 			"name": "Bug Detector",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "e5a1676b-02d9-416d-a950-80fa8625a9a8",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "1285ce6f-746c-4fb4-bc88-4248af9af79e",
 					"name": "Accessibility: Requires Cyberaudio",
 					"cost_type": "percentage",
@@ -28,17 +25,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "c0664f3a-20b7-4b9d-8752-acb39912d0e6",
 					"name": "Accessory (Bug Detector)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
@@ -49,7 +51,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "ec328322-d771-4af4-b02f-5e2d3424a9a0",
 			"text": "200 eb, Negligible surgery, LC4"
 		}

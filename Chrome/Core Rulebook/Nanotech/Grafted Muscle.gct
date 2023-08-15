@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "74aa895f-d7f9-42e0-a7b2-841354e126ac",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "9c7af26b-e291-4112-886b-3d1e20a50061",
 			"name": "Grafted Muslce",
+			"calc": {
+				"points": 8
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "f1f37343-5b7c-408d-b7f7-da03a5c93c0e",
 					"name": "Striking ST",
 					"physical": true,
@@ -22,7 +23,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8db7f883-a0d0-419a-b6a4-aff58e7deb4b",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -32,7 +32,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3095e34d-9853-4c76-8742-308a861be463",
 							"disabled": true,
 							"name": "Size",
@@ -43,7 +42,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bf85ae86-6e69-49ed-b4a7-e303a3ea4fdd",
 							"disabled": true,
 							"name": "Super Effort",
@@ -54,7 +52,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "adfe2406-59d1-472d-9fdb-de95e8749850",
 							"disabled": true,
 							"name": "One Attack Only",
@@ -66,7 +63,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "279cb781-1db2-431a-8aac-5e7951902c17",
 							"name": "Know Your Own Strength Pricing Variant",
 							"reference": "PY83:18",
@@ -76,6 +72,9 @@
 						}
 					],
 					"reference": "B88",
+					"calc": {
+						"points": 1
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -91,7 +90,6 @@
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "f7e11cf8-43ca-43f7-bd5c-4c431099d3fc",
 					"name": "Lifting ST",
 					"physical": true,
@@ -101,7 +99,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "10dced28-96d1-4b14-8bf1-eebf8b063420",
 							"disabled": true,
 							"name": "No Fine Manipulators",
@@ -112,7 +109,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fdfd57c9-9593-4ad7-9788-8f2c3f7b752c",
 							"disabled": true,
 							"name": "Size",
@@ -124,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2c269735-5952-40e7-9957-1c5790bc6e4a",
 							"disabled": true,
 							"name": "Super-Effort",
@@ -135,7 +130,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f06e440a-589f-44ac-9722-15b0ad9dfb43",
 							"name": "Know Your Own Strength Variant Price",
 							"reference": "PY83:18",
@@ -145,6 +139,9 @@
 						}
 					],
 					"reference": "B65",
+					"calc": {
+						"points": 7
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -164,7 +161,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "76ec5f7f-0f45-4172-a054-230a1594bea0",
 			"text": "Can improve ST by +1 to +2 (you have to combine Striking and Lifting ST).\n\n1000 eb/level, Major surgery, LC4"
 		}

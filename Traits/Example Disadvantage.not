@@ -1,11 +1,10 @@
 {
 	"type": "note_list",
-	"version": 1,
+	"version": 2,
 	"id": "fc72b368-9d5f-45c9-bca0-86adbed77f0b",
 	"rows": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "103058ae-ffef-4dc5-962b-397070516293",
 			"text": "NEW EXAMPLE DISADVANTAGE\n\nCyberpsychosis\t-35/-40/-50 points\n\nYou suffer from a specialized form of Post Traumatic Stress Disorder that only affects those with cybernetic implants. Specifically, you suffer from a variety of mental conditions specifically linked to the trauma of the implantation of your bionics. Cyberpsycho episodes are typically triggered by stress, and can result in unpredictable behavior. Those who know you're a cyberpsycho react to you at -2, except for fellow cyberpsychos, who accept you as a member of a weird fraternity and react to you at +1.\n\nCyberpsychosis: Bad Temper (9) [-15]; Reputation (as above) [-5]; and -15 points of Mental disads from the following list: Alcoholism [-15]; Amnesia (partial) [-10]; Berserk [-10*]; Callous [-5]; Chronic Depression [-15*]; Confused [-10*]; Flashbacks [varies]; Impulsiveness [-10*]; Light Sleeper [-5]; Loner [-5*]; Manic-Depressive [-20]; Nightmares [-5*]; On the Edge [-15*]; Paranoia [-10]; Phantom Voices [-5 to -15]; Short Attention Span [-10*]. (Accessibility; only those with cybernetics, -40%). -35 points.\n\nLevel 2 Cyberpsychosis: As above, except Bad Temper (6) [-20] and -20 points of Mental disads. -40 points.\n\nLevel 3 Cyberpsychosis: As base Cyberpsychosis, except replace Bad Temper with Berserk (6) [-20]; and -30 points of Mental Disads from the list. (Accessibility; only those with cybernetics, -40%). -50 points."
 		}

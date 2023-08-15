@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "2396bee6-c6b5-4945-9e95-a973f5e7daf1",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "d5d12197-33e8-4c3a-b7c5-12dca164decc",
 			"name": "Rippers",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "3c0fb626-d3f7-42d7-b856-71d944b503c4",
 					"name": "Switchable",
 					"cost_type": "percentage",
@@ -19,11 +17,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 9
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "5db3f036-a332-43d0-a5bb-f9931b9ba554",
 					"name": "Claws, Talons (Hands)",
 					"physical": true,
@@ -40,20 +40,26 @@
 							"reach": "C",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr-1 cut"
+							},
 							"defaults": [
 								{
-									"type": "DX"
+									"type": "dx"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Boxing"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Karate"
 								}
 							]
@@ -69,26 +75,35 @@
 							"reach": "C",
 							"parry": "0",
 							"block": "No",
+							"calc": {
+								"level": 0,
+								"parry": "0",
+								"block": "No",
+								"damage": "thr-1 imp"
+							},
 							"defaults": [
 								{
-									"type": "DX"
+									"type": "dx"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Brawling"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Boxing"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Karate"
 								}
 							]
 						}
 					],
 					"reference": "B43",
+					"calc": {
+						"points": 9
+					},
 					"notes": "Only pay for hands or feet, not both",
 					"categories": [
 						"Advantage"
@@ -100,7 +115,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "f59bd127-ce49-44e4-bb98-367097d904c9",
 			"text": "400 eb, Minor surgery, LC1"
 		}

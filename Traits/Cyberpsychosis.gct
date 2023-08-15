@@ -1,0 +1,618 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "586215ec-bfed-4446-be95-15fb35669c2d",
+	"traits": [
+		{
+			"id": "f55eda03-cf39-4cf6-8bc2-71c13fcf7ee5",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "83f69722-9def-4ad8-b842-8680b323e00b",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "fb18630d-6774-495b-adc3-87b7e3c3b567",
+							"type": "trait",
+							"name": "Bad Temper (9)",
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "c6d8a527-b6d0-41f2-b035-c0974a2f9d85",
+							"type": "trait",
+							"name": "Reputation as a Cyberpsycho (see notes)",
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "3a720096-e42e-4d71-b1a5-fe378dac9dd1",
+							"type": "trait_container",
+							"open": true,
+							"children": [
+								{
+									"id": "7e7071af-c334-4fd6-9e51-f3daea23b78d",
+									"type": "trait",
+									"name": "Short Attention Span",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "d913ff5e-348d-45ff-9801-530c585293ee",
+									"type": "trait",
+									"name": "Phantom Voices",
+									"levels": 1,
+									"points_per_level": -5,
+									"can_level": true,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "cbdc7772-c336-42cf-b9e7-7ad4caea0e10",
+									"type": "trait",
+									"name": "Paranoia",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "327798b9-d513-410c-8c05-e209eed2a9d9",
+									"type": "trait",
+									"name": "On the Edge",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "96295044-fa28-4473-982b-54be0c7d47d4",
+									"type": "trait",
+									"name": "Nightmares",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "5b992f6e-59d6-47f0-b266-030a0b31d0bd",
+									"type": "trait",
+									"name": "Manic-Depressive",
+									"base_points": -20,
+									"calc": {
+										"points": -20
+									}
+								},
+								{
+									"id": "c2825c80-be1b-4e71-b21f-35e3a4a3b099",
+									"type": "trait",
+									"name": "Loner",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "7435dbd8-e040-4b7b-9dcb-ea8c0d69c580",
+									"type": "trait",
+									"name": "Light Sleeper",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "ccd96284-6207-46ca-b94b-16315c35dbca",
+									"type": "trait",
+									"name": "Impulsiveness",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "02dea177-0467-42fd-ad31-e1d51eb1f618",
+									"type": "trait",
+									"name": "Flashbacks",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "44f6dd3b-0bcb-4055-8681-04af342adf4f",
+									"type": "trait",
+									"name": "Confused",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "486f143e-9762-4430-a6d7-b8e53a110e08",
+									"type": "trait",
+									"name": "Chronic Depression",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "a2b0e633-92d5-471a-a328-35d6391fceaa",
+									"type": "trait",
+									"name": "Callous",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "bbf7ade5-706b-4760-9e8c-80b145efc370",
+									"type": "trait",
+									"name": "Berserk",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "30d665d8-6731-4bd2-adce-208af19a1ac1",
+									"type": "trait",
+									"name": "Amnesia (partial)",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "c27f3dd4-daee-401f-93cd-959c9a64e8c0",
+									"type": "trait",
+									"name": "Alcoholism",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								}
+							],
+							"name": "Mental Disadvantages",
+							"template_picker": {
+								"type": "points",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": -15
+								}
+							},
+							"container_type": "attributes",
+							"calc": {
+								"points": -160
+							}
+						}
+					],
+					"name": "Level 1 Cyberpsychosis",
+					"container_type": "meta_trait",
+					"calc": {
+						"points": -180
+					}
+				},
+				{
+					"id": "5d85a32f-0fb0-477a-a019-295fce8e1834",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "7d01ccd5-f4d4-4584-a431-4471f544f3f4",
+							"type": "trait",
+							"name": "Bad Temper (6)",
+							"base_points": -20,
+							"calc": {
+								"points": -20
+							}
+						},
+						{
+							"id": "4b666a6b-38a8-48c3-a9ec-e3864ba3dacc",
+							"type": "trait",
+							"name": "Reputation as a Cyberpsycho (see notes)",
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "937787dd-5533-483b-8e37-bfbeaedb979d",
+							"type": "trait_container",
+							"open": true,
+							"children": [
+								{
+									"id": "c498a0ef-e3c9-4212-8c1e-ec37608d2135",
+									"type": "trait",
+									"name": "Short Attention Span",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "966f32c6-3598-49cc-ab62-e4fb5dc252a6",
+									"type": "trait",
+									"name": "Phantom Voices",
+									"levels": 1,
+									"points_per_level": -5,
+									"can_level": true,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "c3576df6-63d3-44a7-94c1-6564c8be7886",
+									"type": "trait",
+									"name": "Paranoia",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "287a4c39-9f8e-45c1-a99b-82f8833eab8f",
+									"type": "trait",
+									"name": "On the Edge",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "9e3ae194-db3c-4c2d-aa93-46c571f27a5c",
+									"type": "trait",
+									"name": "Nightmares",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "d9270df8-c957-48f9-a7af-856e8c49f838",
+									"type": "trait",
+									"name": "Manic-Depressive",
+									"base_points": -20,
+									"calc": {
+										"points": -20
+									}
+								},
+								{
+									"id": "36872e9d-895b-4f57-bfd3-1f8bb546392f",
+									"type": "trait",
+									"name": "Loner",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "fb4db540-50ce-4784-a27e-dd010f2cc4d9",
+									"type": "trait",
+									"name": "Light Sleeper",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "00760b15-794b-4975-a254-24793d7a1e1a",
+									"type": "trait",
+									"name": "Impulsiveness",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "6c39064a-1f66-4b69-88ab-7bd10ccbd62c",
+									"type": "trait",
+									"name": "Flashbacks",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "67f5d9ba-6ab0-4469-b9c5-77f1e94c5142",
+									"type": "trait",
+									"name": "Confused",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "9823d6b8-67fe-4fd8-9fdf-11875735463e",
+									"type": "trait",
+									"name": "Chronic Depression",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "a0dc323a-de4e-4710-83a4-ba6d05c24ad3",
+									"type": "trait",
+									"name": "Callous",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "c20d794a-7444-4ce4-88f2-1997b2059627",
+									"type": "trait",
+									"name": "Berserk",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "c1a49f6d-54a9-45fc-8025-4f866f7c78d8",
+									"type": "trait",
+									"name": "Amnesia (partial)",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "806b3829-d591-41ad-b0cb-93b9a5210b1b",
+									"type": "trait",
+									"name": "Alcoholism",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								}
+							],
+							"name": "Mental Disadvantages",
+							"template_picker": {
+								"type": "points",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": -20
+								}
+							},
+							"container_type": "attributes",
+							"calc": {
+								"points": -160
+							}
+						}
+					],
+					"name": "Level 2 Cyberpsychosis",
+					"container_type": "meta_trait",
+					"calc": {
+						"points": -185
+					}
+				},
+				{
+					"id": "704d9324-740b-4619-a529-6f932c546159",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "87cc6f4c-dc08-493d-a907-be22f929dba4",
+							"type": "trait",
+							"name": "Berserk (6)",
+							"base_points": -20,
+							"calc": {
+								"points": -20
+							}
+						},
+						{
+							"id": "48912b42-c1cf-4a87-9381-f2dea0d924ea",
+							"type": "trait",
+							"name": "Reputation as a Cyberpsycho (see notes)",
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "53c695b1-2166-4654-9adc-9084a3fb8d21",
+							"type": "trait_container",
+							"open": true,
+							"children": [
+								{
+									"id": "88aebfb0-7148-4a9e-bfa9-13bc7b07e371",
+									"type": "trait",
+									"name": "Short Attention Span",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "05e771f4-d174-4087-bba7-08403fe02e51",
+									"type": "trait",
+									"name": "Phantom Voices",
+									"levels": 1,
+									"points_per_level": -5,
+									"can_level": true,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "167d7d2e-910a-4fec-9f97-19d401389104",
+									"type": "trait",
+									"name": "Paranoia",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "84c5c5db-1e48-41fa-baf3-d4a4334c7d2f",
+									"type": "trait",
+									"name": "On the Edge",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "2ae7fa13-b5cd-4c1e-a2db-2bd6b1038963",
+									"type": "trait",
+									"name": "Nightmares",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "ca51670b-298c-4a26-b3a7-294c4218ce3d",
+									"type": "trait",
+									"name": "Manic-Depressive",
+									"base_points": -20,
+									"calc": {
+										"points": -20
+									}
+								},
+								{
+									"id": "0f1ccc9c-7b83-44e9-8098-1156975a4df0",
+									"type": "trait",
+									"name": "Loner",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "6e7cfd30-0d71-4ab0-bc24-326a0f27c31b",
+									"type": "trait",
+									"name": "Light Sleeper",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "22bb078f-0dcf-4ce5-9107-5e4765a33a34",
+									"type": "trait",
+									"name": "Impulsiveness",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "d023d01e-f76e-49db-9a9d-fc515a7da460",
+									"type": "trait",
+									"name": "Flashbacks",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "1838c968-7f11-4dfc-a182-c5fb7010dd6f",
+									"type": "trait",
+									"name": "Confused",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "b0019de7-2489-4543-8a98-b4a4e35af267",
+									"type": "trait",
+									"name": "Chronic Depression",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								},
+								{
+									"id": "075ff124-167e-4b31-9cb6-e49890657c8d",
+									"type": "trait",
+									"name": "Callous",
+									"base_points": -5,
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "03a33a0c-c9e3-4132-83fa-67db020b73cd",
+									"type": "trait",
+									"name": "Berserk",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "3964c42e-5ff8-4727-8919-a7173fabc359",
+									"type": "trait",
+									"name": "Amnesia (partial)",
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "d94b375b-e72c-46d9-b7c7-c18e14a1b26a",
+									"type": "trait",
+									"name": "Alcoholism",
+									"base_points": -15,
+									"calc": {
+										"points": -15
+									}
+								}
+							],
+							"name": "Mental Disadvantages",
+							"template_picker": {
+								"type": "points",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": -30
+								}
+							},
+							"container_type": "attributes",
+							"calc": {
+								"points": -160
+							}
+						}
+					],
+					"name": "Level 3 Cyberpsychosis",
+					"container_type": "meta_trait",
+					"calc": {
+						"points": -185
+					}
+				}
+			],
+			"name": "Cyberpsychosis",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"container_type": "meta_trait",
+			"calc": {
+				"points": -550
+			}
+		}
+	],
+	"notes": [
+		{
+			"id": "dda23df4-fc18-4e05-b6d8-32800993de1c",
+			"type": "note",
+			"text": "You suffer from a specialized form of Post Traumatic Stress Disorder that only affects those with cybernetic implants. Specifically, you suffer from a variety of mental conditions specifically linked to the trauma of the implantation of your bionics. Cyberpsycho episodes are typically triggered by stress, and can result in unpredictable behavior. Those who know you're a cyberpsycho react to you at -2, except for fellow cyberpsychos, who accept you as a member of a weird fraternity and react to you at +1."
+		}
+	]
+}

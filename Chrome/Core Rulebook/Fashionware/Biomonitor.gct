@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "e7087682-de35-49b3-81a2-6e14940aba2b",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "82ef5ac3-44b7-4040-aa1d-df3c04a6d116",
 			"name": "Biomonitor",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "c69c10b4-d05a-458d-af26-c1f1d5674190",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "9c4bf3fc-f33b-419f-ba0d-2e56cda63baf",
 					"name": "Temporary Disadvantage, Electrical",
 					"cost_type": "percentage",
@@ -28,17 +25,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "4cf76594-b766-4cb5-bf7d-cda6ceadf27f",
 					"name": "Accessory (Biomonitor)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
@@ -49,7 +51,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "1de702bb-d3b3-45af-84ac-b2123c4b58c6",
 			"text": "100 eb, Negligible surgery, LC4"
 		}

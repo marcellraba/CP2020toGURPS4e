@@ -1,25 +1,25 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "f2bb7213-ba41-4aa5-9b36-25affe19a2d1",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "d435cf28-f28e-4096-829d-e13e29188d7d",
 			"name": "Toxin Binders",
+			"calc": {
+				"points": 8
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "63d88281-1c2e-4534-9d7d-7e043bfe0b3a",
 					"name": "Resistant",
 					"physical": true,
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "68ff7c28-5904-467a-9db1-0ecaed68c54f",
 							"disabled": true,
 							"name": "@Very Common: Metabolic Hazards, etc.@",
@@ -30,7 +30,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "421e9772-99b6-4381-9b05-e827a93ba78f",
 							"name": "Posion",
 							"reference": "B81",
@@ -40,7 +39,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "593d4f07-e4de-4cd0-bf69-17293f2162da",
 							"disabled": true,
 							"name": "@Occasional: Disease, Ingested Poison, etc.@",
@@ -51,7 +49,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0de3a5d1-9173-443d-8534-7595d1691529",
 							"disabled": true,
 							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
@@ -62,7 +59,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "dc530727-5742-424d-82cc-a23449898282",
 							"disabled": true,
 							"name": "Immunity",
@@ -72,7 +68,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5194c652-36a9-4ec4-b9b1-89886e3e6fef",
 							"name": "+8 to all HT rolls to resist",
 							"reference": "B81",
@@ -81,7 +76,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "121f1229-0895-4324-ad5f-01e292d82a4e",
 							"disabled": true,
 							"name": "+3 to all HT rolls to resist",
@@ -91,6 +85,9 @@
 						}
 					],
 					"reference": "B81",
+					"calc": {
+						"points": 8
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -101,7 +98,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "b234da9e-d3ae-4214-9475-22646f90535a",
 			"text": "3000 eb, Negligible surgery, LC4"
 		}

@@ -1,44 +1,48 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "da57fa93-360a-4dc9-8491-89da88440b3f",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "cba6e122-5fb1-4873-9878-4a2ee7c0e48a",
 			"name": "Cop",
+			"calc": {
+				"points": -64
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "d0352e42-734b-46b8-a5cc-4d634e6892d2",
 					"name": "Role Disadvantages",
+					"calc": {
+						"points": -274
+					},
 					"open": false,
 					"children": [
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "b6cf2c86-3a8e-4927-a2a0-7123734d5eba",
 							"name": "Code of Honor (Professional)",
 							"mental": true,
 							"base_points": -5,
 							"reference": "B127",
+							"calc": {
+								"points": -5
+							},
 							"categories": [
 								"Disadvantage"
 							]
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "882985b7-2573-4ac8-9d6c-fab23e9c39d4",
 							"name": "Duty (NCPD)",
 							"social": true,
 							"modifiers": [
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "b7720b82-78f3-4186-a193-deb587024967",
 									"disabled": true,
 									"name": "FR: 6",
@@ -48,7 +52,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "ff7c025b-e533-4d49-be48-7a2b2cb39b48",
 									"disabled": true,
 									"name": "FR: 9",
@@ -58,7 +61,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "b8f98470-94fc-481e-9206-0955e359302e",
 									"name": "FR: 12",
 									"cost_type": "points",
@@ -67,7 +69,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "5a24d2db-744f-4aa9-8d1d-04553ecaaca7",
 									"disabled": true,
 									"name": "FR: 15",
@@ -77,7 +78,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "77e5eab5-a694-4817-9904-766929a71925",
 									"disabled": true,
 									"name": "Extremely Hazardous",
@@ -87,7 +87,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "3ff64511-951c-4b5b-98b4-b6ab1ec4e1f1",
 									"disabled": true,
 									"name": "Involuntary",
@@ -97,7 +96,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "974464e6-9bda-4caa-8459-7bd0cbd6f92f",
 									"disabled": true,
 									"name": "Nonhazardous",
@@ -107,63 +105,76 @@
 								}
 							],
 							"reference": "B133",
+							"calc": {
+								"points": -10
+							},
 							"categories": [
 								"Disadvantage"
 							]
 						},
 						{
 							"type": "advantage_container",
-							"version": 1,
 							"id": "bc2542ac-9ba2-4d4d-89fe-1e7b56e249ea",
 							"name": "Choose",
+							"calc": {
+								"points": -259
+							},
 							"open": false,
 							"children": [
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "6441bcb5-3b4e-48bd-9ac4-dd94a7a30e56",
 									"name": "Bad Back (Mild)",
 									"physical": true,
 									"base_points": -15,
 									"reference": "B123",
+									"calc": {
+										"points": -15
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "fa25093d-04c1-4f9a-a7e9-a0758c867e21",
 									"name": "Bad Temper",
 									"mental": true,
 									"base_points": -10,
 									"cr": 12,
 									"reference": "B124",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "1612abf9-a9c0-4401-bf8b-8f3addd61f5f",
 									"name": "Bully",
 									"mental": true,
 									"base_points": -10,
 									"cr": 12,
 									"reference": "B125",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "ad654a50-d3da-49a6-9d17-9ff15a327bad",
 									"name": "Callous",
 									"mental": true,
 									"base_points": -5,
 									"reference": "B125",
+									"calc": {
+										"points": -5
+									},
 									"features": [
 										{
 											"type": "skill_bonus",
@@ -190,12 +201,14 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "f551f098-7f46-4e18-af62-45131511d9b8",
 									"name": "Clueless",
 									"mental": true,
 									"base_points": -10,
 									"reference": "B126",
+									"calc": {
+										"points": -10
+									},
 									"features": [
 										{
 											"type": "skill_bonus",
@@ -213,45 +226,50 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "16f837ce-2698-4d83-80f9-69201057464f",
 									"name": "Combat Paralysis",
 									"physical": true,
 									"base_points": -15,
 									"reference": "B127",
+									"calc": {
+										"points": -15
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "b7a4fc58-c739-470a-9b81-a653efe9fab0",
 									"name": "Compulsive Gambling",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B128",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "e6509a28-beb8-473e-9bda-e518677058ce",
 									"name": "Compulsive Lying",
 									"mental": true,
 									"base_points": -15,
 									"cr": 12,
 									"reference": "B128",
+									"calc": {
+										"points": -15
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "dcff4391-c6cb-4e9c-b2a6-37516a8e066f",
 									"name": "Cowardice",
 									"mental": true,
@@ -259,43 +277,52 @@
 									"cr": 12,
 									"cr_adj": "fright_check_penalty",
 									"reference": "B129",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "028f41d5-9cfd-48e0-bdea-7a961b1742f0",
 									"name": "Curious",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B129",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "43320952-aa14-416d-8adf-e994d98396a8",
 									"name": "Easy to Read",
 									"mental": true,
 									"base_points": -10,
 									"reference": "B134",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "d3ba835f-a4ef-4195-bb17-c105879fcab9",
 									"name": "Fat",
 									"physical": true,
 									"base_points": -3,
 									"reference": "B19",
+									"calc": {
+										"points": -3
+									},
 									"prereqs": {
 										"type": "prereq_list",
 										"all": true,
@@ -347,89 +374,103 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "86576086-abb8-44c8-bed2-f236426e655d",
 									"name": "Flashbacks (Mild, -2, 2D seconds)",
 									"physical": true,
 									"base_points": -5,
 									"reference": "B136",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "c290033d-d6f6-4a03-94a6-90cf900974b6",
 									"name": "Gluttony",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B137",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "706f81dc-00ce-4938-8571-74b05ed3ccfb",
 									"name": "Honesty",
 									"mental": true,
 									"base_points": -10,
 									"cr": 12,
 									"reference": "B138",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "150527e5-5d45-4e53-a416-b42f66d5306a",
 									"name": "Impulsiveness",
 									"mental": true,
 									"base_points": -10,
 									"cr": 12,
 									"reference": "B139",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "709f8a1c-12fa-4c94-8ae6-9f95cffbc3ce",
 									"name": "Incurious",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B140",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "51455806-844f-463a-aa43-7a9ece1b65e0",
 									"name": "Indecisive",
 									"mental": true,
 									"base_points": -10,
 									"cr": 12,
 									"reference": "B140",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "d109eb68-3e5a-49ff-bbdf-444e049db0af",
 									"name": "Insomniac (Mild)",
 									"physical": true,
 									"base_points": -10,
 									"reference": "B140",
+									"calc": {
+										"points": -10
+									},
 									"notes": "GM secretly rolls 3d for the number of days between episodes",
 									"categories": [
 										"Disadvantage"
@@ -437,14 +478,12 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "a56bd126-ea09-49fd-85c2-8ab920cbd4cb",
 									"name": "Intolerance ()",
 									"mental": true,
 									"modifiers": [
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "08bdb526-28a0-4fc2-9ca0-1d325ed35337",
 											"disabled": true,
 											"name": "Scope: Common",
@@ -455,7 +494,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "e57e4152-91db-4e68-ad64-2cde4d1a532b",
 											"disabled": true,
 											"name": "Scope: Occasional",
@@ -466,7 +504,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "b4a8942c-abfa-4a69-8dc8-70831aa646e0",
 											"disabled": true,
 											"name": "Scope: Rare",
@@ -477,7 +514,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "8268297b-9833-432f-ad58-b6b39074752b",
 											"disabled": true,
 											"name": "Scope: Anyone unlike you",
@@ -488,31 +524,38 @@
 										}
 									],
 									"reference": "B140",
+									"calc": {
+										"points": 0
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "54c24ceb-3e4a-48ed-9198-e344ff27a2bd",
 									"name": "Like Doughnuts",
 									"mental": true,
 									"levels": "0",
 									"base_points": -1,
 									"reference": "B164",
+									"calc": {
+										"points": -1
+									},
 									"categories": [
 										"Quirk"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "836b65d9-d44d-4afa-b233-2c6d1742ccd8",
 									"name": "Low Empathy",
 									"mental": true,
 									"base_points": -20,
 									"reference": "B142",
+									"calc": {
+										"points": -20
+									},
 									"prereqs": {
 										"type": "prereq_list",
 										"all": true,
@@ -695,90 +738,104 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "36394f3f-8469-4ab5-8e18-f61fdf61b492",
 									"name": "Nightmares",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B144",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "a6649389-7d00-4d88-93d2-9356172b49b5",
 									"name": "On the Edge",
 									"mental": true,
 									"base_points": -15,
 									"cr": 12,
 									"reference": "B146",
+									"calc": {
+										"points": -15
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "1faf6b68-098e-48a6-8840-f280f1c77b3f",
 									"name": "Overconfidence",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B148",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "eecca282-f144-4c73-9234-4a93ac4517da",
 									"name": "Paranoia",
 									"mental": true,
 									"base_points": -10,
 									"reference": "B148",
+									"calc": {
+										"points": -10
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "bd513b8f-d616-44d9-af86-afd6166fbeb1",
 									"name": "Post-Combat Shakes",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B150",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "2e62fcd2-cf08-43cc-b028-cb0cc89d6156",
 									"name": "Sadism",
 									"mental": true,
 									"base_points": -15,
 									"cr": 12,
 									"reference": "B152",
+									"calc": {
+										"points": -15
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "42c7b0af-710a-4bf3-9646-847c03263805",
 									"name": "Truthfulness",
 									"mental": true,
 									"base_points": -5,
 									"cr": 12,
 									"reference": "B159",
+									"calc": {
+										"points": -5
+									},
 									"features": [
 										{
 											"type": "skill_bonus",
@@ -796,24 +853,28 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "721b9f27-759a-4cad-9813-387fffde0625",
 									"name": "Unfit",
 									"physical": true,
 									"base_points": -5,
 									"reference": "B160",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "fe7ec589-3510-4094-8dc4-ea8a1c5386c5",
 									"name": "Workaholic",
 									"physical": true,
 									"base_points": -5,
 									"reference": "B162",
+									"calc": {
+										"points": -5
+									},
 									"categories": [
 										"Disadvantage"
 									]
@@ -824,21 +885,21 @@
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "868974d3-0fb4-4eb6-a8a4-85ad994ca116",
 					"name": "Role Advantages",
+					"calc": {
+						"points": 170
+					},
 					"open": false,
 					"children": [
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "afcecbb8-76bf-4546-953a-09187b5945e6",
 							"name": "Legal Enforcement Powers",
 							"social": true,
 							"modifiers": [
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "2e2317c5-919e-4a76-92e3-240d2e0862c2",
 									"name": "Night City",
 									"reference": "B65",
@@ -848,7 +909,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "5b773532-e8f9-4137-bb9d-24e0b4b1a77b",
 									"disabled": true,
 									"name": "@KGB@",
@@ -859,7 +919,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "64b4f51c-39cc-4789-8653-af7ed0e04b28",
 									"disabled": true,
 									"name": "@FBI agent@",
@@ -870,20 +929,21 @@
 								}
 							],
 							"reference": "B65",
+							"calc": {
+								"points": 5
+							},
 							"categories": [
 								"Advantage"
 							]
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "d72b1175-6cf8-4d26-aad1-c87043f9e742",
 							"name": "Patron",
 							"social": true,
 							"modifiers": [
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "800c324c-fcd3-425a-a8bd-f929fe3eb71c",
 									"disabled": true,
 									"name": "@Who: Individual with 150% of PC's starting points@",
@@ -894,7 +954,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "06a6e0c9-69e8-4b48-8555-a04a66927ae8",
 									"disabled": true,
 									"name": "@Who: Organization with assets of at least 1000 times starting wealth@",
@@ -905,7 +964,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "dde41f65-f86a-4d1a-b972-452fb4888c23",
 									"disabled": true,
 									"name": "@Who: Individual with twice the PC's starting points@",
@@ -916,7 +974,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "6dee3991-68ba-492d-88cb-130c01162c36",
 									"name": "NCPD",
 									"reference": "B72",
@@ -926,7 +983,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "bb63941a-a522-4688-8b68-daf63a7e1434",
 									"disabled": true,
 									"name": "@Who: An ultra-powerful individual@",
@@ -937,7 +993,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "8d16e1d5-807d-4cdf-85f2-5370be72c080",
 									"disabled": true,
 									"name": "@Who: Organization with assets of at least 100000 times starting wealth@",
@@ -948,7 +1003,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "e8380a8b-fbc1-4679-ba79-596e99d7c408",
 									"disabled": true,
 									"name": "@Who: Organization with assets of at least 1000000 times starting wealth@",
@@ -959,7 +1013,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "a78e27b4-1bde-454a-9513-5eae0bf7edee",
 									"disabled": true,
 									"name": "@Who: A national government or giant multi-national organization@",
@@ -970,7 +1023,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "c61fb93b-862b-406f-93c9-8195539d8699",
 									"disabled": true,
 									"name": "@Who: A diety@",
@@ -981,7 +1033,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "6ec80929-ae03-4c84-9ef3-1749f7cd0253",
 									"name": "Appears almost all the time",
 									"reference": "B36",
@@ -991,7 +1042,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "f2ca00d0-5356-4d4e-93f4-4ce76e276831",
 									"disabled": true,
 									"name": "Appears quite often",
@@ -1002,7 +1052,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "f8296ec1-702f-4b2c-870a-bea15158e5c5",
 									"disabled": true,
 									"name": "Appears fairly often",
@@ -1013,7 +1062,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "1680de79-9294-4b58-891c-3a257aeafd7a",
 									"disabled": true,
 									"name": "Appears quite rarely",
@@ -1024,7 +1072,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "e427f298-abb2-4916-8598-dbb496aefe46",
 									"disabled": true,
 									"name": "Equipment",
@@ -1036,7 +1083,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "31003ba4-4c1c-4212-a8c0-c79f6e42756f",
 									"disabled": true,
 									"name": "Equipment",
@@ -1048,7 +1094,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "36963a62-0064-44c8-a8e9-33f39424d330",
 									"disabled": true,
 									"name": "Highly Accessible",
@@ -1059,7 +1104,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "5b685470-779f-4e2f-a359-627a16e38bb4",
 									"disabled": true,
 									"name": "Special Abilities",
@@ -1071,7 +1115,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "f26d8b4c-0e3e-4add-9aea-9a3fd03a4408",
 									"disabled": true,
 									"name": "Special Abilities",
@@ -1083,7 +1126,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "c891e333-ef61-4a05-a6bc-a68facc3ecad",
 									"name": "Minimal Interventions",
 									"reference": "B73",
@@ -1093,7 +1135,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "dceeb91c-8f80-450e-9eeb-4e48ce558744",
 									"disabled": true,
 									"name": "Secret",
@@ -1104,7 +1145,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "2925d4ed-33f9-420c-a4b3-af5cfaf93d85",
 									"disabled": true,
 									"name": "Unwilling",
@@ -1115,7 +1155,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "23872436-55be-4a8c-9524-959bfd55beac",
 									"disabled": true,
 									"name": "Favor",
@@ -1125,13 +1164,15 @@
 								}
 							],
 							"reference": "B72",
+							"calc": {
+								"points": 23
+							},
 							"categories": [
 								"Advantage"
 							]
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "29e0c53e-610a-470b-86df-3c8767d22962",
 							"name": "Rank",
 							"physical": true,
@@ -1140,7 +1181,6 @@
 							"modifiers": [
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "f5fa164e-1016-4e67-8ee1-7732a28ffa53",
 									"disabled": true,
 									"name": "Replaces Status",
@@ -1151,7 +1191,6 @@
 								},
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "be892c80-9b21-4d95-adff-961e906182c4",
 									"disabled": true,
 									"name": "Courtesy",
@@ -1162,6 +1201,9 @@
 								}
 							],
 							"reference": "B29",
+							"calc": {
+								"points": 5
+							},
 							"notes": "Police: NCPD Officer",
 							"categories": [
 								"Advantage"
@@ -1169,33 +1211,35 @@
 						},
 						{
 							"type": "advantage_container",
-							"version": 1,
 							"id": "41fd9538-697e-4974-9ab2-d4b72a4ddd9c",
 							"name": "Choose",
+							"calc": {
+								"points": 137
+							},
 							"open": false,
 							"children": [
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "fea840aa-d3a2-410e-9cbf-175c373a38db",
 									"name": "Ambidexterity",
 									"physical": true,
 									"base_points": 5,
 									"reference": "B39",
+									"calc": {
+										"points": 5
+									},
 									"categories": [
 										"Advantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "157e24b1-ddc1-4685-a21e-c6e123f3eae4",
 									"name": "Appearance",
 									"physical": true,
 									"modifiers": [
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "da4cdd84-b81e-416b-a3f9-d84f15b612d0",
 											"disabled": true,
 											"name": "Universal",
@@ -1205,7 +1249,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "6c80b325-98e3-4c4b-a0e2-aa8d27d50f8d",
 											"disabled": true,
 											"name": "Off-the-Shelf Looks",
@@ -1215,7 +1258,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "26095579-eb02-4f68-b71e-4841a0a889c6",
 											"disabled": true,
 											"name": "Androgynous",
@@ -1225,7 +1267,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "781a918d-e7c5-422d-ac9a-e62b8fd7e754",
 											"disabled": true,
 											"name": "Impressive",
@@ -1235,7 +1276,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "7f5870be-625a-4988-beb7-ecdefb058275",
 											"disabled": true,
 											"name": "Attractive",
@@ -1245,7 +1285,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "1a2d317b-16e2-4803-833e-532f77448ef1",
 											"disabled": true,
 											"name": "Average",
@@ -1255,7 +1294,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "5c30dcef-c2ba-48b8-b285-e5f3a4969194",
 											"disabled": true,
 											"name": "Horrific",
@@ -1265,7 +1303,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "6e56019e-a5d2-4538-889a-edaaa31a76af",
 											"disabled": true,
 											"name": "Monstrous",
@@ -1275,7 +1312,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "b48433f6-bbed-4580-84a2-0cc3f8892c69",
 											"disabled": true,
 											"name": "Hideous",
@@ -1285,7 +1321,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "abcbb447-cce4-4c79-bcee-dca3bcf434c3",
 											"disabled": true,
 											"name": "Ugly",
@@ -1295,7 +1330,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "05e9ef8c-7d44-4eb8-a5a8-6d3905e84b3e",
 											"disabled": true,
 											"name": "Unattractive",
@@ -1305,7 +1339,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "faf3b409-8aa2-483e-a37b-37cebf417fab",
 											"disabled": true,
 											"name": "Handsome",
@@ -1315,7 +1348,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "b6b40509-6c0b-4f34-bb35-b5190e877041",
 											"disabled": true,
 											"name": "Beautiful",
@@ -1325,7 +1357,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "71a511a7-638b-47ae-bdcc-3212be09d963",
 											"disabled": true,
 											"name": "Very Handsome",
@@ -1335,7 +1366,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "f0abf85e-cfe4-4b44-9298-51b607269e46",
 											"disabled": true,
 											"name": "Very Beautiful",
@@ -1345,7 +1375,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "b254b8b0-22a9-4441-a7ef-3f958fe981b3",
 											"disabled": true,
 											"name": "Transcendent",
@@ -1355,19 +1384,24 @@
 										}
 									],
 									"reference": "B21",
+									"calc": {
+										"points": 0
+									},
 									"categories": [
 										"Advantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "cc260748-8da7-4aab-a2fd-71cc0050f80e",
 									"name": "Charisma",
 									"mental": true,
 									"levels": "1",
 									"points_per_level": 5,
 									"reference": "B41",
+									"calc": {
+										"points": 5
+									},
 									"features": [
 										{
 											"type": "skill_bonus",
@@ -1417,7 +1451,6 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "d4bf214a-3d8d-46b5-bd30-2f40698662df",
 									"name": "Common Sense",
 									"mental": true,
@@ -1425,7 +1458,6 @@
 									"modifiers": [
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "902287f7-9e41-4937-9729-763633dce840",
 											"disabled": true,
 											"name": "Concious",
@@ -1436,54 +1468,65 @@
 										}
 									],
 									"reference": "B43",
+									"calc": {
+										"points": 10
+									},
 									"categories": [
 										"Advantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "fa1f6062-50e8-474e-8b28-5dee5bd8d3dc",
 									"name": "Cybernetics",
 									"physical": true,
 									"reference": "B46",
+									"calc": {
+										"points": 0
+									},
 									"categories": [
 										"Advantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "d7ab3080-b92d-4cb7-a8dc-a123966ed509",
 									"name": "Danger Sense",
 									"mental": true,
 									"base_points": 15,
 									"reference": "B47",
+									"calc": {
+										"points": 15
+									},
 									"categories": [
 										"Advantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "6b694b77-dd5e-48e6-9b32-36f958943f51",
 									"name": "Daredevil",
 									"mental": true,
 									"base_points": 15,
 									"reference": "B47",
+									"calc": {
+										"points": 15
+									},
 									"categories": [
 										"Advantage"
 									]
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "76a2e66e-f8aa-47fc-9a61-5041537a56cb",
 									"name": "Extra Fatigue Points",
 									"physical": true,
 									"levels": "1",
 									"points_per_level": 3,
 									"reference": "B16",
+									"calc": {
+										"points": 3
+									},
 									"features": [
 										{
 											"type": "attribute_bonus",
@@ -1500,7 +1543,6 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "573cf9f5-3c20-4e54-9aef-93d1b7bb85b4",
 									"name": "Extra Hit Points",
 									"physical": true,
@@ -1509,7 +1551,6 @@
 									"modifiers": [
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "afc86d93-2f0b-4fc0-835d-473dba90cc72",
 											"disabled": true,
 											"name": "Size",
@@ -1520,7 +1561,6 @@
 										},
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "d5de2dc8-d16c-49b5-a94e-bb3536f132a8",
 											"disabled": true,
 											"name": "No Fine Manipulators",
@@ -1530,6 +1570,9 @@
 										}
 									],
 									"reference": "B16",
+									"calc": {
+										"points": 2
+									},
 									"features": [
 										{
 											"type": "attribute_bonus",
@@ -1546,12 +1589,14 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "1824ac15-4348-414d-8b83-1b7a7560a4d1",
 									"name": "Fit",
 									"physical": true,
 									"base_points": 5,
 									"reference": "B55",
+									"calc": {
+										"points": 5
+									},
 									"notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
 									"categories": [
 										"Advantage"
@@ -1559,12 +1604,14 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "b4b4d6f1-7f90-41cd-9f11-9716f8649196",
 									"name": "Fit, Very",
 									"physical": true,
 									"base_points": 15,
 									"reference": "B55",
+									"calc": {
+										"points": 15
+									},
 									"notes": "+2 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)",
 									"categories": [
 										"Advantage"
@@ -1572,13 +1619,15 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "e2f6e63a-eceb-4c41-a359-27639e71666c",
 									"name": "Hard to Kill",
 									"physical": true,
 									"levels": "1",
 									"points_per_level": 2,
 									"reference": "B58",
+									"calc": {
+										"points": 2
+									},
 									"notes": "Up to 1",
 									"categories": [
 										"Advantage"
@@ -1586,12 +1635,14 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "a13c102f-1fd3-4f45-895b-cfa4c925cdd4",
 									"name": "High Pain Threshold",
 									"physical": true,
 									"base_points": 10,
 									"reference": "B59",
+									"calc": {
+										"points": 10
+									},
 									"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
 									"categories": [
 										"Advantage"
@@ -1599,13 +1650,15 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "a92bdb56-ad77-4096-935b-2e78a634a77e",
 									"name": "Increased Health",
 									"physical": true,
 									"levels": "1",
 									"points_per_level": 10,
 									"reference": "B14",
+									"calc": {
+										"points": 10
+									},
 									"features": [
 										{
 											"type": "attribute_bonus",
@@ -1622,13 +1675,15 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "adcb165e-19be-4b07-ae76-69c8621bf199",
 									"name": "Increased Intelligence",
 									"mental": true,
 									"levels": "1",
 									"points_per_level": 20,
 									"reference": "B15",
+									"calc": {
+										"points": 20
+									},
 									"features": [
 										{
 											"type": "attribute_bonus",
@@ -1645,13 +1700,15 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "a0048793-42fa-415b-9ae7-f6c570ddf94b",
 									"name": "Increased Will",
 									"mental": true,
 									"levels": "1",
 									"points_per_level": 5,
 									"reference": "B16",
+									"calc": {
+										"points": 5
+									},
 									"features": [
 										{
 											"type": "attribute_bonus",
@@ -1668,7 +1725,6 @@
 								},
 								{
 									"type": "advantage",
-									"version": 1,
 									"id": "8e5b0ff6-a7b6-4646-85cf-3cdb73932c04",
 									"name": "Intuition",
 									"mental": true,
@@ -1676,7 +1732,6 @@
 									"modifiers": [
 										{
 											"type": "modifier",
-											"version": 1,
 											"id": "7a8e6710-671e-4743-90cb-27e985b0c8c5",
 											"disabled": true,
 											"name": "Inspired",
@@ -1687,6 +1742,9 @@
 										}
 									],
 									"reference": "B63",
+									"calc": {
+										"points": 15
+									},
 									"categories": [
 										"Advantage"
 									]
@@ -1697,14 +1755,15 @@
 				},
 				{
 					"type": "advantage_container",
-					"version": 1,
 					"id": "5e00f97f-f0c2-42f4-85e9-31cbda271870",
 					"name": "Attributes",
+					"calc": {
+						"points": 40
+					},
 					"open": false,
 					"children": [
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "671040dc-2ad5-4ae7-a512-ae4b66244df6",
 							"name": "Increased Dexterity",
 							"physical": true,
@@ -1713,7 +1772,6 @@
 							"modifiers": [
 								{
 									"type": "modifier",
-									"version": 1,
 									"id": "19647d20-e969-4bd4-bd8e-51bbe826251c",
 									"disabled": true,
 									"name": "No Fine Manipulators",
@@ -1723,6 +1781,9 @@
 								}
 							],
 							"reference": "B15",
+							"calc": {
+								"points": 20
+							},
 							"features": [
 								{
 									"type": "attribute_bonus",
@@ -1738,13 +1799,15 @@
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "d2c3f6b8-5ba6-465e-9eac-6b3b171ce33a",
 							"name": "Increased Health",
 							"physical": true,
 							"levels": "1",
 							"points_per_level": 10,
 							"reference": "B14",
+							"calc": {
+								"points": 10
+							},
 							"features": [
 								{
 									"type": "attribute_bonus",
@@ -1760,7 +1823,6 @@
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "b2446883-94f2-47c8-b75b-6086902b492c",
 							"name": "Increased Perception",
 							"mental": true,
@@ -1768,6 +1830,9 @@
 							"levels": "1",
 							"points_per_level": 5,
 							"reference": "B16",
+							"calc": {
+								"points": 5
+							},
 							"features": [
 								{
 									"type": "attribute_bonus",
@@ -1783,13 +1848,15 @@
 						},
 						{
 							"type": "advantage",
-							"version": 1,
 							"id": "2f7ad6de-2928-4cb3-bf90-aa61c170caa6",
 							"name": "Increased Will",
 							"mental": true,
 							"levels": "1",
 							"points_per_level": 5,
 							"reference": "B16",
+							"calc": {
+								"points": 5
+							},
 							"features": [
 								{
 									"type": "attribute_bonus",
@@ -1811,38 +1878,35 @@
 	"skills": [
 		{
 			"type": "skill_container",
-			"version": 1,
 			"id": "394e9d9c-0917-49de-941b-6b03e12aa2fa",
 			"name": "Cop",
 			"open": true,
 			"children": [
 				{
 					"type": "skill_container",
-					"version": 1,
 					"id": "36a11b1d-e3af-4d37-b341-661aea45d2c2",
 					"name": "Background Skills",
 					"open": false,
 					"children": [
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "efb77767-1df3-4d85-b648-1e8b4d9ab4fc",
 							"name": "Acrobatics",
 							"reference": "B174",
-							"difficulty": "DX/H",
+							"difficulty": "dx/h",
 							"points": 1,
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -6
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Aerobatics",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Aquabatics",
 									"modifier": -4
 								}
@@ -1853,16 +1917,15 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "9cf7a876-566f-4b2d-a039-ebeccc031159",
 							"name": "Climbing",
 							"reference": "B183",
 							"encumbrance_penalty_multiplier": 1,
-							"difficulty": "DX/A",
+							"difficulty": "dx/a",
 							"points": 1,
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -5
 								}
 							],
@@ -1874,19 +1937,18 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "fe566bec-b463-469d-96be-e4a80b548651",
 							"name": "Throwing",
 							"reference": "B226",
-							"difficulty": "DX/A",
+							"difficulty": "dx/a",
 							"points": 1,
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -3
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Dropping",
 									"modifier": -4
 								}
@@ -1899,69 +1961,68 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "20caf1db-7d64-4b59-b4a7-5dc1b350b90f",
 							"name": "Guns",
 							"reference": "B198",
 							"specialization": "Pistol",
 							"tech_level": "",
-							"difficulty": "DX/E",
+							"difficulty": "dx/e",
 							"points": 1,
 							"defaults": [
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Grenade Launcher",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Gyroc",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Light Anti-Armor Weapon",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Light Machine Gun",
 									"modifier": -2
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Musket",
 									"modifier": -2
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Beam Weapons",
 									"specialization": "Pistol",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Rifle",
 									"modifier": -2
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Shotgun",
 									"modifier": -2
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Guns",
 									"specialization": "Submachine Gun",
 									"modifier": -2
@@ -1974,18 +2035,16 @@
 						},
 						{
 							"type": "skill_container",
-							"version": 1,
 							"id": "2be22f75-5dd4-42d6-8ee4-37f2c50f3de4",
 							"name": "Choose one",
 							"open": false,
 							"children": [
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "d73ab893-1f78-45d9-9f05-e65d289f1cb1",
 									"name": "Brawling",
 									"reference": "B182",
-									"difficulty": "DX/E",
+									"difficulty": "dx/e",
 									"points": 1,
 									"features": [
 										{
@@ -2010,11 +2069,10 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "077ff1e1-0b92-47bf-9869-0c73965c665e",
 									"name": "Boxing",
 									"reference": "B182",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"features": [
 										{
@@ -2053,12 +2111,11 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "8df1217a-8eb2-4bae-bb7b-d6be4200fb9c",
 									"name": "Karate",
 									"reference": "B203",
 									"encumbrance_penalty_multiplier": 1,
-									"difficulty": "DX/H",
+									"difficulty": "dx/h",
 									"points": 1,
 									"features": [
 										{
@@ -2097,12 +2154,11 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "9c8e7fc5-6430-4ad5-8a00-7e6098c2ef8b",
 									"name": "Judo",
 									"reference": "B203",
 									"encumbrance_penalty_multiplier": 1,
-									"difficulty": "DX/H",
+									"difficulty": "dx/h",
 									"points": 1,
 									"notes": "Allows parrying two different attacks per turn, one with each hand.",
 									"categories": [
@@ -2112,11 +2168,10 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "bb52ad3d-8b74-415a-b2b7-c61c30c4f1f3",
 									"name": "Wrestling",
 									"reference": "B228",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"categories": [
 										"Combat/Weapon",
@@ -2127,31 +2182,29 @@
 						},
 						{
 							"type": "skill_container",
-							"version": 1,
 							"id": "b9961a61-e40c-4155-aee0-68d48b4cc0ad",
 							"name": "Choose up to three",
 							"open": false,
 							"children": [
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "77fe065e-62ac-406b-987c-86744c3dfea3",
 									"name": "Axe/Mace",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Two-Handed Axe/Mace",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Flail",
 											"modifier": -4
 										}
@@ -2163,40 +2216,39 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "2179834f-65b7-45c2-8f98-4cd0e5246851",
 									"name": "Broadsword",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Force Sword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Rapier",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Saber",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Shortsword",
 											"modifier": -2
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Two-Handed Sword",
 											"modifier": -4
 										},
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										}
 									],
@@ -2207,30 +2259,29 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "50fd538a-7b41-4aeb-ae26-f650fdd4544d",
 									"name": "Knife",
 									"reference": "B208",
-									"difficulty": "DX/E",
+									"difficulty": "dx/e",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Force Sword",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Main-Gauche",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Shortsword",
 											"modifier": -3
 										},
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -4
 										}
 									],
@@ -2241,29 +2292,28 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "4f03bb75-df76-4c15-8f7b-456f9867e13b",
 									"name": "Polearm",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Spear",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Staff",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Two-Handed Axe/Mace",
 											"modifier": -4
 										}
@@ -2275,34 +2325,33 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "6a1c309b-26a3-419f-916f-b4cb15f4303d",
 									"name": "Rapier",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Broadsword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Main-Gauche",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Saber",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Smallsword",
 											"modifier": -3
 										}
@@ -2314,39 +2363,38 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "fcf47e5d-7a66-4823-b93a-07d7716d7283",
 									"name": "Saber",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Broadsword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Shortswort",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Main-Gauche",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Rapier",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Smallsword",
 											"modifier": -3
 										}
@@ -2358,50 +2406,49 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "52217249-9fe4-4f97-9c60-b04faa996f4a",
 									"name": "Shortsword",
 									"reference": "B209",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Broadsword",
 											"modifier": -2
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Force Sword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Jitte/Sai",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Knife",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Saber",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Smallsword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Tonfa",
 											"modifier": -3
 										},
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										}
 									],
@@ -2412,34 +2459,33 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "99590b46-e183-4111-a509-988cdfe2063d",
 									"name": "Smallsword",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Shortsword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Main-Gauche",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Rapier",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Saber",
 											"modifier": -3
 										}
@@ -2451,24 +2497,23 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "87653b95-350f-4d8c-9965-45ea39336229",
 									"name": "Spear",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Polearm",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Staff",
 											"modifier": -2
 										}
@@ -2480,24 +2525,23 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "4f1412db-8ae3-414c-84e6-b273b00e67f1",
 									"name": "Staff",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Polearm",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Spear",
 											"modifier": -2
 										}
@@ -2509,19 +2553,18 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "d2d1ac13-9c87-4e35-9e72-38ee0b9f59a4",
 									"name": "Tonfa",
 									"reference": "B209",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Shortsword",
 											"modifier": -3
 										}
@@ -2533,29 +2576,28 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "4629027a-43cf-4230-b221-e692846ac5ac",
 									"name": "Two-Handed Axe/Mace",
 									"reference": "B208",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Axe/Mace",
 											"modifier": -3
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Polearm",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Two-Handed Flail",
 											"modifier": -4
 										}
@@ -2567,25 +2609,24 @@
 								},
 								{
 									"type": "skill",
-									"version": 1,
 									"id": "555bb5a9-b3cb-4f72-80c6-bd43a09a2c72",
 									"name": "Two-Handed Sword",
 									"reference": "B209",
-									"difficulty": "DX/A",
+									"difficulty": "dx/a",
 									"points": 1,
 									"defaults": [
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Broadsword",
 											"modifier": -4
 										},
 										{
-											"type": "Skill",
+											"type": "skill",
 											"name": "Force Sword",
 											"modifier": -4
 										},
 										{
-											"type": "DX",
+											"type": "dx",
 											"modifier": -5
 										}
 									],
@@ -2600,22 +2641,20 @@
 				},
 				{
 					"type": "skill_container",
-					"version": 1,
 					"id": "c4a74aec-244d-4058-884f-deb17fe7f1b2",
 					"name": "Secondary Skills",
 					"open": false,
 					"children": [
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "8add63fb-60a6-4f17-a0cb-57ee8d742fb9",
 							"name": "Streetwise",
 							"reference": "B223",
-							"difficulty": "IQ/A",
+							"difficulty": "iq/a",
 							"points": 2,
 							"defaults": [
 								{
-									"type": "IQ",
+									"type": "iq",
 									"modifier": -5
 								}
 							],
@@ -2627,16 +2666,15 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "424d0c2e-9be9-4eb5-8c1a-dacf08db3803",
 							"name": "Law",
 							"reference": "B204",
 							"specialization": "Night City Criminal Code",
-							"difficulty": "IQ/H",
+							"difficulty": "iq/h",
 							"points": 2,
 							"defaults": [
 								{
-									"type": "IQ",
+									"type": "iq",
 									"modifier": -6
 								}
 							],
@@ -2648,24 +2686,23 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "79f6b1dd-1d65-4275-8008-637ef01231d1",
 							"name": "Detect Lies",
 							"reference": "B187",
-							"difficulty": "Per/H",
+							"difficulty": "per/h",
 							"points": 2,
 							"defaults": [
 								{
-									"type": "Per",
+									"type": "per",
 									"modifier": -6
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Body Language",
 									"modifier": -4
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Psychology",
 									"modifier": -4
 								}
@@ -2678,24 +2715,23 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "37b7c202-fe73-4c53-8ce6-d3f688bc4853",
 							"name": "Interrogation",
 							"reference": "B202",
-							"difficulty": "IQ/A",
+							"difficulty": "iq/a",
 							"points": 2,
 							"defaults": [
 								{
-									"type": "IQ",
+									"type": "iq",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Intimidation",
 									"modifier": -3
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Psychology",
 									"modifier": -4
 								}
@@ -2708,19 +2744,18 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "b2b591fe-f6b2-4e70-8c55-86d1d112dd24",
 							"name": "Observation",
 							"reference": "B211",
-							"difficulty": "Per/A",
+							"difficulty": "per/a",
 							"points": 2,
 							"defaults": [
 								{
-									"type": "Per",
+									"type": "per",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Shadowing",
 									"modifier": -5
 								}
@@ -2736,27 +2771,25 @@
 				},
 				{
 					"type": "skill_container",
-					"version": 1,
 					"id": "787593c8-2f4f-4288-8c85-90c851413845",
 					"name": "Primary Skills",
 					"open": false,
 					"children": [
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "1b7ccc27-e22d-4c43-a84b-256d161c020b",
 							"name": "Criminology",
 							"reference": "B186",
 							"tech_level": "",
-							"difficulty": "IQ/A",
+							"difficulty": "iq/a",
 							"points": 4,
 							"defaults": [
 								{
-									"type": "IQ",
+									"type": "iq",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Psychology",
 									"modifier": -4
 								}
@@ -2768,16 +2801,15 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "8ad2f859-dddc-4163-950f-210de30834f5",
 							"name": "Savoir-Faire",
 							"reference": "B218",
 							"specialization": "Police",
-							"difficulty": "IQ/E",
+							"difficulty": "iq/e",
 							"points": 4,
 							"defaults": [
 								{
-									"type": "IQ",
+									"type": "iq",
 									"modifier": -4
 								}
 							],
@@ -2789,19 +2821,18 @@
 						},
 						{
 							"type": "skill",
-							"version": 1,
 							"id": "cc499959-8034-42bf-a6eb-60bf32ff5fc4",
 							"name": "Search",
 							"reference": "B219",
-							"difficulty": "Per/A",
+							"difficulty": "per/a",
 							"points": 4,
 							"defaults": [
 								{
-									"type": "Per",
+									"type": "per",
 									"modifier": -5
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Criminology",
 									"modifier": -5
 								}

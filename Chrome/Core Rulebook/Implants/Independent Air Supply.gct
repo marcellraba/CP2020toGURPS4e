@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "e6058a2e-2141-4c90-b3e5-b6655fc72bb0",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "66cb5862-4ee5-4f09-a5b3-d8aa90200a31",
 			"name": "Independent Air Supply",
+			"calc": {
+				"points": 10
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "fb78b8ee-be8e-463a-9059-5808f557123f",
 					"name": "Doesn't Breathe",
 					"physical": true,
@@ -21,7 +22,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "860235c4-b0aa-4498-9aa5-0735b1f7fcae",
 							"disabled": true,
 							"name": "Gills",
@@ -32,7 +32,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "81025ee7-17a7-466e-809f-d1f975880981",
 							"disabled": true,
 							"name": "Gills",
@@ -44,7 +43,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "25029233-93f6-49f3-9014-d882fdea95b9",
 							"disabled": true,
 							"name": "Oxygen Absorption",
@@ -55,7 +53,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "74d6bb87-2bd8-47be-8f36-155f173acaf0",
 							"name": "Oxygen Storage",
 							"reference": "B49",
@@ -66,7 +63,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b49904c2-4197-4907-a318-467211434d1f",
 							"disabled": true,
 							"name": "Oxygen Storage",
@@ -78,7 +74,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bdac5e7e-c80c-4fa9-9317-0c3e33d3edef",
 							"disabled": true,
 							"name": "Oxygen Storage",
@@ -90,7 +85,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8c73fe95-b072-4510-9dc9-c7e60a7c8ae1",
 							"disabled": true,
 							"name": "Oxygen Storage",
@@ -102,7 +96,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "0cb9058d-1ecf-40b7-8466-34930fa29a21",
 							"disabled": true,
 							"name": "Oxygen Storage",
@@ -114,7 +107,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "168ed5e7-e97c-4155-80b0-7cd9cfab71ae",
 							"disabled": true,
 							"name": "Oxygen Combustion",
@@ -125,6 +117,9 @@
 						}
 					],
 					"reference": "B49",
+					"calc": {
+						"points": 10
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -135,7 +130,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "ac44d644-616c-403e-a7c7-2c8dd47bd8a7",
 			"text": "300 eb, Major surgery, LC4"
 		}

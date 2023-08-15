@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "1ed4ebf0-1061-4680-8f82-a9377de4e83b",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "84c3d29f-fa29-4517-854b-84becf12657e",
 			"name": "Dart Gun",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "fd7ac930-dc84-4344-af30-6f13bbc18cd3",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "fddfa265-2ece-4921-9bbb-a5fe0a968470",
 					"name": "Accessiblity: Requires Cyberoptic",
 					"cost_type": "percentage",
@@ -28,11 +25,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "50732f50-7c57-4ca5-b5e4-4f6047451ffb",
 					"name": "Innate Attack (Small Pierce)",
 					"physical": true,
@@ -51,18 +50,23 @@
 							"rate_of_fire": "1",
 							"shots": "1(60)",
 							"recoil": "1",
+							"calc": {
+								"level": 0,
+								"range": "1",
+								"damage": "1d-4 pi-"
+							},
 							"defaults": [
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Innate Attack"
 								},
 								{
-									"type": "Skill",
+									"type": "skill",
 									"name": "Innate Attack",
 									"modifier": -2
 								},
 								{
-									"type": "DX",
+									"type": "dx",
 									"modifier": -4
 								}
 							]
@@ -72,13 +76,17 @@
 							"damage": {
 								"type": "varies"
 							},
-							"usage": "Follow-up (poison)"
+							"usage": "Follow-up (poison)",
+							"calc": {
+								"level": 0,
+								"range": "",
+								"damage": "varies"
+							}
 						}
 					],
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "99784752-96f3-474f-ad39-4318d0aa88e3",
 							"disabled": true,
 							"name": "Double Blunt Trauma",
@@ -90,7 +98,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8b9996ba-d76b-42c6-949f-e52b742692dc",
 							"disabled": true,
 							"name": "Explosion",
@@ -102,7 +109,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b4b8e0bd-be00-45ec-bf20-0dd807a598f4",
 							"disabled": true,
 							"name": "Fragmentation",
@@ -114,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ba501af1-d11d-430c-9aac-bb4246440c16",
 							"disabled": true,
 							"name": "Fragmentation",
@@ -127,7 +132,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "caf86382-d2ee-478f-9c35-0c8bd0d7f308",
 							"disabled": true,
 							"name": "Surge",
@@ -138,7 +142,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "eb0cb18f-0916-4646-87c9-0e149fb558d9",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -150,7 +153,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3d6c6bf0-30c5-4795-b66a-9add484851ce",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -162,7 +164,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fad8d299-ee2a-49b1-ace1-8d3ffdc183c3",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -174,7 +175,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e9eff9e3-3d95-40c0-ae99-0d020d73896c",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -186,7 +186,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "b435ea9f-6684-404e-be32-f149c60c66a6",
 							"disabled": true,
 							"name": "Side Effect",
@@ -198,7 +197,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3830cdff-d58a-4608-9e4f-63fe9f3626aa",
 							"disabled": true,
 							"name": "Symptoms",
@@ -210,7 +208,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f17b03da-3792-4e01-92a5-0466bf033495",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -222,7 +219,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4e3e194c-c916-436a-8354-44aa26095383",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -234,7 +230,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "837c5e45-5d79-4847-a0ac-d8be9a5c99ca",
 							"disabled": true,
 							"name": "Armor Divisor",
@@ -246,7 +241,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7254f7d1-5282-4ee4-8836-650813bd46f3",
 							"disabled": true,
 							"name": "No Blunt Trauma",
@@ -257,7 +251,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "11e275b7-ea83-4db6-98b5-8d7f577541d9",
 							"disabled": true,
 							"name": "No Wounding",
@@ -268,7 +261,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1f5d6bc7-c96b-472a-ba29-1421a90069a0",
 							"disabled": true,
 							"name": "Incendiary",
@@ -279,7 +271,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "acb6efd2-1ff5-4ec6-92bb-d89e70862e9e",
 							"name": "Follow-up",
 							"cost_type": "percentage",
@@ -288,7 +279,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8f59d041-7844-4602-b044-0d3b26501a4f",
 							"name": "Reduced Range",
 							"cost_type": "percentage",
@@ -297,6 +287,9 @@
 						}
 					],
 					"reference": "B62",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -307,7 +300,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "2d687dcd-59bc-4693-843d-7d7ea1cebdfe",
 			"text": "200 eb, Negligible surgery, LC4"
 		}

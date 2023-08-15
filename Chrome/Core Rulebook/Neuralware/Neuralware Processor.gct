@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "2edb93aa-9506-4819-ba65-7ea01a083cc2",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "b6295253-721b-48a9-991b-06dee7f5fbcb",
 			"name": "Neuralware Processor",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "efafee58-677c-47da-9f1c-27b23d0e5837",
 					"name": "Temporary Disadvantage, Electrical",
 					"cost_type": "percentage",
@@ -19,17 +17,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "bb383a08-d78d-4650-a35e-2b76f1a122b1",
 					"name": "Accessory (Tiny Computer (compact))",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
@@ -40,7 +43,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "0ad140a6-2a74-42e6-a7bb-b794ff5af2d3",
 			"text": "The basic neural processor is a \"switchbox\" implanted into the lower spine, and is used to route signals from external cyberwear to the central nervous system. It is the main system for any type of neural interface, including reflex boosters, interface plugs, weapon, DataTerm and vehicle links, mini-computers and sensory augmentations. The Neural processor has a small inspection space which allows secondary co-processors to be inserted into the basic processor module. This makes upgrading a process of opening the inspection space in a sterile environment and inserting the new co-processors.\n\nThis is a REQUIREMENT for most cybernetics.\n\n1000 eb, minor surgery, LC4"
 		}

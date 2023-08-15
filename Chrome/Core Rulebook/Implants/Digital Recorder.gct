@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "6b2cc146-0a1b-46d7-aa6d-70f49d3d67f9",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "7a6b3ce4-8bab-4ad9-af6c-d9ae3101d704",
 			"name": "Digital Recorder",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "a1150912-af63-473a-93b4-d14302007664",
 					"name": "Temporary Disadvantage: Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "d7d7ee7a-062f-450c-bd40-2f1291395b4f",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -28,17 +25,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "e7ccf879-fc32-4ff1-8498-076c66f88f2b",
 					"name": "Accessory (Digital Recorder)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
@@ -49,7 +51,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "9ac999e7-9b23-4d11-ae10-8fe0641af881",
 			"text": "200 eb, Minor surgery, LC4"
 		}

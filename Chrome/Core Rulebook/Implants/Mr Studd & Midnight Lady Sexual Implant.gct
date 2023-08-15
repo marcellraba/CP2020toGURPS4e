@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "329b7871-cfab-4866-a034-cf76bc036136",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "6571c0b1-5a30-4a7a-9bb6-b13d98d8a3c5",
 			"name": "Mr. Studd/Midnight Lady Sexual Implant",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "f9d2ecdb-12a5-4a70-aed7-3de4bba47f3f",
 					"name": "Temporary Disadvantage, Electronic",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "09bf21be-7ab6-4e8e-be4a-18f112f84952",
 					"name": "Accessibility: Requires Neuralware Processor",
 					"cost_type": "percentage",
@@ -28,28 +25,35 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 3
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "5d7f1f70-91c6-4528-984f-4b01004a003f",
 					"name": "Accessory (Bionic sexual organ)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "4e950d81-ac91-4d1f-a198-7552f590b31b",
 					"name": "Skill Bonus",
 					"physical": true,
 					"base_points": 2,
+					"calc": {
+						"points": 2
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -78,7 +82,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "e3aeceb7-5d1e-40d3-ad90-2e2b89a6f2c5",
 			"text": "All night, every night and (s)he'll never know. Use your imagination.\n\n300 eb, Major surgery, LC4"
 		}

@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "2fee42fa-b927-45db-b3a1-3d4a6a4bb655",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "0a7ca4a8-4cc1-4e8d-b7c0-1672c4ced7e1",
 			"name": "Armor",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "0a48f881-131e-45e1-9993-7ea618b4a3c8",
 					"name": "Accessibility: Requires Cyberlimb",
 					"cost_type": "percentage",
@@ -19,12 +17,14 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 45
+			},
 			"notes": "You may not cover or chrome an armored limb",
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "43672bf8-7bab-4a2d-84fa-63a7fdcfa281",
 					"name": "Damage Resistance",
 					"physical": true,
@@ -34,7 +34,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "d8668e68-d14b-4bb2-a7d6-aa7ba0ce37ba",
 							"disabled": true,
 							"name": "Force Field",
@@ -45,7 +44,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5c716284-b3d0-46c8-8b4c-c7fa240509f4",
 							"disabled": true,
 							"name": "Hardened",
@@ -57,7 +55,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "912cb654-ec4e-4ce4-b660-ba66d3be1929",
 							"disabled": true,
 							"name": "Absorption",
@@ -69,7 +66,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "a00d3845-5c1f-4789-aa5f-2e339a554653",
 							"disabled": true,
 							"name": "Absorption",
@@ -81,7 +77,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "5ebb20d2-6ebc-43e2-aea2-2a0e4d4047d9",
 							"disabled": true,
 							"name": "Absorption",
@@ -93,7 +88,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c3b17fc8-1463-48dd-8eed-05893a4b0db8",
 							"disabled": true,
 							"name": "Reflection",
@@ -104,7 +98,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "339afd17-d50d-41fa-b263-fa1510de331d",
 							"disabled": true,
 							"name": "Bane",
@@ -116,7 +109,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "bc321cc3-7cff-4d1c-bdff-7bf76b679737",
 							"disabled": true,
 							"name": "Bane",
@@ -128,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7b38be42-42d4-4136-8f14-31fbcd97dd59",
 							"disabled": true,
 							"name": "Bane",
@@ -140,7 +131,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "08a84e4f-3ee4-4be9-8805-81365c77fe23",
 							"disabled": true,
 							"name": "Bane",
@@ -152,7 +142,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "f432a41b-204b-4df5-82a9-77f80e6c9719",
 							"disabled": true,
 							"name": "Directional",
@@ -164,7 +153,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "df695627-ab45-4de2-95db-43c0afaff1a4",
 							"disabled": true,
 							"name": "Flexible",
@@ -175,7 +163,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2d09e344-fa1b-4b34-bb67-509758fb81dc",
 							"disabled": true,
 							"name": "Limited",
@@ -187,7 +174,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "eacd6f10-0728-40ce-9c90-74377b1f3f5e",
 							"name": "Semi-Ablative",
 							"reference": "B47",
@@ -197,7 +183,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "33061dd8-7c71-4466-a203-7d2eddfb16d9",
 							"disabled": true,
 							"name": "Can't wear armor",
@@ -208,7 +193,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "76f69f5d-22e8-4ffe-9ffc-93ab52318d58",
 							"disabled": true,
 							"name": "Directional",
@@ -220,7 +204,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "42281593-1095-4f6f-b69c-32966593e52a",
 							"disabled": true,
 							"name": "Limited",
@@ -232,7 +215,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "fa0b6407-f2de-4d5d-b23b-a25550aa674d",
 							"disabled": true,
 							"name": "Tough Skin",
@@ -243,7 +225,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "93920420-58da-424e-97dc-423a18253647",
 							"disabled": true,
 							"name": "Limited",
@@ -255,7 +236,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c6172c4a-9b06-4e0d-99ad-4e2031de9359",
 							"disabled": true,
 							"name": "Ablative",
@@ -266,7 +246,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2b849ee2-97ef-43a2-9e5c-905637193588",
 							"disabled": true,
 							"name": "Limited",
@@ -278,7 +257,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c0595e30-e1b7-4f55-8319-ff139c1591f6",
 							"disabled": true,
 							"name": "Laminate",
@@ -289,7 +267,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "344abb52-a7b1-4326-8b82-3656b78b903d",
 							"name": "Partial: All Limbs",
 							"cost_type": "percentage",
@@ -298,12 +275,99 @@
 						}
 					],
 					"reference": "B47",
+					"calc": {
+						"points": 45
+					},
 					"features": [
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "full_body"
+							"location": "eye"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "skull"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "face"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "neck"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "torso"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "vitals"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "groin"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "arm"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "hand"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "leg"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "foot"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "tail"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "wing"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "fin"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "brain"
 						}
 					],
 					"categories": [
@@ -316,7 +380,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "254b2af0-1d85-4cc2-bf49-0447380a9bb1",
 			"text": "If it is for one limb apply a -40% limitation\nif it is for two limbs, apply a -20% limitation\nIf it is for all four, it is already applied.\n\n200 eb per limb, Negligible surgery, LC4"
 		}

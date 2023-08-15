@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "c2a8f2fa-03f3-4cc0-9267-590e87b23918",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "b1655b87-865d-4ed8-9a15-ebc9fe49d56f",
 			"name": "Plastic covering",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "7099a7a8-9855-4fab-be13-98296ea7f549",
 					"name": "Accessibility: Requires Cyberlimb",
 					"cost_type": "percentage",
@@ -19,17 +17,22 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 0
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "da0697c2-c463-42f9-a496-f5a72d265eda",
 					"name": "Unnatural Features (Plastic covering)",
 					"physical": true,
 					"levels": "1",
 					"points_per_level": -1,
 					"reference": "B22",
+					"calc": {
+						"points": 0
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -62,7 +65,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "ad348183-7069-40c9-b30d-b02515a94c63",
 			"text": "100-200 eb per limb, Negligible surgery, LC4\n\nCan be an Unnatural Feature 1-5."
 		}

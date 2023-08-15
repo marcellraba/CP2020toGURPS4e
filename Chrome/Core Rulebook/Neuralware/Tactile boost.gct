@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "6efbea20-f9ea-4fa7-a016-db3adba769b1",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "09daf841-c529-48e4-a9d2-e0dbd19f2e7a",
 			"name": "Tactile boost",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "6b282cdb-f3bf-40fe-8bb4-77d8dbbffac4",
 					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "f17f079b-a1ca-42fa-aef4-a5862bd0adfe",
 					"name": "Temporary Disadvantage, Electrical",
 					"cost_type": "percentage",
@@ -28,18 +25,23 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 2
+			},
 			"notes": "Can be turned on and off",
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "f602ecab-1215-44d9-9b67-61a6b38356b2",
 					"name": "Acute Touch",
 					"physical": true,
 					"levels": "1",
 					"points_per_level": 2,
 					"reference": "B35",
+					"calc": {
+						"points": 2
+					},
 					"features": [
 						{
 							"type": "attribute_bonus",
@@ -58,7 +60,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "2625769a-4a8c-42c3-aa97-0fbcde943370",
 			"text": "Increases any touch based Perception roll, takes ready action to turn on or off.\n\n100 eb/level up to +3, Negligible surgery, LC4"
 		}

@@ -1,20 +1,21 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "0a95e05b-1d66-425d-a640-120b65850b40",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "97d1da04-bace-4e3a-92f1-c9b4cae596d4",
 			"name": "Altered Appearance",
+			"calc": {
+				"points": 0
+			},
 			"open": true
 		}
 	],
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "0c02c8ff-ab6a-46d7-b7e1-af6b6e47d141",
 			"text": "Add every change unless it gives a gameplay modifier as a 0 point feature.\n\nIf you get Off the Shelf Looks, halve cost.\n\nMinor changes are 1000 eb per change, plus surgery costs, one week recovery time\nMajor changes are 2000 eb per change, plus surgery costs, two weeks recovery time\n\nIf you choose to copy someone else's appearance then you already have to have their Appearance level plus any options. The minimum amount of money to qualify for Mistaken Identity is 1200 eb"
 		}

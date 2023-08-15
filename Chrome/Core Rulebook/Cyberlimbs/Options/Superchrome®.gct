@@ -1,24 +1,28 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "803b4c04-9455-4fbd-b3a5-93550ca523c3",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "31b7b149-3759-4e0b-9b04-719736c54d80",
 			"name": "Superchrome®",
+			"calc": {
+				"points": -1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "803e25e2-be74-435f-9e67-d50440556c2f",
 					"name": "Unnatural Features (Chromed limb)",
 					"physical": true,
 					"levels": "1",
 					"points_per_level": -1,
 					"reference": "B22",
+					"calc": {
+						"points": -1
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -51,7 +55,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "71954ff6-3d6d-490b-86de-660a58f2aa1c",
 			"text": "200 eb per limb, Negligible surgery, LC4\n\nCan be Unnatural Feature 1-5."
 		}

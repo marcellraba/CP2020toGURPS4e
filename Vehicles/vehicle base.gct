@@ -1,128 +1,154 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "3370aa4c-f100-4f1e-ba67-cbdfedfddc0e",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "2d722bb4-f656-41d2-8a77-bc89721494a4",
 			"container_type": "meta_trait",
 			"name": "Meta-Trait: Ground Vehicle",
 			"reference": "B263",
+			"calc": {
+				"points": -100
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "9c305525-15bd-4106-9efa-5addc2ecbb17",
 					"name": "Horizontal",
 					"physical": true,
 					"exotic": true,
 					"base_points": -10,
-					"reference": "B139"
+					"reference": "B139",
+					"calc": {
+						"points": -10
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "982655fc-beff-4484-8af3-32ae892e2f59",
 					"name": "No Legs (Wheeled (Any Wheels))",
 					"physical": true,
 					"exotic": true,
 					"base_points": -20,
-					"reference": "B145"
+					"reference": "B145",
+					"calc": {
+						"points": -20
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "db611d53-e51d-466e-b048-efa904633b03",
 					"name": "No Manipulators",
 					"physical": true,
 					"base_points": -50,
-					"reference": "B145"
+					"reference": "B145",
+					"calc": {
+						"points": -50
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "e05da94d-42de-4705-b6be-bcde2d307dfc",
 					"name": "Numb",
 					"physical": true,
 					"base_points": -20,
-					"reference": "B146"
+					"reference": "B146",
+					"calc": {
+						"points": -20
+					}
 				}
 			]
 		},
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "a9900538-ad0f-4c49-b11b-8f9cc841831e",
 			"container_type": "meta_trait",
 			"name": "Meta-Trait: Machine",
 			"reference": "B263",
+			"calc": {
+				"points": 25
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "0ebd7344-4eca-4266-9431-e05a7c38a753",
 					"name": "Eight-hour energy reserve, Refuel 3 times per day",
 					"physical": true,
-					"reference": "B263"
+					"reference": "B263",
+					"calc": {
+						"points": 0
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "37b6b640-d762-4968-8671-5bd1059a0af2",
 					"name": "Injury Tolerance (No Blood)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 5,
-					"reference": "B61"
+					"reference": "B61",
+					"calc": {
+						"points": 5
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "c6f28e98-408b-41a7-b920-5b6147b2ec0c",
 					"name": "Injury Tolerance (Unliving)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 20,
-					"reference": "B61"
+					"reference": "B61",
+					"calc": {
+						"points": 20
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "dde3a4dd-2a3f-466b-8e13-a78095724e9d",
 					"name": "No fatigue points, Don't spend fatigue points",
 					"physical": true,
-					"reference": "B263"
+					"reference": "B263",
+					"calc": {
+						"points": 0
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "facb28c1-e665-4921-a758-37a43ea16b4e",
 					"name": "Resistant (Immunity to Metabolic Hazards)",
 					"physical": true,
 					"base_points": 30,
-					"reference": "B81"
+					"reference": "B81",
+					"calc": {
+						"points": 30
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "562b5725-99a4-449a-9553-61ca65939ffd",
 					"name": "Unhealing (Total)",
 					"physical": true,
 					"exotic": true,
 					"base_points": -30,
-					"reference": "B160"
+					"reference": "B160",
+					"calc": {
+						"points": -30
+					}
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "ae4d3da6-9371-482b-84b2-f894b3ad50b2",
 					"name": "Wears out instead of aging",
 					"physical": true,
-					"reference": "B263"
+					"reference": "B263",
+					"calc": {
+						"points": 0
+					}
 				}
 			]
 		}

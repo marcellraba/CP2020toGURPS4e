@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "7ada9db5-1b81-410a-a367-8d687d7ea09b",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "83563caa-c141-40db-a3b0-5ff28f2d3018",
 			"name": "Pain Editor",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "7bf629e0-0480-4eab-9c01-0c3d52db3f74",
 					"name": "Limitation: Accessibility (Requires Neuralware Processor)",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "95c0a998-8950-4059-a047-619d1f5609fd",
 					"name": "Temporary Disadvantage, Electrical",
 					"cost_type": "percentage",
@@ -28,16 +25,21 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 8
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "b347b0b7-0a6e-4fad-b963-456e58e9580d",
 					"name": "High Pain Threshold",
 					"physical": true,
 					"base_points": 10,
 					"reference": "B59",
+					"calc": {
+						"points": 8
+					},
 					"notes": "Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture",
 					"categories": [
 						"Advantage"
@@ -49,7 +51,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "99c55c40-ec12-4db6-957c-bbfbfeaee994",
 			"text": "This coprocessor overrides the pain receptors of the brain, making the subject much less receptive to torture, deprivation or physical hardship.\n\n200 eb, Negligible surgery, LC4"
 		}

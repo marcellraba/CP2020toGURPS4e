@@ -1,18 +1,19 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "ada9b038-0126-4f8e-8edb-dcee7d9dafec",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "102e3047-09bc-4090-aecb-bc6f9eb96722",
 			"name": "Faceplate",
+			"calc": {
+				"points": 63
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "6b1eea4b-33e0-472b-bfe9-98be5747c095",
 					"name": "Damage Resistance",
 					"physical": true,
@@ -22,7 +23,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c3419701-ea10-4ead-8dfd-f0a3f53c26b2",
 							"disabled": true,
 							"name": "Force Field",
@@ -33,7 +33,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e179c615-664a-4ff0-bac7-d9a762fa268a",
 							"disabled": true,
 							"name": "Hardened",
@@ -45,7 +44,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1f12b4ab-18ed-4b74-8d23-965f3fd31ae1",
 							"disabled": true,
 							"name": "Absorption",
@@ -57,7 +55,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "eba74e45-7fb9-4313-a373-85561efcf196",
 							"disabled": true,
 							"name": "Absorption",
@@ -69,7 +66,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7c6d5a9b-dfb7-45e6-b5c2-6bff7a8f2b1c",
 							"disabled": true,
 							"name": "Absorption",
@@ -81,7 +77,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "2df3fafc-5999-460a-8ae1-bce2d742ffea",
 							"disabled": true,
 							"name": "Reflection",
@@ -92,7 +87,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "56fadaa5-3d3e-472e-82ff-3db6f1ae5363",
 							"disabled": true,
 							"name": "Bane",
@@ -104,7 +98,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "1c6241b3-ae32-4ec8-be65-f9244b47520c",
 							"disabled": true,
 							"name": "Bane",
@@ -116,7 +109,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "c6948298-d455-4a26-a16c-005e4757bdb9",
 							"disabled": true,
 							"name": "Bane",
@@ -128,7 +120,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "04dff07e-07d5-46cc-9f78-6031ffcf5852",
 							"disabled": true,
 							"name": "Bane",
@@ -140,7 +131,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "3aa386fc-e2b1-4a43-9353-eb7139683463",
 							"disabled": true,
 							"name": "Directional",
@@ -152,7 +142,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "ffa1f317-4c8c-4bce-bf48-84ec308798cc",
 							"disabled": true,
 							"name": "Flexible",
@@ -163,7 +152,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "83c64949-9c07-43e3-be0e-275a46558390",
 							"disabled": true,
 							"name": "Limited",
@@ -175,7 +163,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "319e0543-71ae-432e-9c9b-28d2eb084656",
 							"disabled": true,
 							"name": "Semi-Ablative",
@@ -186,7 +173,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "aaeafc5f-79da-4496-bd91-e5e270e7e6f8",
 							"disabled": true,
 							"name": "Can't wear armor",
@@ -197,7 +183,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "6c713476-8990-4bc3-ad9d-70d4a343ffda",
 							"disabled": true,
 							"name": "Directional",
@@ -209,7 +194,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "4765aba0-15c8-43aa-9191-a5c945d5ffe5",
 							"disabled": true,
 							"name": "Limited",
@@ -221,7 +205,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7e6cd6fe-6dec-4748-8129-5d42db67a779",
 							"disabled": true,
 							"name": "Tough Skin",
@@ -232,7 +215,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "411e02da-f024-45c8-9664-af0f554bc949",
 							"disabled": true,
 							"name": "Limited",
@@ -244,7 +226,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "8004ca27-eb65-4abf-8520-8056fbe4133b",
 							"disabled": true,
 							"name": "Ablative",
@@ -255,7 +236,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "52569947-638a-484b-99b9-7689187f81ad",
 							"disabled": true,
 							"name": "Limited",
@@ -267,7 +247,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "e32ecec0-f5b3-475f-80ec-6b9a31373102",
 							"disabled": true,
 							"name": "Laminate",
@@ -278,7 +257,6 @@
 						},
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "7c081eb8-5f61-46bb-b55f-af94aadb1e4a",
 							"name": "Partial: Face Only",
 							"cost_type": "percentage",
@@ -287,12 +265,99 @@
 						}
 					],
 					"reference": "B47",
+					"calc": {
+						"points": 63
+					},
 					"features": [
 						{
 							"type": "dr_bonus",
 							"amount": 1,
 							"per_level": true,
-							"location": "full_body"
+							"location": "eye"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "skull"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "face"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "neck"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "torso"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "vitals"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "groin"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "arm"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "hand"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "leg"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "foot"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "tail"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "wing"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "fin"
+						},
+						{
+							"type": "dr_bonus",
+							"amount": 1,
+							"per_level": true,
+							"location": "brain"
 						}
 					],
 					"categories": [
@@ -305,7 +370,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "cab256b6-2a7b-422f-90a8-d77d8f3ecbb8",
 			"text": "400 eb, Critical surgery, LC4"
 		}

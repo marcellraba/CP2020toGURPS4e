@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "5e585ba2-944b-4d94-aa25-bd7c2eec7be0",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "850f98be-e707-40db-8be1-472556ed4344",
 			"name": "Vehicle Link",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "56985280-e8ed-40a9-ad6d-ae8fcf38e0d0",
 					"name": "Temporary Disadvantage, Electrical",
 					"cost_type": "percentage",
@@ -20,7 +18,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "3ba02f4f-e4ae-477f-abda-4824b983d0f7",
 					"name": "Accessibility (Requires Neuralware Processor)",
 					"cost_type": "percentage",
@@ -29,7 +26,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "1544ef52-03fc-4399-ae9a-7b1eeb35afbc",
 					"name": "Accessibility (Cybervehicles Only)",
 					"cost_type": "percentage",
@@ -38,7 +34,6 @@
 				},
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "576eee00-5d8a-4037-b676-147436be5523",
 					"name": "Accessibility (Requires Interface Plugs)",
 					"cost_type": "percentage",
@@ -46,28 +41,35 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 4
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "d82bb1ae-26d1-4d3a-965b-fc40861646bf",
 					"name": "Accessory (Vehicle Link)",
 					"physical": true,
 					"exotic": true,
 					"base_points": 1,
 					"reference": "B100",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Perk"
 					]
 				},
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "7ea7ba85-81a3-4b21-aa64-4d1f46f08cbd",
 					"name": "Skill Bonus",
 					"physical": true,
 					"base_points": 6,
+					"calc": {
+						"points": 3
+					},
 					"features": [
 						{
 							"type": "skill_bonus",
@@ -105,7 +107,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "447822e1-9dd8-40af-ad61-3bd314738245",
 			"text": "This allows the user to control a vehicle through direct mental control. Cybervehicles include cars, AV-4s, aircraft, rotorcraft or motorcycles which have had their normal control systems replaced by a computer. The character plugs directly into the computer using interface plugs and cables, sending commands through his own nervous system. Power servos then steer wheels, depress accelerators, and control braking. Cybervehicles are inhumanly responsive - like driving an extension of yourself. As a result, a cyberassisted vehicle will give you a bonus on any driving, piloting and boating skill.\n\n100 eb, Negligible surgery, LC4"
 		}

@@ -1,17 +1,15 @@
 {
 	"type": "template",
-	"version": 1,
+	"version": 2,
 	"id": "a2d3a574-f2bc-4592-82e7-549f809e0a7b",
 	"advantages": [
 		{
 			"type": "advantage_container",
-			"version": 1,
 			"id": "e3eca3e2-3ae5-4b86-a86e-963143a04abe",
 			"name": "Hidden Holster",
 			"modifiers": [
 				{
 					"type": "modifier",
-					"version": 1,
 					"id": "04351d9f-2b23-4381-b27b-903d2071429b",
 					"name": "Requires Cyberleg",
 					"cost_type": "percentage",
@@ -19,11 +17,13 @@
 					"affects": "total"
 				}
 			],
+			"calc": {
+				"points": 1
+			},
 			"open": true,
 			"children": [
 				{
 					"type": "advantage",
-					"version": 1,
 					"id": "84a98a36-6e58-48a8-a249-8b9b6baad8a3",
 					"name": "Payload (Hidden Holster)",
 					"physical": true,
@@ -33,7 +33,6 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"version": 1,
 							"id": "49e87cbf-2191-4ba7-919e-4dc38a2b22f4",
 							"disabled": true,
 							"name": "Exposed",
@@ -44,6 +43,9 @@
 						}
 					],
 					"reference": "B74",
+					"calc": {
+						"points": 1
+					},
 					"categories": [
 						"Advantage"
 					]
@@ -54,7 +56,6 @@
 	"notes": [
 		{
 			"type": "note",
-			"version": 1,
 			"id": "8fa9c32a-e1c5-482b-a9ad-9bb319d794b3",
 			"text": "100 eb, Negligible surgery, LC4"
 		}
